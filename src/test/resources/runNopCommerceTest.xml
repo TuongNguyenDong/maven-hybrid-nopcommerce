@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce">
+
+	<!--<groups> -->
+	<!--  <run> -->
+	<!--<include name = "Cart"> </include> -->
+	<!-- </run> -->
+	<!-- </groups> -->
+
+	<!-- <packages> -->
+	<!-- <package name="tiki.admin"/> -->
+	<!-- </packages> -->
+	<!-- Globle-->
+	<!-- <parameter  name="environment"  value="live" />   -->
+
+
+	<listeners>
+		<!--<listener class-name="commons.MethodListener" />-->
+		<listener class-name="reportConfig.ReportNGListener" />
+		<!-- <listener class-name="reportConfig.ExtentTestListener" />-->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+	</listeners>
+	<!-- global-->
+	<parameter name="environment" value="testing" />  
+	<test name="RUN on chrome">
+	
+		<parameter name="browser" value="chrome" />	
+		<!-- specific: bad-->
+		<!-- <parameter name="firstname" value="Autoamtion" /> -->
+		
+		<classes>
+		   <!--  <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
+			<class name="com.nopcommerce.user.Register" />
+			<!-- <class name="javaException.HandleException" />-->
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
