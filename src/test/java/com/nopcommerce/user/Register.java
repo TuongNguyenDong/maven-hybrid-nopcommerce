@@ -52,19 +52,19 @@ public class Register extends BaseTest {
 		registerPage.clickToButtonByText(driver, "Register");
 
 		log.info("Register_01 - Step 03: Verify 'FirstName-error' message");
-		assertEquals(registerPage.getRegisterErrorMessageByID(driver, "FirstName-error"), "First name is required.");
+		assertEquals(registerPage.getErrorMessageByID(driver, "FirstName-error"), "First name is required.");
 
 		log.info("Register_01 - Step 04: Verify 'LastName-error' message");
-		assertEquals(registerPage.getRegisterErrorMessageByID(driver, "LastName-error"), "Last name is required.");
+		assertEquals(registerPage.getErrorMessageByID(driver, "LastName-error"), "Last name is required.");
 
 		log.info("Register_01 - Step 05: Verify 'Email-error' message");
-		assertEquals(registerPage.getRegisterErrorMessageByID(driver, "Email-error"), "Email is required.");
+		assertEquals(registerPage.getErrorMessageByID(driver, "Email-error"), "Email is required.");
 
 		log.info("Register_01 - Step 06: Verify 'Password-error' message");
-		assertEquals(registerPage.getRegisterErrorMessageByID(driver, "Password-error"), "Password is required.");
+		assertEquals(registerPage.getErrorMessageByID(driver, "Password-error"), "Password is required.");
 
 		log.info("Register_01 - Step 07: Verify 'ConfirmPassword-error' message");
-		assertEquals(registerPage.getRegisterErrorMessageByID(driver, "ConfirmPassword-error"),"Password is required.");
+		assertEquals(registerPage.getErrorMessageByID(driver, "ConfirmPassword-error"),"Password is required.");
 
 	}
 	
@@ -94,7 +94,7 @@ public class Register extends BaseTest {
 		log.info("Register_02 - Step 08: Select Dropdown DateOfBirthYear with value is '" + year + "'");
 		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
 
-		log.info("Register_02 - Step 02: Click to Checkbox 'Newsletter' ");
+		log.info("Register_02 - Step 09: Click to Checkbox 'Newsletter' ");
 		registerPage.clicktoCheckboxByLabel(driver, "Newsletter");
 
 		log.info("Register_02 - Step 10: Enter to Password textbox with value is '" + validPassword + "'");
@@ -107,7 +107,7 @@ public class Register extends BaseTest {
 		registerPage.clickToButtonByText(driver, "Register");
 
 		log.info("Register_02 - Step 13: Verify 'Email-error' message");
-		Assert.assertEquals(registerPage.getRegisterErrorMessageByID(driver, "Email-error"), "Wrong email");
+		Assert.assertEquals(registerPage.getErrorMessageByID(driver, "Email-error"), "Wrong email");
 			
 	}
 
@@ -239,7 +239,7 @@ public class Register extends BaseTest {
 		registerPage.clickToButtonByText(driver, "Register");
 
 		log.info("Register_05 - Step 13: Verify register success message is displayed ");
-		Assert.assertEquals(registerPage.getRegisterErrorMessageByID(driver, "Password-error"), "Password must meet the following rules:\nmust have at least 6 characters");
+		Assert.assertEquals(registerPage.getErrorMessageByID(driver, "Password-error"), "Password must meet the following rules:\nmust have at least 6 characters");
 		
 		
 	}
@@ -284,7 +284,7 @@ public class Register extends BaseTest {
 		registerPage.clickToButtonByText(driver, "Register");
 
 		log.info("Register_06 - Step 13: Verify register success message is displayed ");
-		Assert.assertEquals(registerPage.getRegisterErrorMessageByID(driver, "ConfirmPassword-error"), "The password and confirmation password do not match.");
+		Assert.assertEquals(registerPage.getErrorMessageByID(driver, "ConfirmPassword-error"), "The password and confirmation password do not match.");
 		
 		
 	}

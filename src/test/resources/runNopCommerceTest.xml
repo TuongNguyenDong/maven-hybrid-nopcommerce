@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="NopCommerce">
+<suite name="NopCommerce"  parallel ="tests" thread-count = "2">
 
 	<!--<groups> -->
 	<!--  <run> -->
@@ -24,15 +24,25 @@
 	</listeners>
 	<!-- global-->
 	<parameter name="environment" value="testing" />  
-	<test name="RUN on chrome">
 	
+	<test name="RUN on Chrome">
 		<parameter name="browser" value="chrome" />	
 		<!-- specific: bad-->
-		<!-- <parameter name="firstname" value="Autoamtion" /> -->
-		
+		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
 		<classes>
 		   <!--  <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
 			<class name="com.nopcommerce.user.Register" />
+			<!-- <class name="javaException.HandleException" />-->
+		</classes>
+	</test> <!-- Test -->
+	
+		<test name="RUN on Firefox">
+		<parameter name="browser" value="firefox" />	
+		<!-- specific: bad-->
+		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
+		<classes>
+		   <!--  <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
+			<class name="com.nopcommerce.user.Login" />
 			<!-- <class name="javaException.HandleException" />-->
 		</classes>
 	</test> <!-- Test -->

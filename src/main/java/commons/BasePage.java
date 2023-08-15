@@ -776,9 +776,9 @@ public class BasePage {
 	 * @param messagefieldID
 	 * @return
 	 */
-	public String getRegisterErrorMessageByID(WebDriver driver, String messagefieldID) {
-		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_REGISTER_ERROR_MASSAGE, messagefieldID);
-		return getElementText(driver, BasePageNopCommerceUI.DYNAMIC_REGISTER_ERROR_MASSAGE, messagefieldID);
+	public String getErrorMessageByID(WebDriver driver, String messagefieldID) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_ERROR_MASSAGE, messagefieldID);
+		return getElementText(driver, BasePageNopCommerceUI.DYNAMIC_ERROR_MASSAGE, messagefieldID);
 	}
 	
 	

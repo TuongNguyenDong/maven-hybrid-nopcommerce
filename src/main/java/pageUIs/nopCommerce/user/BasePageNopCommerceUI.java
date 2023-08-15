@@ -18,6 +18,6 @@ public class BasePageNopCommerceUI {
 	public static final String DYNAMIC_RADIO_BY_LABEL = "xpath=//label[text()='%s']/preceding-sibling::input";
 	public static final String DYNAMIC_CHECKBOX_BY_LABEL = "xpath=//label[contains(text(),'%s')]/following-sibling::input";
 	
-	public static final String DYNAMIC_REGISTER_ERROR_MASSAGE = "xpath=//span[@id='%s']";
+	public static final String DYNAMIC_ERROR_MASSAGE = "xpath=//span[@id='%s']";
 
 }

@@ -600,3 +600,683 @@
 [INFO ] [2023-08-15 10:05:57,177] Register_06 - Step 13: Verify register success message is displayed 
 [INFO ] [2023-08-15 10:05:57,339] OS name = windows 10
 [INFO ] [2023-08-15 10:05:57,340] Driver instance name = chromedriver: chrome on windows (3a61eca04132efbcd90a9bc7ac3d25b1)
+[INFO ] [2023-08-15 12:51:20,333] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 12:51:22,137] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 12:51:22,715] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 12:51:23,977] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 12:51:24,188] Precondition - Step 05: Enter to Email textbox with value is 'afc9128@mail.vn'
+[INFO ] [2023-08-15 12:51:24,415] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 12:51:25,021] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 12:51:25,202] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 12:51:25,427] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 12:51:25,568] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 12:51:27,196] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 12:51:27,419] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 12:51:28,994] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 12:51:31,630] Login_01 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 12:51:32,268] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 12:51:32,455] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 12:51:33,369] OS name = windows 10
+[INFO ] [2023-08-15 12:51:33,369] Driver instance name = chromedriver: chrome on windows (dc3188da74fb94090d9e123b4f95d1f7)
+[INFO ] [2023-08-15 14:22:42,335] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 14:22:46,840] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 14:22:47,192] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 14:22:48,784] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 14:22:48,994] Precondition - Step 05: Enter to Email textbox with value is 'afc1263@mail.vn'
+[INFO ] [2023-08-15 14:22:49,229] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 14:22:50,063] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 14:22:50,261] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 14:22:50,482] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 14:22:50,584] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 14:22:50,812] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 14:22:51,025] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 14:22:52,117] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 14:22:53,325] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 14:22:53,935] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 14:22:54,104] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 14:22:54,488] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 14:22:55,157] Login_02 - Step 02: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 14:22:55,349] Login_01 - Step 03:Verify 'Wrong email' message
+[INFO ] [2023-08-15 14:23:30,663] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 14:23:31,909] Login_03 - Step 02: Enter to Email textbox with value is 'afc1212@mail.com'
+[INFO ] [2023-08-15 14:23:32,118] Login_03 - Step 02: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 14:23:32,314] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 14:23:32,879] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 14:23:33,243] OS name = windows 10
+[INFO ] [2023-08-15 14:23:33,243] Driver instance name = chromedriver: chrome on windows (0894f1ef3e3006eeaeedabbe25adf7af)
+[INFO ] [2023-08-15 14:27:04,745] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 14:27:07,713] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 14:27:08,387] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 14:27:09,207] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 14:27:09,438] Precondition - Step 05: Enter to Email textbox with value is 'afc5329@mail.vn'
+[INFO ] [2023-08-15 14:27:09,671] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 14:27:10,711] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 14:27:10,919] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 14:27:11,153] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 14:27:11,252] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 14:27:11,482] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 14:27:11,702] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 14:27:12,993] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 14:27:13,723] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 14:27:14,450] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 14:27:14,636] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 14:27:17,155] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 14:27:17,859] Login_02 - Step 02: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 14:27:18,078] Login_02 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 14:27:18,240] Login_02 - Step 04:Verify 'Wrong email' message
+[INFO ] [2023-08-15 14:27:18,322] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 14:27:18,980] Login_03 - Step 02: Enter to Email textbox with value is 'afc689@mail.com'
+[INFO ] [2023-08-15 14:27:19,210] Login_03 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 14:27:19,438] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 14:27:19,967] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 14:27:20,253] OS name = windows 10
+[INFO ] [2023-08-15 14:27:20,253] Driver instance name = chromedriver: chrome on windows (5b746fb701bc1ae38deed5eaf614b80c)
+[INFO ] [2023-08-15 14:59:50,923] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 14:59:53,569] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 14:59:53,924] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 14:59:54,402] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 14:59:54,613] Precondition - Step 05: Enter to Email textbox with value is 'afc1109@mail.vn'
+[INFO ] [2023-08-15 14:59:54,876] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 14:59:55,407] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 14:59:55,599] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 14:59:55,778] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 14:59:55,879] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 14:59:56,090] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 14:59:56,302] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 14:59:57,598] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 14:59:58,495] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:00:50,302] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:01:40,457] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:02:32,016] Login_03 - Step 02: Enter to Email textbox with value is 'afc4800@mail.com'
+[INFO ] [2023-08-15 15:02:32,260] Login_03 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:02:32,477] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:02:35,555] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:02:36,517] Login_04 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:02:37,273] Login_04 - Step 02: Enter to Email textbox with value is 'afc1109@mail.vn'
+[INFO ] [2023-08-15 15:02:37,503] Login_04 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 15:02:38,074] Login_04 - Step 04:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:02:38,415] Login_05 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:02:38,938] Login_05 - Step 02: Enter to Email textbox with value is 'afc4800@mail.com'
+[INFO ] [2023-08-15 15:02:39,137] Login_05 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:02:39,332] Login_05 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:02:39,781] Login_05 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:02:40,131] Login_06 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:02:40,671] Login_06 - Step 02: Enter to Email textbox with value is 'afc1109@mail.vn'
+[INFO ] [2023-08-15 15:02:40,864] Login_06 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:02:41,095] Login_06 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:02:42,007] Login - Step 05: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-15 15:02:42,983] OS name = windows 10
+[INFO ] [2023-08-15 15:02:42,984] Driver instance name = chromedriver: chrome on windows (9225618f8f9e423f833ecdfe8fdb7b34)
+[INFO ] [2023-08-15 15:10:29,462] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:10:32,090] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 15:10:33,091] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 15:10:33,726] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 15:10:33,927] Precondition - Step 05: Enter to Email textbox with value is 'afc8182@mail.vn'
+[INFO ] [2023-08-15 15:10:34,176] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 15:10:35,003] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 15:10:35,179] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 15:10:35,369] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 15:10:35,470] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:10:35,719] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:10:35,930] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 15:10:37,146] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 15:10:37,962] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:10:38,660] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 15:10:38,858] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 15:10:39,519] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:10:40,087] Login_02 - Step 02: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 15:10:40,272] Login_02 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 15:10:40,433] Login_02 - Step 04:Verify 'Wrong email' message
+[INFO ] [2023-08-15 15:10:40,551] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:10:41,109] Login_03 - Step 02: Enter to Email textbox with value is 'afc5205@mail.com'
+[INFO ] [2023-08-15 15:10:41,327] Login_03 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:10:41,557] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:10:42,091] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:10:42,237] Login_04 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:10:43,368] Login_04 - Step 02: Enter to Email textbox with value is 'afc8182@mail.vn'
+[INFO ] [2023-08-15 15:10:43,614] Login_04 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 15:10:44,087] Login_04 - Step 04:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:10:44,265] Login_05 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:10:44,867] Login_05 - Step 02: Enter to Email textbox with value is 'afc5205@mail.com'
+[INFO ] [2023-08-15 15:10:45,077] Login_05 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:10:45,279] Login_05 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:10:45,740] Login_05 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:10:46,103] Login_06 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:10:46,703] Login_06 - Step 02: Enter to Email textbox with value is 'afc8182@mail.vn'
+[INFO ] [2023-08-15 15:10:46,915] Login_06 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:10:47,127] Login_06 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:10:48,036] Login - Step 05: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-15 15:10:48,177] OS name = windows 10
+[INFO ] [2023-08-15 15:10:48,177] Driver instance name = chromedriver: chrome on windows (05d20e9353164af97a730a48cb813ae8)
+[INFO ] [2023-08-15 15:12:50,903] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:12:54,546] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 15:12:55,261] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 15:12:59,087] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 15:12:59,323] Precondition - Step 05: Enter to Email textbox with value is 'afc4469@mail.vn'
+[INFO ] [2023-08-15 15:12:59,601] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 15:13:00,407] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 15:13:00,582] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 15:13:00,780] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 15:13:00,869] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:13:01,247] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:13:01,480] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 15:13:02,731] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 15:13:03,399] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:13:04,104] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 15:13:04,276] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 15:13:04,848] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:13:05,394] Login_02 - Step 02: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 15:13:05,609] Login_02 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 15:13:05,781] Login_02 - Step 04:Verify 'Wrong email' message
+[INFO ] [2023-08-15 15:13:05,889] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:13:06,422] Login_03 - Step 02: Enter to Email textbox with value is 'afc2668@mail.com'
+[INFO ] [2023-08-15 15:13:06,645] Login_03 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:13:06,882] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:13:07,359] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:13:07,604] Login_04 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:13:08,104] Login_04 - Step 02: Enter to Email textbox with value is 'afc4469@mail.vn'
+[INFO ] [2023-08-15 15:13:08,321] Login_04 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 15:13:08,751] Login_04 - Step 04:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:13:08,947] Login_05 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:13:09,529] Login_05 - Step 02: Enter to Email textbox with value is 'afc4469@mail.vn'
+[INFO ] [2023-08-15 15:13:09,744] Login_05 - Step 03: Enter to Password textbox with value is '1234567'
+[INFO ] [2023-08-15 15:13:09,957] Login_05 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:13:10,525] Login_05 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:13:10,606] Login_06 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:13:11,122] Login_06 - Step 02: Enter to Email textbox with value is 'afc4469@mail.vn'
+[INFO ] [2023-08-15 15:13:11,355] Login_06 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:13:11,561] Login_06 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:13:12,408] Login - Step 05: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-15 15:13:12,540] OS name = windows 10
+[INFO ] [2023-08-15 15:13:12,541] Driver instance name = chromedriver: chrome on windows (847fc5db006322e1f95c556bbca1074d)
+[INFO ] [2023-08-15 15:17:47,965] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:17:51,212] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 15:17:53,053] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 15:17:54,056] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 15:17:54,329] Precondition - Step 05: Enter to Email textbox with value is 'afc3106@mail.vn'
+[INFO ] [2023-08-15 15:17:54,575] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 15:17:55,287] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 15:17:55,513] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 15:17:55,704] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 15:17:55,804] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:17:56,105] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:17:56,322] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 15:17:57,396] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 15:17:58,887] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:17:59,484] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 15:17:59,688] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 15:18:00,767] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:18:01,462] Login_02 - Step 02: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 15:18:01,657] Login_02 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 15:18:01,833] Login_02 - Step 04:Verify 'Wrong email' message
+[INFO ] [2023-08-15 15:18:01,963] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:18:02,552] Login_03 - Step 02: Enter to Email textbox with value is 'afc6690@mail.com'
+[INFO ] [2023-08-15 15:18:02,768] Login_03 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:18:02,989] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:18:03,516] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:18:03,731] Login_04 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:18:04,363] Login_04 - Step 02: Enter to Email textbox with value is 'afc3106@mail.vn'
+[INFO ] [2023-08-15 15:18:04,596] Login_04 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 15:18:05,318] Login_04 - Step 04:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:18:05,421] Login_05 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:18:05,973] Login_05 - Step 02: Enter to Email textbox with value is 'afc3106@mail.vn'
+[INFO ] [2023-08-15 15:18:06,205] Login_05 - Step 03: Enter to Password textbox with value is '1234567'
+[INFO ] [2023-08-15 15:18:06,443] Login_05 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:18:07,056] Login_05 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:18:07,238] Login_06 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:18:07,921] Login_06 - Step 02: Enter to Email textbox with value is 'afc3106@mail.vn'
+[INFO ] [2023-08-15 15:18:08,140] Login_06 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:18:08,366] Login_06 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:18:09,293] Login_06 - Step 05: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-15 15:18:09,501] OS name = windows 10
+[INFO ] [2023-08-15 15:18:09,502] Driver instance name = chromedriver: chrome on windows (05d35bc1660786b51f8d7bde0d5de1cb)
+[INFO ] [2023-08-15 15:47:02,589] Register_01 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:47:05,277] Register_01 - Step 02: Click to 'Register' button 
+[INFO ] [2023-08-15 15:47:06,670] Register_01 - Step 03: Verify 'FirstName-error' message
+[INFO ] [2023-08-15 15:47:06,937] Register_01 - Step 04: Verify 'LastName-error' message
+[INFO ] [2023-08-15 15:47:07,057] Register_01 - Step 05: Verify 'Email-error' message
+[INFO ] [2023-08-15 15:47:07,159] Register_01 - Step 06: Verify 'Password-error' message
+[INFO ] [2023-08-15 15:47:07,244] Register_01 - Step 07: Verify 'ConfirmPassword-error' message
+[INFO ] [2023-08-15 15:47:10,574] Register_02 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:47:11,237] Register_02 - Step 02: Click to Radio button 'Male'
+[INFO ] [2023-08-15 15:47:12,013] Register_02 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 15:47:12,512] Register_02 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 15:47:12,773] Register_02 - Step 05: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 15:47:12,991] Register_02 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 15:47:13,317] Register_02 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 15:47:13,501] Register_02 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 15:47:13,694] Register_02 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 15:47:13,790] Register_02 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:14,065] Register_02 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:14,265] Register_02 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 15:47:14,408] Register_02 - Step 13: Verify 'Email-error' message
+[INFO ] [2023-08-15 15:47:14,506] Register_03 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:47:15,030] Register_03 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 15:47:15,224] Register_03 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 15:47:15,426] Register_03 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 15:47:15,627] Register_03 - Step 05: Enter to Email textbox with value is 'afc938@mail.vn'
+[INFO ] [2023-08-15 15:47:15,849] Register_03 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 15:47:16,035] Register_03 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 15:47:16,206] Register_03 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 15:47:16,382] Register_03 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 15:47:16,465] Register_03 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:16,659] Register_03 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:16,849] Register_03 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 15:47:17,806] Register_03 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 15:47:17,891] Register_04 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:47:18,395] Register_04 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 15:47:18,583] Register_04 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 15:47:18,780] Register_04 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 15:47:18,986] Register_04 - Step 05: Enter to Email textbox with value is 'afc938@mail.vn'
+[INFO ] [2023-08-15 15:47:19,229] Register_04 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 15:47:19,412] Register_04 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 15:47:19,597] Register_04 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 15:47:19,785] Register_04 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 15:47:19,879] Register_04 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:20,083] Register_04 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:20,304] Register_04 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 15:47:20,747] Register_04 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 15:47:20,928] Register_05 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:47:21,467] Register_05 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 15:47:21,685] Register_05 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 15:47:21,909] Register_05 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 15:47:22,113] Register_05 - Step 05: Enter to Email textbox with value is 'afc938@mail.vn'
+[INFO ] [2023-08-15 15:47:22,329] Register_05 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 15:47:22,523] Register_05 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 15:47:22,688] Register_05 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 15:47:22,877] Register_05 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 15:47:22,979] Register_05 - Step 10: Enter to Password textbox with value is '123'
+[INFO ] [2023-08-15 15:47:23,232] Register_05 - Step 11: Enter to Comfirm Password textbox with value is '123'
+[INFO ] [2023-08-15 15:47:23,474] Register_05 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 15:47:23,641] Register_05 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 15:47:23,740] Register_06 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:47:24,359] Register_06 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 15:47:24,531] Register_06 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 15:47:24,762] Register_06 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 15:47:24,966] Register_06 - Step 05: Enter to Email textbox with value is 'afc938@mail.vn'
+[INFO ] [2023-08-15 15:47:25,196] Register_06 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 15:47:25,382] Register_06 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 15:47:25,574] Register_06 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 15:47:25,739] Register_06 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 15:47:25,841] Register_06 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:26,056] Register_06 - Step 11: Enter to Comfirm Password textbox with value is '123'
+[INFO ] [2023-08-15 15:47:26,245] Register_06 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 15:47:26,381] Register_06 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 15:47:26,537] OS name = windows 10
+[INFO ] [2023-08-15 15:47:26,538] Driver instance name = chromedriver: chrome on windows (b75b86df4866e565a283d09003b172ee)
+[INFO ] [2023-08-15 15:47:36,845] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 15:47:37,502] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 15:47:37,689] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 15:47:37,923] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 15:47:38,122] Precondition - Step 05: Enter to Email textbox with value is 'afc1601@mail.vn'
+[INFO ] [2023-08-15 15:47:38,394] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 15:47:38,613] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 15:47:38,786] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 15:47:38,976] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 15:47:39,075] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:39,280] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:39,489] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 15:47:40,372] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 15:47:40,458] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:47:41,011] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 15:47:41,178] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 15:47:41,323] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:47:41,818] Login_02 - Step 02: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 15:47:42,013] Login_02 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 15:47:42,192] Login_02 - Step 04:Verify 'Wrong email' message
+[INFO ] [2023-08-15 15:47:42,292] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:47:42,871] Login_03 - Step 02: Enter to Email textbox with value is 'afc6476@mail.com'
+[INFO ] [2023-08-15 15:47:43,063] Login_03 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:43,277] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:47:43,729] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:47:43,939] Login_04 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:47:44,449] Login_04 - Step 02: Enter to Email textbox with value is 'afc1601@mail.vn'
+[INFO ] [2023-08-15 15:47:44,662] Login_04 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 15:47:45,131] Login_04 - Step 04:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:47:45,347] Login_05 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:47:45,895] Login_05 - Step 02: Enter to Email textbox with value is 'afc1601@mail.vn'
+[INFO ] [2023-08-15 15:47:46,108] Login_05 - Step 03: Enter to Password textbox with value is '1234567'
+[INFO ] [2023-08-15 15:47:46,327] Login_05 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:47:46,855] Login_05 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 15:47:46,952] Login_06 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 15:47:47,464] Login_06 - Step 02: Enter to Email textbox with value is 'afc1601@mail.vn'
+[INFO ] [2023-08-15 15:47:47,710] Login_06 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 15:47:47,938] Login_06 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 15:47:48,864] Login_06 - Step 05: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-15 15:47:48,958] OS name = windows 10
+[INFO ] [2023-08-15 15:47:48,959] Driver instance name = chromedriver: chrome on windows (e869e4c143cc723896769d7837db1f53)
+[INFO ] [2023-08-15 16:01:47,576] Register_01 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:01:54,897] Register_01 - Step 02: Click to 'Register' button 
+[INFO ] [2023-08-15 16:01:55,186] Register_01 - Step 03: Verify 'FirstName-error' message
+[INFO ] [2023-08-15 16:01:55,684] Register_01 - Step 04: Verify 'LastName-error' message
+[INFO ] [2023-08-15 16:01:55,815] Register_01 - Step 05: Verify 'Email-error' message
+[INFO ] [2023-08-15 16:01:55,893] Register_01 - Step 06: Verify 'Password-error' message
+[INFO ] [2023-08-15 16:01:56,032] Register_01 - Step 07: Verify 'ConfirmPassword-error' message
+[INFO ] [2023-08-15 16:01:56,449] Register_02 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:01:56,958] Register_02 - Step 02: Click to Radio button 'Male'
+[INFO ] [2023-08-15 16:01:57,416] Register_02 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:01:57,969] Register_02 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:02:00,629] Register_02 - Step 05: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 16:02:01,023] Register_02 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:02:02,405] Register_02 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:02:02,593] Register_02 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:02:02,774] Register_02 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:02:02,877] Register_02 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:03,365] Register_02 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:03,590] Register_02 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:02:05,206] Register_02 - Step 13: Verify 'Email-error' message
+[INFO ] [2023-08-15 16:02:05,308] Register_03 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:02:06,006] Register_03 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:02:06,221] Register_03 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:02:06,438] Register_03 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:02:06,668] Register_03 - Step 05: Enter to Email textbox with value is 'afc6149@mail.vn'
+[INFO ] [2023-08-15 16:02:06,920] Register_03 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:02:07,104] Register_03 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:02:07,323] Register_03 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:02:07,497] Register_03 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:02:07,601] Register_03 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:07,810] Register_03 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:08,094] Register_03 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:02:09,073] Register_03 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:02:09,176] Register_04 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:02:09,796] Register_04 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:02:09,978] Register_04 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:02:10,207] Register_04 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:02:10,424] Register_04 - Step 05: Enter to Email textbox with value is 'afc6149@mail.vn'
+[INFO ] [2023-08-15 16:02:10,692] Register_04 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:02:10,932] Register_04 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:02:11,126] Register_04 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:02:11,323] Register_04 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:02:11,418] Register_04 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:11,681] Register_04 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:11,909] Register_04 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:02:12,462] Register_04 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:02:12,564] Register_05 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:02:13,162] Register_05 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:02:13,339] Register_05 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:02:13,628] Register_05 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:02:13,824] Register_05 - Step 05: Enter to Email textbox with value is 'afc6149@mail.vn'
+[INFO ] [2023-08-15 16:02:14,051] Register_05 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:02:14,227] Register_05 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:02:14,409] Register_05 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:02:14,596] Register_05 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:02:14,701] Register_05 - Step 10: Enter to Password textbox with value is '123'
+[INFO ] [2023-08-15 16:02:14,896] Register_05 - Step 11: Enter to Comfirm Password textbox with value is '123'
+[INFO ] [2023-08-15 16:02:15,100] Register_05 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:02:15,296] Register_05 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:02:15,414] Register_06 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:02:18,708] Register_06 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:02:18,870] Register_06 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:02:19,094] Register_06 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:02:19,301] Register_06 - Step 05: Enter to Email textbox with value is 'afc6149@mail.vn'
+[INFO ] [2023-08-15 16:02:19,549] Register_06 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:02:19,751] Register_06 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:02:19,935] Register_06 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:02:20,122] Register_06 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:02:20,227] Register_06 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:20,462] Register_06 - Step 11: Enter to Comfirm Password textbox with value is '123'
+[INFO ] [2023-08-15 16:02:20,675] Register_06 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:02:20,845] Register_06 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:02:20,957] OS name = windows 10
+[INFO ] [2023-08-15 16:02:20,958] Driver instance name = chromedriver: chrome on windows (5e37c4f2e4e32f6bb13dab5ef9224b3f)
+[INFO ] [2023-08-15 16:02:46,211] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:02:48,187] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:02:48,427] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:02:48,689] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:02:48,909] Precondition - Step 05: Enter to Email textbox with value is 'afc3566@mail.vn'
+[INFO ] [2023-08-15 16:02:49,139] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:02:49,340] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:02:49,517] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:02:49,699] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:02:49,799] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:50,044] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:50,270] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:02:51,128] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:02:51,258] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:02:51,850] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 16:02:52,009] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 16:02:52,112] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:02:52,657] Login_02 - Step 02: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 16:02:52,885] Login_02 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 16:02:53,057] Login_02 - Step 04:Verify 'Wrong email' message
+[INFO ] [2023-08-15 16:02:53,158] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:02:53,732] Login_03 - Step 02: Enter to Email textbox with value is 'afc1863@mail.com'
+[INFO ] [2023-08-15 16:02:53,970] Login_03 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:54,305] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 16:02:54,780] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 16:02:55,027] Login_04 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:02:55,616] Login_04 - Step 02: Enter to Email textbox with value is 'afc3566@mail.vn'
+[INFO ] [2023-08-15 16:02:55,811] Login_04 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 16:02:56,370] Login_04 - Step 04:Verify Unsuccessfull message
+[INFO ] [2023-08-15 16:02:56,477] Login_05 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:02:56,982] Login_05 - Step 02: Enter to Email textbox with value is 'afc3566@mail.vn'
+[INFO ] [2023-08-15 16:02:57,179] Login_05 - Step 03: Enter to Password textbox with value is '1234567'
+[INFO ] [2023-08-15 16:02:57,441] Login_05 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 16:02:57,927] Login_05 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 16:02:58,105] Login_06 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:02:58,623] Login_06 - Step 02: Enter to Email textbox with value is 'afc3566@mail.vn'
+[INFO ] [2023-08-15 16:02:58,817] Login_06 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:02:59,058] Login_06 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 16:02:59,976] Login_06 - Step 05: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-15 16:03:00,074] OS name = windows 10
+[INFO ] [2023-08-15 16:03:00,074] Driver instance name = chromedriver: chrome on windows (cf2d730ce0e1c4415cf66564622a6fff)
+[INFO ] [2023-08-15 16:21:00,775] Register_01 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:21:00,775] Register_02 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:21:02,666] Register_02 - Step 02: Click to Radio button 'Male'
+[INFO ] [2023-08-15 16:21:03,356] Register_02 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:21:03,524] Register_03 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:21:03,825] Register_02 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:21:04,423] Register_03 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:21:04,615] Register_02 - Step 05: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 16:21:04,749] Register_03 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:21:05,006] Register_02 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:21:05,199] Register_03 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:21:05,415] Register_03 - Step 05: Enter to Email textbox with value is 'afc6150@mail.vn'
+[INFO ] [2023-08-15 16:21:05,917] Register_03 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:21:06,113] Register_02 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:21:06,338] Register_03 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:21:06,381] Register_02 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:21:06,573] Register_03 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:21:06,618] Register_02 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:21:06,747] Register_02 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:21:06,820] Register_03 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:21:07,075] Register_02 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:21:07,097] Register_03 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:21:07,354] Register_02 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:21:07,487] Register_03 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:21:07,780] Register_02 - Step 13: Verify 'Email-error' message
+[INFO ] [2023-08-15 16:21:07,902] Register_03 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:21:58,662] Register_04 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:21:59,928] Register_03 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:22:00,376] Register_05 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:22:01,030] Register_05 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:22:01,231] Register_05 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:22:01,455] Register_05 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:22:01,673] Register_05 - Step 05: Enter to Email textbox with value is 'afc6150@mail.vn'
+[INFO ] [2023-08-15 16:22:02,292] Register_04 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:22:02,518] Register_05 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:22:02,684] Register_04 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:22:02,919] Register_04 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:22:02,960] Register_05 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:22:03,177] Register_04 - Step 05: Enter to Email textbox with value is 'afc6150@mail.vn'
+[INFO ] [2023-08-15 16:22:03,270] Register_05 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:22:03,497] Register_04 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:22:03,678] Register_05 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:22:03,734] Register_04 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:22:03,824] Register_05 - Step 10: Enter to Password textbox with value is '123'
+[INFO ] [2023-08-15 16:22:03,905] Register_04 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:22:04,067] Register_05 - Step 11: Enter to Comfirm Password textbox with value is '123'
+[INFO ] [2023-08-15 16:22:04,175] Register_04 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:22:04,352] Register_05 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:22:04,403] Register_04 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:22:04,554] Register_05 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:22:04,715] Register_04 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:22:05,009] Register_04 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:22:05,772] Register_04 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:22:55,982] Register_06 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:22:58,280] Register_06 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:22:58,465] Register_06 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:22:58,715] Register_06 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:22:58,936] Register_06 - Step 05: Enter to Email textbox with value is 'afc6150@mail.vn'
+[INFO ] [2023-08-15 16:22:59,163] Register_06 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:22:59,370] Register_06 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:22:59,554] Register_06 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:22:59,746] Register_06 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:22:59,832] Register_06 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:23:00,069] Register_06 - Step 11: Enter to Comfirm Password textbox with value is '123'
+[INFO ] [2023-08-15 16:23:00,266] Register_06 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:23:00,406] Register_06 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:23:00,966] OS name = windows 10
+[INFO ] [2023-08-15 16:23:00,967] Driver instance name = chromedriver: chrome on windows (9872d9148cfd955944af662a9179bfb5)
+[INFO ] [2023-08-15 16:27:20,558] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:27:32,755] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:27:35,467] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:27:41,039] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:27:43,484] Precondition - Step 05: Enter to Email textbox with value is 'afc1934@mail.vn'
+[INFO ] [2023-08-15 16:27:43,705] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:27:44,283] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:27:44,640] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:27:44,981] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:27:45,079] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:27:45,546] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:27:45,685] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:27:46,868] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:27:47,478] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:27:47,478] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:27:48,088] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 16:27:48,876] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:27:49,498] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 16:27:50,320] Login_03 - Step 02: Enter to Email textbox with value is 'afc8689@mail.com'
+[INFO ] [2023-08-15 16:27:50,487] Login_03 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:27:50,623] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 16:27:52,276] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 16:28:42,530] Login_04 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:28:42,601] Login_05 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:28:43,784] Login_04 - Step 02: Enter to Email textbox with value is 'afc1934@mail.vn'
+[INFO ] [2023-08-15 16:28:44,834] Login_05 - Step 02: Enter to Email textbox with value is 'afc1934@mail.vn'
+[INFO ] [2023-08-15 16:28:45,029] Login_05 - Step 03: Enter to Password textbox with value is '1234567'
+[INFO ] [2023-08-15 16:28:45,191] Login_05 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 16:28:45,855] Login_05 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 16:28:45,984] Login_06 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:28:46,025] Login_04 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 16:28:46,736] Login_06 - Step 02: Enter to Email textbox with value is 'afc1934@mail.vn'
+[INFO ] [2023-08-15 16:28:47,436] Login_06 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:28:47,555] Login_06 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 16:28:48,463] Login_06 - Step 05: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-15 16:28:49,020] OS name = windows 10
+[INFO ] [2023-08-15 16:28:49,021] Driver instance name = firefoxdriver: firefox on windows (977e3506-b36e-4b42-8c3d-59f8774349d8)
+[INFO ] [2023-08-15 16:31:04,450] Register_01 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:31:22,823] Register_01 - Step 02: Click to 'Register' button 
+[INFO ] [2023-08-15 16:31:31,278] Register_01 - Step 03: Verify 'FirstName-error' message
+[INFO ] [2023-08-15 16:31:31,916] Register_01 - Step 04: Verify 'LastName-error' message
+[INFO ] [2023-08-15 16:31:32,009] Register_01 - Step 05: Verify 'Email-error' message
+[INFO ] [2023-08-15 16:31:32,105] Register_01 - Step 06: Verify 'Password-error' message
+[INFO ] [2023-08-15 16:31:32,179] Register_01 - Step 07: Verify 'ConfirmPassword-error' message
+[INFO ] [2023-08-15 16:31:35,033] Register_02 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:31:36,903] Register_02 - Step 02: Click to Radio button 'Male'
+[INFO ] [2023-08-15 16:31:39,444] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:31:43,598] Register_02 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:31:46,264] Register_02 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:31:46,506] Register_02 - Step 05: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 16:31:46,735] Register_02 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:31:50,862] Register_02 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:31:51,045] Register_02 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:31:51,243] Register_02 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:31:51,345] Register_02 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:31:52,628] Register_02 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:31:52,820] Register_02 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:31:52,966] Register_02 - Step 13: Verify 'Email-error' message
+[INFO ] [2023-08-15 16:31:53,054] Register_03 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:31:54,232] Register_03 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:31:54,419] Register_03 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:31:54,673] Register_03 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:31:54,872] Register_03 - Step 05: Enter to Email textbox with value is 'afc8850@mail.vn'
+[INFO ] [2023-08-15 16:31:55,277] Register_03 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:31:55,461] Register_03 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:31:55,642] Register_03 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:31:55,826] Register_03 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:31:55,916] Register_03 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:31:56,127] Register_03 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:31:56,342] Register_03 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:31:58,339] Register_03 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:31:58,450] Register_04 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:31:59,000] Register_04 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:31:59,176] Register_04 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:31:59,429] Register_04 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:31:59,658] Register_04 - Step 05: Enter to Email textbox with value is 'afc8850@mail.vn'
+[INFO ] [2023-08-15 16:31:59,914] Register_04 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:32:00,117] Register_04 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:32:00,277] Register_04 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:32:00,466] Register_04 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:32:00,567] Register_04 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:32:00,786] Register_04 - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:32:01,101] Register_04 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:32:01,539] Register_04 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:32:01,810] Register_05 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:32:02,411] Register_05 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:32:02,640] Register_05 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:32:02,862] Register_05 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:32:03,080] Register_05 - Step 05: Enter to Email textbox with value is 'afc8850@mail.vn'
+[INFO ] [2023-08-15 16:32:03,463] Register_05 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:32:03,654] Register_05 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:32:03,848] Register_05 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:32:04,021] Register_05 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:32:04,129] Register_05 - Step 10: Enter to Password textbox with value is '123'
+[INFO ] [2023-08-15 16:32:04,347] Register_05 - Step 11: Enter to Comfirm Password textbox with value is '123'
+[INFO ] [2023-08-15 16:32:04,556] Register_05 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:32:04,720] Register_05 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:32:04,799] Register_06 - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-15 16:32:05,319] Register_06 - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:32:05,493] Register_06 - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:32:05,702] Register_06 - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:32:05,915] Register_06 - Step 05: Enter to Email textbox with value is 'afc8850@mail.vn'
+[INFO ] [2023-08-15 16:32:06,138] Register_06 - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:32:06,325] Register_06 - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:32:06,503] Register_06 - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:32:06,713] Register_06 - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:32:06,808] Register_06 - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:32:07,019] Register_06 - Step 11: Enter to Comfirm Password textbox with value is '123'
+[INFO ] [2023-08-15 16:32:07,227] Register_06 - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:32:07,364] Register_06 - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:32:07,689] OS name = windows 10
+[INFO ] [2023-08-15 16:32:07,690] Driver instance name = chromedriver: chrome on windows (c3ba039b956b7426a9e19fd5c9a1ffcc)
+[INFO ] [2023-08-15 16:32:11,693] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-15 16:32:13,493] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-15 16:32:15,608] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-15 16:32:15,906] Precondition - Step 05: Enter to Email textbox with value is 'afc2588@mail.vn'
+[INFO ] [2023-08-15 16:32:16,401] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-15 16:32:17,267] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-15 16:32:17,708] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-15 16:32:18,061] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-15 16:32:18,119] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:32:18,673] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:32:18,989] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-15 16:32:20,856] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-15 16:32:21,336] Login_01 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:32:21,898] Login_01 - Step 02: Click to 'Log in' button
+[INFO ] [2023-08-15 16:32:22,610] Login_01 - Step 03:Verify 'Email-error' message
+[INFO ] [2023-08-15 16:32:22,691] Login_02 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:32:26,589] Login_02 - Step 02: Enter to Email textbox with value is '1234@123#$'
+[INFO ] [2023-08-15 16:32:26,753] Login_02 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 16:32:27,147] Login_02 - Step 04:Verify 'Wrong email' message
+[INFO ] [2023-08-15 16:32:27,222] Login_03 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:32:27,829] Login_03 - Step 02: Enter to Email textbox with value is 'afc3481@mail.com'
+[INFO ] [2023-08-15 16:32:28,044] Login_03 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:32:28,282] Login_03 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 16:32:29,378] Login_03 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 16:32:29,479] Login_04 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:32:29,991] Login_04 - Step 02: Enter to Email textbox with value is 'afc2588@mail.vn'
+[INFO ] [2023-08-15 16:32:30,143] Login_04 - Step 03: Click to 'Log in' button
+[INFO ] [2023-08-15 16:32:30,654] Login_04 - Step 04:Verify Unsuccessfull message
+[INFO ] [2023-08-15 16:32:30,792] Login_05 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:32:31,301] Login_05 - Step 02: Enter to Email textbox with value is 'afc2588@mail.vn'
+[INFO ] [2023-08-15 16:32:31,440] Login_05 - Step 03: Enter to Password textbox with value is '1234567'
+[INFO ] [2023-08-15 16:32:31,572] Login_05 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 16:32:32,164] Login_05 - Step 05:Verify Unsuccessfull message
+[INFO ] [2023-08-15 16:32:32,404] Login_06 - Step 01: Navigate to 'Login' page
+[INFO ] [2023-08-15 16:32:32,904] Login_06 - Step 02: Enter to Email textbox with value is 'afc2588@mail.vn'
+[INFO ] [2023-08-15 16:32:33,071] Login_06 - Step 03: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-15 16:32:33,220] Login_06 - Step 04: Click to 'Log in' button
+[INFO ] [2023-08-15 16:32:34,276] Login_06 - Step 05: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-15 16:32:34,424] OS name = windows 10
+[INFO ] [2023-08-15 16:32:34,425] Driver instance name = firefoxdriver: firefox on windows (acddf141-835a-4bb8-9f85-4803fc4c620d)
