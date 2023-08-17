@@ -1280,3 +1280,209 @@
 [INFO ] [2023-08-15 16:32:34,276] Login_06 - Step 05: Verify 'My Account' link is displayed 
 [INFO ] [2023-08-15 16:32:34,424] OS name = windows 10
 [INFO ] [2023-08-15 16:32:34,425] Driver instance name = firefoxdriver: firefox on windows (acddf141-835a-4bb8-9f85-4803fc4c620d)
+[INFO ] [2023-08-16 16:50:05,999] OS name = windows 10
+[INFO ] [2023-08-16 16:50:06,011] 
+[INFO ] [2023-08-16 16:51:33,256] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-16 16:51:35,763] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-16 16:51:36,219] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-16 16:51:36,721] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-16 16:51:36,967] Precondition - Step 05: Enter to Email textbox with value is 'afc4126@mail.vn'
+[INFO ] [2023-08-16 16:51:37,237] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-16 16:51:37,680] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-16 16:51:37,879] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-16 16:51:38,069] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-16 16:51:38,170] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 16:51:38,428] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-16 16:51:38,629] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-16 16:51:40,075] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-16 16:51:40,233] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-16 16:51:40,832] Precondition - Step 15: Enter to Email textbox with value is 'afc4126@mail.vn'
+[INFO ] [2023-08-16 16:51:41,051] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 16:51:41,277] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-16 16:51:42,125] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-16 16:51:44,235] OS name = windows 10
+[INFO ] [2023-08-16 16:51:44,235] Driver instance name = chromedriver: chrome on windows (ab1906828e4f3dac53a3f1c328e25def)
+[INFO ] [2023-08-16 17:43:26,756] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-16 17:43:29,458] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-16 17:43:29,748] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-16 17:43:30,257] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-16 17:43:30,496] Precondition - Step 05: Enter to Email textbox with value is 'afc680@mail.vn'
+[INFO ] [2023-08-16 17:43:30,787] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-16 17:43:31,109] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-16 17:43:31,316] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-16 17:43:31,525] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-16 17:43:31,621] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 17:43:31,836] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-16 17:43:32,049] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-16 17:43:32,930] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-16 17:43:33,095] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-16 17:43:33,610] Precondition - Step 15: Enter to Email textbox with value is 'afc680@mail.vn'
+[INFO ] [2023-08-16 17:43:33,817] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 17:43:34,040] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-16 17:43:35,444] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-16 17:43:36,474] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-16 17:43:37,025] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-16 17:43:37,127] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-16 17:43:37,297] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-16 17:43:37,509] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-16 17:43:37,730] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-16 17:43:37,921] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-16 17:43:38,096] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-16 17:43:38,291] TC_01 - Step 09: Enter to Email textbox with value is 'afc902@mail.vn'
+[INFO ] [2023-08-16 17:43:38,500] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-16 17:43:38,725] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-16 17:43:39,615] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-16 17:43:40,207] OS name = windows 10
+[INFO ] [2023-08-16 17:43:40,209] Driver instance name = chromedriver: chrome on windows (8025340f4e6468dddb4d7fa59c2ed770)
+[INFO ] [2023-08-16 21:42:46,319] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-16 21:42:48,318] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-16 21:42:48,927] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-16 21:42:49,257] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-16 21:42:49,476] Precondition - Step 05: Enter to Email textbox with value is 'afc7197@mail.vn'
+[INFO ] [2023-08-16 21:42:49,694] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-16 21:42:50,069] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-16 21:42:50,247] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-16 21:42:50,430] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-16 21:42:50,518] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 21:42:50,719] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-16 21:42:50,956] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-16 21:42:52,073] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-16 21:42:52,291] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-16 21:42:53,546] Precondition - Step 15: Enter to Email textbox with value is 'afc7197@mail.vn'
+[INFO ] [2023-08-16 21:42:53,773] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 21:42:53,973] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-16 21:42:55,162] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-16 21:42:56,645] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-16 21:42:57,243] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-16 21:42:57,350] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-16 21:42:57,527] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-16 21:42:57,725] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-16 21:42:57,951] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-16 21:42:58,131] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-16 21:42:58,305] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-16 21:42:58,492] TC_01 - Step 09: Enter to Email textbox with value is 'afc502@mail.vn'
+[INFO ] [2023-08-16 21:42:58,693] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-16 21:42:58,907] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-16 21:43:00,167] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-16 21:43:00,252] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-16 21:43:00,285] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-16 21:43:00,376] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-16 21:43:00,485] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-16 21:43:01,346] OS name = windows 10
+[INFO ] [2023-08-16 21:43:01,347] Driver instance name = chromedriver: chrome on windows (b26b0520d630897e5f30d3c20a0d27c4)
+[INFO ] [2023-08-16 21:49:29,502] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-16 21:49:30,847] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-16 21:49:31,079] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-16 21:49:31,331] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-16 21:49:31,564] Precondition - Step 05: Enter to Email textbox with value is 'afc9969@mail.vn'
+[INFO ] [2023-08-16 21:49:31,805] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-16 21:49:32,012] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-16 21:49:32,190] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-16 21:49:32,402] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-16 21:49:32,492] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 21:49:32,698] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-16 21:49:32,933] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-16 21:49:34,919] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-16 21:49:35,013] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-16 21:49:36,115] Precondition - Step 15: Enter to Email textbox with value is 'afc9969@mail.vn'
+[INFO ] [2023-08-16 21:49:36,322] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 21:49:36,549] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-16 21:49:37,582] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-16 21:49:37,850] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-16 21:49:38,522] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-16 21:49:38,623] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-16 21:49:38,799] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-16 21:49:39,028] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-16 21:49:39,243] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-16 21:49:39,422] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-16 21:49:39,606] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-16 21:49:39,790] TC_01 - Step 09: Enter to Email textbox with value is 'afc6115@mail.vn'
+[INFO ] [2023-08-16 21:49:40,024] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-16 21:49:40,248] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-16 21:49:41,238] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-16 21:49:41,360] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-16 21:49:41,403] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-16 21:49:41,512] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-16 21:49:41,590] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-16 21:49:41,794] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-16 21:49:41,928] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-16 21:49:42,856] TC_01 - Step 18: Verify Email textbox is updated with value 'afc6115@mail.vn'
+[INFO ] [2023-08-16 21:49:42,937] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-16 21:49:43,331] OS name = windows 10
+[INFO ] [2023-08-16 21:49:43,332] Driver instance name = chromedriver: chrome on windows (fbd3992ab554597a194df128aea3d058)
+[INFO ] [2023-08-16 22:26:49,621] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-16 22:26:52,291] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-16 22:26:53,039] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-16 22:26:53,428] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-16 22:26:53,623] Precondition - Step 05: Enter to Email textbox with value is 'afc9956@mail.vn'
+[INFO ] [2023-08-16 22:26:53,873] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-16 22:26:54,389] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-16 22:26:54,610] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-16 22:26:54,820] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-16 22:26:54,918] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 22:26:55,141] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-16 22:26:55,341] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-16 22:26:57,011] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-16 22:26:59,641] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-16 22:27:00,370] Precondition - Step 15: Enter to Email textbox with value is 'afc9956@mail.vn'
+[INFO ] [2023-08-16 22:27:00,572] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 22:27:00,794] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-16 22:27:02,023] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-16 22:27:02,903] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-16 22:27:03,502] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-16 22:27:03,610] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-16 22:27:03,790] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-16 22:27:04,009] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-16 22:27:04,229] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-16 22:27:04,394] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-16 22:27:04,575] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-16 22:27:04,760] TC_01 - Step 09: Enter to Email textbox with value is 'afc1502@mail.vn'
+[INFO ] [2023-08-16 22:27:04,983] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-16 22:27:05,207] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-16 22:27:06,316] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-16 22:27:06,413] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-16 22:27:06,487] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-16 22:27:06,597] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-16 22:27:06,701] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-16 22:27:57,654] OS name = windows 10
+[INFO ] [2023-08-16 22:27:57,656] Driver instance name = chromedriver: chrome on windows (ee92002c6a8a1208530ad8925c7376ce)
+[INFO ] [2023-08-16 22:29:23,818] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-16 22:29:25,551] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-16 22:29:25,802] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-16 22:29:26,060] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-16 22:29:26,271] Precondition - Step 05: Enter to Email textbox with value is 'afc2102@mail.vn'
+[INFO ] [2023-08-16 22:29:26,510] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-16 22:29:26,755] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-16 22:29:26,957] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-16 22:29:27,144] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-16 22:29:27,231] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 22:29:27,437] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-16 22:29:27,662] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-16 22:29:28,625] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-16 22:29:28,724] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-16 22:29:29,243] Precondition - Step 15: Enter to Email textbox with value is 'afc2102@mail.vn'
+[INFO ] [2023-08-16 22:29:29,440] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-16 22:29:29,654] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-16 22:29:30,803] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-16 22:29:31,329] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-16 22:29:31,974] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-16 22:29:32,090] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-16 22:29:32,279] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-16 22:29:32,506] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-16 22:29:32,720] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-16 22:29:32,908] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-16 22:29:33,090] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-16 22:29:33,294] TC_01 - Step 09: Enter to Email textbox with value is 'afc5281@mail.vn'
+[INFO ] [2023-08-16 22:29:33,552] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-16 22:29:33,765] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-16 22:29:34,879] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-16 22:29:34,972] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-16 22:29:35,061] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-16 22:29:35,145] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-16 22:29:35,231] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-16 22:29:35,490] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-16 22:29:35,654] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-16 22:29:36,616] TC_01 - Step 18: Verify Email textbox is updated with value 'afc5281@mail.vn'
+[INFO ] [2023-08-16 22:29:36,714] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-16 22:29:37,122] OS name = windows 10
+[INFO ] [2023-08-16 22:29:37,123] Driver instance name = chromedriver: chrome on windows (d387a356085732aeeb7ab9be839fa9b6)

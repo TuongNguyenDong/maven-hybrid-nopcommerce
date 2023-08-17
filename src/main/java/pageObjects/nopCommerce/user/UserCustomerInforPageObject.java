@@ -25,6 +25,11 @@ public class UserCustomerInforPageObject extends BasePage {
 		waitForElementVisible(driver, CustomerInforPageUI.CUSTOMER_INFOR_HEADER);
 		return isELementDisplayed(driver, CustomerInforPageUI.CUSTOMER_INFOR_HEADER);
 	}
+	
+	public String getCustomerInfoUpdateSuccessMessage() {
+		waitForElementVisible(driver, CustomerInforPageUI.CUSTOMER_INFOR_UPDATE_SUCCESS_MESSAGE);
+		return getElementText(driver, CustomerInforPageUI.CUSTOMER_INFOR_UPDATE_SUCCESS_MESSAGE);
+	}
 
 
 

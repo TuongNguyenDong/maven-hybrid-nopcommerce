@@ -252,6 +252,12 @@ public class BasePage {
 		return select.getFirstSelectedOption().getText();
 
 	}
+	
+	public String getFirstSelectedItemDefaultDropdown(WebDriver driver, String locatorType,  String... dynamicValues) {
+		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
+		return select.getFirstSelectedOption().getText();
+
+	}
 
 	public boolean isDropdownMutiple(WebDriver driver, String locatorType) {
 		Select select = new Select(getWebElement(driver, locatorType));
@@ -767,6 +773,30 @@ public class BasePage {
 	public String getTextboxValueByID(WebDriver driver, String textboxID) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
 		return getElementAttribute(driver, BasePageNopCommerceUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
+	}
+	
+	/**
+	 * Get value in defaultDropdown by dropdownName
+	 * @author Tuong Nguyen
+	 * @param driver
+	 * @param dropdownName
+	 * @return
+	 */
+	public String getdefaultDropdownValueByName(WebDriver driver, String dropdownName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
+		return getFirstSelectedItemDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
+	}
+	
+	/**
+	 * Get value in defaultDropdown by dropdownName
+	 * @author Tuong Nguyen
+	 * @param driver
+	 * @param dropdownName
+	 * @return
+	 */
+	public Boolean isDefaultCheckboxOrRadioButtonSelectedByLable(WebDriver driver, String lableValue) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, lableValue);
+		return isELementSelected(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, lableValue);
 	}
 	
 	/**
