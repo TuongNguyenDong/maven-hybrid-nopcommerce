@@ -1733,3 +1733,499 @@
 [INFO ] [2023-08-17 14:27:47,521] TC_02 - Step 22: Verify address2 is updated with value '123/5 Nghi Nha' 
 [INFO ] [2023-08-17 14:27:47,610] TC_02 - Step 23: Verify city-state-zip is updated with value 'Ho Chi Minh, 7000000' 
 [INFO ] [2023-08-17 14:27:47,690] TC_02 - Step 24: Verify country is updated with value 'Viet Nam' 
+[INFO ] [2023-08-17 15:53:35,513] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-17 15:53:37,939] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-17 15:53:38,179] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-17 15:53:38,817] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-17 15:53:39,053] Precondition - Step 05: Enter to Email textbox with value is 'afc176@mail.vn'
+[INFO ] [2023-08-17 15:53:39,296] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-17 15:53:39,660] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-17 15:53:39,876] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-17 15:53:40,065] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-17 15:53:40,158] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 15:53:40,495] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-17 15:53:40,708] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-17 15:53:42,847] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-17 15:53:43,002] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-17 15:53:43,612] Precondition - Step 15: Enter to Email textbox with value is 'afc176@mail.vn'
+[INFO ] [2023-08-17 15:53:43,837] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 15:53:44,037] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-17 15:53:44,951] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-17 15:53:45,941] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-17 15:53:46,556] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-17 15:53:46,670] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-17 15:53:46,909] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 15:53:47,144] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 15:53:47,349] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-17 15:53:47,543] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-17 15:53:48,019] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-17 15:53:48,197] TC_01 - Step 09: Enter to Email textbox with value is 'afc1743@mail.vn'
+[INFO ] [2023-08-17 15:53:48,403] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 15:53:48,629] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-17 15:53:49,518] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-17 15:53:49,640] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-17 15:53:49,743] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-17 15:53:49,853] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-17 15:53:49,933] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-17 15:53:50,196] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-17 15:53:50,360] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-17 15:53:51,298] TC_01 - Step 18: Verify Email textbox is updated with value 'afc1743@mail.vn'
+[INFO ] [2023-08-17 15:53:51,357] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-17 15:53:51,707] TC_02 - Step 01: Swith to  'Address' page
+[INFO ] [2023-08-17 15:53:52,383] TC_02 - Step 02: Click to 'Add new' button 
+[INFO ] [2023-08-17 15:53:53,581] TC_02 - Step 03: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 15:53:53,826] TC_02 - Step 04: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 15:53:54,080] TC_02 - Step 05: Enter to Email textbox with value is 'afc1743@mail.vn'
+[INFO ] [2023-08-17 15:53:54,301] TC_02 - Step 06: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 15:53:54,543] TC_01 - Step 07: Select Dropdown Address.CountryId with value is 'Viet Nam'
+[INFO ] [2023-08-17 15:53:54,728] TC_02 - Step 08: Enter to Address_City textbox with value is 'Ho Chi Minh'
+[INFO ] [2023-08-17 15:53:54,939] TC_02 - Step 09: Enter to Address_Address1 textbox with value is '123/4 Nghi Ngo'
+[INFO ] [2023-08-17 15:53:55,268] TC_02 - Step 10: Enter to Address_Address2 textbox with value is '123/5 Nghi Nha'
+[INFO ] [2023-08-17 15:53:55,487] TC_02 - Step 11: Enter to Address_ZipPostalCode textbox with value is '7000000'
+[INFO ] [2023-08-17 15:53:55,714] TC_02 - Step 12: Enter to Address_PhoneNumber textbox with value is '0123456789'
+[INFO ] [2023-08-17 15:53:55,931] TC_02 - Step 13: Enter to Address_FaxNumber textbox with value is '0987654321'
+[INFO ] [2023-08-17 15:53:56,149] TC_02 - Step 14: Click to 'Save' button 
+[INFO ] [2023-08-17 15:53:57,421] TC_02 - Step 15: Verify Address  add success message is displayed 
+[INFO ] [2023-08-17 15:53:57,516] TC_02 - Step 16: Verify name is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 15:53:57,622] TC_02 - Step 17: Verify Email is updated with value 'afc1743@mail.vn' 
+[INFO ] [2023-08-17 15:53:57,719] TC_02 - Step 18: Verify Phone is updated with value '0123456789' 
+[INFO ] [2023-08-17 15:53:57,806] TC_02 - Step 19: Verify Fax is updated with value '0987654321' 
+[INFO ] [2023-08-17 15:53:57,889] TC_02 - Step 20: Verify company is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 15:53:57,969] TC_02 - Step 21: Verify address1 is updated with value '123/4 Nghi Ngo' 
+[INFO ] [2023-08-17 15:53:58,040] TC_02 - Step 22: Verify address2 is updated with value '123/5 Nghi Nha' 
+[INFO ] [2023-08-17 15:53:58,133] TC_02 - Step 23: Verify city-state-zip is updated with value 'Ho Chi Minh, 7000000' 
+[INFO ] [2023-08-17 15:53:58,228] TC_02 - Step 24: Verify country is updated with value 'Viet Nam' 
+[INFO ] [2023-08-17 16:02:09,863] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-17 16:02:14,179] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-17 16:02:14,670] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-17 16:02:15,253] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-17 16:02:15,497] Precondition - Step 05: Enter to Email textbox with value is 'afc4237@mail.vn'
+[INFO ] [2023-08-17 16:02:15,743] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-17 16:02:16,344] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-17 16:02:16,533] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-17 16:02:16,746] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-17 16:02:16,840] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 16:02:17,343] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-17 16:02:17,580] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-17 16:02:25,518] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-17 16:02:25,840] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-17 16:02:38,350] Precondition - Step 15: Enter to Email textbox with value is 'afc4237@mail.vn'
+[INFO ] [2023-08-17 16:02:38,652] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 16:02:39,012] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-17 16:02:39,951] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-17 16:02:48,458] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-17 16:02:49,457] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-17 16:02:49,559] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-17 16:02:49,736] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 16:02:50,197] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 16:02:50,407] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-17 16:02:50,592] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-17 16:02:50,777] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-17 16:02:50,982] TC_01 - Step 09: Enter to Email textbox with value is 'afc1351@mail.vn'
+[INFO ] [2023-08-17 16:02:51,197] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 16:02:51,673] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-17 16:02:53,101] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-17 16:02:53,215] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-17 16:02:53,291] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-17 16:02:53,400] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-17 16:02:53,495] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-17 16:02:53,852] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-17 16:02:54,023] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-17 16:02:54,982] TC_01 - Step 18: Verify Email textbox is updated with value 'afc1351@mail.vn'
+[INFO ] [2023-08-17 16:02:55,041] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-17 16:02:56,918] TC_02 - Step 01: Swith to  'Address' page
+[INFO ] [2023-08-17 16:02:58,020] TC_02 - Step 02: Click to 'Add new' button 
+[INFO ] [2023-08-17 16:02:58,874] TC_02 - Step 03: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 16:02:59,246] TC_02 - Step 04: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 16:02:59,470] TC_02 - Step 05: Enter to Email textbox with value is 'afc1351@mail.vn'
+[INFO ] [2023-08-17 16:02:59,711] TC_02 - Step 06: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 16:02:59,967] TC_01 - Step 07: Select Dropdown Address.CountryId with value is 'Viet Nam'
+[INFO ] [2023-08-17 16:03:00,196] TC_02 - Step 08: Enter to Address_City textbox with value is 'Ho Chi Minh'
+[INFO ] [2023-08-17 16:03:00,460] TC_02 - Step 09: Enter to Address_Address1 textbox with value is '123/4 Nghi Ngo'
+[INFO ] [2023-08-17 16:03:00,695] TC_02 - Step 10: Enter to Address_Address2 textbox with value is '123/5 Nghi Nha'
+[INFO ] [2023-08-17 16:03:00,925] TC_02 - Step 11: Enter to Address_ZipPostalCode textbox with value is '7000000'
+[INFO ] [2023-08-17 16:03:04,141] TC_02 - Step 12: Enter to Address_PhoneNumber textbox with value is '0123456789'
+[INFO ] [2023-08-17 16:03:04,373] TC_02 - Step 13: Enter to Address_FaxNumber textbox with value is '0987654321'
+[INFO ] [2023-08-17 16:03:04,606] TC_02 - Step 14: Click to 'Save' button 
+[INFO ] [2023-08-17 16:03:08,516] TC_02 - Step 15: Verify Address  add success message is displayed 
+[INFO ] [2023-08-17 16:03:08,617] TC_02 - Step 16: Verify name is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 16:03:08,705] TC_02 - Step 17: Verify Email is updated with value 'afc1351@mail.vn' 
+[INFO ] [2023-08-17 16:03:08,785] TC_02 - Step 18: Verify Phone is updated with value '0123456789' 
+[INFO ] [2023-08-17 16:03:08,881] TC_02 - Step 19: Verify Fax is updated with value '0987654321' 
+[INFO ] [2023-08-17 16:03:08,970] TC_02 - Step 20: Verify company is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 16:03:09,047] TC_02 - Step 21: Verify address1 is updated with value '123/4 Nghi Ngo' 
+[INFO ] [2023-08-17 16:03:09,119] TC_02 - Step 22: Verify address2 is updated with value '123/5 Nghi Nha' 
+[INFO ] [2023-08-17 16:03:09,230] TC_02 - Step 23: Verify city-state-zip is updated with value 'Ho Chi Minh, 7000000' 
+[INFO ] [2023-08-17 16:03:09,307] TC_02 - Step 24: Verify country is updated with value 'Viet Nam' 
+[INFO ] [2023-08-17 16:29:15,006] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-17 16:29:17,031] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-17 16:29:17,455] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-17 16:29:18,009] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-17 16:29:18,242] Precondition - Step 05: Enter to Email textbox with value is 'afc659@mail.vn'
+[INFO ] [2023-08-17 16:29:18,544] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-17 16:29:18,989] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-17 16:29:19,179] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-17 16:29:19,357] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-17 16:29:19,444] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 16:29:19,663] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-17 16:29:19,867] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-17 16:29:21,396] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-17 16:29:21,980] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-17 16:29:22,531] Precondition - Step 15: Enter to Email textbox with value is 'afc659@mail.vn'
+[INFO ] [2023-08-17 16:29:22,742] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 16:29:22,915] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-17 16:29:23,965] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-17 16:29:24,922] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-17 16:29:25,480] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-17 16:29:25,598] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-17 16:29:25,802] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 16:29:26,004] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 16:29:26,205] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-17 16:29:26,386] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-17 16:29:26,563] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-17 16:29:26,749] TC_01 - Step 09: Enter to Email textbox with value is 'afc8309@mail.vn'
+[INFO ] [2023-08-17 16:29:26,981] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 16:29:27,204] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-17 16:29:28,160] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-17 16:29:28,265] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-17 16:29:28,366] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-17 16:29:28,480] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-17 16:29:28,556] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-17 16:29:28,831] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-17 16:29:28,985] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-17 16:29:29,888] TC_01 - Step 18: Verify Email textbox is updated with value 'afc8309@mail.vn'
+[INFO ] [2023-08-17 16:29:29,956] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-17 16:29:30,395] TC_02 - Step 01: Swith to  'Address' page
+[INFO ] [2023-08-17 16:29:30,997] TC_02 - Step 02: Click to 'Add new' button 
+[INFO ] [2023-08-17 16:29:31,640] TC_02 - Step 03: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 16:29:31,882] TC_02 - Step 04: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 16:29:32,109] TC_02 - Step 05: Enter to Email textbox with value is 'afc8309@mail.vn'
+[INFO ] [2023-08-17 16:29:32,340] TC_02 - Step 06: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 16:29:32,590] TC_01 - Step 07: Select Dropdown Address.CountryId with value is 'Viet Nam'
+[INFO ] [2023-08-17 16:29:32,782] TC_02 - Step 08: Enter to Address_City textbox with value is 'Ho Chi Minh'
+[INFO ] [2023-08-17 16:29:32,998] TC_02 - Step 09: Enter to Address_Address1 textbox with value is '123/4 Nghi Ngo'
+[INFO ] [2023-08-17 16:29:33,262] TC_02 - Step 10: Enter to Address_Address2 textbox with value is '123/5 Nghi Nha'
+[INFO ] [2023-08-17 16:29:33,481] TC_02 - Step 11: Enter to Address_ZipPostalCode textbox with value is '7000000'
+[INFO ] [2023-08-17 16:29:33,689] TC_02 - Step 12: Enter to Address_PhoneNumber textbox with value is '0123456789'
+[INFO ] [2023-08-17 16:29:33,905] TC_02 - Step 13: Enter to Address_FaxNumber textbox with value is '0987654321'
+[INFO ] [2023-08-17 16:29:34,109] TC_02 - Step 14: Click to 'Save' button 
+[INFO ] [2023-08-17 16:29:35,342] TC_02 - Step 15: Verify Address  add success message is displayed 
+[INFO ] [2023-08-17 16:29:35,419] TC_02 - Step 16: Verify name is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 16:29:35,516] TC_02 - Step 17: Verify Email is updated with value 'afc8309@mail.vn' 
+[INFO ] [2023-08-17 16:29:35,618] TC_02 - Step 18: Verify Phone is updated with value '0123456789' 
+[INFO ] [2023-08-17 16:29:35,737] TC_02 - Step 19: Verify Fax is updated with value '0987654321' 
+[INFO ] [2023-08-17 16:29:35,824] TC_02 - Step 20: Verify company is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 16:29:35,901] TC_02 - Step 21: Verify address1 is updated with value '123/4 Nghi Ngo' 
+[INFO ] [2023-08-17 16:29:35,999] TC_02 - Step 22: Verify address2 is updated with value '123/5 Nghi Nha' 
+[INFO ] [2023-08-17 16:29:36,075] TC_02 - Step 23: Verify city-state-zip is updated with value 'Ho Chi Minh, 7000000' 
+[INFO ] [2023-08-17 16:29:36,154] TC_02 - Step 24: Verify country is updated with value 'Viet Nam' 
+[INFO ] [2023-08-17 16:49:25,205] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-17 16:49:28,856] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-17 16:49:29,792] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-17 16:49:32,225] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-17 16:49:32,639] Precondition - Step 05: Enter to Email textbox with value is 'afc9080@mail.vn'
+[INFO ] [2023-08-17 16:49:32,875] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-17 16:49:33,758] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-17 16:49:33,949] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-17 16:49:34,141] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-17 16:49:34,241] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 16:49:34,577] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-17 16:49:34,825] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-17 16:49:36,769] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-17 16:49:37,019] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-17 16:49:37,686] Precondition - Step 15: Enter to Email textbox with value is 'afc9080@mail.vn'
+[INFO ] [2023-08-17 16:49:37,881] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 16:49:38,096] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-17 16:49:39,086] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-17 16:49:41,406] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-17 16:49:41,941] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-17 16:49:42,038] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-17 16:49:42,255] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 16:49:42,509] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 16:49:42,739] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-17 16:49:42,951] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-17 16:49:43,137] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-17 16:49:43,308] TC_01 - Step 09: Enter to Email textbox with value is 'afc739@mail.vn'
+[INFO ] [2023-08-17 16:49:43,546] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 16:49:43,777] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-17 16:49:44,783] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-17 16:49:44,883] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-17 16:49:44,962] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-17 16:49:45,070] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-17 16:49:45,162] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-17 16:49:45,425] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-17 16:49:45,603] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-17 16:49:46,491] TC_01 - Step 18: Verify Email textbox is updated with value 'afc739@mail.vn'
+[INFO ] [2023-08-17 16:49:46,565] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-17 16:49:47,413] TC_02 - Step 01: Swith to  'Address' page
+[INFO ] [2023-08-17 16:49:48,149] TC_02 - Step 02: Click to 'Add new' button 
+[INFO ] [2023-08-17 16:49:48,807] TC_02 - Step 03: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 16:49:49,090] TC_02 - Step 04: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 16:49:49,281] TC_02 - Step 05: Enter to Email textbox with value is 'afc739@mail.vn'
+[INFO ] [2023-08-17 16:49:49,488] TC_02 - Step 06: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 16:49:49,740] TC_01 - Step 07: Select Dropdown Address.CountryId with value is 'Viet Nam'
+[INFO ] [2023-08-17 16:49:49,951] TC_02 - Step 08: Enter to Address_City textbox with value is 'Ho Chi Minh'
+[INFO ] [2023-08-17 16:49:50,216] TC_02 - Step 09: Enter to Address_Address1 textbox with value is '123/4 Nghi Ngo'
+[INFO ] [2023-08-17 16:49:50,496] TC_02 - Step 10: Enter to Address_Address2 textbox with value is '123/5 Nghi Nha'
+[INFO ] [2023-08-17 16:49:50,703] TC_02 - Step 11: Enter to Address_ZipPostalCode textbox with value is '7000000'
+[INFO ] [2023-08-17 16:49:51,022] TC_02 - Step 12: Enter to Address_PhoneNumber textbox with value is '0123456789'
+[INFO ] [2023-08-17 16:49:51,283] TC_02 - Step 13: Enter to Address_FaxNumber textbox with value is '0987654321'
+[INFO ] [2023-08-17 16:49:51,552] TC_02 - Step 14: Click to 'Save' button 
+[INFO ] [2023-08-17 16:49:54,946] TC_02 - Step 15: Verify Address  add success message is displayed 
+[INFO ] [2023-08-17 16:49:55,045] TC_02 - Step 16: Verify name is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 16:49:55,144] TC_02 - Step 17: Verify Email is updated with value 'afc739@mail.vn' 
+[INFO ] [2023-08-17 16:49:55,268] TC_02 - Step 18: Verify Phone is updated with value '0123456789' 
+[INFO ] [2023-08-17 16:49:55,357] TC_02 - Step 19: Verify Fax is updated with value '0987654321' 
+[INFO ] [2023-08-17 16:49:55,433] TC_02 - Step 20: Verify company is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 16:49:55,510] TC_02 - Step 21: Verify address1 is updated with value '123/4 Nghi Ngo' 
+[INFO ] [2023-08-17 16:49:55,620] TC_02 - Step 22: Verify address2 is updated with value '123/5 Nghi Nha' 
+[INFO ] [2023-08-17 16:49:55,695] TC_02 - Step 23: Verify city-state-zip is updated with value 'Ho Chi Minh, 7000000' 
+[INFO ] [2023-08-17 16:49:55,774] TC_02 - Step 24: Verify country is updated with value 'Viet Nam' 
+[INFO ] [2023-08-17 17:00:07,211] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-17 17:00:09,201] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-17 17:00:09,416] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-17 17:00:09,648] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-17 17:00:09,856] Precondition - Step 05: Enter to Email textbox with value is 'afc2133@mail.vn'
+[INFO ] [2023-08-17 17:00:10,113] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-17 17:00:10,397] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-17 17:00:10,586] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-17 17:00:10,779] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-17 17:00:10,936] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 17:00:11,221] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-17 17:00:11,479] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-17 17:00:15,978] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-17 17:00:16,191] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-17 17:00:18,891] Precondition - Step 15: Enter to Email textbox with value is 'afc2133@mail.vn'
+[INFO ] [2023-08-17 17:00:19,105] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 17:00:19,318] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-17 17:00:21,773] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-17 17:00:25,396] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-17 17:00:26,144] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-17 17:00:26,244] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-17 17:00:26,419] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 17:00:26,722] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 17:00:26,973] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-17 17:00:27,158] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-17 17:00:27,374] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-17 17:00:27,546] TC_01 - Step 09: Enter to Email textbox with value is 'afc9522@mail.vn'
+[INFO ] [2023-08-17 17:00:27,778] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 17:00:28,021] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-17 17:00:28,948] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-17 17:00:29,056] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-17 17:00:29,137] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-17 17:00:29,254] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-17 17:00:29,335] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-17 17:00:29,581] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-17 17:00:29,744] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-17 17:00:30,686] TC_01 - Step 18: Verify Email textbox is updated with value 'afc9522@mail.vn'
+[INFO ] [2023-08-17 17:00:30,752] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-17 17:00:31,932] TC_02 - Step 01: Swith to  'Address' page
+[INFO ] [2023-08-17 17:00:32,550] TC_02 - Step 02: Click to 'Add new' button 
+[INFO ] [2023-08-17 17:00:33,249] TC_02 - Step 03: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 17:00:33,469] TC_02 - Step 04: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 17:00:33,719] TC_02 - Step 05: Enter to Email textbox with value is 'afc9522@mail.vn'
+[INFO ] [2023-08-17 17:00:33,940] TC_02 - Step 06: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 17:00:34,174] TC_01 - Step 07: Select Dropdown Address.CountryId with value is 'Viet Nam'
+[INFO ] [2023-08-17 17:00:34,355] TC_02 - Step 08: Enter to Address_City textbox with value is 'Ho Chi Minh'
+[INFO ] [2023-08-17 17:00:34,586] TC_02 - Step 09: Enter to Address_Address1 textbox with value is '123/4 Nghi Ngo'
+[INFO ] [2023-08-17 17:00:34,850] TC_02 - Step 10: Enter to Address_Address2 textbox with value is '123/5 Nghi Nha'
+[INFO ] [2023-08-17 17:00:35,131] TC_02 - Step 11: Enter to Address_ZipPostalCode textbox with value is '7000000'
+[INFO ] [2023-08-17 17:00:35,372] TC_02 - Step 12: Enter to Address_PhoneNumber textbox with value is '0123456789'
+[INFO ] [2023-08-17 17:00:35,640] TC_02 - Step 13: Enter to Address_FaxNumber textbox with value is '0987654321'
+[INFO ] [2023-08-17 17:00:35,867] TC_02 - Step 14: Click to 'Save' button 
+[INFO ] [2023-08-17 17:00:37,091] TC_02 - Step 15: Verify Address  add success message is displayed 
+[INFO ] [2023-08-17 17:00:37,185] TC_02 - Step 16: Verify name is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 17:00:37,267] TC_02 - Step 17: Verify Email is updated with value 'afc9522@mail.vn' 
+[INFO ] [2023-08-17 17:00:37,343] TC_02 - Step 18: Verify Phone is updated with value '0123456789' 
+[INFO ] [2023-08-17 17:00:37,437] TC_02 - Step 19: Verify Fax is updated with value '0987654321' 
+[INFO ] [2023-08-17 17:00:37,517] TC_02 - Step 20: Verify company is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 17:00:37,595] TC_02 - Step 21: Verify address1 is updated with value '123/4 Nghi Ngo' 
+[INFO ] [2023-08-17 17:00:37,670] TC_02 - Step 22: Verify address2 is updated with value '123/5 Nghi Nha' 
+[INFO ] [2023-08-17 17:00:37,745] TC_02 - Step 23: Verify city-state-zip is updated with value 'Ho Chi Minh, 7000000' 
+[INFO ] [2023-08-17 17:00:37,841] TC_02 - Step 24: Verify country is updated with value 'Viet Nam' 
+[INFO ] [2023-08-17 17:14:29,088] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-17 17:14:31,067] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-17 17:14:31,770] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-17 17:14:32,191] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-17 17:14:32,445] Precondition - Step 05: Enter to Email textbox with value is 'afc5282@mail.vn'
+[INFO ] [2023-08-17 17:14:32,816] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-17 17:14:33,287] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-17 17:14:33,534] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-17 17:14:33,715] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-17 17:14:33,817] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 17:14:34,016] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-17 17:14:34,232] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-17 17:14:36,211] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-17 17:14:36,637] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-17 17:14:37,763] Precondition - Step 15: Enter to Email textbox with value is 'afc5282@mail.vn'
+[INFO ] [2023-08-17 17:14:38,033] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 17:14:38,233] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-17 17:14:39,269] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-17 17:14:40,142] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-17 17:14:40,684] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-17 17:14:40,801] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-17 17:14:40,960] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 17:14:41,173] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 17:14:41,368] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-17 17:14:41,541] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-17 17:14:41,713] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-17 17:14:41,898] TC_01 - Step 09: Enter to Email textbox with value is 'afc5808@mail.vn'
+[INFO ] [2023-08-17 17:14:42,109] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 17:14:42,320] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-17 17:14:43,213] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-17 17:14:43,312] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-17 17:14:43,380] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-17 17:14:43,472] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-17 17:14:43,566] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-17 17:14:43,904] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-17 17:14:44,087] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-17 17:14:44,993] TC_01 - Step 18: Verify Email textbox is updated with value 'afc5808@mail.vn'
+[INFO ] [2023-08-17 17:14:45,063] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-17 17:14:45,712] TC_02 - Step 01: Swith to  'Address' page
+[INFO ] [2023-08-17 17:14:46,421] TC_02 - Step 02: Click to 'Add new' button 
+[INFO ] [2023-08-17 17:14:47,031] TC_02 - Step 03: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 17:14:47,255] TC_02 - Step 04: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 17:14:47,468] TC_02 - Step 05: Enter to Email textbox with value is 'afc5808@mail.vn'
+[INFO ] [2023-08-17 17:14:47,683] TC_02 - Step 06: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 17:14:47,924] TC_01 - Step 07: Select Dropdown Address.CountryId with value is 'Viet Nam'
+[INFO ] [2023-08-17 17:14:48,111] TC_02 - Step 08: Enter to Address_City textbox with value is 'Ho Chi Minh'
+[INFO ] [2023-08-17 17:14:48,333] TC_02 - Step 09: Enter to Address_Address1 textbox with value is '123/4 Nghi Ngo'
+[INFO ] [2023-08-17 17:14:48,552] TC_02 - Step 10: Enter to Address_Address2 textbox with value is '123/5 Nghi Nha'
+[INFO ] [2023-08-17 17:14:48,759] TC_02 - Step 11: Enter to Address_ZipPostalCode textbox with value is '7000000'
+[INFO ] [2023-08-17 17:14:48,982] TC_02 - Step 12: Enter to Address_PhoneNumber textbox with value is '0123456789'
+[INFO ] [2023-08-17 17:14:49,205] TC_02 - Step 13: Enter to Address_FaxNumber textbox with value is '0987654321'
+[INFO ] [2023-08-17 17:14:49,421] TC_02 - Step 14: Click to 'Save' button 
+[INFO ] [2023-08-17 17:14:50,443] TC_02 - Step 15: Verify Address  add success message is displayed 
+[INFO ] [2023-08-17 17:14:50,516] TC_02 - Step 16: Verify name is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 17:14:50,595] TC_02 - Step 17: Verify Email is updated with value 'afc5808@mail.vn' 
+[INFO ] [2023-08-17 17:14:50,674] TC_02 - Step 18: Verify Phone is updated with value '0123456789' 
+[INFO ] [2023-08-17 17:14:50,766] TC_02 - Step 19: Verify Fax is updated with value '0987654321' 
+[INFO ] [2023-08-17 17:14:50,844] TC_02 - Step 20: Verify company is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 17:14:50,941] TC_02 - Step 21: Verify address1 is updated with value '123/4 Nghi Ngo' 
+[INFO ] [2023-08-17 17:14:51,014] TC_02 - Step 22: Verify address2 is updated with value '123/5 Nghi Nha' 
+[INFO ] [2023-08-17 17:14:51,124] TC_02 - Step 23: Verify city-state-zip is updated with value 'Ho Chi Minh, 7000000' 
+[INFO ] [2023-08-17 17:14:51,203] TC_02 - Step 24: Verify country is updated with value 'Viet Nam' 
+[INFO ] [2023-08-17 22:43:56,469] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-17 22:44:03,137] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-17 22:44:03,667] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-17 22:44:04,184] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-17 22:44:04,596] Precondition - Step 05: Enter to Email textbox with value is 'afc5697@mail.vn'
+[INFO ] [2023-08-17 22:44:05,030] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-17 22:44:06,062] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-17 22:44:06,395] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-17 22:44:06,590] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-17 22:44:06,690] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 22:44:07,000] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-17 22:44:07,759] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-17 22:44:09,332] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-17 22:44:09,485] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-17 22:44:10,135] Precondition - Step 15: Enter to Email textbox with value is 'afc5697@mail.vn'
+[INFO ] [2023-08-17 22:44:10,421] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 22:44:10,644] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-17 22:44:11,616] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-17 22:44:12,487] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-17 22:44:13,658] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-17 22:44:13,823] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-17 22:44:13,998] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 22:44:14,244] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 22:44:14,506] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-17 22:44:14,732] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-17 22:44:14,909] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-17 22:44:15,134] TC_01 - Step 09: Enter to Email textbox with value is 'afc1820@mail.vn'
+[INFO ] [2023-08-17 22:44:15,387] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 22:44:15,618] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-17 22:44:16,583] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-17 22:44:16,684] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-17 22:44:16,795] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-17 22:44:16,906] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-17 22:44:16,997] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-17 22:44:17,262] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-17 22:44:17,486] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-17 22:44:18,528] TC_01 - Step 18: Verify Email textbox is updated with value 'afc1820@mail.vn'
+[INFO ] [2023-08-17 22:44:18,660] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-17 22:44:19,230] TC_02 - Step 01: Swith to  'Address' page
+[INFO ] [2023-08-17 22:44:20,682] TC_02 - Step 02: Click to 'Add new' button 
+[INFO ] [2023-08-17 22:44:21,540] TC_02 - Step 03: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 22:44:21,827] TC_02 - Step 04: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 22:44:22,208] TC_02 - Step 05: Enter to Email textbox with value is 'afc1820@mail.vn'
+[INFO ] [2023-08-17 22:44:22,474] TC_02 - Step 06: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 22:44:22,747] TC_01 - Step 07: Select Dropdown Address.CountryId with value is 'Viet Nam'
+[INFO ] [2023-08-17 22:44:22,993] TC_02 - Step 08: Enter to Address_City textbox with value is 'Ho Chi Minh'
+[INFO ] [2023-08-17 22:44:23,292] TC_02 - Step 09: Enter to Address_Address1 textbox with value is '123/4 Nghi Ngo'
+[INFO ] [2023-08-17 22:44:23,762] TC_02 - Step 10: Enter to Address_Address2 textbox with value is '123/5 Nghi Nha'
+[INFO ] [2023-08-17 22:44:26,179] TC_02 - Step 11: Enter to Address_ZipPostalCode textbox with value is '7000000'
+[INFO ] [2023-08-17 22:44:26,897] TC_02 - Step 12: Enter to Address_PhoneNumber textbox with value is '0123456789'
+[INFO ] [2023-08-17 22:44:27,114] TC_02 - Step 13: Enter to Address_FaxNumber textbox with value is '0987654321'
+[INFO ] [2023-08-17 22:44:27,343] TC_02 - Step 14: Click to 'Save' button 
+[INFO ] [2023-08-17 22:44:31,217] TC_02 - Step 15: Verify Address  add success message is displayed 
+[INFO ] [2023-08-17 22:44:31,289] TC_02 - Step 16: Verify name is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 22:44:31,368] TC_02 - Step 17: Verify Email is updated with value 'afc1820@mail.vn' 
+[INFO ] [2023-08-17 22:44:31,446] TC_02 - Step 18: Verify Phone is updated with value '0123456789' 
+[INFO ] [2023-08-17 22:44:31,524] TC_02 - Step 19: Verify Fax is updated with value '0987654321' 
+[INFO ] [2023-08-17 22:44:31,601] TC_02 - Step 20: Verify company is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 22:44:31,699] TC_02 - Step 21: Verify address1 is updated with value '123/4 Nghi Ngo' 
+[INFO ] [2023-08-17 22:44:31,775] TC_02 - Step 22: Verify address2 is updated with value '123/5 Nghi Nha' 
+[INFO ] [2023-08-17 22:44:31,851] TC_02 - Step 23: Verify city-state-zip is updated with value 'Ho Chi Minh, 7000000' 
+[INFO ] [2023-08-17 22:44:31,927] TC_02 - Step 24: Verify country is updated with value 'Viet Nam' 
+[INFO ] [2023-08-17 22:47:58,280] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-17 22:48:01,100] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-17 22:48:01,633] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-17 22:48:02,876] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-17 22:48:03,178] Precondition - Step 05: Enter to Email textbox with value is 'afc5947@mail.vn'
+[INFO ] [2023-08-17 22:48:03,414] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-17 22:48:03,875] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-17 22:48:04,075] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-17 22:48:04,280] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-17 22:48:06,306] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 22:48:06,654] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-17 22:48:06,868] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-17 22:48:08,694] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-17 22:48:08,871] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-17 22:48:09,503] Precondition - Step 15: Enter to Email textbox with value is 'afc5947@mail.vn'
+[INFO ] [2023-08-17 22:48:09,734] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-17 22:48:09,948] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-17 22:48:10,820] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-17 22:48:11,693] TC_01 - Step 01: Navigate to 'My Account' page
+[INFO ] [2023-08-17 22:48:12,351] TC_01 - Step 02: Verify 'Customer Infor' page is displayed 
+[INFO ] [2023-08-17 22:48:12,482] TC_01 - Step 03: Click to Radio button 'Female'
+[INFO ] [2023-08-17 22:48:12,644] TC_01 - Step 04: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 22:48:12,954] TC_01 - Step 05: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 22:48:13,251] TC_01 - Step 06: Select Dropdown DateOfBirthDay with value is '11'
+[INFO ] [2023-08-17 22:48:13,425] TC_01 - Step 07: Select Dropdown DateOfBirthMonth with value is 'March'
+[INFO ] [2023-08-17 22:48:13,610] TC_01 - Step 08: Select Dropdown DateOfBirthYear with value is '1999'
+[INFO ] [2023-08-17 22:48:13,807] TC_01 - Step 09: Enter to Email textbox with value is 'afc8714@mail.vn'
+[INFO ] [2023-08-17 22:48:14,036] TC_01 - Step 09: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 22:48:14,277] TC_01 - Step 10: Click to 'Save' button 
+[INFO ] [2023-08-17 22:48:15,218] TC_01 - Step 11: Verify CustomerInfo success message is displayed 
+[INFO ] [2023-08-17 22:48:15,338] TC_01 - Step 12: Verify Radio button 'Female' is updated 
+[INFO ] [2023-08-17 22:48:15,418] TC_01 - Step 13: Verify FirstName textbox is updated with value 'Automation1' 
+[INFO ] [2023-08-17 22:48:15,526] TC_01 - Step 14: Verify LastName textbox is updated with value 'FC1' 
+[INFO ] [2023-08-17 22:48:15,604] TC_01 - Step 15: Verify Dropdown DateOfBirthDay is updated with value  '11'
+[INFO ] [2023-08-17 22:48:15,866] TC_01 - Step 16: Verify Dropdown DateOfBirthMonth is updated with value  'March'
+[INFO ] [2023-08-17 22:48:16,032] TC_01 - Step 17: Verify Dropdown DateOfBirthYear is updated with value  '1999'
+[INFO ] [2023-08-17 22:48:16,964] TC_01 - Step 18: Verify Email textbox is updated with value 'afc8714@mail.vn'
+[INFO ] [2023-08-17 22:48:17,034] TC_01 - Step 19: Verify Company textbox is updated with value 'Automation1 FC1'
+[INFO ] [2023-08-17 22:48:17,401] TC_02 - Step 01: Swith to  'Address' page
+[INFO ] [2023-08-17 22:48:18,045] TC_02 - Step 02: Click to 'Add new' button 
+[INFO ] [2023-08-17 22:48:18,604] TC_02 - Step 03: Enter to FirstName textbox with value is 'Automation1'
+[INFO ] [2023-08-17 22:48:18,979] TC_02 - Step 04: Enter to LastName textbox with value is 'FC1'
+[INFO ] [2023-08-17 22:48:19,214] TC_02 - Step 05: Enter to Email textbox with value is 'afc8714@mail.vn'
+[INFO ] [2023-08-17 22:48:19,462] TC_02 - Step 06: Enter to Company textbox with value is 'Automation1 FC1'
+[INFO ] [2023-08-17 22:48:19,708] TC_01 - Step 07: Select Dropdown Address.CountryId with value is 'Viet Nam'
+[INFO ] [2023-08-17 22:48:19,902] TC_02 - Step 08: Enter to Address_City textbox with value is 'Ho Chi Minh'
+[INFO ] [2023-08-17 22:48:20,134] TC_02 - Step 09: Enter to Address_Address1 textbox with value is '123/4 Nghi Ngo'
+[INFO ] [2023-08-17 22:48:20,365] TC_02 - Step 10: Enter to Address_Address2 textbox with value is '123/5 Nghi Nha'
+[INFO ] [2023-08-17 22:48:20,598] TC_02 - Step 11: Enter to Address_ZipPostalCode textbox with value is '7000000'
+[INFO ] [2023-08-17 22:48:20,830] TC_02 - Step 12: Enter to Address_PhoneNumber textbox with value is '0123456789'
+[INFO ] [2023-08-17 22:48:21,048] TC_02 - Step 13: Enter to Address_FaxNumber textbox with value is '0987654321'
+[INFO ] [2023-08-17 22:48:21,276] TC_02 - Step 14: Click to 'Save' button 
+[INFO ] [2023-08-17 22:48:22,196] TC_02 - Step 15: Verify Address  add success message is displayed 
+[INFO ] [2023-08-17 22:48:22,291] TC_02 - Step 16: Verify name is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 22:48:22,366] TC_02 - Step 17: Verify Email is updated with value 'afc8714@mail.vn' 
+[INFO ] [2023-08-17 22:48:22,446] TC_02 - Step 18: Verify Phone is updated with value '0123456789' 
+[INFO ] [2023-08-17 22:48:22,542] TC_02 - Step 19: Verify Fax is updated with value '0987654321' 
+[INFO ] [2023-08-17 22:48:22,635] TC_02 - Step 20: Verify company is updated with value 'Automation1 FC1' 
+[INFO ] [2023-08-17 22:48:22,715] TC_02 - Step 21: Verify address1 is updated with value '123/4 Nghi Ngo' 
+[INFO ] [2023-08-17 22:48:22,792] TC_02 - Step 22: Verify address2 is updated with value '123/5 Nghi Nha' 
+[INFO ] [2023-08-17 22:48:22,872] TC_02 - Step 23: Verify city-state-zip is updated with value 'Ho Chi Minh, 7000000' 
+[INFO ] [2023-08-17 22:48:22,963] TC_02 - Step 24: Verify country is updated with value 'Viet Nam' 

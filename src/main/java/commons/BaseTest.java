@@ -1,8 +1,8 @@
 package commons;
 
-
-
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -26,17 +26,17 @@ public class BaseTest {
 
 	private WebDriver driver;
 	protected final Log log;
-	
+
 	protected BaseTest() {
 		log = LogFactory.getLog(getClass());
 	}
-	
+
 	private String projectPath = System.getProperty("user.dir");
 
 	protected WebDriver getBrowserDriver(String browserName) {
-		
+
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
-		
+
 		if (browserList == BrowserList.FIREFOX) {
 
 			// System.setProperty("webdriver.gecko.driver", projectPath +
@@ -84,10 +84,10 @@ public class BaseTest {
 			WebDriverManager.operadriver().setup();
 			driver = new OperaDriver();
 			// COCcoc driver giam di 6 version driver
-		} else if (browserList == BrowserList.IE) {	
+		} else if (browserList == BrowserList.IE) {
 			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
-			
+
 		} else if (browserList == BrowserList.COCCOC) {
 			// System.setProperty("webdriver.chrome.driver", projectPath +
 			// "\\browserDrivers\\chromedriver_93.exe");
@@ -112,15 +112,13 @@ public class BaseTest {
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 		driver.get(GlobalConstants.PORTAL_PAGE_ULR);
-		
+
 		return driver;
 	}
 
 	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
 		if (browserName.equals("firefox")) {
 
-			// System.setProperty("webdriver.gecko.driver", projectPath +
-			// "\\browserDrivers\\geckodriver.exe");
 			WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions options = new FirefoxOptions();
 			options.setAcceptInsecureCerts(true);
@@ -128,8 +126,6 @@ public class BaseTest {
 
 		} else if (browserName.equals("h-firefox")) {
 
-			// System.setProperty("webdriver.gecko.driver", projectPath +
-			// "\\browserDrivers\\geckodriver.exe");
 			WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("--headless");
@@ -138,16 +134,23 @@ public class BaseTest {
 
 		} else if (browserName.equals("chrome")) {
 
-			// System.setProperty("webdriver.chrome.driver", projectPath +
-			// "\\browserDrivers\\chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.args", "--disable-logging");
+			System.setProperty("webdriver.chrome.silentOutput", "True");
 			ChromeOptions options = new ChromeOptions();
+			Map<String, Object> prefs = new HashMap<String, Object>();
+//			prefs.put("profile.default_content_setting_values.notifications", 2);
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			prefs.put("autofill.profile_enabled", false);		
+//			options.addArguments("--disable-geolocation");
+//			options.addArguments("--disable-notifications");
+//			options.addArguments("--ignore-autocomplete-off-autofill");
+			options.setExperimentalOption("prefs", prefs);
 			options.setAcceptInsecureCerts(true);
 			driver = new ChromeDriver(options);
 		} else if (browserName.equals("h-chrome")) {
 
-			// System.setProperty("webdriver.chrome.driver", projectPath +
-			// "\\browserDrivers\\chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless");
@@ -156,23 +159,19 @@ public class BaseTest {
 
 		} else if (browserName.equals("edge")) {
 
-			// System.setProperty("webdriver.edge.driver", projectPath +
-			// "\\browserDrivers\\msedgedriver.exe");
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 
 		} else if (browserName.equals("opera")) {
 
-			// System.setProperty("webdriver.opera.driver", projectPath +
-			// "\\browserDrivers\\operadriver.exe");
 			WebDriverManager.operadriver().setup();
 			driver = new OperaDriver();
 			// COCcoc driver giam di 6 version driver
-			
-		} else if (browserName.equals("ie")) {	
+
+		} else if (browserName.equals("ie")) {
 			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
-			
+
 		} else if (browserName.equals("coccoc")) {
 			// System.setProperty("webdriver.chrome.driver", projectPath +
 			// "\\browserDrivers\\chromedriver_93.exe");
@@ -198,31 +197,31 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 		driver.get(getEnvironmentUrl(appUrl));
 		return driver;
-		
+
 	}
-	
+
 	public WebDriver getDriverInstance() {
 		return this.driver;
-		}
-	
+	}
+
 	protected String getEnvironmentUrl(String serverName) {
-		String envUrl =null;
+		String envUrl = null;
 		EnvironmentList environment = EnvironmentList.valueOf(serverName.toUpperCase());
 		if (environment == EnvironmentList.DEV) {
 			envUrl = "https://demo.nopcommerce.com/";
-			
-		} else if(environment == EnvironmentList.TESTING) {
+
+		} else if (environment == EnvironmentList.TESTING) {
 			envUrl = "https://demo.nopcommerce.com/";
 
 		} else if (environment == EnvironmentList.STAGING) {
 			envUrl = "";
-			
+
 		} else if (environment == EnvironmentList.PRODUCTION) {
 			envUrl = "";
 		}
 		return envUrl;
 	}
-	
+
 	protected boolean verifyTrue(boolean condition) {
 		boolean pass = true;
 		try {
@@ -315,7 +314,7 @@ public class BaseTest {
 			}
 		}
 	}
-	
+
 	protected int generateFakeNumber() {
 		Random rand = new Random();
 		return rand.nextInt(9999);
