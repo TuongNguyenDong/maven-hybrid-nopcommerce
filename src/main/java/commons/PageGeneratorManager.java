@@ -5,10 +5,15 @@ import org.openqa.selenium.WebDriver;
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
+import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
+import pageObjects.nopCommerce.user.UserComputersPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserDesktopsPageObject;
+import pageObjects.nopCommerce.user.UserElectronicsPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserProductsNamePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 
@@ -47,6 +52,11 @@ public class PageGeneratorManager {
 		
 	}
 	
+	public static UserChangePasswordPageObject getUserChangePasswordPage(WebDriver driver) {
+		return new UserChangePasswordPageObject(driver);
+		
+	}
+	
 	public static AdminLoginPageObject getAdminLoginPage(WebDriver driver) {
 		return new AdminLoginPageObject(driver);
 		
@@ -56,5 +66,27 @@ public class PageGeneratorManager {
 		return new AdminDashboardPageObject(driver);
 		
 	}
+	
+	public static UserComputersPageObject getUserComputersPage(WebDriver driver) {
+		return new UserComputersPageObject(driver);
+		
+	}
+	
+	public static UserElectronicsPageObject getUserElectronicsPage(WebDriver driver) {
+		return new UserElectronicsPageObject(driver);
+		
+	}
+	
+	public static UserDesktopsPageObject getUserDesktopsPage(WebDriver driver) {
+		return new UserDesktopsPageObject(driver);
+		
+	}
+	
+	public static UserProductsNamePageObject getUserProductsNamePage(WebDriver driver) {
+		return new UserProductsNamePageObject(driver);
+		
+	}
+	
+	
 
 }

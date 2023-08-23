@@ -1,5 +1,6 @@
 package commons;
 
+
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -25,8 +26,10 @@ import pageObjects.nopCommerce.user.UserAddressPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserProductsNamePageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
+import pageUIs.nopCommerce.user.HomePageUI;
 
 public class BasePage {
 	
@@ -679,6 +682,14 @@ public class BasePage {
 		return PageGeneratorManager.getUserRewardPointPage(driver);
 	}
 	
+	public UserCustomerInforPageObject openMyAccountPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.MY_ACCOUNT_LINK);
+		clickToELement(driver, BasePageNopCommerceUI.MY_ACCOUNT_LINK);
+		
+		return PageGeneratorManager.getUserCustomerInforPage(driver);
+		
+	}
+	
 	// toi uu o bai hoc level_09_Dynamic_page  ( Pattern Object)
 	public BasePage openpageAtMyAccountByName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PAGES_AT_ACCOUNT_AREA, pageName);
@@ -692,8 +703,25 @@ public class BasePage {
 			return PageGeneratorManager.getUserMyProductReviewPage(driver);
 		case "Reward points":
 			return PageGeneratorManager.getUserRewardPointPage(driver);
+		case "Change password":
+			return PageGeneratorManager.getUserChangePasswordPage(driver);
 		default: 
 			throw new RuntimeException("Invalid page name at My Account area");
+			
+		}
+		
+	}
+	
+	public BasePage openpageAtHomePageByName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_MENU_AT_HOME_PAGE, pageName);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_MENU_AT_HOME_PAGE, pageName);
+		switch (pageName) {
+		case "Computers":
+			return PageGeneratorManager.getUserComputersPage(driver);	
+		case "Electronics":
+			return PageGeneratorManager.getUserElectronicsPage(driver);
+		default: 
+			throw new RuntimeException("Invalid page name at Home Page menu");
 			
 		}
 		
@@ -811,6 +839,42 @@ public class BasePage {
 		return getElementText(driver, BasePageNopCommerceUI.DYNAMIC_ERROR_MASSAGE, messagefieldID);
 	}
 	
+	/**
+	 * Get value in Title by text
+	 * @author Tuong Nguyen
+	 * @param driver
+	 * @param pageName
+	 * @return
+	 */
+	public Boolean isPageTitleByText(WebDriver driver, String pageName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.PAGE_TITILE_BY_TEXT, pageName);
+		return isELementDisplayed(driver, BasePageNopCommerceUI.PAGE_TITILE_BY_TEXT, pageName);
+	}
+	
+	/**
+	 * Click to dynamic Button by Text
+	 * @author Tuong Nguyen
+	 * @param driver
+	 * @param buttonText
+	 * @return 
+	 */
+	public void clickToElementProductInPageBodyByText(WebDriver driver, String nameText) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_PAGE_BODY_BY_TEXT, nameText);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_PAGE_BODY_BY_TEXT, nameText);
+		
+	}
+	
+	/**
+	 * Click to dynamic Element by Text
+	 * @author Tuong Nguyen
+	 * @param driver
+	 * @param textName
+	 */
+	public UserProductsNamePageObject clickToProductByText(WebDriver driver, String textName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_NAME_BY_TEXT, textName);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_NAME_BY_TEXT, textName);	
+		return PageGeneratorManager.getUserProductsNamePage(driver);
+	}
 	
 
 	

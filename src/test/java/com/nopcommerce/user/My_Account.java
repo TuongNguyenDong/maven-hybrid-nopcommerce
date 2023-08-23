@@ -7,25 +7,37 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import commons.BasePage;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
+import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
+import pageObjects.nopCommerce.user.UserComputersPageObject;
 import pageObjects.nopCommerce.user.UserCustomerInforPageObject;
+import pageObjects.nopCommerce.user.UserDesktopsPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
+import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserProductsNamePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
 
 public class My_Account extends BaseTest {
 
 	private WebDriver driver;
-	private String firstName, lastName, validPassword, emailAddress, updateEmail, updateFirstName, updateLastName;
+	private String firstName, lastName, validPassword, newPassword, emailAddress, updateEmail, updateFirstName, updateLastName;
 	private String day, updateDay, month, updateMonth, year, updateYear, CountryId, cityName, address1,address2;
-	private String company,postCode,phoneNumber,faxNumber;
+	private String company,postCode,phoneNumber,faxNumber, reviewText, reviewTitle;
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
 	private UserCustomerInforPageObject customerInforPage;
 	private UserAddressPageObject addressPage;
+	private UserChangePasswordPageObject changePasswordPage;
+	private UserComputersPageObject computersPage;
+	private UserDesktopsPageObject desktopsPage;
+	private UserProductsNamePageObject  productsNamePage;
+	private UserMyProductReviewPageObject  myProductsReviewPage;
 
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
@@ -38,6 +50,7 @@ public class My_Account extends BaseTest {
 		lastName = "FC";
 		updateLastName = "FC1";
 		validPassword = "1234556";
+		newPassword = "1234567";
 		emailAddress = "afc" + generateFakeNumber() + "@mail.vn";
 		updateEmail = "afc" + generateFakeNumber() + "@mail.vn";
 		day = "10";
@@ -57,6 +70,9 @@ public class My_Account extends BaseTest {
 		postCode = "7000000";
 		phoneNumber = "0123456789";
 		faxNumber = "0987654321";
+		
+		reviewText = "Build computer 01";
+		reviewTitle ="Good for me";
 
 		log.info("Precondition - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
@@ -117,7 +133,7 @@ public class My_Account extends BaseTest {
 	@Test
 	public void TC_01_Customer_info() {
 		log.info("TC_01 - Step 01: Navigate to 'My Account' page");
-		customerInforPage = homePage.openMyAccountPage();
+		customerInforPage = homePage.openMyAccountPage(driver);
 
 		log.info("TC_01 - Step 02: Verify 'Customer Infor' page is displayed ");
 		Assert.assertTrue(customerInforPage.isCustomerInforPageDisplayed());
@@ -182,7 +198,7 @@ public class My_Account extends BaseTest {
 	@Test
 	public void TC_02_Add_Addresses() {
 		log.info("TC_02 - Step 01: Swith to  'Address' page");
-		addressPage = customerInforPage.openAddressPage(driver);
+		addressPage = (UserAddressPageObject)customerInforPage.openpageAtMyAccountByName(driver, "Addresses");
 		
 		log.info("TC_02 - Step 02: Click to 'Add new' button ");
 		addressPage.clickToButtonByText(driver, "Add new");
@@ -257,11 +273,116 @@ public class My_Account extends BaseTest {
 
 	@Test
 	public void TC_03_Change_Password() {
+		
+		log.info("TC_03 - Step 01: Swith to  'Change password' page");
+		changePasswordPage = (UserChangePasswordPageObject) addressPage.openpageAtMyAccountByName(driver, "Change password");
+		
+		log.info("TC_03 - Step 02: Enter to Old Password textbox with value is '" + validPassword + "'");
+		changePasswordPage.inputToTextboxByID(driver, "OldPassword", validPassword);
+		
+		log.info("TC_03 - Step 03: Enter to New Password textbox with value is '" + newPassword + "'");
+		changePasswordPage.inputToTextboxByID(driver, "NewPassword", newPassword);
+		
+		log.info("TC_03 - Step 04: Enter to Confirm Password textbox with value is '" + newPassword + "'");
+		changePasswordPage.inputToTextboxByID(driver, "ConfirmNewPassword", newPassword);
+		
+		log.info("TC_03 - Step 05: Click to 'Change Password' button ");
+		changePasswordPage.clickToButtonByText(driver, "Change password");
+		
+		log.info("TC_03 - Step 06: Verify Change Password success message is displayed ");
+		Assert.assertEquals(changePasswordPage.getChangePasswordSuccessMessage(), "Password was changed");
+		
+		log.info("TC_03 - Step 07: Close 'Change Password' success message ");
+		changePasswordPage.clickToCloseSuccessMessage();
+		
+		log.info("TC_03 - Step 08: Navigate to 'Home' page");
+		homePage = changePasswordPage.getUserHomePage();
+		
+		log.info("TC_03 - Step 09: Navigate to 'Login' page");
+		loginPage = homePage.openLoginPage();
+
+		log.info("TC_03 - Step 10: Enter to Email textbox with value is '" + updateEmail + "'");
+		loginPage.inputToTextboxByID(driver, "Email", updateEmail);
+
+		log.info("TC_03 - Step 11: Enter to Password textbox with value is '" + validPassword + "'");
+		loginPage.inputToTextboxByID(driver, "Password", validPassword);
+
+		log.info("TC_03 - Step 12: Click to 'Log in' button");
+		loginPage.clickLoginButton();
+		
+		log.info("TC_03 - Step 13:Verify Unsuccessfull message");
+		Assert.assertEquals(loginPage.getErrorMessageUnsuccessful(), "Login was unsuccessful. Please correct the errors and try again.\n" + "The credentials provided are incorrect");
+		
+		log.info("TC_03 - Step 14: Enter to Email textbox with value is '" + updateEmail + "'");
+		loginPage.inputToTextboxByID(driver, "Email", updateEmail);
+
+		log.info("TC_03 - Step 15: Enter to Password textbox with value is '" + newPassword + "'");
+		loginPage.inputToTextboxByID(driver, "Password", newPassword);
+		
+		log.info("TC_03 - Step 16: Click to 'Log in' button");
+		homePage= loginPage.clickLoginButton();
+		
+		log.info("TC_03 - Step 17: Verify 'My Account' link is displayed " );
+		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 
 	}
 
 	@Test
 	public void TC_04_My_Product_Review() {
+		
+		log.info("TC_04 - Step 01: Swith to 'Computers' page");
+		computersPage = (UserComputersPageObject) homePage.openpageAtHomePageByName(driver, "Computers");
+		
+		log.info("TC_04 - Step 02: Verify 'Computers' title is displayed " );
+		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
+		
+		log.info("TC_04 - Step 03: Swith to 'Desktops' page");
+		desktopsPage =  (UserDesktopsPageObject) computersPage.openpageAtComputersPageByName(driver, "Desktops");
+		
+		log.info("TC_04 - Step 04: Verify 'Desktops' title is displayed " );
+		Assert.assertTrue(desktopsPage.isPageTitleByText(driver, "Desktops"));
+		
+		log.info("TC_04 - Step 05: Click Product name  with  title 'Build your own computer' " );
+		productsNamePage = desktopsPage.clickToProductByText(driver, "Build your own computer");
+		
+		log.info("TC_04 - Step 06: Click 'Add your review'  at Desktops page " );
+		productsNamePage.clickToElementProductInPageBodyByText(driver,"Add your review");
+			
+		log.info("TC_04 - Step 07: Enter to Review Title textbox  with value is '" + reviewTitle + "'" );
+		productsNamePage.inputToTextboxByID(driver, "AddProductReview_Title", reviewTitle);
+		
+		log.info("TC_04 - Step 08: Enter to Review Text textbox  with value is '" + reviewText + "'" );
+		productsNamePage.inputToTextareaReviewProduct(reviewText);
+		
+		log.info("TC_04 - Step 09: Click to Radio button by lable 'Good' ");
+		productsNamePage.clickToRatingRadioButtonByLable("Good");
+		
+		log.info("TC_04 - Step 10: Click to 'Submit review' button ");
+		productsNamePage.clickToButtonByText(driver, "Submit review");
+		
+		log.info("TC_04 - Step 11: Verify Product Review added success message is displayed ");
+		Assert.assertTrue(productsNamePage.getProductReviewAddedSuccessMessage().contains("Product review is successfully added."));
+		
+		log.info("TC_04 - Step 12: Navigate to 'My Account' page");
+		customerInforPage =productsNamePage.openMyAccountPage(driver);
+		
+		log.info("TC_04 - Step 13: Swith to  'My product reviews' page");
+		myProductsReviewPage = (UserMyProductReviewPageObject)customerInforPage.openpageAtMyAccountByName(driver, "My product reviews");
+		
+		log.info("TC_04 - Step 14: Verify 'My account - My product reviews' title is displayed " );
+		Assert.assertTrue(myProductsReviewPage.isPageTitleByText(driver, "My account - My product reviews"));
+		
+		log.info("TC_04 - Step 15: Verify 'Review product title' is displayed with product name 'Build your own computer' " );
+		Assert.assertEquals(myProductsReviewPage.getReviewProductTilleByTextName("Build your own computer"), reviewTitle);
+		
+		log.info("TC_04 - Step 16: Verify 'Review product text'  is displayed with product name 'Build your own computer' " );
+		Assert.assertEquals(myProductsReviewPage.getReviewProductTextByTextName("Build your own computer"), reviewText);
+			
+		log.info("TC_04 - Step 18: Verify 'Review product Rating'  is displayed with product name 'Build your own computer' " );
+		Assert.assertEquals(myProductsReviewPage.getReviewProductRatingByTextName("Build your own computer"), "width: 80%;");
+		
+		
+
 
 	}
 

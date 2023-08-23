@@ -40,12 +40,6 @@ public class UserHomePageObject extends BasePage {
 		return isELementDisplayed(driver, HomePageUI.MY_ACCOUNT_LINK);
 	}
 
-	public UserCustomerInforPageObject openMyAccountPage() {
-		waitForElementClickable(driver, HomePageUI.MY_ACCOUNT_LINK);
-		clickToELement(driver, HomePageUI.MY_ACCOUNT_LINK);
-		
-		return PageGeneratorManager.getUserCustomerInforPage(driver);
-		
-	}
+
 
 }

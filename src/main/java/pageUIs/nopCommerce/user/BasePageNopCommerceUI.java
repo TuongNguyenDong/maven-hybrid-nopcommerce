@@ -5,6 +5,7 @@ public class BasePageNopCommerceUI {
 	public static final String ADDRESS_LINK = "Xpath=//div[contains(@class,'account-navigation')]//a[text()='Addresses']";
 	public static final String MY_PRODUCT_REVIEW_LINK = "XPath=//div[contains(@class,'account-navigation')]//a[text()='My product reviews']";
 	public static final String REWARD_POINT_LINK = "xpath=//div[contains(@class,'account-navigation')]//a[text()='Reward points']";
+	public static final String MY_ACCOUNT_LINK = "xpath=//a[@class='ico-account']";
 	
 
 	public static final String LOGOUT_LINK_AT_USER = "css=a[class='ico-logout']";
@@ -19,5 +20,13 @@ public class BasePageNopCommerceUI {
 	public static final String DYNAMIC_CHECKBOX_BY_LABEL = "xpath=//label[contains(text(),'%s')]/following-sibling::input";
 	
 	public static final String DYNAMIC_ERROR_MASSAGE = "xpath=//span[@id='%s']";
+
+	public static final String DYNAMIC_MENU_AT_HOME_PAGE = "xpath=//div[@class='header-menu']/ul[contains(@class,'notmobile')]//a[contains(text(),'%s')]";
+	public static final String PAGE_TITILE_BY_TEXT = "xpath=//div[@class='page-title']/h1[text()='%s']";
+	public static final String DYNAMIC_PRODUCT_PAGE_BODY_BY_TEXT = "xpath=//div[@class='page-body']//div[contains(@class,'product')]//a[text()='%s']";
+	public static final String DYNAMIC_PRODUCT_NAME_BY_TEXT = "xpath=//div[@class='products-container']//div[@class='item-box']//a[text()='%s']";
+	
+	
+	
 
 }
