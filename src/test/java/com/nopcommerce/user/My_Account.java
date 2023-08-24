@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import commons.BasePage;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
@@ -20,7 +19,6 @@ import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserProductsNamePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
-import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
 
 public class My_Account extends BaseTest {
 
@@ -388,7 +386,7 @@ public class My_Account extends BaseTest {
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		//closeBrowserDriver();
+		closeBrowserDriver();
 	}
 
 }

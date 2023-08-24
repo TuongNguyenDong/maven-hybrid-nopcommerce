@@ -3883,3 +3883,269 @@
 [INFO ] [2023-08-22 17:28:39,042] TC_04 - Step 15: Verify 'Review product title' is displayed with product name 'Build your own computer' 
 [INFO ] [2023-08-22 17:28:39,122] TC_04 - Step 16: Verify 'Review product text'  is displayed with product name 'Build your own computer' 
 [INFO ] [2023-08-22 17:28:39,216] TC_04 - Step 18: Verify 'Review product Rating'  is displayed with product name 'Build your own computer' 
+[INFO ] [2023-08-23 20:18:46,472] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-23 20:18:48,434] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-23 20:18:48,780] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-23 20:18:49,360] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-23 20:18:49,593] Precondition - Step 05: Enter to Email textbox with value is 'afc278@mail.vn'
+[INFO ] [2023-08-23 20:18:49,925] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-23 20:18:50,527] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-23 20:18:52,935] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-23 20:18:53,259] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-23 20:18:53,355] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:18:53,576] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:18:53,836] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-23 20:18:55,505] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-23 20:18:56,025] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-23 20:18:56,706] Precondition - Step 15: Enter to Email textbox with value is 'afc278@mail.vn'
+[INFO ] [2023-08-23 20:18:56,918] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:18:57,129] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-23 20:18:57,997] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-23 20:18:58,093] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-23 20:18:58,772] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-23 20:18:59,986] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-23 20:19:00,474] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-23 20:19:01,162] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-23 20:19:01,335] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-23 20:19:02,028] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-23 20:31:07,006] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-23 20:31:07,047] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-23 20:31:12,008] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-23 20:31:12,845] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-23 20:31:15,067] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-23 20:31:15,631] Precondition - Step 05: Enter to Email textbox with value is 'afc1203@mail.vn'
+[INFO ] [2023-08-23 20:31:16,256] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-23 20:31:17,751] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-23 20:31:18,062] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-23 20:31:18,244] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-23 20:31:18,365] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:31:18,628] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:31:18,843] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-23 20:31:21,066] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-23 20:31:21,089] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-23 20:31:21,466] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-23 20:31:21,603] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-23 20:31:22,405] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-23 20:31:22,877] Precondition - Step 05: Enter to Email textbox with value is 'afc1308@mail.vn'
+[INFO ] [2023-08-23 20:31:23,221] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-23 20:31:23,516] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-23 20:31:23,604] Precondition - Step 15: Enter to Email textbox with value is 'afc1203@mail.vn'
+[INFO ] [2023-08-23 20:31:23,771] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-23 20:31:23,983] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-23 20:31:24,079] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:31:24,135] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:31:24,422] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:31:24,503] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-23 20:31:24,767] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-23 20:31:25,753] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-23 20:31:25,857] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-23 20:31:26,742] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-23 20:31:26,828] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-23 20:31:26,876] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-23 20:31:27,645] Precondition - Step 15: Enter to Email textbox with value is 'afc1308@mail.vn'
+[INFO ] [2023-08-23 20:31:27,891] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:31:28,179] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-23 20:31:33,037] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-23 20:31:34,164] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-23 20:31:35,082] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-23 20:31:35,425] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-23 20:31:35,627] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-23 20:31:36,348] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-23 20:31:36,363] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-23 20:31:37,281] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-23 20:31:37,284] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-23 20:31:37,792] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-23 20:31:37,793] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-23 20:31:38,410] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-23 20:31:38,627] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-23 20:36:27,771] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-23 20:36:29,451] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-23 20:36:29,664] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-23 20:36:29,962] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-23 20:36:30,207] Precondition - Step 05: Enter to Email textbox with value is 'afc574@mail.vn'
+[INFO ] [2023-08-23 20:36:31,482] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-23 20:36:32,259] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-23 20:36:32,437] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-23 20:36:32,632] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-23 20:36:32,727] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:36:32,947] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:36:33,192] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-23 20:36:34,675] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-23 20:36:34,789] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-23 20:36:35,505] Precondition - Step 15: Enter to Email textbox with value is 'afc574@mail.vn'
+[INFO ] [2023-08-23 20:36:35,711] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-23 20:36:35,932] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-23 20:36:36,815] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-23 20:36:36,920] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-23 20:36:37,601] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-23 20:36:38,461] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-23 20:36:38,962] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-23 20:36:39,734] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-23 20:36:39,960] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-23 20:36:40,467] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-24 11:42:12,584] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-24 11:42:17,231] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-24 11:42:18,125] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-24 11:42:20,090] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-24 11:42:20,715] Precondition - Step 05: Enter to Email textbox with value is 'afc2884@mail.vn'
+[INFO ] [2023-08-24 11:42:20,987] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-24 11:42:23,674] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-24 11:42:23,872] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-24 11:42:24,076] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-24 11:42:24,174] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 11:42:25,192] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-24 11:42:25,428] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-24 11:42:28,781] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-24 11:42:29,002] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-24 11:42:29,540] Precondition - Step 15: Enter to Email textbox with value is 'afc2884@mail.vn'
+[INFO ] [2023-08-24 11:42:29,738] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 11:42:29,937] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-24 11:42:30,808] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-24 11:42:30,895] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-24 11:42:31,520] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-24 11:42:33,488] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-24 11:42:34,565] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-24 11:42:35,308] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-24 11:42:35,560] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 11:42:36,096] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-24 11:42:36,295] Search_03- Step 01: Enter to Search keyword textbox with value is 'Lenovo'
+[INFO ] [2023-08-24 11:42:36,499] Search_03- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 11:42:37,207] Search_03- Step 03: Verify Search result 
+[INFO ] [2023-08-24 11:56:53,021] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-24 11:56:54,738] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-24 11:56:55,181] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-24 11:56:55,452] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-24 11:56:55,663] Precondition - Step 05: Enter to Email textbox with value is 'afc7096@mail.vn'
+[INFO ] [2023-08-24 11:56:55,890] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-24 11:56:56,238] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-24 11:56:56,442] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-24 11:56:56,628] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-24 11:56:56,730] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 11:56:56,938] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-24 11:56:57,142] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-24 11:56:58,564] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-24 11:56:58,660] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-24 11:56:59,178] Precondition - Step 15: Enter to Email textbox with value is 'afc7096@mail.vn'
+[INFO ] [2023-08-24 11:56:59,389] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 11:56:59,601] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-24 11:57:00,527] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-24 11:57:00,665] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-24 11:57:01,280] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-24 11:57:01,929] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-24 11:57:02,445] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-24 11:57:02,928] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-24 11:57:03,268] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 11:57:03,767] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-24 11:57:03,948] Search_03- Step 01: Enter to Search keyword textbox with value is 'Lenovo'
+[INFO ] [2023-08-24 11:57:04,162] Search_03- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 11:57:04,710] Search_03- Step 03: Verify Search result 
+[INFO ] [2023-08-24 11:57:05,041] Search_04- Step 01: Enter to Search keyword textbox with value is 'ThinkPad X1 Carbon Laptop'
+[INFO ] [2023-08-24 11:57:05,290] Search_04- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 11:57:05,908] Search_04- Step 03: Verify Search result 
+[INFO ] [2023-08-24 12:08:24,376] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-24 12:08:26,690] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-24 12:08:26,907] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-24 12:08:27,208] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-24 12:08:27,469] Precondition - Step 05: Enter to Email textbox with value is 'afc2331@mail.vn'
+[INFO ] [2023-08-24 12:08:27,724] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-24 12:08:27,963] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-24 12:08:28,137] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-24 12:08:28,333] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-24 12:08:28,426] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 12:08:28,650] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-24 12:08:28,866] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-24 12:08:29,868] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-24 12:08:29,955] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-24 12:08:30,996] Precondition - Step 15: Enter to Email textbox with value is 'afc2331@mail.vn'
+[INFO ] [2023-08-24 12:08:31,205] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 12:08:31,432] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-24 12:08:33,395] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-24 12:08:33,531] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-24 12:08:34,134] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-24 12:08:35,349] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-24 12:08:35,871] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-24 12:08:36,444] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-24 12:08:36,642] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 12:08:37,267] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-24 12:08:37,361] Search_03- Step 01: Enter to Search keyword textbox with value is 'Lenovo'
+[INFO ] [2023-08-24 12:08:37,602] Search_03- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 12:08:38,549] Search_03- Step 03: Verify Search result 
+[INFO ] [2023-08-24 12:08:38,703] Search_04- Step 01: Enter to Search keyword textbox with value is 'ThinkPad X1 Carbon Laptop'
+[INFO ] [2023-08-24 12:08:38,979] Search_04- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 12:08:39,524] Search_04- Step 03: Verify Search result 
+[INFO ] [2023-08-24 12:11:01,786] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-24 12:11:03,033] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-24 12:11:03,234] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-24 12:11:03,559] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-24 12:11:03,788] Precondition - Step 05: Enter to Email textbox with value is 'afc5231@mail.vn'
+[INFO ] [2023-08-24 12:11:04,030] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-24 12:11:04,260] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-24 12:11:04,455] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-24 12:11:04,628] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-24 12:11:04,748] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 12:11:04,958] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-24 12:11:05,174] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-24 12:11:06,068] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-24 12:11:06,158] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-24 16:04:49,007] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-24 16:04:53,480] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-24 16:04:53,731] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-24 16:04:54,097] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-24 16:04:54,318] Precondition - Step 05: Enter to Email textbox with value is 'afc1931@mail.vn'
+[INFO ] [2023-08-24 16:04:54,561] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-24 16:04:54,913] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-24 16:04:55,113] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-24 16:04:55,302] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-24 16:04:55,404] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 16:04:56,011] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-24 16:04:56,247] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-24 16:04:57,674] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-24 16:04:57,806] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-24 16:04:58,438] Precondition - Step 15: Enter to Email textbox with value is 'afc1931@mail.vn'
+[INFO ] [2023-08-24 16:04:58,670] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 16:04:58,871] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-24 16:04:59,759] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-24 16:04:59,882] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-24 16:05:00,517] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-24 16:05:01,348] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-24 16:05:01,996] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-24 16:05:02,778] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-24 16:05:02,981] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 16:05:03,489] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-24 16:05:03,668] Search_03- Step 01: Enter to Search keyword textbox with value is 'Lenovo'
+[INFO ] [2023-08-24 16:05:03,886] Search_03- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 16:05:04,385] Search_03- Step 03: Verify Search result 
+[INFO ] [2023-08-24 16:05:04,681] Search_04- Step 01: Enter to Search keyword textbox with value is 'ThinkPad X1 Carbon Laptop'
+[INFO ] [2023-08-24 16:05:04,950] Search_04- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 16:05:05,494] Search_04- Step 03: Verify Search result 
+[INFO ] [2023-08-24 16:23:51,211] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-24 16:23:52,556] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-24 16:23:52,767] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-24 16:23:52,981] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-24 16:23:53,215] Precondition - Step 05: Enter to Email textbox with value is 'afc5415@mail.vn'
+[INFO ] [2023-08-24 16:23:53,456] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-24 16:23:53,692] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-24 16:23:53,871] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-24 16:23:54,059] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-24 16:23:54,158] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 16:23:54,377] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-24 16:23:54,586] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-24 16:23:55,447] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-24 16:23:55,550] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-24 16:23:56,071] Precondition - Step 15: Enter to Email textbox with value is 'afc5415@mail.vn'
+[INFO ] [2023-08-24 16:23:56,280] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-24 16:23:56,496] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-24 16:23:57,369] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-24 16:23:57,490] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-24 16:23:58,155] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-24 16:23:58,909] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-24 16:23:59,468] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-24 16:23:59,818] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-24 16:24:00,092] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 16:24:00,626] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-24 16:24:00,801] Search_03- Step 01: Enter to Search keyword textbox with value is 'Lenovo'
+[INFO ] [2023-08-24 16:24:01,021] Search_03- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 16:24:01,572] Search_03- Step 03: Verify Search result 
+[INFO ] [2023-08-24 16:24:02,489] Search_04- Step 01: Enter to Search keyword textbox with value is 'Thinkpad X1 Carbon Laptop'
+[INFO ] [2023-08-24 16:24:02,763] Search_04- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-24 16:24:03,916] Search_04- Step 03: Verify Search result 

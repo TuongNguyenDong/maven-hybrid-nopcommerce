@@ -29,7 +29,6 @@ import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserProductsNamePageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 import pageUIs.nopCommerce.user.BasePageNopCommerceUI;
-import pageUIs.nopCommerce.user.HomePageUI;
 
 public class BasePage {
 	
@@ -727,6 +726,19 @@ public class BasePage {
 		
 	}
 	
+	public BasePage openpageAtFooterByName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_FOOTER_MENU_NAME, pageName);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_FOOTER_MENU_NAME, pageName);
+		switch (pageName) {
+		case "Search":
+			return PageGeneratorManager.getUserSearchPage(driver);	
+		default: 
+			throw new RuntimeException("Invalid page name at Home Page menu");
+			
+		}
+		
+	}
+	
 	// Pattern Object  ( Nopcommerce)
 	/**
 	 * Enter to dynamic Textbox by ID
@@ -847,8 +859,8 @@ public class BasePage {
 	 * @return
 	 */
 	public Boolean isPageTitleByText(WebDriver driver, String pageName) {
-		waitForElementVisible(driver, BasePageNopCommerceUI.PAGE_TITILE_BY_TEXT, pageName);
-		return isELementDisplayed(driver, BasePageNopCommerceUI.PAGE_TITILE_BY_TEXT, pageName);
+		waitForElementVisible(driver, BasePageNopCommerceUI.PAGE_TIILE_BY_TEXT, pageName);
+		return isELementDisplayed(driver, BasePageNopCommerceUI.PAGE_TIILE_BY_TEXT, pageName);
 	}
 	
 	/**
