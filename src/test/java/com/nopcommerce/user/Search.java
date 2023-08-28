@@ -18,7 +18,7 @@ public class Search extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, validPassword, emailAddress;
 	private String day, month, year;
-	private String dataNoExist, dataExistRelative, dataExistAbsolute ;
+	private String dataNoExist, dataExistRelative, dataExistAbsolute, appleName, category,manufacturerHP, manufacturerA ;
 
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
@@ -42,6 +42,11 @@ public class Search extends BaseTest {
 		dataNoExist = "2050";
 		dataExistRelative = "Lenovo";
 		dataExistAbsolute = "Thinkpad X1 Carbon Laptop";
+		
+		category =  "Computers" ;
+		manufacturerHP = "HP";
+		manufacturerA = "Apple";
+		appleName = "Apple MacBook Pro";
 		
 		
 
@@ -158,9 +163,104 @@ public class Search extends BaseTest {
 	}
 	
 	@Test
-	public void TC_05_Customer_info() {
+	public void Search_05_Parent_Categories() {
+	
+		log.info("Search_05 - Step 01: Click to Radio button 'Advanced search' ");
+		searchPage.clicktoRadioButtonByLabel(driver, "Advanced search");
+		
+		log.info("Search_05 - Step 02: Enter to Search keyword textbox with value is '" + appleName + "'");
+		searchPage.inputToSearchText(appleName);
+		
+		log.info("Search_05 - Step 03: Select Dropdown Category with value is '" + category + "'");
+		searchPage.selectToDropdownByName(driver, "cid", category);
+		
+		log.info("Search_05- Step 04: Click to 'Search' button ");
+		searchPage.clickToButtonByText(driver, "Search");
+		
+		log.info("Search_05- Step 05: Verify Search message ");
+		Assert.assertEquals(searchPage.getSearchMessage(), "No products were found that matched your criteria.");
 		
 	}
+	
+	@Test
+	public void Search_06_Sub_Categories() {
+		
+		log.info("Search_06 - Step 01: Navigate to 'Search' page");
+		searchPage = (UserSearchPageObject) searchPage.openpageAtFooterByName(driver, "Search");
+	
+		log.info("Search_06 - Step 02: Click to Radio button 'Advanced search' ");
+		searchPage.clicktoRadioButtonByLabel(driver, "Advanced search");
+		
+		log.info("Search_06 - Step 03: Enter to Search keyword textbox with value is '" + appleName + "'");
+		searchPage.inputToSearchText(appleName);
+		
+		log.info("Search_06 - Step 04: Select Dropdown Category with value is '" + category + "'");
+		searchPage.selectToDropdownByName(driver, "cid", category);
+		
+		log.info("Search_06 - Step 05: Click to Radio button 'Automatically search sub categories' ");
+		searchPage.clicktoRadioButtonByLabel(driver, "Automatically search sub categories");
+		
+		log.info("Search_06- Step 06: Click to 'Search' button ");
+		searchPage.clickToButtonByText(driver, "Search");
+		
+		log.info("Search_06- Step 07: Verify Search result ");
+		Assert.assertTrue(searchPage.isSearchResultAbsoluteDisplayed(appleName));
+		
+	}
+	
+	@Test
+	public void Search_07_Incorrect_Manufacturer() {
+		
+		log.info("Search_07 - Step 01: Click to Radio button 'Advanced search' ");
+		searchPage.clicktoRadioButtonByLabel(driver, "Advanced search");
+		
+		log.info("Search_07 - Step 02: Enter to Search keyword textbox with value is '" + appleName + "'");
+		searchPage.inputToSearchText(appleName);
+		
+		log.info("Search_07 - Step 03: Select Dropdown Category with value is '" + category + "'");
+		searchPage.selectToDropdownByName(driver, "cid", category);
+		
+		log.info("Search_07 - Step 04: Click to Radio button 'Automatically search sub categories' ");
+		searchPage.clicktoRadioButtonByLabel(driver, "Automatically search sub categories");
+		
+		log.info("Search_07 - Step 05: Select Dropdown Category with value is '" + manufacturerHP + "'");
+		searchPage.selectToDropdownByName(driver, "mid", manufacturerHP);
+		
+		log.info("Search_07- Step 06: Click to 'Search' button ");
+		searchPage.clickToButtonByText(driver, "Search");
+		
+		log.info("Search_07- Step 07: Verify Search message ");
+		Assert.assertEquals(searchPage.getSearchMessage(), "No products were found that matched your criteria.");
+		
+		
+	}
+	
+	@Test
+	public void Search_08_Correct_Manufacturer() {
+		
+		log.info("Search_08 - Step 01: Click to Radio button 'Advanced search' ");
+		searchPage.clicktoRadioButtonByLabel(driver, "Advanced search");
+		
+		log.info("Search_08 - Step 02: Enter to Search keyword textbox with value is '" + appleName + "'");
+		searchPage.inputToSearchText(appleName);
+		
+		log.info("Search_08 - Step 03: Select Dropdown Category with value is '" + category + "'");
+		searchPage.selectToDropdownByName(driver, "cid", category);
+		
+		log.info("Search_08 - Step 04: Click to Radio button 'Automatically search sub categories' ");
+		searchPage.clicktoRadioButtonByLabel(driver, "Automatically search sub categories");
+		
+		log.info("Search_08 - Step 05: Select Dropdown Category with value is '" + manufacturerA + "'");
+		searchPage.selectToDropdownByName(driver, "mid", manufacturerA);
+		
+		log.info("Search_08- Step 06: Click to 'Search' button ");
+		searchPage.clickToButtonByText(driver, "Search");
+		
+		log.info("Search_08- Step 07: Verify Search result ");
+		Assert.assertTrue(searchPage.isSearchResultAbsoluteDisplayed(appleName));
+		
+	}
+	
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {

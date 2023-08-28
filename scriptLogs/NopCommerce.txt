@@ -1,31 +1,57 @@
-[INFO ] [2023-08-24 16:23:51,211] Precondition - Step 01: Navigate to 'Register' page
-[INFO ] [2023-08-24 16:23:52,556] Precondition - Step 02: Click to Radio button 'Male' 
-[INFO ] [2023-08-24 16:23:52,767] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
-[INFO ] [2023-08-24 16:23:52,981] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
-[INFO ] [2023-08-24 16:23:53,215] Precondition - Step 05: Enter to Email textbox with value is 'afc5415@mail.vn'
-[INFO ] [2023-08-24 16:23:53,456] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
-[INFO ] [2023-08-24 16:23:53,692] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
-[INFO ] [2023-08-24 16:23:53,871] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
-[INFO ] [2023-08-24 16:23:54,059] Precondition - Step 02: Click to Checkbox 'Newsletter' 
-[INFO ] [2023-08-24 16:23:54,158] Precondition - Step 10: Enter to Password textbox with value is '1234556'
-[INFO ] [2023-08-24 16:23:54,377] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
-[INFO ] [2023-08-24 16:23:54,586] Precondition - Step 12: Click to 'Register' button 
-[INFO ] [2023-08-24 16:23:55,447] Precondition - Step 13: Verify register success message is displayed 
-[INFO ] [2023-08-24 16:23:55,550] Precondition - Step 14: Navigate to 'Login' page
-[INFO ] [2023-08-24 16:23:56,071] Precondition - Step 15: Enter to Email textbox with value is 'afc5415@mail.vn'
-[INFO ] [2023-08-24 16:23:56,280] Precondition - Step 16: Enter to Password textbox with value is '1234556'
-[INFO ] [2023-08-24 16:23:56,496] Precondition - Step 17: Click to 'Log in' button
-[INFO ] [2023-08-24 16:23:57,369] Precondition - Step 18: Verify 'My Account' link is displayed 
-[INFO ] [2023-08-24 16:23:57,490] Precondition - Step 19: Navigate to 'Search' page
-[INFO ] [2023-08-24 16:23:58,155] Precondition - Step 20: Verify 'Search' title is displayed 
-[INFO ] [2023-08-24 16:23:58,909] Search_01- Step 01: Click to 'Search' button 
-[INFO ] [2023-08-24 16:23:59,468] Search_01- Step 02: Verify Search message 
-[INFO ] [2023-08-24 16:23:59,818] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
-[INFO ] [2023-08-24 16:24:00,092] Search_02- Step 02: Click to 'Search' button 
-[INFO ] [2023-08-24 16:24:00,626] Search_02- Step 03: Verify Search message 
-[INFO ] [2023-08-24 16:24:00,801] Search_03- Step 01: Enter to Search keyword textbox with value is 'Lenovo'
-[INFO ] [2023-08-24 16:24:01,021] Search_03- Step 02: Click to 'Search' button 
-[INFO ] [2023-08-24 16:24:01,572] Search_03- Step 03: Verify Search result 
-[INFO ] [2023-08-24 16:24:02,489] Search_04- Step 01: Enter to Search keyword textbox with value is 'Thinkpad X1 Carbon Laptop'
-[INFO ] [2023-08-24 16:24:02,763] Search_04- Step 02: Click to 'Search' button 
-[INFO ] [2023-08-24 16:24:03,916] Search_04- Step 03: Verify Search result 
+[INFO ] [2023-08-28 17:33:03,844] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-28 17:33:05,395] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-28 17:33:05,608] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-28 17:33:05,836] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-28 17:33:06,042] Precondition - Step 05: Enter to Email textbox with value is 'afc7294@mail.vn'
+[INFO ] [2023-08-28 17:33:06,286] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-28 17:33:06,571] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-28 17:33:06,749] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-28 17:33:06,953] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-28 17:33:07,051] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-28 17:33:07,310] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-28 17:33:07,526] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-28 17:33:08,945] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-28 17:33:09,050] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-28 17:33:09,668] Precondition - Step 15: Enter to Email textbox with value is 'afc7294@mail.vn'
+[INFO ] [2023-08-28 17:33:09,860] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-28 17:33:10,059] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-28 17:33:10,973] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-28 17:33:11,104] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-08-28 17:33:11,778] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-08-28 17:33:12,648] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-08-28 17:33:13,185] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-08-28 17:33:13,642] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-08-28 17:33:13,892] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-28 17:33:14,601] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-08-28 17:33:14,716] Search_03- Step 01: Enter to Search keyword textbox with value is 'Lenovo'
+[INFO ] [2023-08-28 17:33:14,899] Search_03- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-28 17:33:15,436] Search_03- Step 03: Verify Search result 
+[INFO ] [2023-08-28 17:33:15,732] Search_04- Step 01: Enter to Search keyword textbox with value is 'Thinkpad X1 Carbon Laptop'
+[INFO ] [2023-08-28 17:33:16,077] Search_04- Step 02: Click to 'Search' button 
+[INFO ] [2023-08-28 17:33:16,516] Search_04- Step 03: Verify Search result 
+[INFO ] [2023-08-28 17:33:16,717] Search_05 - Step 01: Click to Radio button 'Advanced search' 
+[INFO ] [2023-08-28 17:33:16,902] Search_05 - Step 02: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-08-28 17:33:17,139] Search_05 - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-08-28 17:33:17,321] Search_05- Step 04: Click to 'Search' button 
+[INFO ] [2023-08-28 17:33:17,948] Search_05- Step 05: Verify Search message 
+[INFO ] [2023-08-28 17:33:18,035] Search_06 - Step 01: Navigate to 'Search' page
+[INFO ] [2023-08-28 17:33:18,579] Search_06 - Step 02: Click to Radio button 'Advanced search' 
+[INFO ] [2023-08-28 17:33:18,745] Search_06 - Step 03: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-08-28 17:33:18,975] Search_06 - Step 04: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-08-28 17:33:19,156] Search_06 - Step 05: Click to Radio button 'Automatically search sub categories' 
+[INFO ] [2023-08-28 17:33:19,325] Search_06- Step 06: Click to 'Search' button 
+[INFO ] [2023-08-28 17:33:20,037] Search_06- Step 07: Verify Search result 
+[INFO ] [2023-08-28 17:33:20,162] Search_07 - Step 01: Click to Radio button 'Advanced search' 
+[INFO ] [2023-08-28 17:33:20,259] Search_07 - Step 02: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-08-28 17:33:20,472] Search_07 - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-08-28 17:33:20,605] Search_07 - Step 04: Click to Radio button 'Automatically search sub categories' 
+[INFO ] [2023-08-28 17:33:20,714] Search_07 - Step 05: Select Dropdown Category with value is 'HP'
+[INFO ] [2023-08-28 17:33:20,901] Search_07- Step 06: Click to 'Search' button 
+[INFO ] [2023-08-28 17:33:21,415] Search_07- Step 07: Verify Search message 
+[INFO ] [2023-08-28 17:33:21,597] Search_08 - Step 01: Click to Radio button 'Advanced search' 
+[INFO ] [2023-08-28 17:33:21,668] Search_08 - Step 02: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-08-28 17:33:21,892] Search_08 - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-08-28 17:33:22,039] Search_08 - Step 04: Click to Radio button 'Automatically search sub categories' 
+[INFO ] [2023-08-28 17:33:22,117] Search_08 - Step 05: Select Dropdown Category with value is 'Apple'
+[INFO ] [2023-08-28 17:33:22,303] Search_08- Step 06: Click to 'Search' button 
+[INFO ] [2023-08-28 17:33:22,872] Search_08- Step 07: Verify Search result 
