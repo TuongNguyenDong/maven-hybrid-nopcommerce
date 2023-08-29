@@ -1,6 +1,8 @@
 package commons;
 
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -906,6 +908,122 @@ public class BasePage {
 		return PageGeneratorManager.getAdminLoginPage(driver);
 
 	}
+	
+	
+	public void selectItemProductSoftDropdown(WebDriver driver, String nameProductSoft) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.PRODUCT_ORDER_DROPDOWN);
+		selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.PRODUCT_ORDER_DROPDOWN, nameProductSoft);
+		sleepInSecond(3);
+
+	}
+
+	public boolean isProductNameSortByAscending(WebDriver driver) {
+		ArrayList<String> productUIList = new ArrayList<String>();
+
+		List<WebElement> productNameText = getListWebElement(driver, BasePageNopCommerceUI.PRODUCT_NAME_TEXT);
+
+		for (WebElement productName : productNameText) {
+			productUIList.add(productName.getText());
+			System.out.println("ProductName on UI " + productName.getText());
+
+		}
+
+		ArrayList<String> productSortList = new ArrayList<String>();
+		for (String productSoft : productUIList) {
+			productSortList.add(productSoft);
+		}
+
+		Collections.sort(productSortList);
+		for (String productName : productSortList) {
+			System.out.println("Product Name after sort " + productName);
+
+		}
+
+		return productSortList.equals(productUIList);
+	}
+
+	public boolean isProductNameSortByDecending(WebDriver driver) {
+
+		ArrayList<String> productUIList = new ArrayList<String>();
+
+		List<WebElement> productNameText = getListWebElement(driver, BasePageNopCommerceUI.PRODUCT_NAME_TEXT);
+
+		for (WebElement productName : productNameText) {
+			productUIList.add(productName.getText());
+			System.out.println("ProductName on UI " + productName.getText());
+		}
+
+		ArrayList<String> productSortList = new ArrayList<String>();
+		for (String productSort : productUIList) {
+			productSortList.add(productSort);
+		}
+
+		Collections.sort(productSortList);
+		Collections.reverse(productSortList);
+
+		for (String productName : productSortList) {
+			System.out.println("Product Name after sort " + productName);
+
+		}
+
+		return productSortList.equals(productUIList);
+
+	}
+	
+	public boolean isProductPriceSortByLowToHigh(WebDriver driver) {
+
+		ArrayList<Float> productUIList = new ArrayList<Float>();
+
+		List<WebElement> productPriceText = getListWebElement(driver, BasePageNopCommerceUI.PRODUCT_PRICE_TEXT);
+
+		for (WebElement productPrice : productPriceText) {
+			productUIList.add(Float.parseFloat(productPrice.getText().replaceAll("[$,]", "")));
+			System.out.println("ProductName on UI " + productPrice.getText());
+			
+		}
+
+		ArrayList<Float> productSortList = new ArrayList<Float>();
+		for (Float productSort : productUIList) {
+			productSortList.add(productSort);
+		}
+
+		Collections.sort(productSortList);
+
+		for (Float productPrice : productSortList) {
+			System.out.println("Product Name after sort " + productPrice);
+
+		}
+
+		return productSortList.equals(productUIList);
+	}
+
+	public boolean isProductPriceSortByHighToLow(WebDriver driver) {
+
+		ArrayList<Float> productUIList = new ArrayList<Float>();
+
+		List<WebElement> productPriceText = getListWebElement(driver, BasePageNopCommerceUI.PRODUCT_PRICE_TEXT);
+
+		for (WebElement productPrice : productPriceText) {
+			productUIList.add(Float.parseFloat(productPrice.getText().replaceAll("[$,]", "")));
+			System.out.println("ProductName on UI " + productPrice.getText());
+		}
+
+		ArrayList<Float> productSortList = new ArrayList<Float>();
+		for (Float productSort : productUIList) {
+			productSortList.add(productSort);
+		}
+
+		Collections.sort(productSortList);
+		Collections.reverse(productSortList);
+
+		for (Float productPrice : productSortList) {
+			System.out.println("Product Name after sort " + productPrice);
+
+		}
+
+		return productSortList.equals(productUIList);
+	}
+
 	// wordpress
 //	public UserHomePO openEndUserSite(WebDriver driver, String endUserUrl) {
 //		openPageUrl(driver, endUserUrl);

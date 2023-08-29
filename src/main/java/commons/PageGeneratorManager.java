@@ -13,6 +13,7 @@ import pageObjects.nopCommerce.user.UserElectronicsPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopCommerce.user.UserNotebooksPageObject;
 import pageObjects.nopCommerce.user.UserProductsNamePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
@@ -80,6 +81,11 @@ public class PageGeneratorManager {
 	
 	public static UserDesktopsPageObject getUserDesktopsPage(WebDriver driver) {
 		return new UserDesktopsPageObject(driver);
+		
+	}
+	
+	public static UserNotebooksPageObject getUserNotebooksPage(WebDriver driver) {
+		return new UserNotebooksPageObject(driver);
 		
 	}
 	

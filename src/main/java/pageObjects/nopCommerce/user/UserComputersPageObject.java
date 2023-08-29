@@ -22,6 +22,8 @@ public class UserComputersPageObject extends BasePage {
 		switch (pageName) {
 		case "Desktops":
 			return PageGeneratorManager.getUserDesktopsPage(driver);
+		case "Notebooks":
+			return PageGeneratorManager.getUserNotebooksPage(driver);
 		
 		default:
 			throw new RuntimeException("Invalid page name at Home Page menu");
