@@ -4737,3 +4737,764 @@
 [INFO ] [2023-08-29 18:32:08,100] Soft_03 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: Low to High'
 [INFO ] [2023-08-29 18:32:08,607] Soft_04 - Step 01: Select Dropdown Product soft order with value is 'Price: High to Low'
 [INFO ] [2023-08-29 18:32:11,854] Soft_04 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: High to Low'
+[INFO ] [2023-08-30 11:44:07,236] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 11:44:08,649] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 11:44:08,862] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 11:44:09,118] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 11:44:09,347] Precondition - Step 05: Enter to Email textbox with value is 'afc4609@mail.vn'
+[INFO ] [2023-08-30 11:44:09,611] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 11:44:09,883] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 11:44:10,075] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 11:44:10,266] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 11:44:10,365] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 11:44:10,597] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 11:44:10,852] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 11:44:11,807] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 11:44:11,970] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 11:44:12,568] Precondition - Step 15: Enter to Email textbox with value is 'afc4609@mail.vn'
+[INFO ] [2023-08-30 11:44:12,783] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 11:44:13,003] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 11:44:13,906] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 11:44:14,027] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 11:44:14,802] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 11:44:14,908] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 11:44:15,619] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 11:44:16,577] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 11:46:47,633] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 11:46:52,009] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 11:46:52,613] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 11:46:53,103] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 11:46:53,336] Precondition - Step 05: Enter to Email textbox with value is 'afc8496@mail.vn'
+[INFO ] [2023-08-30 11:46:53,587] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 11:46:54,044] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 11:46:54,271] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 11:46:54,468] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 11:46:54,588] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 11:46:54,845] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 11:46:55,076] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 11:46:56,482] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 11:46:56,728] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 11:46:57,300] Precondition - Step 15: Enter to Email textbox with value is 'afc8496@mail.vn'
+[INFO ] [2023-08-30 11:46:57,500] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 11:46:57,734] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 11:46:58,608] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 11:46:58,731] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 11:46:59,471] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 11:46:59,593] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 11:47:00,471] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 11:47:02,313] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 11:47:05,531] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-08-30 11:56:54,875] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 11:56:55,913] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 11:56:56,129] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 11:56:56,416] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 11:56:56,621] Precondition - Step 05: Enter to Email textbox with value is 'afc9710@mail.vn'
+[INFO ] [2023-08-30 11:56:56,846] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 11:56:57,208] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 11:56:57,457] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 11:56:57,706] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 11:56:57,807] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 11:56:58,046] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 11:56:58,246] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 11:57:00,763] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 11:57:00,958] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 11:57:01,574] Precondition - Step 15: Enter to Email textbox with value is 'afc9710@mail.vn'
+[INFO ] [2023-08-30 11:57:01,837] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 11:57:02,059] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 11:57:02,894] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 11:57:03,002] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 11:57:03,679] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 11:57:03,813] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 11:57:05,140] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 11:57:05,945] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 11:57:09,144] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-08-30 12:13:51,080] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 12:13:52,715] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 12:13:52,932] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 12:13:53,192] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 12:13:53,436] Precondition - Step 05: Enter to Email textbox with value is 'afc3522@mail.vn'
+[INFO ] [2023-08-30 12:13:53,737] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 12:13:54,004] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 12:13:54,199] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 12:13:54,390] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 12:13:54,487] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:13:54,711] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:13:54,924] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 12:13:55,828] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 12:13:55,950] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 12:13:56,476] Precondition - Step 15: Enter to Email textbox with value is 'afc3522@mail.vn'
+[INFO ] [2023-08-30 12:13:56,681] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:13:56,892] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 12:13:57,780] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 12:13:57,882] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 12:13:59,123] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 12:13:59,219] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 12:13:59,850] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 12:14:00,647] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 12:14:03,845] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-08-30 12:20:57,656] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 12:20:59,108] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 12:20:59,347] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 12:20:59,591] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 12:20:59,794] Precondition - Step 05: Enter to Email textbox with value is 'afc8775@mail.vn'
+[INFO ] [2023-08-30 12:21:00,057] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 12:21:00,293] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 12:21:00,470] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 12:21:00,655] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 12:21:00,754] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:21:00,981] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:21:01,189] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 12:21:02,653] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 12:21:02,804] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 12:21:03,472] Precondition - Step 15: Enter to Email textbox with value is 'afc8775@mail.vn'
+[INFO ] [2023-08-30 12:21:03,686] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:21:03,914] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 12:21:04,942] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 12:21:05,044] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 12:21:05,724] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 12:21:05,845] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 12:21:06,515] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 12:21:07,108] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 12:21:10,304] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-08-30 12:28:44,714] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 12:28:46,176] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 12:28:46,389] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 12:28:46,630] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 12:28:46,842] Precondition - Step 05: Enter to Email textbox with value is 'afc7206@mail.vn'
+[INFO ] [2023-08-30 12:28:47,083] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 12:28:47,309] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 12:28:47,496] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 12:28:47,686] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 12:28:47,789] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:28:48,001] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:28:48,218] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 12:28:49,594] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 12:28:49,691] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 12:28:50,276] Precondition - Step 15: Enter to Email textbox with value is 'afc7206@mail.vn'
+[INFO ] [2023-08-30 12:28:50,487] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:28:50,700] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 12:28:51,567] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 12:28:51,683] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 12:28:52,312] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 12:28:52,416] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 12:28:53,036] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 12:28:53,325] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 12:28:56,691] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-08-30 12:34:24,628] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 12:34:25,869] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 12:34:26,111] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 12:34:26,334] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 12:34:26,553] Precondition - Step 05: Enter to Email textbox with value is 'afc7565@mail.vn'
+[INFO ] [2023-08-30 12:34:26,775] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 12:34:27,035] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 12:34:27,212] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 12:34:27,400] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 12:34:27,514] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:34:27,746] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:34:27,985] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 12:34:28,793] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 12:34:28,909] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 12:34:29,448] Precondition - Step 15: Enter to Email textbox with value is 'afc7565@mail.vn'
+[INFO ] [2023-08-30 12:34:29,648] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 12:34:29,871] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 12:34:30,762] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 12:34:30,863] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 12:34:31,522] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 12:34:31,627] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 12:34:32,272] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 12:34:32,895] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 12:34:36,108] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-08-30 16:39:20,742] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 16:39:37,820] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 16:39:38,118] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 16:39:42,507] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 16:39:42,933] Precondition - Step 05: Enter to Email textbox with value is 'afc867@mail.vn'
+[INFO ] [2023-08-30 16:39:43,184] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 16:39:43,486] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 16:39:43,669] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 16:39:43,875] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 16:39:43,970] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:39:45,714] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:39:46,077] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 16:39:47,817] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 16:39:48,011] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 16:39:49,041] Precondition - Step 15: Enter to Email textbox with value is 'afc867@mail.vn'
+[INFO ] [2023-08-30 16:39:49,328] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:39:49,578] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 16:39:50,536] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 16:39:50,633] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 16:39:51,399] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 16:39:51,493] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 16:39:52,171] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 16:39:54,081] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 16:39:57,303] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-08-30 16:39:57,992] Soft_06 - Step 01: Select Dropdown Product page size with value is '6'
+[INFO ] [2023-08-30 16:40:48,673] Soft_07 - Step 01: Select Dropdown Product page size with value is '9'
+[INFO ] [2023-08-30 16:43:18,817] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 16:43:20,349] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 16:43:20,602] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 16:43:20,820] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 16:43:21,061] Precondition - Step 05: Enter to Email textbox with value is 'afc9258@mail.vn'
+[INFO ] [2023-08-30 16:43:21,298] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 16:43:21,518] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 16:43:21,695] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 16:43:21,879] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 16:43:21,979] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:43:22,191] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:43:22,425] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 16:43:23,861] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 16:43:23,956] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 16:43:24,475] Precondition - Step 15: Enter to Email textbox with value is 'afc9258@mail.vn'
+[INFO ] [2023-08-30 16:43:24,685] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:43:24,898] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 16:43:25,808] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 16:43:25,927] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 16:43:26,570] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 16:43:26,693] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 16:43:27,442] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 16:43:28,133] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 16:43:31,409] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-08-30 16:43:31,740] Soft_06 - Step 01: Select Dropdown Product page size with value is '6'
+[INFO ] [2023-08-30 16:43:34,996] Soft_06 - Step 02: Verify six product names are displayed. 
+[INFO ] [2023-08-30 16:43:35,723] Soft_07 - Step 01: Select Dropdown Product page size with value is '9'
+[INFO ] [2023-08-30 16:43:38,932] Soft_07 - Step 02: Verify nine product names are displayed. 
+[INFO ] [2023-08-30 16:54:10,472] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 16:54:11,952] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 16:54:12,125] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 16:54:12,400] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 16:54:12,608] Precondition - Step 05: Enter to Email textbox with value is 'afc4757@mail.vn'
+[INFO ] [2023-08-30 16:54:12,856] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 16:54:13,260] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 16:54:13,466] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 16:54:13,659] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 16:54:13,754] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:54:13,965] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:54:14,195] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 16:54:15,933] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 16:54:16,064] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 16:56:11,454] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-08-30 16:56:13,085] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-08-30 16:56:13,296] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-08-30 16:56:14,666] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-08-30 16:56:14,919] Precondition - Step 05: Enter to Email textbox with value is 'afc8622@mail.vn'
+[INFO ] [2023-08-30 16:56:15,184] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-08-30 16:56:15,701] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-08-30 16:56:15,990] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-08-30 16:56:16,656] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-08-30 16:56:16,797] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:56:17,476] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:56:17,797] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-08-30 16:56:22,777] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-08-30 16:56:22,926] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-08-30 16:56:34,523] Precondition - Step 15: Enter to Email textbox with value is 'afc8622@mail.vn'
+[INFO ] [2023-08-30 16:56:34,764] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-08-30 16:56:34,982] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-08-30 16:56:36,081] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-08-30 16:56:36,217] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-08-30 16:56:37,036] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-08-30 16:56:37,129] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-08-30 16:56:37,984] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-08-30 16:56:40,011] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-08-30 16:56:43,216] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-08-30 16:56:45,169] Soft_06 - Step 01: Select Dropdown Product page size with value is '6'
+[INFO ] [2023-08-30 16:56:48,433] Soft_06 - Step 02: Verify six product names are displayed. 
+[INFO ] [2023-08-30 16:56:49,139] Soft_07 - Step 01: Select Dropdown Product page size with value is '9'
+[INFO ] [2023-08-30 16:56:52,340] Soft_07 - Step 02: Verify nine product names are displayed. 
+[INFO ] [2023-09-05 10:29:17,850] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-05 10:29:19,484] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-05 10:29:19,662] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-05 10:29:21,081] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-05 10:29:21,339] Precondition - Step 05: Enter to Email textbox with value is 'afc3252@mail.vn'
+[INFO ] [2023-09-05 10:29:21,719] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-05 10:29:22,392] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-05 10:29:22,609] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-05 10:29:22,836] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-05 10:29:22,944] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 10:29:23,221] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-05 10:29:23,488] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-05 10:29:25,092] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-05 10:29:25,221] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-05 10:29:25,815] Precondition - Step 15: Enter to Email textbox with value is 'afc3252@mail.vn'
+[INFO ] [2023-09-05 10:29:26,092] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 10:29:27,014] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-05 10:29:28,820] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-05 10:29:28,948] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-05 10:29:29,679] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-05 10:29:29,784] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-05 10:29:30,899] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-05 10:29:31,826] Soft_03 - Step 01: Select Dropdown Product soft order with value is 'Price: Low to High'
+[INFO ] [2023-09-05 10:29:35,061] Soft_03 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: Low to High'
+[INFO ] [2023-09-05 10:29:35,963] Soft_04 - Step 01: Select Dropdown Product soft order with value is 'Price: High to Low'
+[INFO ] [2023-09-05 10:29:39,222] Soft_04 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: High to Low'
+[INFO ] [2023-09-05 10:29:39,440] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-09-05 10:29:42,662] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-09-05 10:29:42,747] Soft_05 - Step 03: Verify Paging 'Next' Icon displayed
+[INFO ] [2023-09-05 10:29:42,830] Soft_05 - Step 04: Click to Paging Icon  '2' 
+[INFO ] [2023-09-05 10:29:42,982] Soft_05 - Step 03: Verify Paging 'Previous' Icon displayed
+[INFO ] [2023-09-05 10:29:43,327] Soft_06 - Step 01: Select Dropdown Product page size with value is '6'
+[INFO ] [2023-09-05 10:29:46,589] Soft_06 - Step 02: Verify six product names are displayed. 
+[INFO ] [2023-09-05 10:29:46,689] Soft_06 - Step 03: Verify Paging Icon 'Previous' displayed
+[INFO ] [2023-09-05 10:30:37,401] Soft_07 - Step 01: Select Dropdown Product page size with value is '9'
+[INFO ] [2023-09-05 10:30:40,607] Soft_07 - Step 02: Verify nine product names are displayed. 
+[INFO ] [2023-09-05 10:30:40,750] Soft_07 - Step 03: Verify Paging Icon'Next' displayed
+[INFO ] [2023-09-05 11:09:26,878] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-05 11:09:30,479] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-05 11:09:31,465] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-05 11:09:33,457] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-05 11:09:34,001] Precondition - Step 05: Enter to Email textbox with value is 'afc5695@mail.vn'
+[INFO ] [2023-09-05 11:09:34,286] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-05 11:09:34,916] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-05 11:09:35,155] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-05 11:09:35,339] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-05 11:09:35,449] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 11:09:35,748] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-05 11:09:36,124] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-05 11:09:37,798] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-05 11:09:38,029] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-05 11:09:38,651] Precondition - Step 15: Enter to Email textbox with value is 'afc5695@mail.vn'
+[INFO ] [2023-09-05 11:09:38,877] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 11:09:39,129] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-05 11:09:40,152] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-05 11:09:40,292] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-05 11:09:43,534] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-05 11:09:43,640] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-05 11:09:44,389] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-05 11:09:45,457] Soft_03 - Step 01: Select Dropdown Product soft order with value is 'Price: Low to High'
+[INFO ] [2023-09-05 11:09:48,681] Soft_03 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: Low to High'
+[INFO ] [2023-09-05 11:09:49,631] Soft_04 - Step 01: Select Dropdown Product soft order with value is 'Price: High to Low'
+[INFO ] [2023-09-05 11:09:52,838] Soft_04 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: High to Low'
+[INFO ] [2023-09-05 11:09:53,059] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-09-05 11:09:56,372] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-09-05 11:09:56,483] Soft_05 - Step 03: Verify Paging 'Next' Icon displayed
+[INFO ] [2023-09-05 11:09:56,585] Soft_05 - Step 04: Click to Paging Icon  '2' 
+[INFO ] [2023-09-05 11:09:56,733] Soft_05 - Step 03: Verify Paging 'Previous' Icon displayed
+[INFO ] [2023-09-05 11:09:57,183] Soft_06 - Step 01: Select Dropdown Product page size with value is '6'
+[INFO ] [2023-09-05 11:10:00,439] Soft_06 - Step 02: Verify six product names are displayed. 
+[INFO ] [2023-09-05 11:10:00,554] Soft_06 - Step 03: Verify Paging Icon 'Previous' displayed
+[INFO ] [2023-09-05 11:10:36,160] Soft_07 - Step 01: Select Dropdown Product page size with value is '9'
+[INFO ] [2023-09-05 11:10:39,951] Soft_07 - Step 02: Verify nine product names are displayed. 
+[INFO ] [2023-09-05 11:10:40,116] Soft_07 - Step 03: Verify Paging Icon'Next' displayed
+[INFO ] [2023-09-05 11:51:04,513] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-05 11:51:11,623] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-05 11:51:11,839] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-05 11:51:12,942] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-05 11:51:13,190] Precondition - Step 05: Enter to Email textbox with value is 'afc4064@mail.vn'
+[INFO ] [2023-09-05 11:51:13,481] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-05 11:51:13,852] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-05 11:51:14,073] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-05 11:51:14,297] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-05 11:51:14,443] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 11:51:14,748] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-05 11:51:15,180] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-05 11:51:16,776] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-05 11:51:19,366] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-05 11:51:20,104] Precondition - Step 15: Enter to Email textbox with value is 'afc4064@mail.vn'
+[INFO ] [2023-09-05 11:51:20,334] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 11:51:20,552] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-05 11:51:21,602] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-05 11:51:21,697] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-05 11:51:24,980] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-05 11:51:25,092] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-05 11:51:27,014] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-05 11:51:27,833] Soft_03 - Step 01: Select Dropdown Product soft order with value is 'Price: Low to High'
+[INFO ] [2023-09-05 11:51:31,075] Soft_03 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: Low to High'
+[INFO ] [2023-09-05 11:51:31,737] Soft_04 - Step 01: Select Dropdown Product soft order with value is 'Price: High to Low'
+[INFO ] [2023-09-05 11:51:34,983] Soft_04 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: High to Low'
+[INFO ] [2023-09-05 11:51:35,246] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-09-05 11:51:38,448] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-09-05 11:51:38,524] Soft_05 - Step 03: Verify Paging 'Next' Icon displayed
+[INFO ] [2023-09-05 11:51:38,631] Soft_05 - Step 04: Click to Paging Icon  '2' 
+[INFO ] [2023-09-05 11:51:38,783] Soft_05 - Step 03: Verify Paging 'Previous' Icon displayed
+[INFO ] [2023-09-05 11:51:39,269] Soft_06 - Step 01: Select Dropdown Product page size with value is '6'
+[INFO ] [2023-09-05 11:51:42,515] Soft_06 - Step 02: Verify six product names are displayed. 
+[INFO ] [2023-09-05 11:51:42,629] Soft_06 - Step 03: Verify Paging Icon 'Previous' displayed
+[INFO ] [2023-09-05 11:52:17,833] Soft_07 - Step 01: Select Dropdown Product page size with value is '9'
+[INFO ] [2023-09-05 11:52:21,087] Soft_07 - Step 02: Verify nine product names are displayed. 
+[INFO ] [2023-09-05 11:52:21,282] Soft_07 - Step 03: Verify Paging Icon'Next' displayed
+[INFO ] [2023-09-05 12:08:37,470] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-05 12:08:39,108] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-05 12:08:39,323] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-05 12:08:39,541] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-05 12:08:39,928] Precondition - Step 05: Enter to Email textbox with value is 'afc1308@mail.vn'
+[INFO ] [2023-09-05 12:08:40,188] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-05 12:08:40,468] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-05 12:08:40,648] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-05 12:08:40,857] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-05 12:08:40,979] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 12:08:41,220] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-05 12:08:41,411] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-05 12:08:42,353] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-05 12:08:42,509] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-05 12:08:43,580] Precondition - Step 15: Enter to Email textbox with value is 'afc1308@mail.vn'
+[INFO ] [2023-09-05 12:08:43,772] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 12:08:43,984] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-05 12:08:45,188] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-05 12:08:45,553] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-05 12:08:46,450] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-05 12:08:46,587] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-05 12:08:47,814] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-05 12:08:48,405] Soft_03 - Step 01: Select Dropdown Product soft order with value is 'Price: Low to High'
+[INFO ] [2023-09-05 12:08:51,646] Soft_03 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: Low to High'
+[INFO ] [2023-09-05 12:08:52,580] Soft_04 - Step 01: Select Dropdown Product soft order with value is 'Price: High to Low'
+[INFO ] [2023-09-05 12:08:56,159] Soft_04 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: High to Low'
+[INFO ] [2023-09-05 12:08:56,390] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-09-05 12:08:59,597] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-09-05 12:08:59,667] Soft_05 - Step 03: Verify Paging 'Next' Icon displayed
+[INFO ] [2023-09-05 12:08:59,766] Soft_05 - Step 04: Click to Paging Icon  '2' 
+[INFO ] [2023-09-05 12:08:59,926] Soft_05 - Step 03: Verify Paging 'Previous' Icon displayed
+[INFO ] [2023-09-05 12:09:00,326] Soft_06 - Step 01: Select Dropdown Product page size with value is '6'
+[INFO ] [2023-09-05 12:09:03,536] Soft_06 - Step 02: Verify six product names are displayed. 
+[INFO ] [2023-09-05 12:09:03,653] Soft_06 - Step 03: Verify Paging Icon 'Previous' undisplayed
+[INFO ] [2023-09-05 12:09:38,992] Soft_07 - Step 01: Select Dropdown Product page size with value is '9'
+[INFO ] [2023-09-05 12:09:42,222] Soft_07 - Step 02: Verify nine product names are displayed. 
+[INFO ] [2023-09-05 12:09:42,367] Soft_07 - Step 03: Verify Paging Icon'Next' undisplayed
+[INFO ] [2023-09-05 14:24:16,812] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-05 14:24:23,580] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-05 14:24:24,260] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-05 14:24:25,383] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-05 14:24:25,613] Precondition - Step 05: Enter to Email textbox with value is 'afc9931@mail.vn'
+[INFO ] [2023-09-05 14:24:25,862] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-05 14:24:26,470] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-05 14:24:26,656] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-05 14:24:26,846] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-05 14:24:26,943] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 14:24:27,180] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-05 14:24:27,405] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-05 14:24:28,325] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-05 14:24:28,475] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-05 14:24:29,104] Precondition - Step 15: Enter to Email textbox with value is 'afc9931@mail.vn'
+[INFO ] [2023-09-05 14:24:29,320] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 14:24:29,549] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-05 14:24:30,631] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-05 14:24:30,747] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-09-05 14:24:31,980] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-09-05 14:24:33,459] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-09-05 14:24:34,052] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-09-05 14:24:35,278] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-09-05 14:24:35,514] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-09-05 14:24:35,974] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-09-05 14:24:36,175] Search_03- Step 01: Enter to Search keyword textbox with value is 'Lenovo'
+[INFO ] [2023-09-05 14:24:36,388] Search_03- Step 02: Click to 'Search' button 
+[INFO ] [2023-09-05 14:24:36,938] Search_03- Step 03: Verify Search result 
+[INFO ] [2023-09-05 14:24:37,236] Search_04- Step 01: Enter to Search keyword textbox with value is 'Thinkpad X1 Carbon Laptop'
+[INFO ] [2023-09-05 14:24:37,476] Search_04- Step 02: Click to 'Search' button 
+[INFO ] [2023-09-05 14:24:38,035] Search_04- Step 03: Verify Search result 
+[INFO ] [2023-09-05 14:24:38,238] Search_05 - Step 01: Click to Radio button 'Advanced search' 
+[INFO ] [2023-09-05 14:24:38,425] Search_05 - Step 02: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-09-05 14:24:38,635] Search_05 - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-09-05 14:24:38,818] Search_05- Step 04: Click to 'Search' button 
+[INFO ] [2023-09-05 14:24:39,486] Search_05- Step 05: Verify Search message 
+[INFO ] [2023-09-05 14:24:39,589] Search_06 - Step 01: Navigate to 'Search' page
+[INFO ] [2023-09-05 14:24:40,211] Search_06 - Step 02: Click to Radio button 'Advanced search' 
+[INFO ] [2023-09-05 14:24:40,378] Search_06 - Step 03: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-09-05 14:24:40,598] Search_06 - Step 04: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-09-05 14:24:40,773] Search_06 - Step 05: Click to Radio button 'Automatically search sub categories' 
+[INFO ] [2023-09-05 14:24:40,935] Search_06- Step 06: Click to 'Search' button 
+[INFO ] [2023-09-05 14:24:41,502] Search_06- Step 07: Verify Search result 
+[INFO ] [2023-09-05 14:24:41,697] Search_07 - Step 01: Click to Radio button 'Advanced search' 
+[INFO ] [2023-09-05 14:24:41,796] Search_07 - Step 02: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-09-05 14:24:42,058] Search_07 - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-09-05 14:24:42,197] Search_07 - Step 04: Click to Radio button 'Automatically search sub categories' 
+[INFO ] [2023-09-05 14:24:42,300] Search_07 - Step 05: Select Dropdown Category with value is 'HP'
+[INFO ] [2023-09-05 14:24:42,487] Search_07- Step 06: Click to 'Search' button 
+[INFO ] [2023-09-05 14:24:43,136] Search_07- Step 07: Verify Search message 
+[INFO ] [2023-09-05 14:24:43,331] Search_08 - Step 01: Click to Radio button 'Advanced search' 
+[INFO ] [2023-09-05 14:24:43,441] Search_08 - Step 02: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-09-05 14:24:43,687] Search_08 - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-09-05 14:24:43,817] Search_08 - Step 04: Click to Radio button 'Automatically search sub categories' 
+[INFO ] [2023-09-05 14:24:43,929] Search_08 - Step 05: Select Dropdown Category with value is 'Apple'
+[INFO ] [2023-09-05 14:24:44,108] Search_08- Step 06: Click to 'Search' button 
+[INFO ] [2023-09-05 14:24:44,698] Search_08- Step 07: Verify Search result 
+[INFO ] [2023-09-05 14:28:23,531] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-05 14:28:24,895] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-05 14:28:25,114] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-05 14:28:25,365] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-05 14:28:25,610] Precondition - Step 05: Enter to Email textbox with value is 'afc9989@mail.vn'
+[INFO ] [2023-09-05 14:28:25,851] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-05 14:28:26,084] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-05 14:28:26,267] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-05 14:28:26,467] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-05 14:28:26,557] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 14:28:26,773] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-05 14:28:26,999] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-05 14:28:27,924] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-05 14:28:28,041] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-05 14:28:28,560] Precondition - Step 15: Enter to Email textbox with value is 'afc9989@mail.vn'
+[INFO ] [2023-09-05 14:28:28,787] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-05 14:28:29,022] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-05 14:28:30,543] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-05 14:28:30,664] Precondition - Step 19: Navigate to 'Search' page
+[INFO ] [2023-09-05 14:28:31,323] Precondition - Step 20: Verify 'Search' title is displayed 
+[INFO ] [2023-09-05 14:28:31,654] Search_01- Step 01: Click to 'Search' button 
+[INFO ] [2023-09-05 14:28:32,423] Search_01- Step 02: Verify Search message 
+[INFO ] [2023-09-05 14:28:32,816] Search_02- Step 01: Enter to Search keyword textbox with value is '2050'
+[INFO ] [2023-09-05 14:28:33,084] Search_02- Step 02: Click to 'Search' button 
+[INFO ] [2023-09-05 14:28:33,634] Search_02- Step 03: Verify Search message 
+[INFO ] [2023-09-05 14:28:33,862] Search_03- Step 01: Enter to Search keyword textbox with value is 'Lenovo'
+[INFO ] [2023-09-05 14:28:34,084] Search_03- Step 02: Click to 'Search' button 
+[INFO ] [2023-09-05 14:28:34,721] Search_03- Step 03: Verify Search result 
+[INFO ] [2023-09-05 14:28:34,857] Search_04- Step 01: Enter to Search keyword textbox with value is 'Thinkpad X1 Carbon Laptop'
+[INFO ] [2023-09-05 14:28:35,120] Search_04- Step 02: Click to 'Search' button 
+[INFO ] [2023-09-05 14:28:35,610] Search_04- Step 03: Verify Search result 
+[INFO ] [2023-09-05 14:28:35,836] Search_05 - Step 01: Click to Radio button 'Advanced search' 
+[INFO ] [2023-09-05 14:28:36,027] Search_05 - Step 02: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-09-05 14:28:36,248] Search_05 - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-09-05 14:28:36,430] Search_05- Step 04: Click to 'Search' button 
+[INFO ] [2023-09-05 14:28:36,976] Search_05- Step 05: Verify Search message 
+[INFO ] [2023-09-05 14:28:37,177] Search_06 - Step 01: Navigate to 'Search' page
+[INFO ] [2023-09-05 14:28:37,712] Search_06 - Step 02: Click to Radio button 'Advanced search' 
+[INFO ] [2023-09-05 14:28:37,891] Search_06 - Step 03: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-09-05 14:28:38,098] Search_06 - Step 04: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-09-05 14:28:38,283] Search_06 - Step 05: Click to Radio button 'Automatically search sub categories' 
+[INFO ] [2023-09-05 14:28:38,440] Search_06- Step 06: Click to 'Search' button 
+[INFO ] [2023-09-05 14:28:38,958] Search_06- Step 07: Verify Search result 
+[INFO ] [2023-09-05 14:28:39,221] Search_07 - Step 01: Click to Radio button 'Advanced search' 
+[INFO ] [2023-09-05 14:28:39,317] Search_07 - Step 02: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-09-05 14:28:39,544] Search_07 - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-09-05 14:28:39,695] Search_07 - Step 04: Click to Radio button 'Automatically search sub categories' 
+[INFO ] [2023-09-05 14:28:39,813] Search_07 - Step 05: Select Dropdown Category with value is 'HP'
+[INFO ] [2023-09-05 14:28:40,001] Search_07- Step 06: Click to 'Search' button 
+[INFO ] [2023-09-05 14:28:40,623] Search_07- Step 07: Verify Search message 
+[INFO ] [2023-09-05 14:28:40,706] Search_08 - Step 01: Click to Radio button 'Advanced search' 
+[INFO ] [2023-09-05 14:28:40,803] Search_08 - Step 02: Enter to Search keyword textbox with value is 'Apple MacBook Pro'
+[INFO ] [2023-09-05 14:28:41,050] Search_08 - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-09-05 14:28:41,192] Search_08 - Step 04: Click to Radio button 'Automatically search sub categories' 
+[INFO ] [2023-09-05 14:28:41,283] Search_08 - Step 05: Select Dropdown Category with value is 'Apple'
+[INFO ] [2023-09-05 14:28:41,486] Search_08- Step 06: Click to 'Search' button 
+[INFO ] [2023-09-05 14:28:41,975] Search_08- Step 07: Verify Search result 
+[INFO ] [2023-09-07 16:13:25,561] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-07 16:13:27,149] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-07 16:13:27,393] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-07 16:13:28,255] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-07 16:13:28,550] Precondition - Step 05: Enter to Email textbox with value is 'afc9410@mail.vn'
+[INFO ] [2023-09-07 16:13:28,856] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-07 16:13:29,420] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-07 16:13:29,609] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-07 16:13:29,804] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-07 16:13:29,897] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-07 16:13:30,119] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-07 16:13:30,357] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-07 16:13:33,309] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-07 16:13:33,406] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-07 16:13:33,982] Precondition - Step 15: Enter to Email textbox with value is 'afc9410@mail.vn'
+[INFO ] [2023-09-07 16:13:34,185] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-07 16:13:34,406] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-07 16:13:35,358] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-07 16:13:35,485] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-07 16:13:36,723] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-07 16:13:36,825] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-07 16:13:37,608] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-07 16:13:37,716] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-07 16:13:40,440] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-07 16:13:40,626] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-07 16:13:41,591] OS name = windows 10
+[INFO ] [2023-09-07 16:13:41,591] Driver instance name = chromedriver: chrome on windows (d52e2a3890179cc8ff496eced540a184)
+[INFO ] [2023-09-08 14:36:28,600] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-08 14:36:29,607] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-08 14:36:29,884] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-08 14:36:30,235] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-08 14:36:30,478] Precondition - Step 05: Enter to Email textbox with value is 'afc4002@mail.vn'
+[INFO ] [2023-09-08 14:36:30,729] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-08 14:36:31,007] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-08 14:36:31,197] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-08 14:36:31,398] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-08 14:36:31,487] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 14:36:32,347] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-08 14:36:32,584] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-08 14:36:33,456] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-08 14:36:33,542] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-08 14:36:34,133] Precondition - Step 15: Enter to Email textbox with value is 'afc4002@mail.vn'
+[INFO ] [2023-09-08 14:36:34,355] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 14:36:34,568] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-08 14:36:35,488] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-08 14:36:35,607] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-08 14:36:36,407] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-08 14:36:36,534] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-08 14:36:37,505] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-08 14:36:37,596] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-08 14:36:40,258] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-08 14:36:40,433] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-08 14:36:40,787] TC_01 - Step 03: Navigate to 'Wishlist' page
+[INFO ] [2023-09-08 14:36:41,422] OS name = windows 10
+[INFO ] [2023-09-08 14:36:41,422] Driver instance name = chromedriver: chrome on windows (8cf00eb438ce4b267bc0fea77b9f1f97)
+[INFO ] [2023-09-08 16:30:39,715] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-08 16:30:41,435] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-08 16:30:41,944] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-08 16:30:42,316] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-08 16:30:42,546] Precondition - Step 05: Enter to Email textbox with value is 'afc2471@mail.vn'
+[INFO ] [2023-09-08 16:30:42,833] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-08 16:30:43,410] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-08 16:30:43,602] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-08 16:30:43,803] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-08 16:30:43,902] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:30:44,229] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:30:44,512] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-08 16:30:46,014] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-08 16:30:46,311] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-08 16:30:46,928] Precondition - Step 15: Enter to Email textbox with value is 'afc2471@mail.vn'
+[INFO ] [2023-09-08 16:30:47,145] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:30:47,352] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-08 16:30:48,193] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-08 16:30:48,324] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-08 16:30:50,442] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-08 16:30:50,539] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-08 16:30:52,029] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-08 16:30:52,132] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-08 16:30:54,213] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-08 16:30:54,365] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-08 16:30:54,746] TC_01 - Step 03: Navigate to 'Wishlist' page
+[INFO ] [2023-09-08 16:30:57,318] OS name = windows 10
+[INFO ] [2023-09-08 16:30:57,319] Driver instance name = chromedriver: chrome on windows (e60dca31d99a2454d2bbb9688f201020)
+[INFO ] [2023-09-08 16:36:55,491] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-08 16:36:57,049] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-08 16:36:57,255] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-08 16:36:57,518] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-08 16:36:57,742] Precondition - Step 05: Enter to Email textbox with value is 'afc1024@mail.vn'
+[INFO ] [2023-09-08 16:36:57,991] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-08 16:36:58,237] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-08 16:36:58,430] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-08 16:36:58,618] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-08 16:36:58,720] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:36:58,947] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:36:59,173] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-08 16:37:00,564] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-08 16:37:00,658] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-08 16:37:01,186] Precondition - Step 15: Enter to Email textbox with value is 'afc1024@mail.vn'
+[INFO ] [2023-09-08 16:37:01,408] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:37:01,626] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-08 16:37:02,576] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-08 16:37:02,709] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-08 16:37:03,365] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-08 16:37:03,460] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-08 16:37:04,699] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-08 16:37:04,821] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-08 16:37:07,280] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-08 16:37:07,553] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-08 16:37:07,914] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-08 16:37:08,070] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-08 16:37:10,262] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-08 16:37:10,360] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-08 16:37:11,007] OS name = windows 10
+[INFO ] [2023-09-08 16:37:11,008] Driver instance name = chromedriver: chrome on windows (a2fbd6952117ae857367300189c9b911)
+[INFO ] [2023-09-08 16:40:02,789] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-08 16:40:05,148] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-08 16:40:05,779] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-08 16:40:06,540] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-08 16:40:06,896] Precondition - Step 05: Enter to Email textbox with value is 'afc5802@mail.vn'
+[INFO ] [2023-09-08 16:40:07,131] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-08 16:40:07,780] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-08 16:40:07,972] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-08 16:40:08,166] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-08 16:40:08,260] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:40:08,538] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:40:08,754] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-08 16:40:09,921] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-08 16:40:10,090] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-08 16:40:10,620] Precondition - Step 15: Enter to Email textbox with value is 'afc5802@mail.vn'
+[INFO ] [2023-09-08 16:40:10,806] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:40:11,025] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-08 16:40:12,011] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-08 16:40:12,170] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-08 16:40:13,351] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-08 16:40:13,476] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-08 16:40:14,160] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-08 16:40:14,253] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-08 16:40:16,058] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-08 16:40:16,242] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-08 16:40:17,215] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-08 16:40:17,373] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-08 16:40:18,787] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-08 16:40:18,885] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-08 16:40:19,892] OS name = windows 10
+[INFO ] [2023-09-08 16:40:19,892] Driver instance name = chromedriver: chrome on windows (b56ae78cf6a41b16a96e1fc39b77fa42)
+[INFO ] [2023-09-08 16:45:55,080] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-08 16:46:01,011] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-08 16:46:02,065] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-08 16:46:04,216] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-08 16:46:04,816] Precondition - Step 05: Enter to Email textbox with value is 'afc9345@mail.vn'
+[INFO ] [2023-09-08 16:46:05,060] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-08 16:46:06,305] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-08 16:46:06,488] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-08 16:46:06,660] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-08 16:46:06,760] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:46:07,368] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:46:07,772] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-08 16:46:09,428] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-08 16:46:09,575] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-08 16:46:10,127] Precondition - Step 15: Enter to Email textbox with value is 'afc9345@mail.vn'
+[INFO ] [2023-09-08 16:46:10,353] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-08 16:46:10,628] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-08 16:46:11,507] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-08 16:46:11,655] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-08 16:46:12,505] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-08 16:46:12,585] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-08 16:46:13,206] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-08 16:46:13,324] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-08 16:46:15,400] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-08 16:46:15,614] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-08 16:46:15,942] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-08 16:46:16,496] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-08 16:46:19,953] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-08 16:46:20,061] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-11 11:34:29,290] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-11 11:34:31,674] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-11 11:34:32,603] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-11 11:34:32,871] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-11 11:34:33,102] Precondition - Step 05: Enter to Email textbox with value is 'afc8936@mail.vn'
+[INFO ] [2023-09-11 11:34:33,425] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-11 11:34:33,919] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-11 11:34:34,148] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-11 11:34:34,383] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-11 11:34:34,497] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 11:34:35,317] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-11 11:34:35,774] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-11 11:34:37,687] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-11 11:34:37,997] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-11 11:34:38,904] Precondition - Step 15: Enter to Email textbox with value is 'afc8936@mail.vn'
+[INFO ] [2023-09-11 11:34:39,129] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 11:34:39,404] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-11 11:34:40,370] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-11 11:34:40,557] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-11 11:34:41,588] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-11 11:34:41,712] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-11 11:34:43,704] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-11 11:34:44,165] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-11 11:34:49,390] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-11 11:34:49,780] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-11 11:34:50,562] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-11 11:34:50,780] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-11 11:34:51,917] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-11 11:34:52,033] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-11 11:34:52,157] TC_01 - Step 07: Click'Your wishlist URL for sharing:'
+[INFO ] [2023-09-11 11:34:52,309] TC_01 - Step 08: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-11 11:43:08,851] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-11 11:43:10,548] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-11 11:43:10,777] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-11 11:43:11,000] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-11 11:43:11,233] Precondition - Step 05: Enter to Email textbox with value is 'afc8464@mail.vn'
+[INFO ] [2023-09-11 11:43:11,462] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-11 11:43:11,724] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-11 11:43:11,908] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-11 11:43:12,109] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-11 11:43:12,207] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 11:43:12,461] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-11 11:43:12,679] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-11 11:43:13,721] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-11 11:43:13,812] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-11 11:43:14,439] Precondition - Step 15: Enter to Email textbox with value is 'afc8464@mail.vn'
+[INFO ] [2023-09-11 11:43:14,661] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 11:43:14,905] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-11 11:43:15,793] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-11 11:43:15,915] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-11 11:43:17,057] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-11 11:43:17,152] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-11 11:43:17,830] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-11 11:43:17,937] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-11 11:43:19,674] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-11 11:43:19,934] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-11 11:43:20,263] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-11 11:43:20,401] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-11 11:43:22,557] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-11 11:43:22,684] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-11 11:43:22,805] TC_01 - Step 07: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-11 11:43:23,400] TC_01 - Step 08: Verify 'Wishlist of fullName' title is displayed 

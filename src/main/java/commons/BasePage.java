@@ -87,7 +87,7 @@ public class BasePage {
 		sleepInSecond(3);
 	}
 	
-		public Alert waitForAlertPresence(WebDriver driver) {
+	public Alert waitForAlertPresence(WebDriver driver) {
 
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 		return explicitWait.until(ExpectedConditions.alertIsPresent());
@@ -578,6 +578,7 @@ public class BasePage {
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
 
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locatorType)));
+		
 	}
 	
 	public void waitForElementVisible(WebDriver driver, String locatorType, String... dynamicValues) {
@@ -917,10 +918,19 @@ public class BasePage {
 
 	}
 
+	public void selectItemProductPageSoftDropdown(WebDriver driver, String productPageSize) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.PRODUCT_PAGE_DROPDOWN);
+		selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.PRODUCT_PAGE_DROPDOWN, productPageSize);
+		sleepInSecond(3);
+
+	}
+	
+	
+	
 	public boolean isProductNameSortByAscending(WebDriver driver) {
 		ArrayList<String> productUIList = new ArrayList<String>();
 
-		List<WebElement> productNameText = getListWebElement(driver, BasePageNopCommerceUI.PRODUCT_NAME_TEXT);
+		List<WebElement> productNameText = getListWebElement(driver, BasePageNopCommerceUI.PRODUCT_LIST_NAME_TEXT);
 
 		for (WebElement productName : productNameText) {
 			productUIList.add(productName.getText());
@@ -946,7 +956,7 @@ public class BasePage {
 
 		ArrayList<String> productUIList = new ArrayList<String>();
 
-		List<WebElement> productNameText = getListWebElement(driver, BasePageNopCommerceUI.PRODUCT_NAME_TEXT);
+		List<WebElement> productNameText = getListWebElement(driver, BasePageNopCommerceUI.PRODUCT_LIST_NAME_TEXT);
 
 		for (WebElement productName : productNameText) {
 			productUIList.add(productName.getText());
@@ -1024,6 +1034,58 @@ public class BasePage {
 		return productSortList.equals(productUIList);
 	}
 
+	public boolean isNumberOfProductsPerPage(WebDriver driver, int numberOfProductsPerPage) {
+
+		ArrayList<String> productsListPerPage = new ArrayList<String>();
+
+		List<WebElement> productsPerPage = getListWebElement(driver, BasePageNopCommerceUI.PRODUCT_LIST_NAME_TEXT);
+
+		for (WebElement product : productsPerPage) {
+			productsListPerPage.add(product.getText());
+
+		}
+		
+		if (productsListPerPage.size() <= numberOfProductsPerPage) {
+			System.out.println("ProductName " + productsListPerPage  );
+
+			return true;
+
+		} else {
+			System.out.println("ProductName " + productsListPerPage  );
+			System.out.println("ProductSize " + productsListPerPage.size() );
+
+			return false;
+
+		}
+
+	}
+	
+	public void clickToPagingPageByText(WebDriver driver,String pagingName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PAGING_BY_TEXT, pagingName);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_PAGING_BY_TEXT, pagingName);
+		
+	}
+	
+	public boolean isPagingNameDisplayed(WebDriver driver,String pagingName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_PAGING_BY_TEXT, pagingName);
+		return isELementDisplayed(driver, BasePageNopCommerceUI.DYNAMIC_PAGING_BY_TEXT, pagingName);
+		
+		
+	}
+	
+	public boolean isPagingNameUndisplayed(WebDriver driver,String pagingName) {
+		waitForElementInvisible(driver, BasePageNopCommerceUI.DYNAMIC_PAGING_BY_TEXT, pagingName);
+		return isElementUndisplayed(driver, BasePageNopCommerceUI.DYNAMIC_PAGING_BY_TEXT, pagingName);
+		
+		
+	}
+	
+	public void clickToProductNameByText(WebDriver driver,String productName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_NAME_BY_TEXT, productName);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_NAME_BY_TEXT, productName);
+		
+	}
+	
 	// wordpress
 //	public UserHomePO openEndUserSite(WebDriver driver, String endUserUrl) {
 //		openPageUrl(driver, endUserUrl);

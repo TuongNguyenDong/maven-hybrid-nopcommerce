@@ -28,7 +28,9 @@ public class BasePageNopCommerceUI {
 	public static final String DYNAMIC_FOOTER_MENU_NAME = "xpath=//div[@class='footer']//div[contains(@class,'footer-block')]//a[text()='%s']";
 	
 	public static final String PRODUCT_ORDER_DROPDOWN = "xpath=//select[@name='products-orderby']";
-	public static final String PRODUCT_NAME_TEXT = "xpath=//div[@class='products-container']//div[@class='product-item']//h2[@class='product-title']/a";
+	public static final String PRODUCT_PAGE_DROPDOWN = "xpath=//select[@name='products-pagesize']";
+	public static final String PRODUCT_LIST_NAME_TEXT = "xpath=//div[@class='products-container']//div[@class='product-item']//h2[@class='product-title']/a";
 	public static final String PRODUCT_PRICE_TEXT = "xpath=//div[@class='products-container']//div[@class='product-item']//div[@class='prices']//span";
+	public static final String DYNAMIC_PAGING_BY_TEXT = "xpath=//div[@class='products-container']//div[@class='pager']//li/a[text()='%s']";
 
 }

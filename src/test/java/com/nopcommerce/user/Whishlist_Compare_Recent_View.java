@@ -13,26 +13,29 @@ import pageObjects.nopCommerce.user.UserComputersPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserNotebooksPageObject;
+import pageObjects.nopCommerce.user.UserProductsNamePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
+import pageObjects.nopCommerce.user.WishlistPageObject;
 
-public class Sort_Display_Paging extends BaseTest {
-	
+public class Whishlist_Compare_Recent_View extends BaseTest {
+
 	private WebDriver driver;
 	private String firstName, lastName, validPassword, emailAddress;
 	private String day, month, year;
-	private String nameAscending, nameDescending, priceLowToHight, priceHighToLow ;
-	private String threeProductsPerPage, sixProductsPerPage, nineProductsPerPage ;
+
 	
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
 	private UserComputersPageObject computersPage;
 	private UserNotebooksPageObject notebooksPage;
-	
-	
+	private UserProductsNamePageObject  productsNamePage;
+	private WishlistPageObject  wishlistPage;
+
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
 	public void beforeClass(String browerName, String enviromentName) {
+		
 		driver = getBrowserDriver(browerName, enviromentName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
@@ -43,13 +46,6 @@ public class Sort_Display_Paging extends BaseTest {
 		day = "10";
 		month = "May";
 		year = "1998";
-		nameAscending ="Name: A to Z";
-		nameDescending ="Name: Z to A";
-		priceLowToHight ="Price: Low to High";
-		priceHighToLow ="Price: High to Low";
-		threeProductsPerPage = "3";
-		sixProductsPerPage = "6";
-		nineProductsPerPage = "9";
 
 		log.info("Precondition - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
@@ -112,111 +108,68 @@ public class Sort_Display_Paging extends BaseTest {
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
 		log.info("Precondition - Step 21: Swith to 'Notebooks' page");
-		notebooksPage =   (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
+		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
 		
 		log.info("Precondition - Step 22: Verify 'Notebooks' title is displayed " );
 		Assert.assertTrue(notebooksPage.isPageTitleByText(driver, "Notebooks"));
 		
+		log.info("Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' " );
+		productsNamePage = notebooksPage.clickToProductByText(driver, "Apple MacBook Pro 13-inch");
 
 	}
 
 	@Test
-	public void Soft_01_Name_Ascending() {
+	public void TC_01_Add_To_Wishlist() {
+		log.info("TC_01 - Step 01: Click 'Add to wishlist'" );
+		productsNamePage.clickToOverviewButtonByText("Add to wishlist");
 		
-		log.info("Soft_01 - Step 01: Select Dropdown Product soft order with value is '" + nameAscending + "'" );
-		notebooksPage.selectItemProductSoftDropdown(driver, nameAscending);
-	
-		log.info("Soft_01 - Step 02: Verify Dropdown  Product soft order result is correct with value of '" + nameAscending + "'" );
-		Assert.assertTrue(notebooksPage.isProductNameSortByAscending(driver));
+		log.info("TC_01 - Step 02: Verify add to wishlist success message is displayed ");
+		Assert.assertTrue(productsNamePage.getAddToWishlistSuccessMessage().contains("The product has been added"));
 		
-	}
-	
-	@Test
-	public void Soft_02_Name_Decending() {
+		log.info("TC_01 - Step 03: Close 'Change Password' success message ");
+		productsNamePage.clickToCloseSuccessMessage();
 		
-		log.info("Soft_02 - Step 01: Select Dropdown Product soft order with value is '" + nameDescending + "'" );
-		notebooksPage.selectItemProductSoftDropdown(driver, nameDescending);
-	
-		log.info("Soft_02 - Step 02: Verify Dropdown  Product soft order result is correct with value of '" + nameDescending + "'" );
-		Assert.assertTrue(notebooksPage.isProductNameSortByDecending(driver));
+		log.info("TC_01 - Step 04: Navigate to 'Wishlist' page");
+		wishlistPage = productsNamePage.openWishlistPage();
 		
-	}
-	
-	@Test
-	public void Soft_03_Price_Low_To_High() {
+		log.info("TC_01 - Step 05: Verify 'Wishlist' title is displayed " );
+		Assert.assertTrue(wishlistPage.isPageTitleByText(driver, "Wishlist"));
 		
-		log.info("Soft_03 - Step 01: Select Dropdown Product soft order with value is '" + priceLowToHight + "'" );
-		notebooksPage.selectItemProductSoftDropdown(driver, priceLowToHight);
-	
-		log.info("Soft_03 - Step 02: Verify Dropdown  Product soft order result is correct with value of '" + priceLowToHight + "'" );
-		Assert.assertTrue(notebooksPage.isProductPriceSortByLowToHigh(driver));
+		log.info("TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed " );
+		Assert.assertEquals(wishlistPage.getTextProductByColumnAtRowNumber("Product(s)", "1"), "Apple MacBook Pro 13-inch");
 		
-	}
-	
-	@Test
-	public void Soft_04_Price_High_To_Low() {
+		log.info("TC_01 - Step 07: Click  To 'Your wishlist URL for sharing:'" );
+		wishlistPage.clickToWishlistSharingLink();
 		
-		log.info("Soft_04 - Step 01: Select Dropdown Product soft order with value is '" + priceHighToLow + "'" );
-		notebooksPage.selectItemProductSoftDropdown(driver, priceHighToLow);
-	
-		log.info("Soft_04 - Step 02: Verify Dropdown  Product soft order result is correct with value of '" + priceHighToLow + "'" );
-		Assert.assertTrue(notebooksPage.isProductPriceSortByHighToLow(driver));
-		
-	}
-	
-	@Test
-	public void Soft_05_Display_3_Products() {
-
-		log.info("Soft_05 - Step 01: Select Dropdown Product page size with value is '" + threeProductsPerPage + "'");
-		notebooksPage.selectItemProductPageSoftDropdown(driver, threeProductsPerPage);
-
-		log.info("Soft_05 - Step 02: Verify three product names are displayed. ");
-		Assert.assertTrue(notebooksPage.isNumberOfProductsPerPage(driver, 3));
-		
-		log.info("Soft_05 - Step 03: Verify Paging 'Next' Icon displayed" );
-		Assert.assertTrue(notebooksPage.isPagingNameDisplayed(driver, "Next"));
-		
-		log.info("Soft_05 - Step 04: Click to Paging Icon  '2' ");
-		notebooksPage.clickToPagingPageByText(driver, "2");
-		
-		log.info("Soft_05 - Step 03: Verify Paging 'Previous' Icon displayed" );
-		Assert.assertTrue(notebooksPage.isPagingNameDisplayed(driver, "Previous"));
-
-		
+		log.info("TC_01 - Step 08: Verify 'Wishlist of fullName' title is displayed " );
+		Assert.assertTrue(wishlistPage.isPageTitleByText(driver, "Wishlist of Automation FC"));
 		
 
 	}
 
 	@Test
-	public void Soft_06_Display_6_Products() {
-
-		log.info("Soft_06 - Step 01: Select Dropdown Product page size with value is '" + sixProductsPerPage + "'");
-		notebooksPage.selectItemProductPageSoftDropdown(driver, sixProductsPerPage);
-
-		log.info("Soft_06 - Step 02: Verify six product names are displayed. ");
-		Assert.assertTrue(notebooksPage.isNumberOfProductsPerPage(driver, 6));
-		
-		log.info("Soft_06 - Step 03: Verify Paging Icon 'Previous' undisplayed" );
-		Assert.assertTrue(notebooksPage.isPagingNameUndisplayed(driver, "Previous"));
+	public void TC_02_Add_To_Car_From_Wishlist() {
 
 	}
 
 	@Test
-	public void Soft_07_Display_9_Products() {
-
-		log.info("Soft_07 - Step 01: Select Dropdown Product page size with value is '" + nineProductsPerPage + "'");
-		notebooksPage.selectItemProductPageSoftDropdown(driver, nineProductsPerPage);
-
-		log.info("Soft_07 - Step 02: Verify nine product names are displayed. ");
-		Assert.assertTrue(notebooksPage.isNumberOfProductsPerPage(driver, 9));
-		
-		log.info("Soft_07 - Step 03: Verify Paging Icon'Next' undisplayed" );
-		Assert.assertTrue(notebooksPage.isPagingNameUndisplayed(driver, "Next"));
+	public void TC_03_Remove_Product_Wishlist() {
 
 	}
 	
-	@AfterClass(alwaysRun = true)
+	@Test
+	public void TC_04_Add_to_Compare() {
+		
+	}
+
+	@Test
+	public void TC_05_Recently_Reviewd_Products() {
+
+	}
+
+	@AfterClass
 	public void afterClass() {
+
 		//closeBrowserDriver();
 	}
 

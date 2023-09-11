@@ -3,8 +3,11 @@ package pageObjects.nopCommerce.user;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import commons.PageGeneratorManager;
+import pageUIs.nopCommerce.user.HomePageUI;
 import pageUIs.nopCommerce.user.RegisterPageUI;
 import pageUIs.nopCommerce.user.UserProductsNamePageUI;
+import pageUIs.nopCommerce.user.WishlistPageUI;
 
 public class UserProductsNamePageObject extends BasePage {
 	
@@ -29,6 +32,28 @@ public class UserProductsNamePageObject extends BasePage {
 	public String getProductReviewAddedSuccessMessage() {
 		waitForElementVisible(driver, UserProductsNamePageUI.MESSAGE_ADD_PRODUCT_REVIEW_SUCCESS);
 		return getElementText(driver, UserProductsNamePageUI.MESSAGE_ADD_PRODUCT_REVIEW_SUCCESS);
+	}
+
+	public void clickToOverviewButtonByText(String overviewName) {
+		waitForElementClickable(driver, UserProductsNamePageUI.DYNAMIC_OVERVIEW_BUTTON_BY_TEXT, overviewName);
+		clickToELement(driver, UserProductsNamePageUI.DYNAMIC_OVERVIEW_BUTTON_BY_TEXT, overviewName);	
+	}
+	
+	
+	public String getAddToWishlistSuccessMessage() {
+		waitForElementVisible(driver, UserProductsNamePageUI.MESSAGE_ADD_TO_WISHLIST_SUCCESS);
+		return getElementText(driver, UserProductsNamePageUI.MESSAGE_ADD_TO_WISHLIST_SUCCESS);
+	}
+
+	public WishlistPageObject openWishlistPage() {
+		waitForElementClickable(driver, WishlistPageUI.WISHLIST_LINK);
+		clickToELement(driver, WishlistPageUI.WISHLIST_LINK);
+		return PageGeneratorManager.getWishlistPage(driver);
+	}
+	
+	public void clickToCloseSuccessMessage() {
+		waitForElementClickable(driver, UserProductsNamePageUI.CLOSE_MESSAGE_ADD_TO_WISHLIST);
+		clickToELement(driver, UserProductsNamePageUI.CLOSE_MESSAGE_ADD_TO_WISHLIST);	
 	}
 
 }
