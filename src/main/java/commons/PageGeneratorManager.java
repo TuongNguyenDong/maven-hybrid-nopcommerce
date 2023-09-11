@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
+import pageObjects.nopCommerce.user.ShoppingCartPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
 import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
 import pageObjects.nopCommerce.user.UserComputersPageObject;
@@ -102,6 +103,11 @@ public class PageGeneratorManager {
 	
 	public static WishlistPageObject getWishlistPage(WebDriver driver) {
 		return new WishlistPageObject(driver);
+		
+	}
+	
+	public static ShoppingCartPageObject getShoppingCartPage(WebDriver driver) {
+		return new ShoppingCartPageObject(driver);
 		
 	}
 	

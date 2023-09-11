@@ -4,10 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import commons.PageGeneratorManager;
-import pageUIs.nopCommerce.user.HomePageUI;
-import pageUIs.nopCommerce.user.RegisterPageUI;
 import pageUIs.nopCommerce.user.UserProductsNamePageUI;
-import pageUIs.nopCommerce.user.WishlistPageUI;
 
 public class UserProductsNamePageObject extends BasePage {
 	
@@ -46,8 +43,8 @@ public class UserProductsNamePageObject extends BasePage {
 	}
 
 	public WishlistPageObject openWishlistPage() {
-		waitForElementClickable(driver, WishlistPageUI.WISHLIST_LINK);
-		clickToELement(driver, WishlistPageUI.WISHLIST_LINK);
+		waitForElementClickable(driver, UserProductsNamePageUI.WISHLIST_LINK);
+		clickToELement(driver, UserProductsNamePageUI.WISHLIST_LINK);
 		return PageGeneratorManager.getWishlistPage(driver);
 	}
 	

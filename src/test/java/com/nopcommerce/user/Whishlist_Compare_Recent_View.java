@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import commons.PageGeneratorManager;
+import pageObjects.nopCommerce.user.ShoppingCartPageObject;
 import pageObjects.nopCommerce.user.UserComputersPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
@@ -22,6 +23,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 	private WebDriver driver;
 	private String firstName, lastName, validPassword, emailAddress;
 	private String day, month, year;
+	private String wishlistUrl;
 
 	
 	private UserHomePageObject homePage;
@@ -31,6 +33,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 	private UserNotebooksPageObject notebooksPage;
 	private UserProductsNamePageObject  productsNamePage;
 	private WishlistPageObject  wishlistPage;
+	private ShoppingCartPageObject  shoppingCartPage;
 
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
@@ -132,6 +135,9 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		log.info("TC_01 - Step 04: Navigate to 'Wishlist' page");
 		wishlistPage = productsNamePage.openWishlistPage();
 		
+		log.info("Create_Post - Step 02: Get 'Search Posts' page Url");
+		wishlistUrl = wishlistPage.getPageUrl(driver);
+		
 		log.info("TC_01 - Step 05: Verify 'Wishlist' title is displayed " );
 		Assert.assertTrue(wishlistPage.isPageTitleByText(driver, "Wishlist"));
 		
@@ -149,6 +155,27 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 
 	@Test
 	public void TC_02_Add_To_Car_From_Wishlist() {
+		log.info("TC_02 - Step 01: Open 'Wishlist' page");
+		wishlistPage = wishlistPage.openWishlistPageUrl(wishlistUrl);
+		
+		log.info("TC_02 - Step 01: Click  To 'Add to cart'checkbox" );
+		wishlistPage.checkToCheckboxByColumnNameAtRowNumber("Add to cart", "1");
+		
+		log.info("TC_02 - Step 02: Click  To 'Add to cart'button" );
+		shoppingCartPage = wishlistPage.clickToAddToCartButton();
+		
+		log.info("TC_02 - Step 03: Verify 'Shopping cart' title is displayed " );
+		Assert.assertTrue(shoppingCartPage.isPageTitleByText(driver, "Shopping cart"));
+		
+		log.info("TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed " );
+		Assert.assertEquals(shoppingCartPage.getTextProductByColumnAtRowNumberatShoppingCart("Product(s)", "1"), "Apple MacBook Pro 13-inch");
+		
+		log.info("TC_02 - Step 05: Open 'Wishlist' page");
+		wishlistPage = wishlistPage.openWishlistPageUrl(wishlistUrl);
+		
+		log.info("TC_02 - Step 06: Verify 'Wishlist is empty' is displayed " );
+		Assert.assertTrue(wishlistPage.isWishlistEmptyMessage());
+		
 
 	}
 

@@ -5498,3 +5498,144 @@
 [INFO ] [2023-09-11 11:43:22,684] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
 [INFO ] [2023-09-11 11:43:22,805] TC_01 - Step 07: Click  To 'Your wishlist URL for sharing:'
 [INFO ] [2023-09-11 11:43:23,400] TC_01 - Step 08: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-11 15:46:54,200] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-11 15:46:56,588] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-11 15:46:56,947] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-11 15:46:57,547] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-11 15:46:57,818] Precondition - Step 05: Enter to Email textbox with value is 'afc5093@mail.vn'
+[INFO ] [2023-09-11 15:46:58,092] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-11 15:46:58,382] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-11 15:46:58,559] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-11 15:46:58,745] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-11 15:46:58,846] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 15:46:59,075] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-11 15:46:59,312] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-11 15:47:00,267] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-11 15:47:00,536] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-11 15:47:01,186] Precondition - Step 15: Enter to Email textbox with value is 'afc5093@mail.vn'
+[INFO ] [2023-09-11 15:47:01,389] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 15:47:01,589] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-11 15:47:02,999] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-11 15:47:03,114] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-11 15:47:03,958] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-11 15:47:04,085] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-11 15:47:04,977] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-11 15:47:05,092] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-11 15:47:07,283] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-11 15:47:07,460] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-11 15:47:07,869] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-11 15:47:08,036] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-11 15:47:09,527] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-11 15:47:09,641] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-11 15:47:09,762] TC_01 - Step 07: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-11 15:47:10,346] TC_01 - Step 08: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-11 15:47:10,920] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-11 15:47:11,131] TC_02 - Step 01: Click  To 'Add to cart'button
+[INFO ] [2023-09-11 21:32:18,108] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-11 21:32:26,791] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-11 21:32:28,575] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-11 21:32:31,251] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-11 21:32:31,480] Precondition - Step 05: Enter to Email textbox with value is 'afc9886@mail.vn'
+[INFO ] [2023-09-11 21:32:31,700] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-11 21:32:32,627] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-11 21:32:32,835] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-11 21:32:33,020] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-11 21:32:33,120] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 21:32:33,366] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-11 21:32:33,573] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-11 21:32:34,483] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-11 21:32:34,665] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-11 21:32:35,361] Precondition - Step 15: Enter to Email textbox with value is 'afc9886@mail.vn'
+[INFO ] [2023-09-11 21:32:35,613] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 21:32:35,811] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-11 21:32:36,767] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-11 21:32:36,892] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-11 21:32:39,353] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-11 21:32:39,459] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-11 21:32:40,834] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-11 21:32:40,971] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-11 21:32:43,858] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-11 21:32:44,078] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-11 21:32:44,459] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-11 21:32:44,646] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-11 21:32:46,919] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-11 21:32:47,064] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-11 21:32:47,183] TC_01 - Step 07: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-11 21:32:47,802] TC_01 - Step 08: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-11 21:32:48,926] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-11 21:32:49,262] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-11 21:32:50,855] TC_02 - Step 03: Click  To 'Add to cart'button
+[INFO ] [2023-09-11 22:02:39,563] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-11 22:02:41,808] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-11 22:02:42,017] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-11 22:02:42,259] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-11 22:02:42,478] Precondition - Step 05: Enter to Email textbox with value is 'afc2417@mail.vn'
+[INFO ] [2023-09-11 22:02:42,719] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-11 22:02:43,005] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-11 22:02:43,194] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-11 22:02:43,382] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-11 22:02:43,482] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 22:02:43,688] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-11 22:02:43,912] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-11 22:02:45,417] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-11 22:02:45,502] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-11 22:02:46,059] Precondition - Step 15: Enter to Email textbox with value is 'afc2417@mail.vn'
+[INFO ] [2023-09-11 22:02:46,278] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 22:02:46,483] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-11 22:02:47,400] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-11 22:02:47,505] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-11 22:02:49,587] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-11 22:02:49,686] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-11 22:02:51,065] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-11 22:02:51,150] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-11 22:02:54,373] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-11 22:02:54,533] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-11 22:02:54,887] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-11 22:02:55,031] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-11 22:02:57,130] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-11 22:02:57,243] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-11 22:02:57,395] TC_01 - Step 07: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-11 22:02:57,991] TC_01 - Step 08: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-11 22:02:58,494] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-11 22:02:58,714] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-11 22:03:00,303] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-11 22:03:00,385] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-11 22:36:51,589] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-11 22:36:54,154] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-11 22:36:54,595] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-11 22:36:55,363] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-11 22:36:55,710] Precondition - Step 05: Enter to Email textbox with value is 'afc1451@mail.vn'
+[INFO ] [2023-09-11 22:36:55,999] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-11 22:36:56,600] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-11 22:36:56,784] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-11 22:36:56,974] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-11 22:36:57,092] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 22:36:57,366] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-11 22:36:57,597] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-11 22:36:58,527] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-11 22:36:58,664] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-11 22:36:59,218] Precondition - Step 15: Enter to Email textbox with value is 'afc1451@mail.vn'
+[INFO ] [2023-09-11 22:36:59,482] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-11 22:36:59,703] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-11 22:37:00,606] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-11 22:37:00,756] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-11 22:37:01,566] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-11 22:37:01,735] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-11 22:37:02,346] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-11 22:37:02,497] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-11 22:37:05,851] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-11 22:37:06,145] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-11 22:37:06,519] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-11 22:37:07,058] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-11 22:37:08,157] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2023-09-11 22:37:08,183] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-11 22:37:08,317] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-11 22:37:08,481] TC_01 - Step 07: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-11 22:37:09,224] TC_01 - Step 08: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-11 22:37:09,973] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-11 22:37:10,407] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-11 22:37:10,673] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-11 22:37:11,631] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-11 22:37:11,768] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-11 22:37:11,900] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-11 22:37:12,251] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
