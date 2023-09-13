@@ -733,8 +733,16 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_FOOTER_MENU_NAME, pageName);
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_FOOTER_MENU_NAME, pageName);
 		switch (pageName) {
+		
 		case "Search":
-			return PageGeneratorManager.getUserSearchPage(driver);	
+			return PageGeneratorManager.getUserSearchPage(driver);
+			
+		case "Compare products list":
+			return PageGeneratorManager.getCompareProductsPage(driver);
+			
+		case "Recently viewed products":
+			return PageGeneratorManager.getRecentlyViewedProductsPage(driver);
+			
 		default: 
 			throw new RuntimeException("Invalid page name at Home Page menu");
 			
@@ -891,9 +899,6 @@ public class BasePage {
 		return PageGeneratorManager.getUserProductsNamePage(driver);
 	}
 	
-
-	
-    //Level_08_Swich_Role
 	public UserHomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_AT_USER);
 		clickToELement(driver, BasePageNopCommerceUI.LOGOUT_LINK_AT_USER);
@@ -1084,6 +1089,17 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_NAME_BY_TEXT, productName);
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_NAME_BY_TEXT, productName);
 		
+	}
+	
+	public void clickToAddToCompareListByProductTitile(WebDriver driver,String productTitle) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.ADD_TO_COMPARE_LIST_BY_PRODUCT_NAME, productTitle);
+		clickToELement(driver, BasePageNopCommerceUI.ADD_TO_COMPARE_LIST_BY_PRODUCT_NAME, productTitle);
+		sleepInSecond(1);
+	}
+	
+	public String getAddSuccessMessage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.MESSAGE_ADD_SUCCESS);
+		return getElementText(driver, BasePageNopCommerceUI.MESSAGE_ADD_SUCCESS);
 	}
 	
 	// wordpress

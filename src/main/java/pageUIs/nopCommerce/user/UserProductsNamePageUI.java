@@ -9,6 +9,7 @@ public class UserProductsNamePageUI {
 	public static final String MESSAGE_ADD_TO_WISHLIST_SUCCESS = "xpath=//div[contains(@class,'success')]/p";
 	public static final String CLOSE_MESSAGE_ADD_TO_WISHLIST = "xpath=//div[contains(@class,'success')]//span";
 	public static final String WISHLIST_LINK = "xpath=//a[@class='ico-wishlist']";
+	public static final String ITEM_SCOPE_LINK_BY_NAME = "xpath=//ul//li/a/span[text()='%s']";
 	
 
 

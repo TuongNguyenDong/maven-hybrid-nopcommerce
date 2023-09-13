@@ -52,5 +52,25 @@ public class UserProductsNamePageObject extends BasePage {
 		waitForElementClickable(driver, UserProductsNamePageUI.CLOSE_MESSAGE_ADD_TO_WISHLIST);
 		clickToELement(driver, UserProductsNamePageUI.CLOSE_MESSAGE_ADD_TO_WISHLIST);	
 	}
+	
+	
+	public BasePage openPageAtUserProductsPageByName(WebDriver driver, String pageName) {
+		waitForElementClickable(driver, UserProductsNamePageUI.ITEM_SCOPE_LINK_BY_NAME, pageName);
+		clickToELement(driver, UserProductsNamePageUI.ITEM_SCOPE_LINK_BY_NAME, pageName);
+		switch (pageName) {
+		case "Home":
+			return PageGeneratorManager.getUserHomePage(driver);
+		case "Computers":
+			return PageGeneratorManager.getCompareProductsPage(driver);
+		case "Notebooks":
+			return PageGeneratorManager.getUserNotebooksPage(driver);
+		
+		default:
+			throw new RuntimeException("Invalid page name at UserProducts page itemscope");
+
+		}
+
+	}
+	
 
 }

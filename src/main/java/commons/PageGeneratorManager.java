@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 
 import pageObjects.nopCommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopCommerce.admin.AdminLoginPageObject;
+import pageObjects.nopCommerce.user.CompareProductsPageObject;
+import pageObjects.nopCommerce.user.RecentlyViewedProductsPageObject;
 import pageObjects.nopCommerce.user.ShoppingCartPageObject;
 import pageObjects.nopCommerce.user.UserAddressPageObject;
 import pageObjects.nopCommerce.user.UserChangePasswordPageObject;
@@ -108,6 +110,16 @@ public class PageGeneratorManager {
 	
 	public static ShoppingCartPageObject getShoppingCartPage(WebDriver driver) {
 		return new ShoppingCartPageObject(driver);
+		
+	}
+	
+	public static CompareProductsPageObject getCompareProductsPage(WebDriver driver) {
+		return new CompareProductsPageObject(driver);
+		
+	}
+	
+	public static RecentlyViewedProductsPageObject getRecentlyViewedProductsPage(WebDriver driver) {
+		return new RecentlyViewedProductsPageObject(driver);
 		
 	}
 	

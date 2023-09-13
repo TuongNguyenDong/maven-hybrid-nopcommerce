@@ -52,4 +52,10 @@ public class WishlistPageObject extends BasePage {
 		waitForElementVisible(driver, WishlistPageUI.MESSAGE_WISHLIST_EMPTY);
 		return isELementDisplayed(driver,  WishlistPageUI.MESSAGE_WISHLIST_EMPTY);
 	}
+	
+	
+	public void clickToRemoveButtonByProductName( String productName) {
+		waitForElementClickable(driver, WishlistPageUI.REMOVE_BUTTON_BY_PRODUCT_NAME, productName);
+		clickToELement(driver, WishlistPageUI.REMOVE_BUTTON_BY_PRODUCT_NAME, productName);
+	}
 }

@@ -14,27 +14,7 @@ public class ShoppingCartPageObject extends BasePage {
 
 	}
 
-//	public String getTextProductByColumnAtRowNumber(String columnName, String rowNumber) {
-//
-//		int columnIndex = getElementSize(driver, WishlistPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
-//
-//		waitForElementVisible(driver, WishlistPageUI.TEXTBOX_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,
-//				String.valueOf(columnIndex));
-//		return getElementText(driver, WishlistPageUI.TEXTBOX_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,
-//				String.valueOf(columnIndex));
-//	}
-//
-//	public void clickToWishlistSharingLink() {
-//		waitForElementClickable(driver, WishlistPageUI.WISHLIST_SHARING);
-//		clickToELement(driver, WishlistPageUI.WISHLIST_SHARING);
-//	}
-//	
-//	public void checkToCheckboxByColumnNameAtRowNumber(String columnName, String rowNumber) {
-//		
-//	    int columnIndex = getElementSize(driver, WishlistPageUI.COLUMN_BY_NAME, columnName) ;
-//	    waitForElementClickable(driver, WishlistPageUI.CHECKBOX_BY_COLUMN_INDEX_AND_ROW_INDEX, rowNumber,String.valueOf(columnIndex));
-//	   checkToDefaultCheckboxOrRadio(driver, WishlistPageUI.CHECKBOX_BY_COLUMN_INDEX_AND_ROW_INDEX, rowNumber,String.valueOf(columnIndex));
-//	}
+
 	
 	public String getTextProductByColumnAtRowNumberatShoppingCart(String columnName, String rowNumber) {
 

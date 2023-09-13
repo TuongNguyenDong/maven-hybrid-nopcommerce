@@ -5639,3 +5639,881 @@
 [INFO ] [2023-09-11 22:37:11,768] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
 [INFO ] [2023-09-11 22:37:11,900] TC_02 - Step 05: Open 'Wishlist' page
 [INFO ] [2023-09-11 22:37:12,251] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 09:18:10,741] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 09:18:13,602] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 09:18:13,950] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 09:18:14,863] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 09:18:15,093] Precondition - Step 05: Enter to Email textbox with value is 'afc2262@mail.vn'
+[INFO ] [2023-09-12 09:18:15,414] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 09:18:16,001] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 09:18:16,192] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 09:18:16,415] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 09:18:16,551] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 09:18:16,825] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 09:18:17,111] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 09:18:18,275] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 09:18:18,449] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 09:18:19,326] Precondition - Step 15: Enter to Email textbox with value is 'afc2262@mail.vn'
+[INFO ] [2023-09-12 09:18:19,556] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 09:18:19,778] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-12 09:18:20,763] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-12 09:18:20,863] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-12 09:18:22,239] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 09:18:22,365] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 09:18:23,787] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 09:18:23,915] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-12 09:18:26,971] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-12 09:18:27,161] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 09:18:27,609] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-12 09:18:27,918] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 09:18:30,765] Create_Post - Step 02: Get 'Search Posts' page Url
+[INFO ] [2023-09-12 09:18:30,780] TC_01 - Step 05: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 09:18:32,271] TC_01 - Step 06: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 09:18:32,408] TC_01 - Step 07: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-12 09:18:32,918] TC_01 - Step 08: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-12 09:18:33,802] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-12 09:18:34,280] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-12 09:18:34,493] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-12 09:18:38,924] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-12 09:18:39,173] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 09:18:39,345] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-12 09:18:39,835] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 10:04:09,573] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 10:04:11,732] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 10:04:11,922] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 10:04:12,877] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 10:04:13,255] Precondition - Step 05: Enter to Email textbox with value is 'afc7198@mail.vn'
+[INFO ] [2023-09-12 10:04:13,496] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 10:04:14,176] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 10:04:14,378] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 10:04:14,567] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 10:04:14,668] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 10:04:14,904] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 10:04:15,114] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 10:04:16,587] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 10:04:16,685] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 10:04:17,287] Precondition - Step 15: Enter to Email textbox with value is 'afc7198@mail.vn'
+[INFO ] [2023-09-12 10:04:17,494] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 10:04:17,705] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-12 10:04:18,619] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-12 10:04:18,741] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-12 10:04:19,352] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 10:04:19,482] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 10:04:20,301] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 10:04:20,387] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-12 10:04:22,906] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-12 10:04:23,067] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 10:04:23,479] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-12 10:04:24,000] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 10:04:25,094] TC_03 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 10:04:25,110] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 10:04:25,215] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 10:04:25,319] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-12 10:04:25,854] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-12 10:04:26,303] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-12 10:04:26,658] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-12 10:04:26,863] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-12 10:04:27,741] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-12 10:04:27,849] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 10:04:27,940] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-12 10:04:28,366] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 10:04:28,512] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 10:04:29,101] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 10:04:29,193] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 10:04:29,869] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 10:04:29,988] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 10:04:30,595] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-12 10:04:30,778] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 10:04:31,135] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-12 10:04:31,301] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 10:04:33,367] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 10:04:33,381] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 10:04:33,480] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-12 10:04:33,604] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 10:04:34,163] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 14:57:36,376] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 14:57:38,398] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 14:57:38,747] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 14:57:39,217] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 14:57:39,413] Precondition - Step 05: Enter to Email textbox with value is 'afc5637@mail.vn'
+[INFO ] [2023-09-12 14:57:39,673] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 14:57:40,086] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 14:57:40,266] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 14:57:40,459] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 14:57:40,558] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 14:57:40,949] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 14:57:41,153] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 14:57:42,082] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 14:57:42,166] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 14:57:42,716] Precondition - Step 15: Enter to Email textbox with value is 'afc5637@mail.vn'
+[INFO ] [2023-09-12 14:57:42,910] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 14:57:43,128] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-12 14:57:44,059] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-12 14:57:44,173] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-12 14:57:44,937] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 14:57:45,043] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 14:57:46,369] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 14:57:46,476] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-12 14:57:48,570] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-12 14:57:48,761] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 14:57:49,144] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-12 14:57:49,281] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 14:57:51,590] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 14:57:51,599] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 14:57:51,711] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 14:57:51,833] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-12 14:57:52,387] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-12 14:57:52,772] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-12 14:57:53,227] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-12 14:57:53,438] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-12 14:57:54,992] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-12 14:57:55,083] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 14:57:55,187] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-12 14:57:55,573] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 14:57:55,684] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 14:57:57,397] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 14:57:57,522] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 14:57:58,237] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 14:57:58,343] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 14:57:59,671] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-12 14:57:59,803] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 14:58:00,214] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-12 14:58:00,380] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 14:58:03,024] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 14:58:03,043] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 14:58:03,144] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-12 14:58:03,232] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 14:58:03,692] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 14:58:03,872] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 14:58:05,600] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 14:58:05,723] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 14:58:06,636] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 14:58:06,748] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 14:58:06,889] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 14:58:07,252] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-12 14:58:07,544] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 17:04:25,027] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 17:04:28,848] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 17:04:29,629] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 17:04:30,188] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 17:04:30,411] Precondition - Step 05: Enter to Email textbox with value is 'afc6207@mail.vn'
+[INFO ] [2023-09-12 17:04:30,651] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 17:04:31,068] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 17:04:31,252] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 17:04:31,456] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 17:04:31,555] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 17:04:31,782] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 17:04:31,984] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 17:04:33,512] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 17:04:33,773] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 17:04:34,413] Precondition - Step 15: Enter to Email textbox with value is 'afc6207@mail.vn'
+[INFO ] [2023-09-12 17:04:34,615] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 17:04:34,827] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-12 17:04:35,662] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-12 17:04:35,741] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-12 17:04:36,492] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 17:04:36,598] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 17:04:37,346] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 17:04:37,474] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-12 17:04:40,689] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-12 17:04:40,900] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 17:04:41,277] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-12 17:04:41,418] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 17:04:43,598] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 17:04:43,606] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 17:04:43,711] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 17:04:43,820] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-12 17:04:44,418] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-12 17:04:45,999] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-12 17:04:46,443] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-12 17:04:46,741] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-12 17:04:48,355] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-12 17:04:48,474] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 17:04:48,608] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-12 17:04:49,043] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 17:04:49,172] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 17:04:50,571] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 17:04:50,705] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 17:04:51,348] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 17:04:51,455] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 17:04:52,785] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-12 17:04:52,935] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 17:04:53,332] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-12 17:04:53,478] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 17:04:56,217] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 17:04:56,232] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 17:04:56,339] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-12 17:04:56,446] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 17:04:57,170] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 17:04:57,287] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 17:04:58,525] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 17:04:58,628] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 17:04:59,351] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 17:04:59,457] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 17:04:59,658] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 17:05:00,033] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-12 17:05:00,184] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 17:05:00,276] TC_04 - Step 09: Navigate to 'Search' page
+[INFO ] [2023-09-12 17:05:00,955] TC_04 - Step 10: Verify 'Compare products' title is displayed 
+[INFO ] [2023-09-12 17:05:01,073] TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed 
+[INFO ] [2023-09-12 17:05:01,183] TC_04 - Step 11: Verify 'Asus N551JK-XO076H Laptop' product name is displayed 
+[INFO ] [2023-09-12 18:37:05,961] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 18:37:09,042] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 18:37:09,812] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 18:37:10,648] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 18:37:10,896] Precondition - Step 05: Enter to Email textbox with value is 'afc1359@mail.vn'
+[INFO ] [2023-09-12 18:37:11,193] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 18:37:11,763] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 18:37:11,961] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 18:37:12,170] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 18:37:12,265] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 18:37:12,514] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 18:37:12,732] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 18:37:14,330] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 18:37:14,611] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 18:37:16,730] Precondition - Step 15: Enter to Email textbox with value is 'afc1359@mail.vn'
+[INFO ] [2023-09-12 18:37:16,990] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 18:37:17,211] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-12 18:37:18,178] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-12 18:37:18,309] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-12 18:37:19,534] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 18:37:19,641] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 18:37:20,329] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 18:37:20,444] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-12 18:37:23,055] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-12 18:37:23,212] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 18:37:23,747] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-12 18:37:23,953] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 18:37:25,361] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 18:37:25,373] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 18:37:25,481] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 18:37:25,590] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-12 18:37:26,128] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-12 18:37:26,615] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-12 18:37:27,132] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-12 18:37:27,341] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-12 18:37:28,439] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-12 18:37:28,562] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 18:37:28,668] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-12 18:37:29,045] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 18:37:29,192] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 18:37:29,780] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 18:37:29,884] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 18:37:30,574] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 18:37:30,677] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 18:37:31,495] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-12 18:37:31,618] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 18:37:32,022] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-12 18:37:32,173] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 18:37:33,595] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 18:37:33,609] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 18:37:33,719] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-12 18:37:33,808] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 18:37:34,466] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 18:37:34,598] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 18:37:35,195] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 18:37:35,320] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 18:37:35,995] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 18:37:36,116] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 18:37:36,266] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 18:37:36,630] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-12 18:37:36,784] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 18:37:37,762] TC_04 - Step 09: Navigate to 'Search' page
+[INFO ] [2023-09-12 18:37:38,340] TC_04 - Step 10: Verify 'Compare products' title is displayed 
+[INFO ] [2023-09-12 18:37:38,447] TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed 
+[INFO ] [2023-09-12 18:37:38,570] TC_04 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product name is displayed 
+[INFO ] [2023-09-12 18:37:38,662] TC_04 - Step 13: Verify 'Price' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-12 18:46:12,981] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 18:46:15,585] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 18:46:15,766] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 18:46:16,053] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 18:46:16,254] Precondition - Step 05: Enter to Email textbox with value is 'afc177@mail.vn'
+[INFO ] [2023-09-12 18:46:16,502] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 18:46:16,772] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 18:46:16,951] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 18:46:17,122] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 18:46:17,219] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 18:46:17,427] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 18:46:17,631] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 18:46:19,503] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 18:46:19,602] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 18:46:20,213] Precondition - Step 15: Enter to Email textbox with value is 'afc177@mail.vn'
+[INFO ] [2023-09-12 18:46:20,453] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 18:46:20,653] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-12 18:46:21,624] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-12 18:46:21,742] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-12 18:46:23,375] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 18:46:23,474] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 18:46:24,390] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 18:46:24,472] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-12 18:46:25,768] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-12 18:46:25,927] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 18:46:26,399] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-12 18:46:26,547] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 18:46:28,031] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 18:46:28,039] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 18:46:28,136] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 18:46:28,252] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-12 18:46:28,784] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-12 18:46:29,093] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-12 18:46:29,567] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-12 18:46:29,764] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-12 18:46:30,693] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-12 18:46:30,771] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 18:46:30,859] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-12 18:46:31,312] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 18:46:31,441] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 18:46:32,047] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 18:46:32,131] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 18:46:32,706] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 18:46:32,840] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 18:46:33,565] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-12 18:46:33,692] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 18:46:34,087] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-12 18:46:34,600] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 18:46:35,710] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 18:46:35,721] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 18:46:35,800] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-12 18:46:35,919] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 18:46:36,500] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 18:46:36,664] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 18:46:37,228] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 18:46:37,329] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 18:46:37,917] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 18:46:38,028] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 18:46:38,169] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 18:46:38,573] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-12 18:46:38,733] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 18:46:38,836] TC_04 - Step 09: Navigate to 'Search' page
+[INFO ] [2023-09-12 18:46:39,450] TC_04 - Step 10: Verify 'Compare products' title is displayed 
+[INFO ] [2023-09-12 18:46:39,560] TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed 
+[INFO ] [2023-09-12 18:46:39,677] TC_04 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product name is displayed 
+[INFO ] [2023-09-12 18:46:39,773] TC_04 - Step 13: Verify 'Price' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-12 18:46:39,877] TC_04 - Step 14: Verify 'Price'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-12 18:46:39,972] TC_04 - Step 15: Verify 'Screensize'of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-12 18:46:40,093] TC_04 - Step 16: Verify 'Screensize'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-12 18:46:40,189] TC_04 - Step 17: Verify 'CPU Type' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-12 18:46:40,295] TC_04 - Step 18: Verify 'CPU Type'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-12 18:46:40,390] TC_04 - Step 17: Verify 'Memory' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-12 18:46:40,501] TC_04 - Step 18: Verify 'Memory'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-12 18:46:40,594] TC_04 - Step 17: Verify 'Hard drive' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-12 18:46:40,728] TC_04 - Step 18: Verify 'Hard drive'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-12 19:39:46,726] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 19:39:48,518] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 19:39:48,734] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 19:39:48,981] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 19:39:49,181] Precondition - Step 05: Enter to Email textbox with value is 'afc3655@mail.vn'
+[INFO ] [2023-09-12 19:39:49,423] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 19:39:49,687] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 19:39:49,864] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 19:39:50,052] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 19:39:50,158] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:39:50,366] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:39:50,583] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 19:39:52,105] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 19:39:52,208] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 19:39:52,750] Precondition - Step 15: Enter to Email textbox with value is 'afc3655@mail.vn'
+[INFO ] [2023-09-12 19:39:52,953] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:39:53,173] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-12 19:39:54,223] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-12 19:39:54,324] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-12 19:39:55,245] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 19:39:55,353] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 19:39:56,412] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 19:39:56,519] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-12 19:39:58,215] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-12 19:39:58,380] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 19:39:58,909] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-12 19:39:59,060] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 19:40:00,539] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 19:40:00,554] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 19:40:00,660] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 19:40:00,761] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-12 19:40:01,335] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-12 19:40:01,725] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-12 19:40:02,140] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-12 19:40:02,325] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-12 19:40:03,476] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-12 19:40:03,559] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 19:40:03,649] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-12 19:40:04,034] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 19:40:04,171] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 19:40:04,799] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 19:40:04,903] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 19:40:05,593] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 19:40:05,684] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 19:40:06,926] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-12 19:40:07,119] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 19:40:07,587] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-12 19:40:07,907] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 19:40:09,230] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 19:40:09,243] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 19:40:09,331] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-12 19:40:09,420] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 19:40:10,079] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 19:40:10,221] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 19:40:10,958] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 19:40:11,053] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 19:40:11,819] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 19:40:11,936] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 19:40:12,109] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 19:40:12,606] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-12 19:40:13,123] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 19:40:13,218] TC_04 - Step 09: Navigate to 'Search' page
+[INFO ] [2023-09-12 19:40:13,940] TC_04 - Step 10: Verify 'Compare products' title is displayed 
+[INFO ] [2023-09-12 19:40:14,021] TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed 
+[INFO ] [2023-09-12 19:44:28,948] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 19:44:30,314] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 19:44:30,517] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 19:44:30,758] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 19:44:30,966] Precondition - Step 05: Enter to Email textbox with value is 'afc9576@mail.vn'
+[INFO ] [2023-09-12 19:44:31,218] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 19:44:31,465] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 19:44:31,654] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 19:44:31,841] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 19:44:31,944] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:44:32,157] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:44:32,366] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 19:44:35,886] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 19:44:35,990] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 19:45:59,353] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 19:46:00,636] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 19:46:00,836] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 19:46:01,071] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 19:46:01,273] Precondition - Step 05: Enter to Email textbox with value is 'afc121@mail.vn'
+[INFO ] [2023-09-12 19:46:01,509] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 19:46:01,724] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 19:46:01,928] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 19:46:02,113] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 19:46:02,202] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:46:02,427] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:46:02,656] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 19:46:04,185] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 19:46:04,325] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 19:46:04,925] Precondition - Step 15: Enter to Email textbox with value is 'afc121@mail.vn'
+[INFO ] [2023-09-12 19:46:05,145] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:46:05,402] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-12 19:46:06,393] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-12 19:46:06,480] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-12 19:46:07,138] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 19:46:07,261] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 19:46:07,965] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 19:46:08,057] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-12 19:46:08,962] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-12 19:46:09,185] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 19:46:09,558] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-12 19:46:09,699] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 19:46:11,508] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 19:46:11,526] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 19:46:11,619] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 19:46:11,741] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-12 19:46:12,881] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-12 19:46:13,252] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-12 19:46:13,749] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-12 19:46:13,946] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-12 19:46:16,168] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-12 19:46:16,306] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 19:46:16,414] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-12 19:46:17,977] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 19:46:18,096] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 19:46:18,686] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 19:46:18,807] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 19:46:19,529] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 19:46:19,632] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 19:46:20,968] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-12 19:46:21,135] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 19:46:21,526] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-12 19:46:21,650] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 19:46:23,229] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 19:46:23,240] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 19:46:23,338] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-12 19:46:23,438] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 19:46:23,943] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 19:46:24,124] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 19:46:24,684] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 19:46:24,767] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 19:46:25,388] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 19:46:25,483] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 19:46:25,639] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 19:46:26,059] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-12 19:46:26,592] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 19:46:26,691] TC_04 - Step 09: Navigate to 'Search' page
+[INFO ] [2023-09-12 19:46:27,292] TC_04 - Step 10: Verify 'Compare products' title is displayed 
+[INFO ] [2023-09-12 19:46:27,397] TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed 
+[INFO ] [2023-09-12 19:57:48,604] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-12 19:57:50,206] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-12 19:57:50,471] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-12 19:57:50,692] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-12 19:57:51,122] Precondition - Step 05: Enter to Email textbox with value is 'afc8693@mail.vn'
+[INFO ] [2023-09-12 19:57:51,367] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-12 19:57:51,584] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-12 19:57:51,763] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-12 19:57:51,967] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-12 19:57:52,065] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:57:52,280] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:57:52,511] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-12 19:57:53,487] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-12 19:57:53,613] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-12 19:57:54,273] Precondition - Step 15: Enter to Email textbox with value is 'afc8693@mail.vn'
+[INFO ] [2023-09-12 19:57:54,509] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-12 19:57:54,721] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-12 19:57:55,691] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-12 19:57:55,803] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-12 19:57:56,559] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 19:57:56,645] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 19:57:57,384] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 19:57:57,523] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-12 19:57:58,507] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-12 19:57:58,710] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 19:57:59,173] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-12 19:57:59,735] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 19:58:00,858] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 19:58:00,878] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 19:58:00,992] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 19:58:01,098] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-12 19:58:01,761] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-12 19:58:02,164] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-12 19:58:02,628] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-12 19:58:02,829] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-12 19:58:03,779] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-12 19:58:03,904] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-12 19:58:03,992] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-12 19:58:04,502] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 19:58:04,617] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 19:58:05,265] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 19:58:05,420] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 19:58:06,140] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 19:58:06,258] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 19:58:06,991] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-12 19:58:07,180] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-12 19:58:07,611] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-12 19:58:08,156] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-12 19:58:09,257] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-12 19:58:09,277] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-12 19:58:09,377] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-12 19:58:09,458] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 19:58:10,085] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-12 19:58:10,201] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-12 19:58:10,854] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-12 19:58:10,980] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-12 19:58:11,669] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-12 19:58:11,788] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-12 19:58:11,953] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-12 19:58:12,284] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-12 19:58:12,487] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-13 10:01:51,217] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-13 10:01:52,895] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-13 10:01:53,146] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-13 10:01:53,604] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-13 10:01:53,928] Precondition - Step 05: Enter to Email textbox with value is 'afc3204@mail.vn'
+[INFO ] [2023-09-13 10:01:54,201] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-13 10:01:54,635] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-13 10:01:54,810] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-13 10:01:55,011] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-13 10:01:55,112] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-13 10:01:55,347] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-13 10:01:55,577] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-13 10:01:56,525] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-13 10:01:56,663] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-13 10:01:57,196] Precondition - Step 15: Enter to Email textbox with value is 'afc3204@mail.vn'
+[INFO ] [2023-09-13 10:01:57,405] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-13 10:01:57,617] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-13 10:01:58,633] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-13 10:01:58,744] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-13 10:01:59,551] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 10:01:59,652] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 10:02:00,920] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 10:02:01,047] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-13 10:02:04,601] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-13 10:02:04,810] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-13 10:02:05,202] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-13 10:02:05,475] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-13 10:02:06,940] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-13 10:02:06,950] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-13 10:02:07,121] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-13 10:02:07,244] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-13 10:02:07,754] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-13 10:02:09,375] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-13 10:02:09,890] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-13 10:02:10,093] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-13 10:02:11,150] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-13 10:02:11,253] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-13 10:02:11,396] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-13 10:02:11,928] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-13 10:02:12,155] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 10:02:12,796] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 10:02:12,905] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 10:02:13,539] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 10:02:13,662] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 10:02:14,650] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-13 10:02:14,815] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-13 10:02:15,174] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-13 10:02:15,342] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-13 10:02:16,794] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-13 10:02:16,808] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-13 10:02:16,920] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-13 10:02:17,028] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 10:02:17,704] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-13 10:02:17,871] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 10:02:21,865] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 10:02:21,953] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 10:02:22,597] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 10:02:22,711] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 10:02:22,899] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-13 10:02:23,218] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-13 10:02:23,402] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-13 10:02:23,527] TC_04 - Step 09: Navigate to 'Search' page
+[INFO ] [2023-09-13 10:02:24,244] TC_04 - Step 10: Verify 'Compare products' title is displayed 
+[INFO ] [2023-09-13 10:02:24,343] TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed 
+[INFO ] [2023-09-13 10:02:24,496] TC_04 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product name is displayed 
+[INFO ] [2023-09-13 10:02:24,661] TC_04 - Step 13: Verify 'Price' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 10:02:24,850] TC_04 - Step 14: Verify 'Price'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 10:02:24,967] TC_04 - Step 15: Verify 'Screensize'of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 10:02:25,159] TC_04 - Step 16: Verify 'Screensize'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 10:02:25,395] TC_04 - Step 17: Verify 'CPU Type' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 10:02:25,545] TC_04 - Step 18: Verify 'CPU Type'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 10:02:25,639] TC_04 - Step 17: Verify 'Memory' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 10:02:25,759] TC_04 - Step 18: Verify 'Memory'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 10:02:25,897] TC_04 - Step 17: Verify 'Hard drive' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 10:02:26,022] TC_04 - Step 18: Verify 'Hard drive'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 10:02:26,110] TC_04 - Step 19: Verify 'Remove Button' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 10:02:26,186] TC_04 - Step 20: Verify 'Remove Button'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 10:02:26,280] TC_04 - Step 21: Click To 'Clear List'
+[INFO ] [2023-09-13 10:02:29,915] TC_04 - Step 22: Verify 'Compare List is empty' is displayed 
+[INFO ] [2023-09-13 12:29:30,555] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-13 12:29:33,443] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-13 12:29:34,005] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-13 12:29:34,799] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-13 12:29:35,040] Precondition - Step 05: Enter to Email textbox with value is 'afc2848@mail.vn'
+[INFO ] [2023-09-13 12:29:35,291] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-13 12:29:36,050] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-13 12:29:36,252] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-13 12:29:36,443] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-13 12:29:36,534] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-13 12:29:36,814] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-13 12:29:37,031] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-13 12:29:38,673] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-13 12:29:38,975] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-13 12:29:39,598] Precondition - Step 15: Enter to Email textbox with value is 'afc2848@mail.vn'
+[INFO ] [2023-09-13 12:29:39,803] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-13 12:29:40,027] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-13 12:29:40,810] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-13 12:29:40,955] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:29:41,696] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:29:41,797] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:29:42,564] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:29:42,695] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-13 12:29:44,578] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-13 12:29:44,790] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-13 12:29:45,203] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-13 12:29:45,391] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-13 12:29:46,934] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-13 12:29:46,949] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-13 12:29:47,041] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-13 12:29:47,146] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-13 12:29:47,736] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-13 12:29:48,203] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-13 12:29:48,651] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-13 12:29:48,879] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-13 12:29:49,922] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-13 12:29:50,014] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-13 12:29:50,133] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-13 12:29:50,610] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-13 12:29:50,748] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:29:51,299] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:29:51,421] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:29:52,028] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:29:52,130] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:29:53,101] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-13 12:29:53,279] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-13 12:29:53,652] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-13 12:29:54,205] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-13 12:29:55,467] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-13 12:29:55,474] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-13 12:29:55,552] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-13 12:29:55,984] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:29:56,651] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-13 12:29:56,827] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:29:57,461] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:29:57,565] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:29:58,211] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:29:58,313] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:29:58,470] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-13 12:29:58,813] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-13 12:29:58,959] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-13 12:29:59,861] TC_05 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:40:12,949] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-13 12:40:14,354] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-13 12:40:14,574] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-13 12:40:14,832] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-13 12:40:15,040] Precondition - Step 05: Enter to Email textbox with value is 'afc2400@mail.vn'
+[INFO ] [2023-09-13 12:40:15,256] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-13 12:40:15,498] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-13 12:40:15,689] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-13 12:40:15,881] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-13 12:40:15,975] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-13 12:40:16,176] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-13 12:40:16,379] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-13 12:40:17,328] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-13 12:40:17,438] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-13 12:40:18,016] Precondition - Step 15: Enter to Email textbox with value is 'afc2400@mail.vn'
+[INFO ] [2023-09-13 12:40:18,222] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-13 12:40:18,428] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-13 12:40:19,335] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-13 12:40:19,423] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:40:20,279] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:40:20,374] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:40:21,573] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:40:21,670] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-13 12:40:23,249] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-13 12:40:23,415] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-13 12:40:23,872] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-13 12:40:24,033] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-13 12:40:25,689] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-13 12:40:25,700] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-13 12:40:25,834] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-13 12:40:25,956] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-13 12:40:26,563] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-13 12:40:27,323] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-13 12:40:27,731] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-13 12:40:27,937] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-13 12:40:29,490] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-13 12:40:29,618] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-13 12:40:29,748] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-13 12:40:30,203] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-13 12:40:30,358] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:40:31,031] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:40:31,146] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:40:31,809] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:40:31,907] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:40:32,519] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-13 12:40:32,687] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-13 12:40:33,067] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-13 12:40:33,212] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-13 12:40:34,678] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-13 12:40:34,694] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-13 12:40:34,790] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-13 12:40:34,884] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:40:35,335] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-13 12:40:35,502] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:40:36,079] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:40:36,160] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:40:36,945] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:40:37,054] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:40:37,208] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-13 12:40:37,594] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-13 12:40:37,760] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-13 12:40:37,843] TC_04 - Step 09: Navigate to 'Search' page
+[INFO ] [2023-09-13 12:40:38,442] TC_04 - Step 10: Verify 'Compare products' title is displayed 
+[INFO ] [2023-09-13 12:40:38,567] TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed 
+[INFO ] [2023-09-13 12:40:39,090] TC_05 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:40:39,758] TC_05 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:40:39,890] TC_05 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:40:40,510] TC_05 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:40:40,600] TC_05 - Step 05: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-13 12:40:41,158] TC_05 - Step 06: Swith to 'Notebooks' page From UserProducts Page
+[INFO ] [2023-09-13 12:40:41,767] TC_05 - Step 07: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:40:42,403] TC_05 - Step 08: Swith to 'Notebooks' page From UserProducts Page
+[INFO ] [2023-09-13 12:40:42,996] TC_05 - Step 09: Click Product name  with  title 'HP Envy 6-1180ca 15.6-Inch Sleekbook' 
+[INFO ] [2023-09-13 12:40:43,665] TC_05 - Step 10: Swith to 'Notebooks' page From UserProducts Page
+[INFO ] [2023-09-13 12:40:44,395] TC_05 - Step 11: Click Product name  with  title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-13 12:40:45,133] TC_05 - Step 12: Swith to 'Notebooks' page From UserProducts Page
+[INFO ] [2023-09-13 12:40:45,790] TC_05 - Step 13: Click Product name  with  title 'Lenovo Thinkpad X1 Carbon Laptop' 
+[INFO ] [2023-09-13 12:40:46,647] TC_05 - Step 14: Open 'Recently viewed products' page
+[INFO ] [2023-09-13 12:45:24,955] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-13 12:45:26,477] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-13 12:45:26,698] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-13 12:45:26,945] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-13 12:45:27,179] Precondition - Step 05: Enter to Email textbox with value is 'afc330@mail.vn'
+[INFO ] [2023-09-13 12:45:27,438] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-13 12:45:27,761] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-13 12:45:27,954] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-13 12:45:28,142] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-13 12:45:28,254] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-13 12:45:28,483] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-13 12:45:28,726] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-13 12:45:30,113] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-13 12:45:30,230] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-13 12:45:30,757] Precondition - Step 15: Enter to Email textbox with value is 'afc330@mail.vn'
+[INFO ] [2023-09-13 12:45:30,963] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-13 12:45:31,211] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-13 12:45:32,669] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-13 12:45:32,778] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:45:33,562] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:45:33,666] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:45:34,708] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:45:34,813] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-13 12:45:36,493] TC_01 - Step 01: Click 'Add to wishlist'
+[INFO ] [2023-09-13 12:45:36,669] TC_01 - Step 02: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-13 12:45:37,037] TC_01 - Step 03: Close 'Change Password' success message 
+[INFO ] [2023-09-13 12:45:37,194] TC_01 - Step 04: Navigate to 'Wishlist' page
+[INFO ] [2023-09-13 12:45:38,620] TC_01 - Step 05: Get 'Wishlist' page Url
+[INFO ] [2023-09-13 12:45:38,633] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-13 12:45:38,773] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-13 12:45:38,899] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
+[INFO ] [2023-09-13 12:45:39,486] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
+[INFO ] [2023-09-13 12:45:40,168] TC_02 - Step 01: Open 'Wishlist' page
+[INFO ] [2023-09-13 12:45:40,619] TC_02 - Step 01: Click  To 'Add to cart'checkbox
+[INFO ] [2023-09-13 12:45:40,829] TC_02 - Step 02: Click  To 'Add to cart'button
+[INFO ] [2023-09-13 12:45:41,930] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
+[INFO ] [2023-09-13 12:45:42,067] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
+[INFO ] [2023-09-13 12:45:42,197] TC_02 - Step 05: Open 'Wishlist' page
+[INFO ] [2023-09-13 12:45:42,652] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-13 12:45:42,765] TC_03 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:45:43,351] TC_03 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:45:43,482] TC_03 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:45:44,149] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:45:44,252] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:45:44,909] TC_03 - Step 06: Click 'Add to wishlist'
+[INFO ] [2023-09-13 12:45:45,056] TC_03 - Step 07: Verify add to wishlist success message is displayed 
+[INFO ] [2023-09-13 12:45:45,466] TC_03 - Step 08: Close 'Change Password' success message 
+[INFO ] [2023-09-13 12:45:45,624] TC_03 - Step 09: Navigate to 'Wishlist' page
+[INFO ] [2023-09-13 12:45:47,042] TC_03 - Step 10: Get 'Wishlist' page Url
+[INFO ] [2023-09-13 12:45:47,059] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
+[INFO ] [2023-09-13 12:45:47,152] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
+[INFO ] [2023-09-13 12:45:47,254] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:45:47,902] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
+[INFO ] [2023-09-13 12:45:48,011] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:45:48,606] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:45:48,696] TC_04 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:45:49,364] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:45:49,489] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:45:50,672] TC_04 - Step 06: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-13 12:45:50,776] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-13 12:45:51,923] TC_04 - Step 08: Verify add to compare list success message is displayed 
+[INFO ] [2023-09-13 12:45:52,016] TC_04 - Step 09: Navigate to 'Compare Products' page
+[INFO ] [2023-09-13 12:45:52,711] TC_04 - Step 10: Verify 'Compare products' title is displayed 
+[INFO ] [2023-09-13 12:45:52,841] TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed 
+[INFO ] [2023-09-13 12:45:52,985] TC_04 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product name is displayed 
+[INFO ] [2023-09-13 12:45:53,105] TC_04 - Step 13: Verify 'Price' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 12:45:53,259] TC_04 - Step 14: Verify 'Price'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 12:45:53,472] TC_04 - Step 15: Verify 'Screensize'of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 12:45:53,648] TC_04 - Step 16: Verify 'Screensize'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 12:45:53,783] TC_04 - Step 17: Verify 'CPU Type' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 12:45:53,909] TC_04 - Step 18: Verify 'CPU Type'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 12:45:54,063] TC_04 - Step 17: Verify 'Memory' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 12:45:54,191] TC_04 - Step 18: Verify 'Memory'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 12:45:54,278] TC_04 - Step 17: Verify 'Hard drive' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 12:45:54,390] TC_04 - Step 18: Verify 'Hard drive'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 12:45:54,488] TC_04 - Step 19: Verify 'Remove Button' of HP Spectre XT Pro UltraBook is displayed 
+[INFO ] [2023-09-13 12:45:54,580] TC_04 - Step 20: Verify 'Remove Button'of Asus N551JK-XO076H Laptop is displayed 
+[INFO ] [2023-09-13 12:45:54,672] TC_04 - Step 21: Click To 'Clear List'
+[INFO ] [2023-09-13 12:45:55,661] TC_04 - Step 22: Verify 'Compare List is empty' is displayed 
+[INFO ] [2023-09-13 12:45:55,811] TC_05 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-13 12:45:56,427] TC_05 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-13 12:45:56,538] TC_05 - Step 03: Swith to 'Notebooks' page
+[INFO ] [2023-09-13 12:45:57,286] TC_05 - Step 04: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-13 12:45:57,428] TC_05 - Step 05: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
+[INFO ] [2023-09-13 12:45:58,245] TC_05 - Step 06: Swith to 'Notebooks' page From UserProducts Page
+[INFO ] [2023-09-13 12:45:58,865] TC_05 - Step 07: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
+[INFO ] [2023-09-13 12:45:59,738] TC_05 - Step 08: Swith to 'Notebooks' page From UserProducts Page
+[INFO ] [2023-09-13 12:46:00,377] TC_05 - Step 09: Click Product name  with  title 'HP Envy 6-1180ca 15.6-Inch Sleekbook' 
+[INFO ] [2023-09-13 12:46:01,132] TC_05 - Step 10: Swith to 'Notebooks' page From UserProducts Page
+[INFO ] [2023-09-13 12:46:01,899] TC_05 - Step 11: Click Product name  with  title 'HP Spectre XT Pro UltraBook' 
+[INFO ] [2023-09-13 12:46:02,761] TC_05 - Step 12: Swith to 'Notebooks' page From UserProducts Page
+[INFO ] [2023-09-13 12:46:03,782] TC_05 - Step 13: Click Product name  with  title 'Lenovo Thinkpad X1 Carbon Laptop' 
+[INFO ] [2023-09-13 12:46:04,718] TC_05 - Step 14: Open 'Recently viewed products' page
+[INFO ] [2023-09-13 12:46:05,403] TC_05 - Step 15: Verify 'Recently viewed products' title is displayed 
+[INFO ] [2023-09-13 12:46:05,492] TC_05 - Step 16: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product Name is displayed 
+[INFO ] [2023-09-13 12:46:05,606] TC_05 - Step 17: Verify 'HP Spectre XT Pro UltraBook' product Name is displayed 
+[INFO ] [2023-09-13 12:46:05,693] TC_05 - Step 18: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product Name is displayed 
