@@ -172,7 +172,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		Assert.assertTrue(shoppingCartPage.isPageTitleByText(driver, "Shopping cart"));
 		
 		log.info("TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed " );
-		Assert.assertEquals(shoppingCartPage.getTextProductByColumnAtRowNumberatShoppingCart("Product(s)", "1"), "Apple MacBook Pro 13-inch");
+		Assert.assertEquals(shoppingCartPage.getTextLinkNameProductByColumnAtRowNumberatShoppingCart("Product(s)", "1"), "Apple MacBook Pro 13-inch");
 		
 		log.info("TC_02 - Step 05: Open 'Wishlist' page");
 		wishlistPage = wishlistPage.openWishlistPageUrl(wishlistUrl);

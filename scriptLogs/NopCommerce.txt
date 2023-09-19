@@ -1,47 +1,61 @@
-[INFO ] [2023-09-19 15:22:02,361] Precondition - Step 01: Navigate to 'Register' page
-[INFO ] [2023-09-19 15:22:18,898] Precondition - Step 02: Click to Radio button 'Male' 
-[INFO ] [2023-09-19 15:22:20,270] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
-[INFO ] [2023-09-19 15:22:25,361] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
-[INFO ] [2023-09-19 15:22:25,947] Precondition - Step 05: Enter to Email textbox with value is 'afc5088@mail.vn'
-[INFO ] [2023-09-19 15:22:26,305] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
-[INFO ] [2023-09-19 15:22:27,684] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
-[INFO ] [2023-09-19 15:22:27,870] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
-[INFO ] [2023-09-19 15:22:28,059] Precondition - Step 02: Click to Checkbox 'Newsletter' 
-[INFO ] [2023-09-19 15:22:28,205] Precondition - Step 10: Enter to Password textbox with value is '1234556'
-[INFO ] [2023-09-19 15:22:28,675] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
-[INFO ] [2023-09-19 15:22:28,945] Precondition - Step 12: Click to 'Register' button 
-[INFO ] [2023-09-19 15:22:31,346] Precondition - Step 13: Verify register success message is displayed 
-[INFO ] [2023-09-19 15:22:31,591] Precondition - Step 14: Navigate to 'Login' page
-[INFO ] [2023-09-19 15:22:32,216] Precondition - Step 15: Enter to Email textbox with value is 'afc5088@mail.vn'
-[INFO ] [2023-09-19 15:22:32,424] Precondition - Step 16: Enter to Password textbox with value is '1234556'
-[INFO ] [2023-09-19 15:22:32,834] Precondition - Step 17: Click to 'Log in' button
-[INFO ] [2023-09-19 15:22:34,096] Precondition - Step 18: Verify 'My Account' link is displayed 
-[INFO ] [2023-09-19 15:22:34,242] Precondition - Step 19: Swith to 'Computers' page
-[INFO ] [2023-09-19 15:22:35,170] Precondition - Step 20: Verify 'Computers' title is displayed 
-[INFO ] [2023-09-19 15:22:35,289] Precondition - Step 21: Swith to 'Desktops' page
-[INFO ] [2023-09-19 15:22:36,326] Precondition - Step 22: Verify 'Desktops' title is displayed 
-[INFO ] [2023-09-19 15:22:36,425] Precondition - Step 23: Click Product name  with  title 'Build your own computer' 
-[INFO ] [2023-09-19 15:22:40,987] TC_01 - Step 01: Select Dropdown 'Processor' with value is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
-[INFO ] [2023-09-19 15:22:41,128] TC_01 - Step 02: Select Dropdown 'RAM' with value is '2 GB'
-[INFO ] [2023-09-19 15:22:41,326] TC_01 - Step 03: Click to 'HDD' Radio button with value is '400 GB [+$100.00]'
-[INFO ] [2023-09-19 15:22:41,497] TC_01 - Step 04: Click to 'OS' Radio button with value is 'Vista Premium [+$60.00]'
-[INFO ] [2023-09-19 15:22:41,651] TC_01 - Step 05: Click to 'Software' Checkbox with value is 'Acrobat Reader [+$10.00]'
-[INFO ] [2023-09-19 15:22:41,828] TC_01 - Step 06: Click to 'Software' Checkbox with value is 'Total Commander [+$5.00]'
-[INFO ] [2023-09-19 15:22:41,988] TC_01 - Step 07: Click to Add To Cart button
-[INFO ] [2023-09-19 15:22:42,312] TC_01 - Step 08: Verify add to cart success message is displayed 
-[INFO ] [2023-09-19 15:22:42,686] TC_01 - Step 09: Click to Close add to Cart success message
-[INFO ] [2023-09-19 15:22:43,237] TC_01 - Step 10: Verify Quantity Shopping Cart link is '1' is displayed 
-[INFO ] [2023-09-19 15:22:43,323] TC_01 - Step 11:Hover to Shopping Cart Link
-[INFO ] [2023-09-19 15:22:43,934] TC_01 - Step 12: Verify Mini Shopping Cart count is 'There are 1 item(s) in your cart.' is displayed 
-[INFO ] [2023-09-19 15:22:44,027] TC_01 - Step 13: Verify Mini Shopping Cart name is 'Build your own computer' is displayed 
-[INFO ] [2023-09-19 15:22:44,104] TC_01 - Step 14: Verify Mini Shopping Cart Price is '$1,440.00' is displayed 
-[INFO ] [2023-09-19 15:22:44,191] TC_01 - Step 15: Verify Mini Shopping Cart Quantity is '1' is displayed 
-[INFO ] [2023-09-19 15:22:44,273] TC_01 - Step 16: Verify Mini Shopping Cart Sub Total is '$1,440.00' is displayed 
-[INFO ] [2023-09-19 15:22:44,352] TC_01 - Step 17: Verify Mini Shopping Cart Attribute is 'Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]' is displayed 
-[INFO ] [2023-09-19 15:22:44,455] TC_01 - Step 18: Verify Mini Shopping Cart Attribute is 'RAM: 2 GB' is displayed 
-[INFO ] [2023-09-19 15:22:44,539] TC_01 - Step 19: Verify Mini Shopping Cart Attribute is 'HDD: 400 GB [+$100.00]' is displayed 
-[INFO ] [2023-09-19 15:22:44,617] TC_01 - Step 20: Verify Mini Shopping Cart Attribute is 'OS: Vista Premium [+$60.00]' is displayed 
-[INFO ] [2023-09-19 15:22:44,698] TC_01 - Step 21: Verify Mini Shopping Cart Attribute is 'Software: Microsoft Office [+$50.00]' is displayed 
-[INFO ] [2023-09-19 15:22:44,756] TC_01 - Step 22: Verify Mini Shopping Cart Attribute is 'Software: Acrobat Reader [+$10.00] is displayed 
-[INFO ] [2023-09-19 15:22:44,823] TC_01 - Step 23: Verify Mini Shopping Cart Attribute is 'Software: Total Commander [+$5.00]' is displayed 
-[INFO ] [2023-09-19 15:22:45,350] TC_02 - Step 01: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-19 19:10:38,334] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-19 19:10:46,556] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-19 19:10:46,750] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-19 19:10:47,021] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-19 19:10:47,329] Precondition - Step 05: Enter to Email textbox with value is 'afc4299@mail.vn'
+[INFO ] [2023-09-19 19:10:47,629] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-19 19:10:50,690] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-19 19:10:50,874] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-19 19:10:51,054] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-19 19:10:51,155] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-19 19:10:51,374] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-19 19:10:51,594] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-19 19:10:53,115] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-19 19:10:53,235] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-19 19:10:53,800] Precondition - Step 15: Enter to Email textbox with value is 'afc4299@mail.vn'
+[INFO ] [2023-09-19 19:10:54,016] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-19 19:10:54,213] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-19 19:10:55,119] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-19 19:10:55,217] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-19 19:10:56,274] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-19 19:10:56,384] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-19 19:10:57,660] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-19 19:10:57,795] Precondition - Step 23: Click Product name  with  title 'Build your own computer' 
+[INFO ] [2023-09-19 19:11:06,294] TC_01 - Step 01: Select Dropdown 'Processor' with value is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[INFO ] [2023-09-19 19:11:06,537] TC_01 - Step 02: Select Dropdown 'RAM' with value is '2 GB'
+[INFO ] [2023-09-19 19:11:06,727] TC_01 - Step 03: Click to 'HDD' Radio button with value is '400 GB [+$100.00]'
+[INFO ] [2023-09-19 19:11:06,894] TC_01 - Step 04: Click to 'OS' Radio button with value is 'Vista Premium [+$60.00]'
+[INFO ] [2023-09-19 19:11:07,064] TC_01 - Step 05: Click to 'Software' Checkbox with value is 'Acrobat Reader [+$10.00]'
+[INFO ] [2023-09-19 19:11:07,228] TC_01 - Step 06: Click to 'Software' Checkbox with value is 'Total Commander [+$5.00]'
+[INFO ] [2023-09-19 19:11:07,380] TC_01 - Step 07: Click to Add To Cart button
+[INFO ] [2023-09-19 19:11:07,658] TC_01 - Step 08: Verify add to cart success message is displayed 
+[INFO ] [2023-09-19 19:11:11,350] TC_01 - Step 09: Click to Close add to Cart success message
+[INFO ] [2023-09-19 19:11:11,529] TC_01 - Step 10: Verify Quantity Shopping Cart link is '1' is displayed 
+[INFO ] [2023-09-19 19:11:11,615] TC_01 - Step 11:Hover to Shopping Cart Link
+[INFO ] [2023-09-19 19:11:12,144] TC_01 - Step 12: Verify Mini Shopping Cart count is 'There are 1 item(s) in your cart.' is displayed 
+[INFO ] [2023-09-19 19:11:12,812] TC_01 - Step 13: Verify Mini Shopping Cart name is 'Build your own computer' is displayed 
+[INFO ] [2023-09-19 19:11:12,904] TC_01 - Step 14: Verify Mini Shopping Cart Price is '$1,440.00' is displayed 
+[INFO ] [2023-09-19 19:11:12,980] TC_01 - Step 15: Verify Mini Shopping Cart Quantity is '1' is displayed 
+[INFO ] [2023-09-19 19:11:13,061] TC_01 - Step 16: Verify Mini Shopping Cart Sub Total is '$1,440.00' is displayed 
+[INFO ] [2023-09-19 19:11:13,137] TC_01 - Step 17: Verify Mini Shopping Cart Attribute is 'Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]' is displayed 
+[INFO ] [2023-09-19 19:11:13,353] TC_01 - Step 18: Verify Mini Shopping Cart Attribute is 'RAM: 2 GB' is displayed 
+[INFO ] [2023-09-19 19:11:13,461] TC_01 - Step 19: Verify Mini Shopping Cart Attribute is 'HDD: 400 GB [+$100.00]' is displayed 
+[INFO ] [2023-09-19 19:11:13,550] TC_01 - Step 20: Verify Mini Shopping Cart Attribute is 'OS: Vista Premium [+$60.00]' is displayed 
+[INFO ] [2023-09-19 19:11:13,630] TC_01 - Step 21: Verify Mini Shopping Cart Attribute is 'Software: Microsoft Office [+$50.00]' is displayed 
+[INFO ] [2023-09-19 19:11:13,690] TC_01 - Step 22: Verify Mini Shopping Cart Attribute is 'Software: Acrobat Reader [+$10.00] is displayed 
+[INFO ] [2023-09-19 19:11:13,765] TC_01 - Step 23: Verify Mini Shopping Cart Attribute is 'Software: Total Commander [+$5.00]' is displayed 
+[INFO ] [2023-09-19 19:11:17,573] TC_02 - Step 01: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-19 19:11:21,588] TC_02 - Step 02: Click to 'Edit' link
+[INFO ] [2023-09-19 19:11:23,114] TC_02 - Step 03: Enter to Product Qty textbox by Update Button 
+[INFO ] [2023-09-19 19:11:23,423] TC_02 - Step 04: Click to 'Update' button
+[INFO ] [2023-09-19 19:11:23,644] TC_02 - Step 08: Verify add to cart success message is displayed 
+[INFO ] [2023-09-19 19:11:24,130] TC_02 - Step 09: Click to Close add to Cart success message
+[INFO ] [2023-09-19 19:11:24,650] TC_02 - Step 10: Verify Quantity Shopping Cart link is '2' is displayed 
+[INFO ] [2023-09-19 19:11:24,741] TC_02 - Step 11:Hover to Shopping Cart Link
+[INFO ] [2023-09-19 19:11:24,940] TC_02 - Step 12: Verify Mini Shopping Cart Price is '$1,440.00' is displayed 
+[INFO ] [2023-09-19 19:11:25,600] TC_02 - Step 13: Verify Mini Shopping Cart Quantity is '2' is displayed 
+[INFO ] [2023-09-19 19:11:25,677] TC_02 - Step 14: Verify Mini Shopping Cart Sub Total is '$2,880.00' is displayed 
+[INFO ] [2023-09-19 19:11:25,757] TC_02 - Step 15: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-19 19:11:26,356] TC_02 - Step 16: Verify 'Qty' product is '2' is displayed 
+[INFO ] [2023-09-19 19:11:26,485] TC_02 - Step 17: Verify 'Price' product is '$1,440.00' is displayed 
+[INFO ] [2023-09-19 19:11:27,249] TC_02 - Step 18: Verify 'Total' product is '$2,880.00' is displayed 

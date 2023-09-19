@@ -90,8 +90,8 @@ public class UserProductsNamePageObject extends BasePage {
 	}
 	
 	public void clickAddToCartAtOverviewClass() {
-		waitForElementClickable(driver, UserProductsNamePageUI.ADD_TO_CART_AT_OVERVIEW_CLASS );
-		clickToELement(driver, UserProductsNamePageUI.ADD_TO_CART_AT_OVERVIEW_CLASS);
+		waitForElementClickable(driver, UserProductsNamePageUI.ADD_TO_CART_BUTTON_AT_OVERVIEW_CLASS );
+		clickToELement(driver, UserProductsNamePageUI.ADD_TO_CART_BUTTON_AT_OVERVIEW_CLASS);
 		
 	}
 	
@@ -149,5 +149,18 @@ public class UserProductsNamePageObject extends BasePage {
 		return getElementText(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_ATTRIBUTES_PR);
 
 	}
-
+	
+	public void clickUpdateButtonAtOverviewClass() {
+		waitForElementClickable(driver, UserProductsNamePageUI.UPDATE_BUTTON_AT_OVERVIEW_CLASS );
+		clickToELement(driver, UserProductsNamePageUI.UPDATE_BUTTON_AT_OVERVIEW_CLASS);
+	}
+	
+	public void inputToQtyByButtonNameAtOverviewClass(String buttonName,String qtyNumber) {
+		waitForElementVisible(driver, UserProductsNamePageUI.QTY_INPUT_BY_BUTTON_TEXT_AT_OVERVIEW_CLASS, buttonName );
+		sendkeyToElement(driver, UserProductsNamePageUI.QTY_INPUT_BY_BUTTON_TEXT_AT_OVERVIEW_CLASS, qtyNumber, buttonName );
+	}
+	
+	
+	
+	
 }

@@ -195,11 +195,52 @@ public class Order extends BaseTest {
 	}
 	
 	@Test
-	public void TC_02_Edit_Product_To_Cart() {
+	public void TC_02_Edit_Product_In_Shopping_Cart() {
 		
 		log.info("TC_02 - Step 01: Navigate to 'Shopping Cart' page");
 		shoppingCartPage = productsNamePage.openShoppingCartPage();
 		
+		log.info("TC_02 - Step 02: Click to 'Edit' link");
+		productsNamePage = shoppingCartPage.clickToEditItemLink();
+		
+		log.info("TC_02 - Step 03: Enter to Product Qty textbox by Update Button ");
+		productsNamePage.inputToQtyByButtonNameAtOverviewClass("Update", "2");;
+		
+		log.info("TC_02 - Step 04: Click to 'Update' button");
+		productsNamePage.clickUpdateButtonAtOverviewClass();
+		
+		log.info("TC_02 - Step 08: Verify add to cart success message is displayed ");
+		Assert.assertTrue(productsNamePage.getAddSuccessMessage(driver).contains("The product has been added"));
+		
+		log.info("TC_02 - Step 09: Click to Close add to Cart success message");
+		productsNamePage.clickToCloseAtToCartSuccessMessage();
+		
+		log.info("TC_02 - Step 10: Verify Quantity Shopping Cart link is '2' is displayed " );
+		Assert.assertEquals(productsNamePage.isShoppingCartQtyByText("Shopping cart"), "(2)");
+		
+		log.info("TC_02 - Step 11:Hover to Shopping Cart Link");
+		productsNamePage.hoverToShoppingCartLink();
+		
+		log.info("TC_02 - Step 12: Verify Mini Shopping Cart Price is '$1,440.00' is displayed ");
+		Assert.assertEquals(productsNamePage.isMiniShoppingCartPrice(), "$1,440.00");
+
+		log.info("TC_02 - Step 13: Verify Mini Shopping Cart Quantity is '2' is displayed ");
+		Assert.assertEquals(productsNamePage.isMiniShoppingCartQuantity(), "2");
+		
+		log.info("TC_02 - Step 14: Verify Mini Shopping Cart Sub Total is '$2,880.00' is displayed ");
+		Assert.assertEquals(productsNamePage.isMiniShoppingCartSubTotal(), "$2,880.00");
+		
+		log.info("TC_02 - Step 15: Navigate to 'Shopping Cart' page");
+		shoppingCartPage = productsNamePage.openShoppingCartPage();
+		
+		log.info("TC_02 - Step 16: Verify 'Qty' product is '2' is displayed " );
+		Assert.assertEquals(shoppingCartPage.getValueTextBoxProductByColumnAtRowNumberatShoppingCart("Qty.", "1"), "2");
+		
+		log.info("TC_02 - Step 17: Verify 'Price' product is '$1,440.00' is displayed " );
+		Assert.assertEquals(shoppingCartPage.getTextProductByColumnAtRowNumberatShoppingCart("Price", "1"), "$1,440.00");
+		
+		log.info("TC_02 - Step 18: Verify 'Total' product is '$2,880.00' is displayed " );
+		Assert.assertEquals(shoppingCartPage.getTextProductByColumnAtRowNumberatShoppingCart("Total", "1"), "$2,880.00");
 	}
 	
 	@AfterClass
