@@ -332,25 +332,25 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		productsNamePage = notebooksPage.clickToProductByText(driver, "Apple MacBook Pro 13-inch");
 		
 		log.info("TC_05 - Step 06: Swith to 'Notebooks' page From UserProducts Page");
-		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName(driver, "Notebooks");
+		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName( "Notebooks");
 		
 		log.info("TC_05 - Step 07: Click Product name  with  title 'Asus N551JK-XO076H Laptop' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "Asus N551JK-XO076H Laptop");
 		
 		log.info("TC_05 - Step 08: Swith to 'Notebooks' page From UserProducts Page");
-		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName(driver, "Notebooks");
+		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName( "Notebooks");
 		
 		log.info("TC_05 - Step 09: Click Product name  with  title 'HP Envy 6-1180ca 15.6-Inch Sleekbook' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "HP Envy 6-1180ca 15.6-Inch Sleekbook");
 		
 		log.info("TC_05 - Step 10: Swith to 'Notebooks' page From UserProducts Page");
-		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName(driver, "Notebooks");
+		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName( "Notebooks");
 		
 		log.info("TC_05 - Step 11: Click Product name  with  title 'HP Spectre XT Pro UltraBook' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "HP Spectre XT Pro UltraBook");
 		
 		log.info("TC_05 - Step 12: Swith to 'Notebooks' page From UserProducts Page");
-		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName(driver, "Notebooks");
+		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName( "Notebooks");
 		
 		log.info("TC_05 - Step 13: Click Product name  with  title 'Lenovo Thinkpad X1 Carbon Laptop' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "Lenovo Thinkpad X1 Carbon Laptop");

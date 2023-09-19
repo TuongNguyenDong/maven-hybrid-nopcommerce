@@ -1,97 +1,47 @@
-[INFO ] [2023-09-13 12:45:24,955] Precondition - Step 01: Navigate to 'Register' page
-[INFO ] [2023-09-13 12:45:26,477] Precondition - Step 02: Click to Radio button 'Male' 
-[INFO ] [2023-09-13 12:45:26,698] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
-[INFO ] [2023-09-13 12:45:26,945] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
-[INFO ] [2023-09-13 12:45:27,179] Precondition - Step 05: Enter to Email textbox with value is 'afc330@mail.vn'
-[INFO ] [2023-09-13 12:45:27,438] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
-[INFO ] [2023-09-13 12:45:27,761] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
-[INFO ] [2023-09-13 12:45:27,954] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
-[INFO ] [2023-09-13 12:45:28,142] Precondition - Step 02: Click to Checkbox 'Newsletter' 
-[INFO ] [2023-09-13 12:45:28,254] Precondition - Step 10: Enter to Password textbox with value is '1234556'
-[INFO ] [2023-09-13 12:45:28,483] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
-[INFO ] [2023-09-13 12:45:28,726] Precondition - Step 12: Click to 'Register' button 
-[INFO ] [2023-09-13 12:45:30,113] Precondition - Step 13: Verify register success message is displayed 
-[INFO ] [2023-09-13 12:45:30,230] Precondition - Step 14: Navigate to 'Login' page
-[INFO ] [2023-09-13 12:45:30,757] Precondition - Step 15: Enter to Email textbox with value is 'afc330@mail.vn'
-[INFO ] [2023-09-13 12:45:30,963] Precondition - Step 16: Enter to Password textbox with value is '1234556'
-[INFO ] [2023-09-13 12:45:31,211] Precondition - Step 17: Click to 'Log in' button
-[INFO ] [2023-09-13 12:45:32,669] Precondition - Step 18: Verify 'My Account' link is displayed 
-[INFO ] [2023-09-13 12:45:32,778] Precondition - Step 19: Swith to 'Computers' page
-[INFO ] [2023-09-13 12:45:33,562] Precondition - Step 20: Verify 'Computers' title is displayed 
-[INFO ] [2023-09-13 12:45:33,666] Precondition - Step 21: Swith to 'Notebooks' page
-[INFO ] [2023-09-13 12:45:34,708] Precondition - Step 22: Verify 'Notebooks' title is displayed 
-[INFO ] [2023-09-13 12:45:34,813] Precondition - Step 23: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
-[INFO ] [2023-09-13 12:45:36,493] TC_01 - Step 01: Click 'Add to wishlist'
-[INFO ] [2023-09-13 12:45:36,669] TC_01 - Step 02: Verify add to wishlist success message is displayed 
-[INFO ] [2023-09-13 12:45:37,037] TC_01 - Step 03: Close 'Change Password' success message 
-[INFO ] [2023-09-13 12:45:37,194] TC_01 - Step 04: Navigate to 'Wishlist' page
-[INFO ] [2023-09-13 12:45:38,620] TC_01 - Step 05: Get 'Wishlist' page Url
-[INFO ] [2023-09-13 12:45:38,633] TC_01 - Step 06: Verify 'Wishlist' title is displayed 
-[INFO ] [2023-09-13 12:45:38,773] TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed 
-[INFO ] [2023-09-13 12:45:38,899] TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'
-[INFO ] [2023-09-13 12:45:39,486] TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed 
-[INFO ] [2023-09-13 12:45:40,168] TC_02 - Step 01: Open 'Wishlist' page
-[INFO ] [2023-09-13 12:45:40,619] TC_02 - Step 01: Click  To 'Add to cart'checkbox
-[INFO ] [2023-09-13 12:45:40,829] TC_02 - Step 02: Click  To 'Add to cart'button
-[INFO ] [2023-09-13 12:45:41,930] TC_02 - Step 03: Verify 'Shopping cart' title is displayed 
-[INFO ] [2023-09-13 12:45:42,067] TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed 
-[INFO ] [2023-09-13 12:45:42,197] TC_02 - Step 05: Open 'Wishlist' page
-[INFO ] [2023-09-13 12:45:42,652] TC_02 - Step 06: Verify 'Wishlist is empty' is displayed 
-[INFO ] [2023-09-13 12:45:42,765] TC_03 - Step 01: Swith to 'Computers' page
-[INFO ] [2023-09-13 12:45:43,351] TC_03 - Step 02: Verify 'Computers' title is displayed 
-[INFO ] [2023-09-13 12:45:43,482] TC_03 - Step 03: Swith to 'Notebooks' page
-[INFO ] [2023-09-13 12:45:44,149] TC_03 - Step 04: Verify 'Notebooks' title is displayed 
-[INFO ] [2023-09-13 12:45:44,252] TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
-[INFO ] [2023-09-13 12:45:44,909] TC_03 - Step 06: Click 'Add to wishlist'
-[INFO ] [2023-09-13 12:45:45,056] TC_03 - Step 07: Verify add to wishlist success message is displayed 
-[INFO ] [2023-09-13 12:45:45,466] TC_03 - Step 08: Close 'Change Password' success message 
-[INFO ] [2023-09-13 12:45:45,624] TC_03 - Step 09: Navigate to 'Wishlist' page
-[INFO ] [2023-09-13 12:45:47,042] TC_03 - Step 10: Get 'Wishlist' page Url
-[INFO ] [2023-09-13 12:45:47,059] TC_03 - Step 11: Verify 'Wishlist' title is displayed 
-[INFO ] [2023-09-13 12:45:47,152] TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed 
-[INFO ] [2023-09-13 12:45:47,254] TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' 
-[INFO ] [2023-09-13 12:45:47,902] TC_03 - Step 14: Verify 'Wishlist is empty' is displayed 
-[INFO ] [2023-09-13 12:45:48,011] TC_04 - Step 01: Swith to 'Computers' page
-[INFO ] [2023-09-13 12:45:48,606] TC_04 - Step 02: Verify 'Computers' title is displayed 
-[INFO ] [2023-09-13 12:45:48,696] TC_04 - Step 03: Swith to 'Notebooks' page
-[INFO ] [2023-09-13 12:45:49,364] TC_04 - Step 04: Verify 'Notebooks' title is displayed 
-[INFO ] [2023-09-13 12:45:49,489] TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' 
-[INFO ] [2023-09-13 12:45:50,672] TC_04 - Step 06: Verify add to compare list success message is displayed 
-[INFO ] [2023-09-13 12:45:50,776] TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' 
-[INFO ] [2023-09-13 12:45:51,923] TC_04 - Step 08: Verify add to compare list success message is displayed 
-[INFO ] [2023-09-13 12:45:52,016] TC_04 - Step 09: Navigate to 'Compare Products' page
-[INFO ] [2023-09-13 12:45:52,711] TC_04 - Step 10: Verify 'Compare products' title is displayed 
-[INFO ] [2023-09-13 12:45:52,841] TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed 
-[INFO ] [2023-09-13 12:45:52,985] TC_04 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product name is displayed 
-[INFO ] [2023-09-13 12:45:53,105] TC_04 - Step 13: Verify 'Price' of HP Spectre XT Pro UltraBook is displayed 
-[INFO ] [2023-09-13 12:45:53,259] TC_04 - Step 14: Verify 'Price'of Asus N551JK-XO076H Laptop is displayed 
-[INFO ] [2023-09-13 12:45:53,472] TC_04 - Step 15: Verify 'Screensize'of HP Spectre XT Pro UltraBook is displayed 
-[INFO ] [2023-09-13 12:45:53,648] TC_04 - Step 16: Verify 'Screensize'of Asus N551JK-XO076H Laptop is displayed 
-[INFO ] [2023-09-13 12:45:53,783] TC_04 - Step 17: Verify 'CPU Type' of HP Spectre XT Pro UltraBook is displayed 
-[INFO ] [2023-09-13 12:45:53,909] TC_04 - Step 18: Verify 'CPU Type'of Asus N551JK-XO076H Laptop is displayed 
-[INFO ] [2023-09-13 12:45:54,063] TC_04 - Step 17: Verify 'Memory' of HP Spectre XT Pro UltraBook is displayed 
-[INFO ] [2023-09-13 12:45:54,191] TC_04 - Step 18: Verify 'Memory'of Asus N551JK-XO076H Laptop is displayed 
-[INFO ] [2023-09-13 12:45:54,278] TC_04 - Step 17: Verify 'Hard drive' of HP Spectre XT Pro UltraBook is displayed 
-[INFO ] [2023-09-13 12:45:54,390] TC_04 - Step 18: Verify 'Hard drive'of Asus N551JK-XO076H Laptop is displayed 
-[INFO ] [2023-09-13 12:45:54,488] TC_04 - Step 19: Verify 'Remove Button' of HP Spectre XT Pro UltraBook is displayed 
-[INFO ] [2023-09-13 12:45:54,580] TC_04 - Step 20: Verify 'Remove Button'of Asus N551JK-XO076H Laptop is displayed 
-[INFO ] [2023-09-13 12:45:54,672] TC_04 - Step 21: Click To 'Clear List'
-[INFO ] [2023-09-13 12:45:55,661] TC_04 - Step 22: Verify 'Compare List is empty' is displayed 
-[INFO ] [2023-09-13 12:45:55,811] TC_05 - Step 01: Swith to 'Computers' page
-[INFO ] [2023-09-13 12:45:56,427] TC_05 - Step 02: Verify 'Computers' title is displayed 
-[INFO ] [2023-09-13 12:45:56,538] TC_05 - Step 03: Swith to 'Notebooks' page
-[INFO ] [2023-09-13 12:45:57,286] TC_05 - Step 04: Verify 'Notebooks' title is displayed 
-[INFO ] [2023-09-13 12:45:57,428] TC_05 - Step 05: Click Product name  with  title 'Apple MacBook Pro 13-inch' 
-[INFO ] [2023-09-13 12:45:58,245] TC_05 - Step 06: Swith to 'Notebooks' page From UserProducts Page
-[INFO ] [2023-09-13 12:45:58,865] TC_05 - Step 07: Click Product name  with  title 'Asus N551JK-XO076H Laptop' 
-[INFO ] [2023-09-13 12:45:59,738] TC_05 - Step 08: Swith to 'Notebooks' page From UserProducts Page
-[INFO ] [2023-09-13 12:46:00,377] TC_05 - Step 09: Click Product name  with  title 'HP Envy 6-1180ca 15.6-Inch Sleekbook' 
-[INFO ] [2023-09-13 12:46:01,132] TC_05 - Step 10: Swith to 'Notebooks' page From UserProducts Page
-[INFO ] [2023-09-13 12:46:01,899] TC_05 - Step 11: Click Product name  with  title 'HP Spectre XT Pro UltraBook' 
-[INFO ] [2023-09-13 12:46:02,761] TC_05 - Step 12: Swith to 'Notebooks' page From UserProducts Page
-[INFO ] [2023-09-13 12:46:03,782] TC_05 - Step 13: Click Product name  with  title 'Lenovo Thinkpad X1 Carbon Laptop' 
-[INFO ] [2023-09-13 12:46:04,718] TC_05 - Step 14: Open 'Recently viewed products' page
-[INFO ] [2023-09-13 12:46:05,403] TC_05 - Step 15: Verify 'Recently viewed products' title is displayed 
-[INFO ] [2023-09-13 12:46:05,492] TC_05 - Step 16: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product Name is displayed 
-[INFO ] [2023-09-13 12:46:05,606] TC_05 - Step 17: Verify 'HP Spectre XT Pro UltraBook' product Name is displayed 
-[INFO ] [2023-09-13 12:46:05,693] TC_05 - Step 18: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product Name is displayed 
+[INFO ] [2023-09-19 15:22:02,361] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-19 15:22:18,898] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-19 15:22:20,270] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-19 15:22:25,361] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-19 15:22:25,947] Precondition - Step 05: Enter to Email textbox with value is 'afc5088@mail.vn'
+[INFO ] [2023-09-19 15:22:26,305] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-19 15:22:27,684] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-19 15:22:27,870] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-19 15:22:28,059] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-19 15:22:28,205] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-19 15:22:28,675] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-19 15:22:28,945] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-19 15:22:31,346] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-19 15:22:31,591] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-19 15:22:32,216] Precondition - Step 15: Enter to Email textbox with value is 'afc5088@mail.vn'
+[INFO ] [2023-09-19 15:22:32,424] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-19 15:22:32,834] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-19 15:22:34,096] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-19 15:22:34,242] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-19 15:22:35,170] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-19 15:22:35,289] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-19 15:22:36,326] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-19 15:22:36,425] Precondition - Step 23: Click Product name  with  title 'Build your own computer' 
+[INFO ] [2023-09-19 15:22:40,987] TC_01 - Step 01: Select Dropdown 'Processor' with value is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[INFO ] [2023-09-19 15:22:41,128] TC_01 - Step 02: Select Dropdown 'RAM' with value is '2 GB'
+[INFO ] [2023-09-19 15:22:41,326] TC_01 - Step 03: Click to 'HDD' Radio button with value is '400 GB [+$100.00]'
+[INFO ] [2023-09-19 15:22:41,497] TC_01 - Step 04: Click to 'OS' Radio button with value is 'Vista Premium [+$60.00]'
+[INFO ] [2023-09-19 15:22:41,651] TC_01 - Step 05: Click to 'Software' Checkbox with value is 'Acrobat Reader [+$10.00]'
+[INFO ] [2023-09-19 15:22:41,828] TC_01 - Step 06: Click to 'Software' Checkbox with value is 'Total Commander [+$5.00]'
+[INFO ] [2023-09-19 15:22:41,988] TC_01 - Step 07: Click to Add To Cart button
+[INFO ] [2023-09-19 15:22:42,312] TC_01 - Step 08: Verify add to cart success message is displayed 
+[INFO ] [2023-09-19 15:22:42,686] TC_01 - Step 09: Click to Close add to Cart success message
+[INFO ] [2023-09-19 15:22:43,237] TC_01 - Step 10: Verify Quantity Shopping Cart link is '1' is displayed 
+[INFO ] [2023-09-19 15:22:43,323] TC_01 - Step 11:Hover to Shopping Cart Link
+[INFO ] [2023-09-19 15:22:43,934] TC_01 - Step 12: Verify Mini Shopping Cart count is 'There are 1 item(s) in your cart.' is displayed 
+[INFO ] [2023-09-19 15:22:44,027] TC_01 - Step 13: Verify Mini Shopping Cart name is 'Build your own computer' is displayed 
+[INFO ] [2023-09-19 15:22:44,104] TC_01 - Step 14: Verify Mini Shopping Cart Price is '$1,440.00' is displayed 
+[INFO ] [2023-09-19 15:22:44,191] TC_01 - Step 15: Verify Mini Shopping Cart Quantity is '1' is displayed 
+[INFO ] [2023-09-19 15:22:44,273] TC_01 - Step 16: Verify Mini Shopping Cart Sub Total is '$1,440.00' is displayed 
+[INFO ] [2023-09-19 15:22:44,352] TC_01 - Step 17: Verify Mini Shopping Cart Attribute is 'Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]' is displayed 
+[INFO ] [2023-09-19 15:22:44,455] TC_01 - Step 18: Verify Mini Shopping Cart Attribute is 'RAM: 2 GB' is displayed 
+[INFO ] [2023-09-19 15:22:44,539] TC_01 - Step 19: Verify Mini Shopping Cart Attribute is 'HDD: 400 GB [+$100.00]' is displayed 
+[INFO ] [2023-09-19 15:22:44,617] TC_01 - Step 20: Verify Mini Shopping Cart Attribute is 'OS: Vista Premium [+$60.00]' is displayed 
+[INFO ] [2023-09-19 15:22:44,698] TC_01 - Step 21: Verify Mini Shopping Cart Attribute is 'Software: Microsoft Office [+$50.00]' is displayed 
+[INFO ] [2023-09-19 15:22:44,756] TC_01 - Step 22: Verify Mini Shopping Cart Attribute is 'Software: Acrobat Reader [+$10.00] is displayed 
+[INFO ] [2023-09-19 15:22:44,823] TC_01 - Step 23: Verify Mini Shopping Cart Attribute is 'Software: Total Commander [+$5.00]' is displayed 
+[INFO ] [2023-09-19 15:22:45,350] TC_02 - Step 01: Navigate to 'Shopping Cart' page

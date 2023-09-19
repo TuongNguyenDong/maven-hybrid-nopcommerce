@@ -54,7 +54,7 @@ public class UserProductsNamePageObject extends BasePage {
 	}
 	
 	
-	public BasePage openPageAtUserProductsPageByName(WebDriver driver, String pageName) {
+	public BasePage openPageAtUserProductsPageByName( String pageName) {
 		waitForElementClickable(driver, UserProductsNamePageUI.ITEM_SCOPE_LINK_BY_NAME, pageName);
 		clickToELement(driver, UserProductsNamePageUI.ITEM_SCOPE_LINK_BY_NAME, pageName);
 		switch (pageName) {
@@ -72,5 +72,82 @@ public class UserProductsNamePageObject extends BasePage {
 
 	}
 	
+	public void selectToDropdownByNameAtProductNamePage(String dropdownAttributeName, String itemValue) {
+		waitForElementClickable(driver, UserProductsNamePageUI.ATTRIBUTE_DROPDOWN_BY_NAME_TEXT, dropdownAttributeName);
+		selectItemInDefaultDropdown(driver, UserProductsNamePageUI.ATTRIBUTE_DROPDOWN_BY_NAME_TEXT,itemValue, dropdownAttributeName);
+	
+	}
+	
+	public void clicktoRadioButtonByButtonNameAndValueName(String radioButtonLabelName, String valueName) {
+		waitForElementClickable(driver, UserProductsNamePageUI.ATTRIBUTE_BUTTON_BY_NAME_TEXT_AND_VALUE_TEXT, radioButtonLabelName,  valueName);
+		checkToDefaultCheckboxOrRadio(driver, UserProductsNamePageUI.ATTRIBUTE_BUTTON_BY_NAME_TEXT_AND_VALUE_TEXT, radioButtonLabelName, valueName);
+	}
+	
+	public void clicktoCheckboxByButtonNameAndValueName( String checkBoxLabelName, String valueName) {
+		waitForElementClickable(driver, UserProductsNamePageUI.ATTRIBUTE_CHECKBOX_BY_NAME_TEXT_AND_VALUE_TEXT, checkBoxLabelName, valueName);
+		checkToDefaultCheckboxOrRadio(driver, UserProductsNamePageUI.ATTRIBUTE_CHECKBOX_BY_NAME_TEXT_AND_VALUE_TEXT, checkBoxLabelName, valueName);	
+		
+	}
+	
+	public void clickAddToCartAtOverviewClass() {
+		waitForElementClickable(driver, UserProductsNamePageUI.ADD_TO_CART_AT_OVERVIEW_CLASS );
+		clickToELement(driver, UserProductsNamePageUI.ADD_TO_CART_AT_OVERVIEW_CLASS);
+		
+	}
+	
+	public ShoppingCartPageObject openShoppingCartPage() {
+		waitForElementClickable(driver, UserProductsNamePageUI.SHOPPING_CART_LINK);
+		clickToELement(driver, UserProductsNamePageUI.SHOPPING_CART_LINK);
+		return PageGeneratorManager.getShoppingCartPage(driver);
+	}
+	
+	public void clickToCloseAtToCartSuccessMessage() {
+		waitForElementClickable(driver, UserProductsNamePageUI.CLOSE_ADD_TO_CART_SUCCESS_MESSAGE);
+		clickToELement(driver, UserProductsNamePageUI.CLOSE_ADD_TO_CART_SUCCESS_MESSAGE);	
+	}
+	
+	public void hoverToShoppingCartLink() {
+		waitForElementClickable(driver, UserProductsNamePageUI.SHOPPING_CART_LINK);
+		hoverMouseToElement(driver, UserProductsNamePageUI.SHOPPING_CART_LINK);
+		
+	}
+
+	public String isShoppingCartQtyByText(String shoppingCartName) {
+		waitForElementVisible(driver, UserProductsNamePageUI.SHOPPING_CART_QUANTITY_BY_TEXT, shoppingCartName);
+		return getElementText(driver, UserProductsNamePageUI.SHOPPING_CART_QUANTITY_BY_TEXT, shoppingCartName);
+
+	}
+
+	public String isMiniShoppingCartCount() {
+		waitForElementVisible(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_COUNT);
+		return getElementText(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_COUNT);
+
+	}
+
+	public String isMiniShoppingCartName() {
+		waitForElementVisible(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_NAME);
+		return getElementText(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_NAME );
+	}
+
+	public String isMiniShoppingCartPrice() {
+		waitForElementVisible(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_PRICE);
+		return getElementText(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_PRICE );
+	}
+
+	public String isMiniShoppingCartQuantity() {
+		waitForElementVisible(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_QUANTITY);
+		return getElementText(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_QUANTITY );
+	}
+	
+	public String isMiniShoppingCartSubTotal() {
+		waitForElementVisible(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_SUB_TOTAL);
+		return getElementText(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_SUB_TOTAL );
+	}
+
+	public String isMiniShoppingCartAttribute() {
+		waitForElementVisible(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_ATTRIBUTES_PR);
+		return getElementText(driver, UserProductsNamePageUI.MINI_SHOPPING_CART_ATTRIBUTES_PR);
+
+	}
 
 }
