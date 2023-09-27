@@ -76,7 +76,7 @@ public class Sort_Display_Paging extends BaseTest {
 		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
 
 		log.info("Precondition - Step 02: Click to Checkbox 'Newsletter' ");
-		registerPage.clicktoCheckboxByLabel(driver, "Newsletter");
+		registerPage.clickToCheckboxByLabel(driver, "Newsletter");
 
 		log.info("Precondition - Step 10: Enter to Password textbox with value is '" + validPassword + "'");
 		registerPage.inputToTextboxByID(driver, "Password", validPassword);

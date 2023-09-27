@@ -707,6 +707,8 @@ public class BasePage {
 			return PageGeneratorManager.getUserRewardPointPage(driver);
 		case "Change password":
 			return PageGeneratorManager.getUserChangePasswordPage(driver);
+		case "Orders":
+			return PageGeneratorManager.getOrderPage(driver);
 		default: 
 			throw new RuntimeException("Invalid page name at My Account area");
 			
@@ -787,8 +789,8 @@ public class BasePage {
 	public void selectToDropdownByName(WebDriver driver, String dropdownAttributeName, String itemvalue) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownAttributeName);
 		selectItemInDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, itemvalue, dropdownAttributeName);
-		
-	
+		sleepInSecond(2);
+
 	}
 	
 	/**
@@ -809,7 +811,7 @@ public class BasePage {
 	 * @param driver
 	 * @param checkBoxLabelName
 	 */
-	public void clicktoCheckboxByLabel(WebDriver driver, String checkBoxLabelName) {
+	public void clickToCheckboxByLabel(WebDriver driver, String checkBoxLabelName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkBoxLabelName);
 		checkToDefaultCheckboxOrRadio(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_LABEL, checkBoxLabelName);	
 		
@@ -836,6 +838,8 @@ public class BasePage {
 	public String getdefaultDropdownValueByName(WebDriver driver, String dropdownName) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
 		return getFirstSelectedItemDefaultDropdown(driver, BasePageNopCommerceUI.DYNAMIC_DROPDOWN_BY_NAME, dropdownName);
+		
+	
 	}
 	
 	/**

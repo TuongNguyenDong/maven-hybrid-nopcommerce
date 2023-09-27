@@ -95,7 +95,7 @@ public class Register extends BaseTest {
 		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
 
 		log.info("Register_02 - Step 09: Click to Checkbox 'Newsletter' ");
-		registerPage.clicktoCheckboxByLabel(driver, "Newsletter");
+		registerPage.clickToCheckboxByLabel(driver, "Newsletter");
 
 		log.info("Register_02 - Step 10: Enter to Password textbox with value is '" + validPassword + "'");
 		registerPage.inputToTextboxByID(driver, "Password", validPassword);
@@ -139,7 +139,7 @@ public class Register extends BaseTest {
 		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
 
 		log.info("Register_03 - Step 02: Click to Checkbox 'Newsletter' ");
-		registerPage.clicktoCheckboxByLabel(driver, "Newsletter");
+		registerPage.clickToCheckboxByLabel(driver, "Newsletter");
 
 		log.info("Register_03 - Step 10: Enter to Password textbox with value is '" + validPassword + "'");
 		registerPage.inputToTextboxByID(driver, "Password", validPassword);
@@ -183,7 +183,7 @@ public class Register extends BaseTest {
 		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
 
 		log.info("Register_04 - Step 02: Click to Checkbox 'Newsletter' ");
-		registerPage.clicktoCheckboxByLabel(driver, "Newsletter");
+		registerPage.clickToCheckboxByLabel(driver, "Newsletter");
 
 		log.info("Register_04 - Step 10: Enter to Password textbox with value is '" + validPassword + "'");
 		registerPage.inputToTextboxByID(driver, "Password", validPassword);
@@ -227,7 +227,7 @@ public class Register extends BaseTest {
 		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
 
 		log.info("Register_05 - Step 02: Click to Checkbox 'Newsletter' ");
-		registerPage.clicktoCheckboxByLabel(driver, "Newsletter");
+		registerPage.clickToCheckboxByLabel(driver, "Newsletter");
 
 		log.info("Register_05 - Step 10: Enter to Password textbox with value is '" + invalidPassword + "'");
 		registerPage.inputToTextboxByID(driver, "Password", invalidPassword);
@@ -272,7 +272,7 @@ public class Register extends BaseTest {
 		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
 
 		log.info("Register_06 - Step 02: Click to Checkbox 'Newsletter' ");
-		registerPage.clicktoCheckboxByLabel(driver, "Newsletter");
+		registerPage.clickToCheckboxByLabel(driver, "Newsletter");
 
 		log.info("Register_06 - Step 10: Enter to Password textbox with value is '" + validPassword + "'");
 		registerPage.inputToTextboxByID(driver, "Password", validPassword);

@@ -1,61 +1,181 @@
-[INFO ] [2023-09-19 19:10:38,334] Precondition - Step 01: Navigate to 'Register' page
-[INFO ] [2023-09-19 19:10:46,556] Precondition - Step 02: Click to Radio button 'Male' 
-[INFO ] [2023-09-19 19:10:46,750] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
-[INFO ] [2023-09-19 19:10:47,021] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
-[INFO ] [2023-09-19 19:10:47,329] Precondition - Step 05: Enter to Email textbox with value is 'afc4299@mail.vn'
-[INFO ] [2023-09-19 19:10:47,629] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
-[INFO ] [2023-09-19 19:10:50,690] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
-[INFO ] [2023-09-19 19:10:50,874] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
-[INFO ] [2023-09-19 19:10:51,054] Precondition - Step 02: Click to Checkbox 'Newsletter' 
-[INFO ] [2023-09-19 19:10:51,155] Precondition - Step 10: Enter to Password textbox with value is '1234556'
-[INFO ] [2023-09-19 19:10:51,374] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
-[INFO ] [2023-09-19 19:10:51,594] Precondition - Step 12: Click to 'Register' button 
-[INFO ] [2023-09-19 19:10:53,115] Precondition - Step 13: Verify register success message is displayed 
-[INFO ] [2023-09-19 19:10:53,235] Precondition - Step 14: Navigate to 'Login' page
-[INFO ] [2023-09-19 19:10:53,800] Precondition - Step 15: Enter to Email textbox with value is 'afc4299@mail.vn'
-[INFO ] [2023-09-19 19:10:54,016] Precondition - Step 16: Enter to Password textbox with value is '1234556'
-[INFO ] [2023-09-19 19:10:54,213] Precondition - Step 17: Click to 'Log in' button
-[INFO ] [2023-09-19 19:10:55,119] Precondition - Step 18: Verify 'My Account' link is displayed 
-[INFO ] [2023-09-19 19:10:55,217] Precondition - Step 19: Swith to 'Computers' page
-[INFO ] [2023-09-19 19:10:56,274] Precondition - Step 20: Verify 'Computers' title is displayed 
-[INFO ] [2023-09-19 19:10:56,384] Precondition - Step 21: Swith to 'Desktops' page
-[INFO ] [2023-09-19 19:10:57,660] Precondition - Step 22: Verify 'Desktops' title is displayed 
-[INFO ] [2023-09-19 19:10:57,795] Precondition - Step 23: Click Product name  with  title 'Build your own computer' 
-[INFO ] [2023-09-19 19:11:06,294] TC_01 - Step 01: Select Dropdown 'Processor' with value is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
-[INFO ] [2023-09-19 19:11:06,537] TC_01 - Step 02: Select Dropdown 'RAM' with value is '2 GB'
-[INFO ] [2023-09-19 19:11:06,727] TC_01 - Step 03: Click to 'HDD' Radio button with value is '400 GB [+$100.00]'
-[INFO ] [2023-09-19 19:11:06,894] TC_01 - Step 04: Click to 'OS' Radio button with value is 'Vista Premium [+$60.00]'
-[INFO ] [2023-09-19 19:11:07,064] TC_01 - Step 05: Click to 'Software' Checkbox with value is 'Acrobat Reader [+$10.00]'
-[INFO ] [2023-09-19 19:11:07,228] TC_01 - Step 06: Click to 'Software' Checkbox with value is 'Total Commander [+$5.00]'
-[INFO ] [2023-09-19 19:11:07,380] TC_01 - Step 07: Click to Add To Cart button
-[INFO ] [2023-09-19 19:11:07,658] TC_01 - Step 08: Verify add to cart success message is displayed 
-[INFO ] [2023-09-19 19:11:11,350] TC_01 - Step 09: Click to Close add to Cart success message
-[INFO ] [2023-09-19 19:11:11,529] TC_01 - Step 10: Verify Quantity Shopping Cart link is '1' is displayed 
-[INFO ] [2023-09-19 19:11:11,615] TC_01 - Step 11:Hover to Shopping Cart Link
-[INFO ] [2023-09-19 19:11:12,144] TC_01 - Step 12: Verify Mini Shopping Cart count is 'There are 1 item(s) in your cart.' is displayed 
-[INFO ] [2023-09-19 19:11:12,812] TC_01 - Step 13: Verify Mini Shopping Cart name is 'Build your own computer' is displayed 
-[INFO ] [2023-09-19 19:11:12,904] TC_01 - Step 14: Verify Mini Shopping Cart Price is '$1,440.00' is displayed 
-[INFO ] [2023-09-19 19:11:12,980] TC_01 - Step 15: Verify Mini Shopping Cart Quantity is '1' is displayed 
-[INFO ] [2023-09-19 19:11:13,061] TC_01 - Step 16: Verify Mini Shopping Cart Sub Total is '$1,440.00' is displayed 
-[INFO ] [2023-09-19 19:11:13,137] TC_01 - Step 17: Verify Mini Shopping Cart Attribute is 'Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]' is displayed 
-[INFO ] [2023-09-19 19:11:13,353] TC_01 - Step 18: Verify Mini Shopping Cart Attribute is 'RAM: 2 GB' is displayed 
-[INFO ] [2023-09-19 19:11:13,461] TC_01 - Step 19: Verify Mini Shopping Cart Attribute is 'HDD: 400 GB [+$100.00]' is displayed 
-[INFO ] [2023-09-19 19:11:13,550] TC_01 - Step 20: Verify Mini Shopping Cart Attribute is 'OS: Vista Premium [+$60.00]' is displayed 
-[INFO ] [2023-09-19 19:11:13,630] TC_01 - Step 21: Verify Mini Shopping Cart Attribute is 'Software: Microsoft Office [+$50.00]' is displayed 
-[INFO ] [2023-09-19 19:11:13,690] TC_01 - Step 22: Verify Mini Shopping Cart Attribute is 'Software: Acrobat Reader [+$10.00] is displayed 
-[INFO ] [2023-09-19 19:11:13,765] TC_01 - Step 23: Verify Mini Shopping Cart Attribute is 'Software: Total Commander [+$5.00]' is displayed 
-[INFO ] [2023-09-19 19:11:17,573] TC_02 - Step 01: Navigate to 'Shopping Cart' page
-[INFO ] [2023-09-19 19:11:21,588] TC_02 - Step 02: Click to 'Edit' link
-[INFO ] [2023-09-19 19:11:23,114] TC_02 - Step 03: Enter to Product Qty textbox by Update Button 
-[INFO ] [2023-09-19 19:11:23,423] TC_02 - Step 04: Click to 'Update' button
-[INFO ] [2023-09-19 19:11:23,644] TC_02 - Step 08: Verify add to cart success message is displayed 
-[INFO ] [2023-09-19 19:11:24,130] TC_02 - Step 09: Click to Close add to Cart success message
-[INFO ] [2023-09-19 19:11:24,650] TC_02 - Step 10: Verify Quantity Shopping Cart link is '2' is displayed 
-[INFO ] [2023-09-19 19:11:24,741] TC_02 - Step 11:Hover to Shopping Cart Link
-[INFO ] [2023-09-19 19:11:24,940] TC_02 - Step 12: Verify Mini Shopping Cart Price is '$1,440.00' is displayed 
-[INFO ] [2023-09-19 19:11:25,600] TC_02 - Step 13: Verify Mini Shopping Cart Quantity is '2' is displayed 
-[INFO ] [2023-09-19 19:11:25,677] TC_02 - Step 14: Verify Mini Shopping Cart Sub Total is '$2,880.00' is displayed 
-[INFO ] [2023-09-19 19:11:25,757] TC_02 - Step 15: Navigate to 'Shopping Cart' page
-[INFO ] [2023-09-19 19:11:26,356] TC_02 - Step 16: Verify 'Qty' product is '2' is displayed 
-[INFO ] [2023-09-19 19:11:26,485] TC_02 - Step 17: Verify 'Price' product is '$1,440.00' is displayed 
-[INFO ] [2023-09-19 19:11:27,249] TC_02 - Step 18: Verify 'Total' product is '$2,880.00' is displayed 
+[INFO ] [2023-09-27 10:35:45,562] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 10:35:53,845] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 10:35:54,516] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 10:35:55,354] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 10:35:55,603] Precondition - Step 05: Enter to Email textbox with value is 'afc6742@mail.vn'
+[INFO ] [2023-09-27 10:35:55,852] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 10:35:58,630] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 10:36:00,844] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 10:36:03,055] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 10:36:03,154] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 10:36:03,382] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 10:36:03,594] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 10:36:04,577] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 10:36:04,766] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 10:36:05,358] Precondition - Step 15: Enter to Email textbox with value is 'afc6742@mail.vn'
+[INFO ] [2023-09-27 10:36:05,563] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 10:36:05,779] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 10:36:06,592] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 10:36:06,714] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 10:36:07,558] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 10:36:07,667] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 10:36:08,562] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 10:36:08,648] Precondition - Step 23: Click Product name  with  title 'Build your own computer' 
+[INFO ] [2023-09-27 10:36:10,576] TC_01 - Step 01: Select Dropdown 'Processor' with value is '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'
+[INFO ] [2023-09-27 10:36:10,736] TC_01 - Step 02: Select Dropdown 'RAM' with value is '2 GB'
+[INFO ] [2023-09-27 10:36:10,937] TC_01 - Step 03: Click to 'HDD' Radio button with value is '400 GB [+$100.00]'
+[INFO ] [2023-09-27 10:36:11,109] TC_01 - Step 04: Click to 'OS' Radio button with value is 'Vista Premium [+$60.00]'
+[INFO ] [2023-09-27 10:36:11,269] TC_01 - Step 05: Click to 'Software' Checkbox with value is 'Acrobat Reader [+$10.00]'
+[INFO ] [2023-09-27 10:36:11,429] TC_01 - Step 06: Click to 'Software' Checkbox with value is 'Total Commander [+$5.00]'
+[INFO ] [2023-09-27 10:36:11,589] TC_01 - Step 07: Click to Add To Cart button
+[INFO ] [2023-09-27 10:36:11,746] TC_01 - Step 08: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 10:36:12,654] TC_01 - Step 09: Click to Close add to Cart success message
+[INFO ] [2023-09-27 10:36:12,801] TC_01 - Step 10: Verify Quantity Shopping Cart link is '1' is displayed 
+[INFO ] [2023-09-27 10:36:12,904] TC_01 - Step 11:Hover to Shopping Cart Link
+[INFO ] [2023-09-27 10:36:13,252] TC_01 - Step 12: Verify Mini Shopping Cart count is 'There are 1 item(s) in your cart.' is displayed 
+[INFO ] [2023-09-27 10:36:13,917] TC_01 - Step 13: Verify Mini Shopping Cart name is 'Build your own computer' is displayed 
+[INFO ] [2023-09-27 10:36:13,997] TC_01 - Step 14: Verify Mini Shopping Cart Price is '$1,440.00' is displayed 
+[INFO ] [2023-09-27 10:36:14,079] TC_01 - Step 15: Verify Mini Shopping Cart Quantity is '1' is displayed 
+[INFO ] [2023-09-27 10:36:14,155] TC_01 - Step 16: Verify Mini Shopping Cart Sub Total is '$1,440.00' is displayed 
+[INFO ] [2023-09-27 10:36:14,230] TC_01 - Step 17: Verify Mini Shopping Cart Attribute is 'Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]' is displayed 
+[INFO ] [2023-09-27 10:36:14,347] TC_01 - Step 18: Verify Mini Shopping Cart Attribute is 'RAM: 2 GB' is displayed 
+[INFO ] [2023-09-27 10:36:14,419] TC_01 - Step 19: Verify Mini Shopping Cart Attribute is 'HDD: 400 GB [+$100.00]' is displayed 
+[INFO ] [2023-09-27 10:36:14,497] TC_01 - Step 20: Verify Mini Shopping Cart Attribute is 'OS: Vista Premium [+$60.00]' is displayed 
+[INFO ] [2023-09-27 10:36:14,557] TC_01 - Step 21: Verify Mini Shopping Cart Attribute is 'Software: Microsoft Office [+$50.00]' is displayed 
+[INFO ] [2023-09-27 10:36:14,635] TC_01 - Step 22: Verify Mini Shopping Cart Attribute is 'Software: Acrobat Reader [+$10.00] is displayed 
+[INFO ] [2023-09-27 10:36:14,694] TC_01 - Step 23: Verify Mini Shopping Cart Attribute is 'Software: Total Commander [+$5.00]' is displayed 
+[INFO ] [2023-09-27 10:36:15,176] TC_02 - Step 01: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 10:36:15,866] TC_02 - Step 02: Click to 'Edit' link
+[INFO ] [2023-09-27 10:36:16,505] TC_02 - Step 03: Enter to Product Qty textbox by Update Button 
+[INFO ] [2023-09-27 10:36:16,767] TC_02 - Step 04: Click to 'Update' button
+[INFO ] [2023-09-27 10:36:16,920] TC_02 - Step 05: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 10:36:17,350] TC_02 - Step 06: Click to Close add to Cart success message
+[INFO ] [2023-09-27 10:36:17,504] TC_02 - Step 07: Verify Quantity Shopping Cart link is '2' is displayed 
+[INFO ] [2023-09-27 10:36:18,009] TC_02 - Step 08: Hover to Shopping Cart Link
+[INFO ] [2023-09-27 10:36:19,022] TC_02 - Step 09: Verify Mini Shopping Cart Price is '$1,440.00' is displayed 
+[INFO ] [2023-09-27 10:36:19,146] TC_02 - Step 10: Verify Mini Shopping Cart Quantity is '2' is displayed 
+[INFO ] [2023-09-27 10:36:19,434] TC_02 - Step 11: Verify Mini Shopping Cart Sub Total is '$2,880.00' is displayed 
+[INFO ] [2023-09-27 10:36:19,535] TC_02 - Step 12: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 10:36:22,477] TC_02 - Step 13: Verify 'Qty' product is '2' is displayed 
+[INFO ] [2023-09-27 10:36:22,589] TC_02 - Step 14: Verify 'Price' product is '$1,440.00' is displayed 
+[INFO ] [2023-09-27 10:36:22,708] TC_02 - Step 15: Verify 'Total' product is '$2,880.00' is displayed 
+[INFO ] [2023-09-27 10:36:22,831] TC_03 - Step 01: Click to Remove button at Shopping Cart
+[INFO ] [2023-09-27 10:36:23,925] TC_03 - Step 02: Verify 'Your Shopping Cart is empty!' is displayed 
+[INFO ] [2023-09-27 10:36:23,999] TC_03 - Step 03: Verify Quantity Shopping Cart link is '0' is displayed 
+[INFO ] [2023-09-27 10:36:24,065] TC_03 - Step 04: Hover to Shopping Cart Link
+[INFO ] [2023-09-27 10:36:24,282] TC_03 - Step 05: Verify Mini Shopping Cart count is 'You have no items in your shopping cart.' 
+[INFO ] [2023-09-27 10:36:24,404] TC_04 - Step 01: Swith to 'Computers' page
+[INFO ] [2023-09-27 10:36:26,753] TC_04 - Step 02: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 10:36:26,846] TC_04 - Step 03: Swith to 'Desktops' page
+[INFO ] [2023-09-27 10:36:27,428] TC_04 - Step 04: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 10:36:27,532] TC_04 - Step 05: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 10:36:28,250] TC_04 - Step 06: Click to Add To Cart button
+[INFO ] [2023-09-27 10:36:28,400] TC_04 - Step 07: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 10:36:28,865] TC_04 - Step 08: Click to Close add to Cart success message
+[INFO ] [2023-09-27 10:36:29,417] TC_04 - Step 09: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 10:36:30,573] TC_04 - Step 10: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 10:36:30,804] TC_04 - Step 11: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 10:36:31,488] TC_04 - Step 12: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 10:36:31,598] TC_04 - Step 13: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 10:36:31,721] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 10:36:31,900] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 10:36:34,767] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 10:36:34,936] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 10:36:37,156] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 10:36:39,348] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 10:36:41,051] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 10:36:41,854] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 10:36:42,090] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 10:36:42,546] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 10:36:42,686] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 10:36:44,626] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 10:36:46,817] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 10:36:49,007] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 10:36:51,207] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 10:36:51,440] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 10:36:51,697] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 10:36:51,919] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 10:36:52,168] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 10:36:52,340] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 10:36:52,818] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 10:36:52,956] TC_05 - Step 22: Click to Radio button 'Check / Money Order' payment method name
+[INFO ] [2023-09-27 10:36:53,361] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 10:36:53,499] TC_05 - Step 24: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-27 10:36:54,218] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 10:36:54,606] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 10:36:54,725] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 10:36:54,858] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 10:36:55,010] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 10:36:55,100] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 10:36:55,172] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc6742@mail.vn
+[INFO ] [2023-09-27 10:36:55,248] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 10:36:55,345] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 10:36:55,422] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 10:36:55,503] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 10:36:55,580] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 10:36:55,667] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 10:36:55,757] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 10:36:55,831] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc6742@mail.vn
+[INFO ] [2023-09-27 10:36:55,910] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 10:36:55,988] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 10:36:56,067] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 10:36:56,148] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 10:36:56,225] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 10:36:56,300] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 10:37:26,424] TC_05 - Step 46: Verify Lenovo IdeaCentre 600 All-in-One PC title product is displayed 
+[INFO ] [2023-09-27 10:37:26,535] TC_05 - Step 47: Verify '$500.00' Price is displayed 
+[INFO ] [2023-09-27 10:37:26,644] TC_05 - Step 48: Verify '5' Qty is displayed 
+[INFO ] [2023-09-27 10:37:26,786] TC_05 - Step 49: Verify '$2,500.00' Total is displayed 
+[INFO ] [2023-09-27 10:37:26,896] TC_05 - Step 50: Verify 'Gift wrapping' with value is displayed with value 'No'
+[INFO ] [2023-09-27 10:37:26,973] TC_05 - Step 51: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-27 10:37:27,052] TC_05 - Step 52: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 10:37:27,133] TC_05 - Step 53: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 10:37:27,218] TC_05 - Step 54: Verify 'Order Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-27 10:37:27,287] TC_05 - Step 55: Verify 'Earn reward points' At Table Cart Total is '250 points' displayed 
+[INFO ] [2023-09-27 10:37:27,367] TC_05 - Step 56: Click to 'Confirm' button at Confirm order
+[INFO ] [2023-09-27 10:37:27,529] TC_05 - Step 57: Verify 'Thank you' title is displayed 
+[INFO ] [2023-09-27 10:37:29,222] TC_05 - Step 58: Verify 'title' is displayed with value 'Your order has been successfully processed!'
+[INFO ] [2023-09-27 10:37:29,299] TC_05 - Step 59: Verify 'order number' is displayed 
+[INFO ] [2023-09-27 10:37:29,393] TC_05 - Step 60: Get  'order number' 
+[INFO ] [2023-09-27 10:37:29,467] TC_05 - Step 61: Navigate to 'Home' page 
+[INFO ] [2023-09-27 10:37:30,046] TC_05 - Step 62: Navigate to 'My Account' page 
+[INFO ] [2023-09-27 10:37:30,706] TC_05 - Step 63: Navigate to 'Orders' page 
+[INFO ] [2023-09-27 10:37:31,337] TC_05 - Step 64: Verify 'Orders' title is displayed 
+[INFO ] [2023-09-27 10:37:31,437] TC_05 - Step 65: Verify 'Orders name' title is displayed with value 1033
+[INFO ] [2023-09-27 10:37:31,530] TC_05 - Step 66: Click to 'Details' button 
+[INFO ] [2023-09-27 10:37:32,270] TC_05 - Step 66: Verify 'Orders Number' at Order Overview is displayed with value 1033
+[INFO ] [2023-09-27 10:37:32,352] TC_05 - Step 67: Verify 'order-date' in OrderCOntent Area at Order Page is displayed with value Tuesday, September 26, 2023
+[INFO ] [2023-09-27 10:37:32,429] TC_05 - Step 68: Verify 'order-status' in OrderCOntent Area at Order Page is displayed with value Pending
+[INFO ] [2023-09-27 10:37:32,507] TC_05 - Step 69: Verify 'order-total' in OrderCOntent Area at Order Page is displayed with value $2,500.00
+[INFO ] [2023-09-27 10:37:32,583] TC_05 - Step 70: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 10:37:32,682] TC_05 - Step 71: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 10:37:32,769] TC_05 - Step 72: Verify payment-method status is 'Pending' is displayed 
+[INFO ] [2023-09-27 10:37:32,847] TC_05 - Step 73: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 10:37:32,931] TC_05 - Step 74: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 10:37:33,003] TC_05 - Step 75: Verify Shipping status is 'Not yet shipped' is displayed 
+[INFO ] [2023-09-27 10:37:33,082] TC_05 - Step 76: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 10:37:33,164] TC_05 - Step 77: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 10:37:33,237] TC_05 - Step 78: Verify 'Email of Billing Address' is displayed with value Email: afc6742@mail.vn
+[INFO ] [2023-09-27 10:37:33,316] TC_05 - Step 79: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 10:37:33,397] TC_05 - Step 80: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 10:37:33,472] TC_05 - Step 81: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 10:37:33,548] TC_05 - Step 82: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 10:37:33,625] TC_05 - Step 83: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 10:37:33,705] TC_05 - Step 84: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 10:37:33,804] TC_05 - Step 85: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 10:37:33,878] TC_05 - Step 86: Verify 'Email of Shipping Address' is displayed with value Email: afc6742@mail.vn
+[INFO ] [2023-09-27 10:37:33,956] TC_05 - Step 87: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 10:37:34,033] TC_05 - Step 88: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 10:37:34,136] TC_05 - Step 89: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 10:37:34,240] TC_05 - Step 90: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 10:37:34,314] TC_05 - Step 91: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 10:37:34,391] TC_05 - Step 92: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 10:38:04,604] TC_05 - Step 93: Verify Lenovo IdeaCentre 600 All-in-One PC title product is displayed 
+[INFO ] [2023-09-27 10:38:04,722] TC_05 - Step 94: Verify '$500.00' Price is displayed 
+[INFO ] [2023-09-27 10:38:04,802] TC_05 - Step 94: Verify '5' Quantity is displayed 
+[INFO ] [2023-09-27 10:38:04,927] TC_05 - Step 96: Verify '$2,500.00' Total is displayed 
+[INFO ] [2023-09-27 10:38:05,004] TC_05 - Step 97: Verify 'Gift wrapping' with value is displayed with value 'No'
+[INFO ] [2023-09-27 10:38:05,086] TC_05 - Step 98: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-27 10:38:05,161] TC_05 - Step 99: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 10:38:05,239] TC_05 - Step 100: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 10:38:05,301] TC_05 - Step 101: Verify 'Order Total' Price At Table Cart Total is '$2,500.00' displayed 

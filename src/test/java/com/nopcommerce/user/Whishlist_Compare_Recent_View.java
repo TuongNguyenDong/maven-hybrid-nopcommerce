@@ -79,7 +79,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
 
 		log.info("Precondition - Step 02: Click to Checkbox 'Newsletter' ");
-		registerPage.clicktoCheckboxByLabel(driver, "Newsletter");
+		registerPage.clickToCheckboxByLabel(driver, "Newsletter");
 
 		log.info("Precondition - Step 10: Enter to Password textbox with value is '" + validPassword + "'");
 		registerPage.inputToTextboxByID(driver, "Password", validPassword);
@@ -175,7 +175,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		Assert.assertEquals(shoppingCartPage.getTextLinkNameProductByColumnAtRowNumberatShoppingCart("Product(s)", "1"), "Apple MacBook Pro 13-inch");
 		
 		log.info("TC_02 - Step 05: Open 'Wishlist' page");
-		wishlistPage = wishlistPage.openWishlistPageUrl(wishlistUrl);
+		wishlistPage = shoppingCartPage.openWishlistPage();
 		
 		log.info("TC_02 - Step 06: Verify 'Wishlist is empty' is displayed " );
 		Assert.assertTrue(wishlistPage.isWishlistEmptyMessage());
@@ -207,7 +207,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		log.info("TC_03 - Step 07: Verify add to wishlist success message is displayed ");
 		Assert.assertTrue(productsNamePage.getAddToWishlistSuccessMessage().contains("The product has been added"));
 		
-		log.info("TC_03 - Step 08: Close 'Change Password' success message ");
+		log.info("TC_03 - Step 08: Close 'add to wishlist' success message ");
 		productsNamePage.clickToCloseSuccessMessage();
 		
 		log.info("TC_03 - Step 09: Navigate to 'Wishlist' page");
