@@ -3,6 +3,7 @@ package pageObjects.nopCommerce.user;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import commons.PageGeneratorManager;
 import pageUIs.nopCommerce.user.OrderPageUI;
 
 public class OrderPageObject extends BasePage {
@@ -72,4 +73,11 @@ public class OrderPageObject extends BasePage {
 		waitForElementVisible(driver, OrderPageUI.DYNAMIC_ORDER_CONTENT_IN_ORDER_OVERVIEW_AT_ORDER_PAGE_BY_CLASS, className);
 		return getElementText(driver, OrderPageUI.DYNAMIC_ORDER_CONTENT_IN_ORDER_OVERVIEW_AT_ORDER_PAGE_BY_CLASS, className);
 	}
+	
+	public ShoppingCartPageObject clickToReOrderButton() {
+		waitForElementClickable(driver, OrderPageUI.RE_ORDER_BUTTON );
+		clickToELement(driver, OrderPageUI.RE_ORDER_BUTTON );
+		return PageGeneratorManager.getShoppingCartPage(driver);	
+	}
+	
 }

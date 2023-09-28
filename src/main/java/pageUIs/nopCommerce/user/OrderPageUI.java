@@ -17,6 +17,8 @@ public class OrderPageUI {
 	public static final String ORDER_NUMBER_IN_ORDER_OVERVIEW_AT_ORDER_PAGE = "xpath=//div[@class='order-overview']/div[@class='order-number']//strong";
 	public static final String DYNAMIC_ORDER_CONTENT_IN_ORDER_OVERVIEW_AT_ORDER_PAGE_BY_CLASS = "xpath=//ul[@class='order-overview-content']/li[@class='%s']";
 	
+	public static final String RE_ORDER_BUTTON = "xpath=//div[@class='page-body']//button[text()='Re-order']";
+	
 	
 	
 }
