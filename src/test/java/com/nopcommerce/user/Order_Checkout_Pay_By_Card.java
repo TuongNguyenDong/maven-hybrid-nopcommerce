@@ -20,7 +20,7 @@ import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserProductsNamePageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
-public class Order_Checkout_Pay_By_Cheque extends BaseTest {
+public class Order_Checkout_Pay_By_Card extends BaseTest {
 
 	private WebDriver driver;
 	private String firstName, lastName, validPassword, emailAddress;
@@ -30,6 +30,7 @@ public class Order_Checkout_Pay_By_Cheque extends BaseTest {
 	private String billingNewAddressCity, billingNewAddress1, billingZipPostalCode, billingPhoneNumber, billingCountryId, billingStateId;
 	private String shippingNewAddressCity, shippingNewAddress1, shippingZipPostalCode, shippingPhoneNumber, shippingCountryId, shippingStateId;
 	private String billingAddress, orderNumber;
+	private String creditCardType, cardHolderName, cardNumber, expirationDate_Month, expirationDate_Year, cardCode;
 
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
@@ -73,6 +74,13 @@ public class Order_Checkout_Pay_By_Cheque extends BaseTest {
 		shippingStateId = "Texas";
 
 		billingAddress = firstName + " " + lastName + ", " + billingNewAddress1 + ", " + billingNewAddressCity + ", " + billingStateId + " " + billingZipPostalCode + ", " + billingCountryId;
+		
+		creditCardType = "Visa";
+		cardHolderName  = "Guest Ward";
+		cardNumber  = "4633513588256742";
+		expirationDate_Month  = "04";
+		expirationDate_Year  = "2026";
+		cardCode  = "362";
 
 		log.info("Precondition - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
@@ -170,7 +178,7 @@ public class Order_Checkout_Pay_By_Cheque extends BaseTest {
 	}
 
 	@Test
-	public void TC_01_Checkout_Shopping_Cart_Pay_By_Cheque() {
+	public void TC_01_Checkout_Shopping_Cart_Pay_By_VISA_Card() {
 
 		log.info("TC_05 - Step 01: Click to 'Terms Of Service' checkbox");
 		shoppingCartPage.ClickToTermsOfService();
@@ -235,20 +243,38 @@ public class Order_Checkout_Pay_By_Cheque extends BaseTest {
 		log.info("TC_05 - Step 21: Click to 'Continue' button at Shipping method");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-shipping-method", "Continue");
 
-		log.info("TC_05 - Step 22: Click to Radio button 'Check / Money Order' payment method name");
-		registerPage.clicktoRadioButtonByLabel(driver, "Check / Money Order");
-
+		log.info("TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name");
+		registerPage.clicktoRadioButtonByLabel(driver, "Credit Card");
+			
 		log.info("TC_05 - Step 23: Click to 'Continue' button at Payment method");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-payment-method", "Continue");
+		
+		log.info("TC_05 - Step 24: Select Dropdown CreditCardType with value is '" + creditCardType + "'");
+		checkoutPage.selectToDropdownByName(driver, "CreditCardType", creditCardType);
+		
+		log.info("TC_05 - Step 25: Enter to Cardholder Name textbox with value is '" + cardHolderName + "'");
+		checkoutPage.inputToTextboxByID(driver, "CardholderName", cardHolderName);
+		
+		log.info("TC_05 - Step 26: Enter to Card Number textbox with value is '" + cardNumber + "'");
+		checkoutPage.inputToTextboxByID(driver, "CardNumber", cardNumber);
+		
+		log.info("TC_05 - Step 27: Select Dropdown Expiration Date with value is '" + expirationDate_Month + "'");
+		checkoutPage.selectToDropdownByName(driver, "ExpireMonth", expirationDate_Month);
+		
+		log.info("TC_05 - Step 28: Select Dropdown Expiration Date with value is '" + expirationDate_Year + "'");
+		checkoutPage.selectToDropdownByName(driver, "ExpireYear", expirationDate_Year);	
 
-		log.info("TC_05 - Step 24: Click to 'Continue' button at Payment info");
+		log.info("TC_05 - Step 29: Enter to Card code textbox with value is '" + cardCode + "'");
+		checkoutPage.inputToTextboxByID(driver, "CardCode", cardCode);
+	
+		log.info("TC_05 - Step 30: Click to 'Continue' button at Payment info");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-payment-info", "Continue");
 
 		log.info("TC_05 - Step 25: Verify 'Payment' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("payment-method-info"));
 
 		log.info("TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed ");
-		Assert.assertTrue(checkoutPage.getOrderReviewDataByNameAtComfirmOrder("payment-method").contains("Check / Money Order"));
+		Assert.assertTrue(checkoutPage.getOrderReviewDataByNameAtComfirmOrder("payment-method").contains("Credit Card"));
 
 		log.info("TC_05 - Step 27: Verify 'Shipping' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("shipping-method-info"));
@@ -307,7 +333,7 @@ public class Order_Checkout_Pay_By_Cheque extends BaseTest {
 		log.info("TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed ");
 		Assert.assertEquals(checkoutPage.getTextProductByColumnAtRowNumberAtCheckOutPage("SKU", "1"), "LE_IC_600");
 
-		log.info("TC_05 - Step 46: Verify '" + productName1 + "' title product is displayed ");
+		log.info("TC_05 - Step 46: Verify " + productName1 + " title product is displayed ");
 		Assert.assertEquals(checkoutPage.getTextLinkNameProductByColumnAtRowNumberAtCheckOutPage("Product(s)", "1"), productName1);
 
 		log.info("TC_05 - Step 47: Verify '$500.00' Price is displayed ");
@@ -386,7 +412,7 @@ public class Order_Checkout_Pay_By_Cheque extends BaseTest {
 		Assert.assertTrue(orderPage.isTitleByClassNameAtOrderPage("payment-method-info"));
 
 		log.info("TC_05 - Step 71: Verify payment-method is 'Check / Money Order' is displayed ");
-		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("payment-method").contains("Check / Money Order"));
+		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("payment-method").contains("Credit Card"));
 
 		log.info("TC_05 - Step 72: Verify payment-method status is 'Pending' is displayed ");
 		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("payment-method-status").contains("Pending"));
@@ -478,12 +504,14 @@ public class Order_Checkout_Pay_By_Cheque extends BaseTest {
 		log.info("TC_05 - Step 101: Verify 'Order Total' Price At Table Cart Total is '$2,500.00' displayed ");
 		Assert.assertEquals(orderPage.getCartTotalInfoByLableAtOrderPage("Order Total:"), "$2,500.00");
 
+		log.info("TC_05 - Step 66: Click to 'Re-order' button ");
+		orderPage.clickToButtonByText(driver, "Re-order");
 	}
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 
-		closeBrowserDriver();
+		// closeBrowserDriver();
 	}
 
 }

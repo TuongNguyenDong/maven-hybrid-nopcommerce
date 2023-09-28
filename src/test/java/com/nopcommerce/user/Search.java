@@ -27,8 +27,8 @@ public class Search extends BaseTest {
 
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
-	public void beforeClass(String browerName, String enviromentName) {
-		driver = getBrowserDriver(browerName, enviromentName);
+	public void beforeClass(String browerName, String environmentName) {
+		driver = getBrowserDriver(browerName, environmentName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		firstName = "Automation";
@@ -260,11 +260,10 @@ public class Search extends BaseTest {
 		Assert.assertTrue(searchPage.isSearchResultAbsoluteDisplayed(appleName));
 		
 	}
-	
-	
+		
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		//closeBrowserDriver();
+		closeBrowserDriver();
 	}
 
 }

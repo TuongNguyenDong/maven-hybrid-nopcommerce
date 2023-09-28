@@ -14186,3 +14186,1140 @@
 [INFO ] [2023-09-27 10:54:47,216] TC_05 - Step 99: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed 
 [INFO ] [2023-09-27 10:54:47,288] TC_05 - Step 100: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed 
 [INFO ] [2023-09-27 10:54:47,353] TC_05 - Step 101: Verify 'Order Total' Price At Table Cart Total is '$2,500.00' displayed 
+[INFO ] [2023-09-27 11:13:09,028] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 11:13:13,240] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 11:13:13,715] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 11:13:14,226] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 11:13:14,447] Precondition - Step 05: Enter to Email textbox with value is 'afc9955@mail.vn'
+[INFO ] [2023-09-27 11:13:14,677] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 11:13:17,166] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 11:13:19,372] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 11:13:21,560] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 11:13:21,690] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 11:13:21,909] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 11:13:22,135] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 11:13:23,066] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 11:13:23,176] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 11:13:23,697] Precondition - Step 15: Enter to Email textbox with value is 'afc9955@mail.vn'
+[INFO ] [2023-09-27 11:13:23,891] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 11:13:24,094] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 11:13:25,346] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 11:13:25,477] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 11:13:26,816] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 11:13:26,912] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 11:13:28,353] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 11:13:28,466] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 11:13:30,829] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 11:13:31,019] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 11:13:31,596] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 11:13:31,801] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 11:13:34,006] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 11:13:34,379] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 11:13:35,008] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 11:13:35,123] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 11:13:36,159] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 11:13:36,295] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 11:13:39,452] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 11:13:39,644] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 11:13:41,848] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 11:13:44,090] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 11:13:44,360] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 11:13:44,597] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 11:13:44,808] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 11:13:45,046] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 11:13:45,191] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 11:13:45,678] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 11:13:47,918] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 11:13:50,128] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 11:13:52,333] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 11:13:52,603] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 11:13:52,809] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 11:13:53,091] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 11:13:53,329] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 11:13:53,496] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 11:13:53,896] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 11:13:54,041] TC_05 - Step 22: Click to Radio button 'Check / Money Order' payment method name
+[INFO ] [2023-09-27 11:13:54,498] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 11:13:54,633] TC_05 - Step 24: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-27 11:13:55,328] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 11:13:55,752] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 11:13:55,839] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 11:13:55,936] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 11:13:56,010] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 11:13:56,109] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 11:13:56,182] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc9955@mail.vn
+[INFO ] [2023-09-27 11:13:56,257] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 11:13:56,337] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 11:13:56,415] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 11:13:56,492] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 11:13:56,582] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 11:13:56,682] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 11:13:56,765] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 11:13:56,837] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc9955@mail.vn
+[INFO ] [2023-09-27 11:13:56,916] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 11:13:56,996] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 11:13:57,071] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 11:13:57,149] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 11:13:57,226] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 11:13:57,304] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 11:16:00,034] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 11:16:02,960] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 11:16:03,602] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 11:16:04,482] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 11:16:04,865] Precondition - Step 05: Enter to Email textbox with value is 'afc2064@mail.vn'
+[INFO ] [2023-09-27 11:16:05,156] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 11:16:07,698] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 11:16:09,901] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 11:16:12,161] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 11:16:12,276] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 11:16:13,024] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 11:16:13,234] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 11:16:14,269] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 11:16:14,470] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 11:16:19,343] Precondition - Step 15: Enter to Email textbox with value is 'afc2064@mail.vn'
+[INFO ] [2023-09-27 11:16:19,567] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 11:16:19,810] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 11:16:21,292] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 11:16:21,415] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 11:16:22,475] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 11:16:22,565] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 11:16:24,188] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 11:16:24,301] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 11:16:26,616] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 11:16:27,032] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 11:16:28,163] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 11:16:30,185] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 11:16:36,302] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 11:16:36,590] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 11:16:37,749] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 11:16:37,846] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 11:16:44,276] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 11:16:44,430] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 11:16:47,848] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 11:16:48,032] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 11:16:50,298] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 11:16:52,494] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 11:16:52,789] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 11:16:53,028] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 11:16:53,248] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 11:16:53,485] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 11:16:53,632] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 11:16:54,201] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 11:16:56,437] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 11:16:58,634] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 11:17:00,851] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 11:17:01,095] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 11:17:01,326] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 11:17:01,527] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 11:17:01,754] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 11:17:01,900] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 11:17:02,395] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 11:17:02,538] TC_05 - Step 22: Click to Radio button 'Check / Money Order' payment method name
+[INFO ] [2023-09-27 12:04:24,750] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 12:04:27,298] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 12:04:27,477] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 12:04:28,269] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 12:04:28,531] Precondition - Step 05: Enter to Email textbox with value is 'afc9947@mail.vn'
+[INFO ] [2023-09-27 12:04:28,787] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 12:04:31,511] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 12:04:33,727] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 12:04:35,954] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 12:04:36,070] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:04:36,321] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:04:36,749] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 12:04:38,056] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 12:04:38,203] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 12:04:38,847] Precondition - Step 15: Enter to Email textbox with value is 'afc9947@mail.vn'
+[INFO ] [2023-09-27 12:04:39,063] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:04:39,295] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 12:04:40,299] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 12:04:40,415] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 12:04:41,374] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 12:04:41,472] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 12:04:42,277] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 12:04:42,361] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 12:04:43,192] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 12:04:43,354] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 12:04:43,806] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 12:04:43,976] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 12:04:45,940] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 12:04:46,569] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 12:04:47,435] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 12:04:47,564] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 12:04:51,477] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 12:04:51,639] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 12:04:53,243] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 12:04:53,404] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 12:04:55,613] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 12:04:57,881] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 12:04:58,104] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 12:04:58,341] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 12:04:58,640] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 12:04:58,896] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 12:04:59,058] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 12:05:03,169] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 12:05:05,363] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 12:05:07,563] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 12:05:09,754] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 12:05:10,008] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 12:05:10,198] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 12:05:10,393] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 12:05:10,609] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 12:05:10,751] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 12:05:11,194] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 12:05:11,334] TC_05 - Step 22: Click to Radio button 'Check / Money Order' payment method name
+[INFO ] [2023-09-27 12:05:11,728] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 12:05:11,876] TC_05 - Step 24: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-27 12:05:12,625] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 12:05:13,007] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 12:05:13,082] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 12:05:13,181] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 12:05:13,254] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 12:05:13,339] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 12:05:13,410] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc9947@mail.vn
+[INFO ] [2023-09-27 12:05:13,488] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 12:05:13,568] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 12:05:13,646] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 12:05:13,724] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 12:05:13,809] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 12:05:13,896] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 12:05:13,977] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 12:05:14,052] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc9947@mail.vn
+[INFO ] [2023-09-27 12:05:14,145] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 12:05:14,221] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 12:05:14,300] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 12:05:14,378] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 12:05:14,469] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 12:05:14,550] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 12:06:27,200] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 12:06:28,990] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 12:06:29,282] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 12:06:29,532] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 12:06:29,763] Precondition - Step 05: Enter to Email textbox with value is 'afc3897@mail.vn'
+[INFO ] [2023-09-27 12:06:29,988] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 12:06:32,240] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 12:06:34,485] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 12:06:36,678] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 12:06:36,826] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:06:37,046] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:06:37,263] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 12:06:38,604] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 12:06:38,739] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 12:06:39,456] Precondition - Step 15: Enter to Email textbox with value is 'afc3897@mail.vn'
+[INFO ] [2023-09-27 12:06:39,687] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:06:39,894] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 12:06:41,203] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 12:06:41,326] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 12:06:42,290] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 12:06:42,380] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 12:06:43,310] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 12:06:43,430] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 12:06:45,090] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 12:06:45,249] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 12:06:46,070] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 12:06:46,600] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 12:06:48,794] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 12:06:49,159] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 12:06:50,111] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 12:06:50,211] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 12:06:50,617] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 12:06:51,041] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 12:06:53,082] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 12:06:53,288] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 12:06:55,478] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 12:06:57,697] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 12:06:57,966] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 12:06:58,236] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 12:06:58,456] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 12:06:58,705] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 12:06:58,973] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 12:06:59,549] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 12:07:01,761] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 12:07:03,990] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 12:07:06,242] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 12:07:06,471] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 12:07:06,697] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 12:07:06,916] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 12:07:07,161] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 12:07:07,303] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 12:07:07,941] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 12:07:08,092] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-27 12:07:08,600] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 12:07:08,777] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'VISA'
+[INFO ] [2023-09-27 12:08:57,567] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 12:08:58,889] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 12:08:59,096] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 12:08:59,346] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 12:08:59,549] Precondition - Step 05: Enter to Email textbox with value is 'afc6098@mail.vn'
+[INFO ] [2023-09-27 12:08:59,806] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 12:09:02,029] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 12:09:04,252] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 12:09:06,473] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 12:09:06,587] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:09:06,817] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:09:07,058] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 12:09:08,007] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 12:09:08,130] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 12:09:08,638] Precondition - Step 15: Enter to Email textbox with value is 'afc6098@mail.vn'
+[INFO ] [2023-09-27 12:09:08,842] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:09:09,042] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 12:09:10,076] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 12:09:10,179] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 12:09:10,993] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 12:09:11,100] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 12:09:11,780] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 12:09:11,893] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 12:09:12,769] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 12:09:12,921] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 12:09:13,299] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 12:09:13,875] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 12:09:15,122] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 12:09:15,371] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 12:09:16,039] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 12:09:16,142] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 12:09:16,488] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 12:09:16,991] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 12:09:18,265] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 12:09:18,437] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 12:09:20,636] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 12:09:22,847] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 12:09:23,109] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 12:09:23,362] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 12:09:23,583] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 12:09:23,823] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 12:09:23,965] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 12:09:24,511] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 12:09:26,726] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 12:09:28,942] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 12:09:31,132] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 12:09:31,448] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 12:09:31,813] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 12:09:32,147] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 12:09:32,440] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 12:09:32,581] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 12:09:33,122] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 12:09:33,252] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-27 12:09:33,699] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 12:09:33,834] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'Visa'
+[INFO ] [2023-09-27 12:09:36,480] TC_05 - Step 25: Enter to Cardholder Name textbox with value is 'Guest Ward'
+[INFO ] [2023-09-27 12:09:36,702] TC_05 - Step 26: Enter to Card Number textbox with value is '4633513588256742'
+[INFO ] [2023-09-27 12:09:36,922] TC_05 - Step 27: Select Dropdown Expiration Date with value is '04'
+[INFO ] [2023-09-27 12:09:39,112] TC_05 - Step 28: Select Dropdown Expiration Date with value is '2026'
+[INFO ] [2023-09-27 12:09:41,318] TC_05 - Step 29: Enter to Card code textbox with value is '362'
+[INFO ] [2023-09-27 12:21:58,605] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 12:22:00,311] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 12:22:03,889] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 12:22:04,929] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 12:22:05,165] Precondition - Step 05: Enter to Email textbox with value is 'afc2138@mail.vn'
+[INFO ] [2023-09-27 12:22:05,424] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 12:22:08,033] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 12:22:10,246] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 12:22:12,471] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 12:22:12,569] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:22:12,806] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:22:13,025] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 12:22:13,967] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 12:22:14,119] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 12:22:14,732] Precondition - Step 15: Enter to Email textbox with value is 'afc2138@mail.vn'
+[INFO ] [2023-09-27 12:22:14,942] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 12:22:15,149] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 12:22:16,059] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 12:22:16,149] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 12:22:17,587] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 12:22:17,694] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 12:22:19,120] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 12:22:19,230] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 12:22:20,943] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 12:22:21,108] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 12:22:21,715] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 12:22:21,865] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 12:22:23,457] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 12:22:23,784] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 12:22:24,935] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 12:22:25,112] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 12:22:29,371] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 12:22:29,510] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 12:22:30,734] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 12:22:31,020] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 12:22:33,247] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 12:22:36,305] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 12:22:36,561] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 12:22:36,791] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 12:22:37,052] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 12:22:37,546] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 12:22:37,696] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 12:22:38,228] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 12:22:40,625] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 12:22:42,844] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 12:22:45,043] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 12:22:45,310] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 12:22:45,535] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 12:22:45,755] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 12:22:45,994] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 12:22:46,129] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 12:22:46,601] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 12:22:46,793] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-27 12:22:47,351] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 12:22:47,473] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'Visa'
+[INFO ] [2023-09-27 12:22:49,935] TC_05 - Step 25: Enter to Cardholder Name textbox with value is 'Guest Ward'
+[INFO ] [2023-09-27 12:22:50,200] TC_05 - Step 26: Enter to Card Number textbox with value is '4633513588256742'
+[INFO ] [2023-09-27 12:22:50,423] TC_05 - Step 27: Select Dropdown Expiration Date with value is '04'
+[INFO ] [2023-09-27 12:22:52,613] TC_05 - Step 28: Select Dropdown Expiration Date with value is '2026'
+[INFO ] [2023-09-27 12:22:54,807] TC_05 - Step 29: Enter to Card code textbox with value is '362'
+[INFO ] [2023-09-27 12:22:55,004] TC_05 - Step 30: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-27 12:22:55,147] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 12:22:55,888] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 12:22:55,978] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 12:22:56,089] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 12:22:56,161] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 12:22:56,273] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 12:22:56,346] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc2138@mail.vn
+[INFO ] [2023-09-27 12:22:56,427] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 12:22:56,505] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 12:22:56,584] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 12:22:56,662] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 12:22:56,734] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 12:22:56,814] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 12:22:56,897] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 12:22:56,972] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc2138@mail.vn
+[INFO ] [2023-09-27 12:22:57,073] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 12:22:57,176] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 12:22:57,247] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 12:22:57,327] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 12:22:57,406] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 12:22:57,500] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 12:23:27,627] TC_05 - Step 46: Verify Lenovo IdeaCentre 600 All-in-One PC title product is displayed 
+[INFO ] [2023-09-27 12:23:27,738] TC_05 - Step 47: Verify '$500.00' Price is displayed 
+[INFO ] [2023-09-27 12:23:27,852] TC_05 - Step 48: Verify '5' Qty is displayed 
+[INFO ] [2023-09-27 12:23:27,957] TC_05 - Step 49: Verify '$2,500.00' Total is displayed 
+[INFO ] [2023-09-27 12:23:28,068] TC_05 - Step 50: Verify 'Gift wrapping' with value is displayed with value 'No'
+[INFO ] [2023-09-27 12:23:28,143] TC_05 - Step 51: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-27 12:23:28,224] TC_05 - Step 52: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 12:23:28,303] TC_05 - Step 53: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 12:23:28,379] TC_05 - Step 54: Verify 'Order Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-27 12:23:28,473] TC_05 - Step 55: Verify 'Earn reward points' At Table Cart Total is '250 points' displayed 
+[INFO ] [2023-09-27 12:23:28,550] TC_05 - Step 56: Click to 'Confirm' button at Confirm order
+[INFO ] [2023-09-27 12:23:28,701] TC_05 - Step 57: Verify 'Thank you' title is displayed 
+[INFO ] [2023-09-27 12:23:30,245] TC_05 - Step 58: Verify 'title' is displayed with value 'Your order has been successfully processed!'
+[INFO ] [2023-09-27 12:23:30,351] TC_05 - Step 59: Verify 'order number' is displayed 
+[INFO ] [2023-09-27 12:23:30,444] TC_05 - Step 60: Get  'order number' 
+[INFO ] [2023-09-27 12:23:30,503] TC_05 - Step 61: Navigate to 'Home' page 
+[INFO ] [2023-09-27 12:23:31,161] TC_05 - Step 62: Navigate to 'My Account' page 
+[INFO ] [2023-09-27 12:23:31,732] TC_05 - Step 63: Navigate to 'Orders' page 
+[INFO ] [2023-09-27 12:23:32,335] TC_05 - Step 64: Verify 'Orders' title is displayed 
+[INFO ] [2023-09-27 12:23:32,472] TC_05 - Step 65: Verify 'Orders name' title is displayed with value 1033
+[INFO ] [2023-09-27 12:23:32,606] TC_05 - Step 66: Click to 'Details' button 
+[INFO ] [2023-09-27 12:23:33,191] TC_05 - Step 66: Verify 'Orders Number' at Order Overview is displayed with value 1033
+[INFO ] [2023-09-27 12:23:33,269] TC_05 - Step 67: Verify 'order-date' in OrderCOntent Area at Order Page is displayed with value Tuesday, September 26, 2023
+[INFO ] [2023-09-27 12:23:33,377] TC_05 - Step 68: Verify 'order-status' in OrderCOntent Area at Order Page is displayed with value Pending
+[INFO ] [2023-09-27 12:23:33,469] TC_05 - Step 69: Verify 'order-total' in OrderCOntent Area at Order Page is displayed with value $2,500.00
+[INFO ] [2023-09-27 12:23:33,549] TC_05 - Step 70: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 12:23:33,627] TC_05 - Step 71: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 12:23:33,712] TC_05 - Step 72: Verify payment-method status is 'Pending' is displayed 
+[INFO ] [2023-09-27 12:23:33,792] TC_05 - Step 73: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 12:23:33,877] TC_05 - Step 74: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 12:23:33,949] TC_05 - Step 75: Verify Shipping status is 'Not yet shipped' is displayed 
+[INFO ] [2023-09-27 12:23:34,028] TC_05 - Step 76: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 12:23:34,112] TC_05 - Step 77: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 12:23:34,182] TC_05 - Step 78: Verify 'Email of Billing Address' is displayed with value Email: afc2138@mail.vn
+[INFO ] [2023-09-27 12:23:34,261] TC_05 - Step 79: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 12:23:34,337] TC_05 - Step 80: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 12:23:34,415] TC_05 - Step 81: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 12:23:34,495] TC_05 - Step 82: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 12:23:34,575] TC_05 - Step 83: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 12:23:34,650] TC_05 - Step 84: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 12:23:34,734] TC_05 - Step 85: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 12:23:34,806] TC_05 - Step 86: Verify 'Email of Shipping Address' is displayed with value Email: afc2138@mail.vn
+[INFO ] [2023-09-27 12:23:34,885] TC_05 - Step 87: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 12:23:34,963] TC_05 - Step 88: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 12:23:35,042] TC_05 - Step 89: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 12:23:35,120] TC_05 - Step 90: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 12:23:35,196] TC_05 - Step 91: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 12:23:35,275] TC_05 - Step 92: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 12:24:05,392] TC_05 - Step 93: Verify Lenovo IdeaCentre 600 All-in-One PC title product is displayed 
+[INFO ] [2023-09-27 12:24:05,503] TC_05 - Step 94: Verify '$500.00' Price is displayed 
+[INFO ] [2023-09-27 12:24:05,593] TC_05 - Step 94: Verify '5' Quantity is displayed 
+[INFO ] [2023-09-27 12:24:05,705] TC_05 - Step 96: Verify '$2,500.00' Total is displayed 
+[INFO ] [2023-09-27 12:24:05,813] TC_05 - Step 97: Verify 'Gift wrapping' with value is displayed with value 'No'
+[INFO ] [2023-09-27 12:24:05,895] TC_05 - Step 98: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-27 12:24:05,971] TC_05 - Step 99: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 12:24:06,048] TC_05 - Step 100: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 12:24:06,128] TC_05 - Step 101: Verify 'Order Total' Price At Table Cart Total is '$2,500.00' displayed 
+[INFO ] [2023-09-27 17:15:41,020] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 17:15:43,726] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 17:15:44,311] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 17:15:47,514] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 17:15:47,835] Precondition - Step 05: Enter to Email textbox with value is 'afc4836@mail.vn'
+[INFO ] [2023-09-27 17:15:48,165] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 17:15:51,060] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 17:15:53,337] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 17:15:55,538] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 17:15:55,686] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 17:15:55,920] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 17:15:56,136] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 17:15:57,053] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 17:15:57,270] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 17:15:57,859] Precondition - Step 15: Enter to Email textbox with value is 'afc4836@mail.vn'
+[INFO ] [2023-09-27 17:15:58,056] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 17:15:58,292] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 17:15:59,274] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 17:15:59,358] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 17:16:00,597] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 17:16:00,731] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 17:16:04,202] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 17:16:04,328] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 17:16:06,173] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 17:16:06,452] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 17:16:06,881] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 17:16:07,572] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 17:16:10,644] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 17:16:11,353] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 17:16:12,441] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 17:16:12,586] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 17:16:14,662] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 17:16:14,946] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 17:16:16,595] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 17:16:16,775] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 17:16:18,985] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 17:16:21,185] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 17:16:21,446] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 17:16:21,696] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 17:16:21,925] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 17:16:22,158] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 17:16:22,309] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 17:16:22,995] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 17:16:25,196] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 17:16:27,402] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 17:16:29,640] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 17:16:29,900] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 17:16:30,113] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 17:16:30,317] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 17:16:30,554] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 17:16:30,694] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 17:16:31,144] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 17:16:31,280] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-27 17:16:31,730] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 17:16:31,862] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'Visa'
+[INFO ] [2023-09-27 17:16:34,351] TC_05 - Step 25: Enter to Cardholder Name textbox with value is 'Guest Ward'
+[INFO ] [2023-09-27 17:16:34,621] TC_05 - Step 26: Enter to Card Number textbox with value is '4633513588256742'
+[INFO ] [2023-09-27 17:16:34,852] TC_05 - Step 27: Select Dropdown Expiration Date with value is '04'
+[INFO ] [2023-09-27 17:16:37,064] TC_05 - Step 28: Select Dropdown Expiration Date with value is '2026'
+[INFO ] [2023-09-27 17:16:39,269] TC_05 - Step 29: Enter to Card code textbox with value is '362'
+[INFO ] [2023-09-27 17:16:39,500] TC_05 - Step 30: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-27 17:16:39,648] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 17:16:40,303] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 17:16:40,411] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 17:16:40,522] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 17:16:40,611] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 17:16:40,705] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 17:16:40,785] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc4836@mail.vn
+[INFO ] [2023-09-27 17:16:40,857] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 17:16:40,939] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 17:16:41,014] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 17:16:41,097] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 17:16:41,212] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 17:16:41,322] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 17:16:41,420] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 17:16:41,494] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc4836@mail.vn
+[INFO ] [2023-09-27 17:16:41,571] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 17:16:41,652] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 17:16:41,735] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 17:16:41,837] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 17:16:41,916] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 17:16:41,996] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 17:17:12,140] TC_05 - Step 46: Verify Lenovo IdeaCentre 600 All-in-One PC title product is displayed 
+[INFO ] [2023-09-27 17:17:12,274] TC_05 - Step 47: Verify '$500.00' Price is displayed 
+[INFO ] [2023-09-27 17:17:12,527] TC_05 - Step 48: Verify '5' Qty is displayed 
+[INFO ] [2023-09-27 17:17:12,659] TC_05 - Step 49: Verify '$2,500.00' Total is displayed 
+[INFO ] [2023-09-27 17:17:12,764] TC_05 - Step 50: Verify 'Gift wrapping' with value is displayed with value 'No'
+[INFO ] [2023-09-27 17:17:12,863] TC_05 - Step 51: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-27 17:17:12,936] TC_05 - Step 52: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 17:17:13,015] TC_05 - Step 53: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-27 17:17:13,112] TC_05 - Step 54: Verify 'Order Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-27 17:17:13,209] TC_05 - Step 55: Verify 'Earn reward points' At Table Cart Total is '250 points' displayed 
+[INFO ] [2023-09-27 17:17:13,281] TC_05 - Step 56: Click to 'Confirm' button at Confirm order
+[INFO ] [2023-09-27 17:17:13,448] TC_05 - Step 57: Verify 'Thank you' title is displayed 
+[INFO ] [2023-09-27 17:17:17,023] TC_05 - Step 58: Verify 'title' is displayed with value 'Your order has been successfully processed!'
+[INFO ] [2023-09-27 17:17:17,129] TC_05 - Step 59: Verify 'order number' is displayed 
+[INFO ] [2023-09-27 17:17:17,209] TC_05 - Step 60: Get  'order number' 
+[INFO ] [2023-09-27 17:17:17,313] TC_05 - Step 61: Navigate to 'Home' page 
+[INFO ] [2023-09-27 17:17:18,680] TC_05 - Step 62: Navigate to 'My Account' page 
+[INFO ] [2023-09-27 17:17:19,736] TC_05 - Step 63: Navigate to 'Orders' page 
+[INFO ] [2023-09-27 17:17:21,753] TC_05 - Step 64: Verify 'Orders' title is displayed 
+[INFO ] [2023-09-27 17:17:21,854] TC_05 - Step 65: Verify 'Orders name' title is displayed with value 1032
+[INFO ] [2023-09-27 17:17:21,945] TC_05 - Step 66: Click to 'Details' button 
+[INFO ] [2023-09-27 17:17:23,013] TC_05 - Step 66: Verify 'Orders Number' at Order Overview is displayed with value 1032
+[INFO ] [2023-09-27 17:17:23,095] TC_05 - Step 67: Verify 'order-date' in OrderCOntent Area at Order Page is displayed with value Tuesday, September 26, 2023
+[INFO ] [2023-09-27 21:36:59,803] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 21:37:01,312] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 21:37:01,734] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 21:37:03,490] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 21:37:04,188] Precondition - Step 05: Enter to Email textbox with value is 'afc1055@mail.vn'
+[INFO ] [2023-09-27 21:37:04,432] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 21:37:07,770] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 21:37:10,003] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 21:37:12,199] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 21:37:12,299] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 21:37:12,555] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 21:37:12,803] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 21:37:13,885] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 21:37:13,987] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 21:37:14,614] Precondition - Step 15: Enter to Email textbox with value is 'afc1055@mail.vn'
+[INFO ] [2023-09-27 21:37:14,834] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 21:37:15,032] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 21:37:16,069] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 21:37:16,198] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 21:37:16,928] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 21:37:17,047] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 21:37:18,420] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 21:37:18,566] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 21:37:21,127] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 21:37:21,276] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 21:37:21,641] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 21:37:21,809] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 21:37:23,620] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 21:37:23,907] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 21:37:24,554] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 21:37:24,768] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 21:37:25,551] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 21:37:25,688] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 21:37:28,159] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 21:37:28,334] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 21:37:30,555] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 21:37:32,758] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 21:37:32,990] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 21:37:33,233] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 21:37:33,458] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 21:37:33,715] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 21:37:33,864] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 21:37:34,474] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 21:37:36,704] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 21:37:39,015] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 21:37:41,212] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 21:37:41,491] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 21:37:41,797] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 21:37:42,058] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 21:37:42,541] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 21:37:42,685] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 21:37:43,201] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 21:37:43,349] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-27 21:37:43,883] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 21:37:44,093] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'Visa'
+[INFO ] [2023-09-27 21:37:46,550] TC_05 - Step 25: Enter to Cardholder Name textbox with value is 'Guest Ward'
+[INFO ] [2023-09-27 21:37:46,791] TC_05 - Step 26: Enter to Card Number textbox with value is '4633513588256742'
+[INFO ] [2023-09-27 21:37:47,016] TC_05 - Step 27: Select Dropdown Expiration Date with value is '04'
+[INFO ] [2023-09-27 21:37:49,200] TC_05 - Step 28: Select Dropdown Expiration Date with value is '2026'
+[INFO ] [2023-09-27 21:37:51,417] TC_05 - Step 29: Enter to Card code textbox with value is '362'
+[INFO ] [2023-09-27 21:37:51,612] TC_05 - Step 30: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-27 21:37:51,758] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 21:37:52,563] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 21:37:52,668] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 21:37:52,786] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 21:37:52,885] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 21:37:52,967] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 21:37:53,077] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc1055@mail.vn
+[INFO ] [2023-09-27 21:37:53,148] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 21:37:53,229] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 21:37:53,306] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 21:37:53,382] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 21:37:53,470] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 21:37:53,589] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 21:37:53,706] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 21:37:53,811] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc1055@mail.vn
+[INFO ] [2023-09-27 21:37:53,917] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 21:37:54,025] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 21:37:54,153] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 21:37:54,266] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 21:37:54,366] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 21:37:54,464] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 22:34:14,755] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 22:34:16,447] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 22:34:16,871] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 22:34:17,431] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 22:34:17,645] Precondition - Step 05: Enter to Email textbox with value is 'afc3200@mail.vn'
+[INFO ] [2023-09-27 22:34:17,884] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 22:34:20,339] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 22:34:22,538] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 22:34:24,768] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 22:34:24,884] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 22:34:25,154] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 22:34:25,350] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 22:34:26,284] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 22:34:26,413] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 22:34:27,032] Precondition - Step 15: Enter to Email textbox with value is 'afc3200@mail.vn'
+[INFO ] [2023-09-27 22:34:27,304] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 22:34:27,552] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 22:34:28,580] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 22:34:28,714] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 22:34:29,358] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 22:34:29,480] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 22:34:30,353] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 22:34:30,450] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 22:34:31,196] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 22:34:31,373] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 22:34:31,862] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 22:34:32,912] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 22:34:36,981] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 22:34:37,388] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 22:34:39,251] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 22:34:39,364] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 22:34:42,961] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 22:34:43,114] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 22:34:44,706] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 22:34:44,914] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 22:34:47,139] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 22:34:49,407] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 22:34:49,727] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 22:34:49,987] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 22:34:50,319] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 22:34:50,558] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 22:34:50,705] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 22:34:51,369] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 22:34:53,586] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 22:34:55,781] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 22:34:58,008] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 22:34:58,315] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 22:34:58,518] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 22:34:58,736] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 22:34:58,958] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 22:34:59,137] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 22:34:59,755] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 22:34:59,897] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-27 22:35:00,344] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 22:35:00,479] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'Visa'
+[INFO ] [2023-09-27 22:35:02,888] TC_05 - Step 25: Enter to Cardholder Name textbox with value is 'Guest Ward'
+[INFO ] [2023-09-27 22:35:03,122] TC_05 - Step 26: Enter to Card Number textbox with value is '4633513588256742'
+[INFO ] [2023-09-27 22:35:03,346] TC_05 - Step 27: Select Dropdown Expiration Date with value is '04'
+[INFO ] [2023-09-27 22:35:05,569] TC_05 - Step 28: Select Dropdown Expiration Date with value is '2026'
+[INFO ] [2023-09-27 22:35:07,835] TC_05 - Step 29: Enter to Card code textbox with value is '362'
+[INFO ] [2023-09-27 22:35:08,033] TC_05 - Step 30: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-27 22:35:08,170] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 22:35:08,783] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 22:35:08,860] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 22:35:08,958] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 22:35:09,059] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 22:35:09,158] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 22:35:09,254] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc3200@mail.vn
+[INFO ] [2023-09-27 22:35:09,366] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 22:35:09,510] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 22:35:09,622] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 22:35:09,735] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 22:35:09,810] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 22:35:09,892] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 22:35:09,979] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 22:35:10,086] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc3200@mail.vn
+[INFO ] [2023-09-27 22:35:10,170] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 22:35:10,251] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 22:35:10,328] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 22:35:10,426] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 22:35:10,519] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 22:35:10,598] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 22:40:37,788] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 22:40:39,815] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 22:40:40,254] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 22:40:40,691] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 22:40:40,973] Precondition - Step 05: Enter to Email textbox with value is 'afc3098@mail.vn'
+[INFO ] [2023-09-27 22:40:41,243] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 22:40:43,646] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 22:40:45,887] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 22:40:48,105] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 22:40:48,225] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 22:40:48,518] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 22:40:48,810] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 22:40:49,945] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 22:40:50,202] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 22:40:50,764] Precondition - Step 15: Enter to Email textbox with value is 'afc3098@mail.vn'
+[INFO ] [2023-09-27 22:40:50,965] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 22:40:51,194] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 22:40:52,165] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 22:40:52,289] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 22:40:52,985] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 22:40:53,100] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 22:40:53,941] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 22:40:54,067] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 22:40:55,061] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 22:40:55,211] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 22:40:55,728] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 22:40:55,906] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 22:40:58,286] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 22:40:58,536] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 22:40:59,164] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 22:40:59,411] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 22:41:01,508] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 22:41:01,701] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 22:41:03,723] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 22:41:03,916] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 22:41:06,126] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 22:41:08,420] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 22:41:08,649] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 22:41:08,902] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 22:41:09,165] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 22:41:09,478] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 22:41:09,632] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 22:41:10,287] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 22:41:12,467] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 22:41:14,660] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 22:41:16,850] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 22:41:17,109] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 22:41:17,312] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 22:41:17,549] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 22:41:17,777] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 22:41:17,919] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 22:41:18,455] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 22:41:18,602] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-27 22:41:19,065] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 22:41:19,209] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'Visa'
+[INFO ] [2023-09-27 22:41:21,699] TC_05 - Step 25: Enter to Cardholder Name textbox with value is 'Guest Ward'
+[INFO ] [2023-09-27 22:41:21,939] TC_05 - Step 26: Enter to Card Number textbox with value is '4633513588256742'
+[INFO ] [2023-09-27 22:41:22,174] TC_05 - Step 27: Select Dropdown Expiration Date with value is '04'
+[INFO ] [2023-09-27 22:41:24,350] TC_05 - Step 28: Select Dropdown Expiration Date with value is '2026'
+[INFO ] [2023-09-27 22:41:26,596] TC_05 - Step 29: Enter to Card code textbox with value is '362'
+[INFO ] [2023-09-27 22:41:26,791] TC_05 - Step 30: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-27 22:41:26,935] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 22:41:27,498] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 22:41:27,580] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 22:41:27,687] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 22:41:27,763] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 22:41:27,845] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 22:41:27,918] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc3098@mail.vn
+[INFO ] [2023-09-27 22:41:28,011] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 22:41:28,089] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 22:41:28,190] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 22:41:28,289] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 22:41:28,369] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 22:41:28,447] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 22:41:28,561] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 22:41:28,631] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc3098@mail.vn
+[INFO ] [2023-09-27 22:41:28,712] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 22:41:28,793] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 22:41:28,868] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 22:41:28,946] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 22:41:29,026] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 22:41:29,103] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-27 22:52:50,842] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-27 22:52:52,799] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-27 22:52:53,194] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-27 22:52:53,724] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-27 22:52:53,916] Precondition - Step 05: Enter to Email textbox with value is 'afc289@mail.vn'
+[INFO ] [2023-09-27 22:52:54,150] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-27 22:52:56,610] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-27 22:52:58,824] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-27 22:53:01,035] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-27 22:53:01,137] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 22:53:01,465] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-27 22:53:01,705] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-27 22:53:03,155] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-27 22:53:03,387] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-27 22:53:03,911] Precondition - Step 15: Enter to Email textbox with value is 'afc289@mail.vn'
+[INFO ] [2023-09-27 22:53:04,109] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-27 22:53:04,325] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-27 22:53:05,177] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-27 22:53:05,280] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-27 22:53:05,907] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-27 22:53:05,993] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-27 22:53:06,627] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-27 22:53:06,724] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-27 22:53:07,570] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-27 22:53:07,716] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-27 22:53:08,184] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-27 22:53:08,322] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-27 22:53:09,870] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 22:53:10,105] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-27 22:53:10,725] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-27 22:53:10,820] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-27 22:53:11,735] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-27 22:53:11,887] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-27 22:53:13,746] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-27 22:53:13,915] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 22:53:16,136] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 22:53:18,412] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 22:53:18,732] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-27 22:53:19,087] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 22:53:19,394] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-27 22:53:19,694] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-27 22:53:19,840] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-27 22:53:20,574] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-27 22:53:22,766] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-27 22:53:24,965] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-27 22:53:27,210] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-27 22:53:27,463] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-27 22:53:27,700] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-27 22:53:27,904] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-27 22:53:28,140] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-27 22:53:28,291] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-27 22:53:28,717] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-27 22:53:28,852] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-27 22:53:29,429] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-27 22:53:29,562] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'Visa'
+[INFO ] [2023-09-27 22:53:32,116] TC_05 - Step 25: Enter to Cardholder Name textbox with value is 'Guest Ward'
+[INFO ] [2023-09-27 22:53:32,367] TC_05 - Step 26: Enter to Card Number textbox with value is '4633513588256742'
+[INFO ] [2023-09-27 22:53:32,692] TC_05 - Step 27: Select Dropdown Expiration Date with value is '04'
+[INFO ] [2023-09-27 22:53:34,911] TC_05 - Step 28: Select Dropdown Expiration Date with value is '2026'
+[INFO ] [2023-09-27 22:53:37,092] TC_05 - Step 29: Enter to Card code textbox with value is '362'
+[INFO ] [2023-09-27 22:53:37,337] TC_05 - Step 30: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-27 22:53:37,472] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-27 22:53:38,071] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-27 22:53:38,146] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-27 22:53:38,263] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-27 22:53:38,363] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-27 22:53:38,466] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 22:53:38,554] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc289@mail.vn
+[INFO ] [2023-09-27 22:53:38,642] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-27 22:53:38,752] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 22:53:38,828] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-27 22:53:38,909] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 22:53:38,988] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-27 22:53:39,064] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-27 22:53:39,166] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-27 22:53:39,249] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc289@mail.vn
+[INFO ] [2023-09-27 22:53:39,332] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-27 22:53:39,409] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-27 22:53:39,483] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-27 22:53:39,563] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-27 22:53:39,645] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-27 22:53:39,720] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-28 00:14:11,119] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-28 00:14:12,930] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-28 00:14:16,368] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-28 00:14:18,067] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-28 00:14:18,375] Precondition - Step 05: Enter to Email textbox with value is 'afc5678@mail.vn'
+[INFO ] [2023-09-28 00:14:18,614] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-28 00:14:21,087] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-28 00:14:23,324] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-28 00:14:25,549] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-28 00:14:25,707] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-28 00:14:25,938] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-28 00:14:26,148] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-28 00:14:27,060] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-28 00:14:27,237] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-28 00:14:27,828] Precondition - Step 15: Enter to Email textbox with value is 'afc5678@mail.vn'
+[INFO ] [2023-09-28 00:14:28,052] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-28 00:14:28,268] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-28 00:14:29,285] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-28 00:14:29,392] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-28 00:14:29,999] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-28 00:14:30,079] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-28 00:14:30,739] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-28 00:14:30,859] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-28 00:14:31,715] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-28 00:14:31,873] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-28 00:14:32,316] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-28 00:14:32,494] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-28 00:14:34,360] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-28 00:14:34,688] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-28 00:14:35,444] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-28 00:14:35,722] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-28 00:14:40,509] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-28 00:14:40,660] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-28 00:14:41,875] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-28 00:14:42,068] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-28 00:14:44,258] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-28 00:14:46,514] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-28 00:14:46,768] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-28 00:14:47,005] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-28 00:14:47,228] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-28 00:14:47,455] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-28 00:14:47,599] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-28 00:14:48,214] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-28 00:14:50,436] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-28 00:14:52,667] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-28 00:14:54,911] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-28 00:14:55,132] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-28 00:14:55,352] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-28 00:14:55,574] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-28 00:14:55,791] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-28 00:14:55,945] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-28 00:14:56,490] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-28 00:14:56,622] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-28 00:14:57,137] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-28 00:14:57,265] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'Visa'
+[INFO ] [2023-09-28 00:14:59,671] TC_05 - Step 25: Enter to Cardholder Name textbox with value is 'Guest Ward'
+[INFO ] [2023-09-28 00:14:59,962] TC_05 - Step 26: Enter to Card Number textbox with value is '4633513588256742'
+[INFO ] [2023-09-28 00:15:00,183] TC_05 - Step 27: Select Dropdown Expiration Date with value is '04'
+[INFO ] [2023-09-28 00:15:02,374] TC_05 - Step 28: Select Dropdown Expiration Date with value is '2026'
+[INFO ] [2023-09-28 00:15:04,576] TC_05 - Step 29: Enter to Card code textbox with value is '362'
+[INFO ] [2023-09-28 00:15:04,796] TC_05 - Step 30: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-28 00:15:04,941] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-28 00:15:05,417] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-28 00:15:05,508] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-28 00:15:05,588] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-28 00:15:05,678] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-28 00:15:05,774] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-28 00:15:05,850] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc5678@mail.vn
+[INFO ] [2023-09-28 00:15:05,928] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-28 00:15:06,006] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-28 00:15:06,139] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-28 00:15:06,253] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-28 00:15:06,338] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-28 00:15:06,440] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-28 00:15:06,558] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-28 00:15:06,655] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc5678@mail.vn
+[INFO ] [2023-09-28 00:15:06,736] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-28 00:15:06,817] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-28 00:15:06,892] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-28 00:15:06,972] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-28 00:15:07,050] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-28 00:15:07,128] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-28 00:15:37,295] TC_05 - Step 46: Verify Lenovo IdeaCentre 600 All-in-One PC title product is displayed 
+[INFO ] [2023-09-28 00:15:37,409] TC_05 - Step 47: Verify '$500.00' Price is displayed 
+[INFO ] [2023-09-28 00:15:37,515] TC_05 - Step 48: Verify '5' Qty is displayed 
+[INFO ] [2023-09-28 00:15:37,622] TC_05 - Step 49: Verify '$2,500.00' Total is displayed 
+[INFO ] [2023-09-28 00:15:37,732] TC_05 - Step 50: Verify 'Gift wrapping' with value is displayed with value 'No'
+[INFO ] [2023-09-28 00:15:37,811] TC_05 - Step 51: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-28 00:15:37,888] TC_05 - Step 52: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-28 00:15:37,967] TC_05 - Step 53: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-28 00:15:38,045] TC_05 - Step 54: Verify 'Order Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-28 00:15:38,123] TC_05 - Step 55: Verify 'Earn reward points' At Table Cart Total is '250 points' displayed 
+[INFO ] [2023-09-28 00:15:38,211] TC_05 - Step 56: Click to 'Confirm' button at Confirm order
+[INFO ] [2023-09-28 00:15:38,368] TC_05 - Step 57: Verify 'Thank you' title is displayed 
+[INFO ] [2023-09-28 00:15:40,541] TC_05 - Step 58: Verify 'title' is displayed with value 'Your order has been successfully processed!'
+[INFO ] [2023-09-28 00:15:40,636] TC_05 - Step 59: Verify 'order number' is displayed 
+[INFO ] [2023-09-28 00:15:40,728] TC_05 - Step 60: Get  'order number' 
+[INFO ] [2023-09-28 00:15:40,821] TC_05 - Step 61: Navigate to 'Home' page 
+[INFO ] [2023-09-28 00:15:43,068] TC_05 - Step 62: Navigate to 'My Account' page 
+[INFO ] [2023-09-28 00:15:43,951] TC_05 - Step 63: Navigate to 'Orders' page 
+[INFO ] [2023-09-28 00:15:45,320] TC_05 - Step 64: Verify 'Orders' title is displayed 
+[INFO ] [2023-09-28 00:15:45,431] TC_05 - Step 65: Verify 'Orders name' title is displayed with value 1031
+[INFO ] [2023-09-28 00:15:45,532] TC_05 - Step 66: Click to 'Details' button 
+[INFO ] [2023-09-28 00:15:47,649] TC_05 - Step 66: Verify 'Orders Number' at Order Overview is displayed with value 1031
+[INFO ] [2023-09-28 00:15:47,734] TC_05 - Step 67: Verify 'order-date' in OrderCOntent Area at Order Page is displayed with value Tuesday, September 26, 2023
+[INFO ] [2023-09-28 09:11:29,062] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-28 09:11:30,833] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-28 09:11:31,700] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-28 09:11:32,266] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-28 09:11:32,479] Precondition - Step 05: Enter to Email textbox with value is 'afc2119@mail.vn'
+[INFO ] [2023-09-28 09:11:32,708] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-28 09:11:35,108] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-28 09:11:37,307] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-28 09:11:39,506] Precondition - Step 09: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-28 09:11:39,620] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-28 09:11:39,845] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-28 09:11:40,045] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-28 09:11:40,895] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-28 09:11:41,040] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-28 09:11:41,598] Precondition - Step 15: Enter to Email textbox with value is 'afc2119@mail.vn'
+[INFO ] [2023-09-28 09:11:41,812] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-28 09:11:42,025] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-28 09:11:42,841] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-28 09:11:42,955] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-28 09:11:43,715] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-28 09:11:43,826] Precondition - Step 21: Swith to 'Desktops' page
+[INFO ] [2023-09-28 09:11:44,373] Precondition - Step 22: Verify 'Desktops' title is displayed 
+[INFO ] [2023-09-28 09:11:44,497] Precondition - Step 23: Click Product name  with  title Lenovo IdeaCentre 600 All-in-One PC
+[INFO ] [2023-09-28 09:11:45,893] Precondition - Step 24: Click to Add To Cart button
+[INFO ] [2023-09-28 09:11:46,047] Precondition - Step 25: Verify add to cart success message is displayed 
+[INFO ] [2023-09-28 09:11:46,423] Precondition - Step 26: Click to Close add to Cart success message
+[INFO ] [2023-09-28 09:11:46,561] Precondition - Step 27: Navigate to 'Shopping Cart' page
+[INFO ] [2023-09-28 09:11:48,828] Precondition - Step 28: Enter to 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-28 09:11:49,204] Precondition - Step 29: Click to 'Update  Shopping Cart' button
+[INFO ] [2023-09-28 09:11:49,926] Precondition - Step 30: Verify 'Qty' product is '5' is displayed 
+[INFO ] [2023-09-28 09:11:50,176] Precondition - Step 31: Verify 'Total' product is '$2,500.00' is displayed 
+[INFO ] [2023-09-28 09:11:54,240] TC_05 - Step 01: Click to 'Terms Of Service' checkbox
+[INFO ] [2023-09-28 09:11:54,393] TC_05 - Step 02: Click to Checkout button
+[INFO ] [2023-09-28 09:11:55,670] TC_05 - Step 03: Click to Checkbox 'Ship to the same address' 
+[INFO ] [2023-09-28 09:11:55,851] TC_05 - Step 04: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-28 09:11:58,101] TC_05 - Step 05: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-28 09:12:00,362] TC_05 - Step 06: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-28 09:12:00,581] TC_05 - Step 07: Enter to Address1 textbox with value is '08 Logan Way'
+[INFO ] [2023-09-28 09:12:00,817] TC_05 - Step 08: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-28 09:12:01,059] TC_05 - Step 09: Enter to PhoneNumber textbox with value is '+1 (972) 417-4199'
+[INFO ] [2023-09-28 09:12:01,314] TC_05 - Step 10: Click to 'Continue' button at Billing step
+[INFO ] [2023-09-28 09:12:01,459] TC_05 - Step 11: Verify 'shipping Address'  is displayed 
+[INFO ] [2023-09-28 09:12:01,976] TC_05 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'
+[INFO ] [2023-09-28 09:12:04,190] TC_05 - Step 13: Select Dropdown 'Country' with value is 'United States'
+[INFO ] [2023-09-28 09:12:06,417] TC_05 - Step 14: Select Dropdown 'State Province' with value is 'Texas'
+[INFO ] [2023-09-28 09:12:08,634] TC_05 - Step 15: Enter to City textbox with value is 'Dallas'
+[INFO ] [2023-09-28 09:12:08,924] TC_05 - Step 16: Enter to Address1 textbox with value is '08 Long Line'
+[INFO ] [2023-09-28 09:12:09,135] TC_05 - Step 17: Enter to ZipPostalCode textbox with value is '75221'
+[INFO ] [2023-09-28 09:12:09,342] TC_05 - Step 18: Enter to PhoneNumber textbox with value is '+1 (972) 417-4188'
+[INFO ] [2023-09-28 09:12:09,553] TC_05 - Step 19: Click to 'Continue' button at Shipping step
+[INFO ] [2023-09-28 09:12:09,692] TC_05 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name
+[INFO ] [2023-09-28 09:12:10,081] TC_05 - Step 21: Click to 'Continue' button at Shipping method
+[INFO ] [2023-09-28 09:12:10,219] TC_05 - Step 22: Click to Radio button 'Credit Card' payment method name
+[INFO ] [2023-09-28 09:12:10,662] TC_05 - Step 23: Click to 'Continue' button at Payment method
+[INFO ] [2023-09-28 09:12:10,792] TC_05 - Step 24: Select Dropdown CreditCardType with value is 'Visa'
+[INFO ] [2023-09-28 09:12:13,204] TC_05 - Step 25: Enter to Cardholder Name textbox with value is 'Guest Ward'
+[INFO ] [2023-09-28 09:12:13,467] TC_05 - Step 26: Enter to Card Number textbox with value is '4633513588256742'
+[INFO ] [2023-09-28 09:12:13,701] TC_05 - Step 27: Select Dropdown Expiration Date with value is '04'
+[INFO ] [2023-09-28 09:12:15,891] TC_05 - Step 28: Select Dropdown Expiration Date with value is '2026'
+[INFO ] [2023-09-28 09:12:18,103] TC_05 - Step 29: Enter to Card code textbox with value is '362'
+[INFO ] [2023-09-28 09:12:18,312] TC_05 - Step 30: Click to 'Continue' button at Payment info
+[INFO ] [2023-09-28 09:12:18,461] TC_05 - Step 25: Verify 'Payment' title is displayed 
+[INFO ] [2023-09-28 09:12:18,852] TC_05 - Step 26: Verify payment-method is 'Check / Money Order' is displayed 
+[INFO ] [2023-09-28 09:12:18,929] TC_05 - Step 27: Verify 'Shipping' title is displayed 
+[INFO ] [2023-09-28 09:12:19,039] TC_05 - Step 28: Verify Shipping method is 'Ground' is displayed 
+[INFO ] [2023-09-28 09:12:19,115] TC_05 - Step 29: Verify 'Billing Address' title is displayed 
+[INFO ] [2023-09-28 09:12:19,195] TC_05 - Step 30: Verify 'Name of Billing Address' is displayed with value Automation FC
+[INFO ] [2023-09-28 09:12:19,296] TC_05 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: afc2119@mail.vn
+[INFO ] [2023-09-28 09:12:19,395] TC_05 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: +1 (972) 417-4199
+[INFO ] [2023-09-28 09:12:19,472] TC_05 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-28 09:12:19,591] TC_05 - Step 34: Verify 'Address1 of Billing Address' is displayed with value 08 Logan Way
+[INFO ] [2023-09-28 09:12:19,739] TC_05 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-28 09:12:19,810] TC_05 - Step 36: Verify 'Country of Billing Address' is displayed with value United States
+[INFO ] [2023-09-28 09:12:19,887] TC_05 - Step 37: Verify 'Shipping Address' title is displayed 
+[INFO ] [2023-09-28 09:12:19,973] TC_05 - Step 38: Verify 'Name of Shipping Address' is displayed with value Automation FC
+[INFO ] [2023-09-28 09:12:20,062] TC_05 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: afc2119@mail.vn
+[INFO ] [2023-09-28 09:12:20,141] TC_05 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: +1 (972) 417-4188
+[INFO ] [2023-09-28 09:12:20,222] TC_05 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'
+[INFO ] [2023-09-28 09:12:20,304] TC_05 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value 08 Long Line
+[INFO ] [2023-09-28 09:12:20,406] TC_05 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value Dallas, Texas, 75221
+[INFO ] [2023-09-28 09:12:20,490] TC_05 - Step 44: Verify 'Country of Shipping Address' is displayed with value United States
+[INFO ] [2023-09-28 09:12:20,586] TC_05 - Step 45: Verify 'LE_IC_600' SKU  is displayed 
+[INFO ] [2023-09-28 09:12:50,790] TC_05 - Step 46: Verify Lenovo IdeaCentre 600 All-in-One PC title product is displayed 
+[INFO ] [2023-09-28 09:12:50,931] TC_05 - Step 47: Verify '$500.00' Price is displayed 
+[INFO ] [2023-09-28 09:12:51,043] TC_05 - Step 48: Verify '5' Qty is displayed 
+[INFO ] [2023-09-28 09:12:51,155] TC_05 - Step 49: Verify '$2,500.00' Total is displayed 
+[INFO ] [2023-09-28 09:12:51,268] TC_05 - Step 50: Verify 'Gift wrapping' with value is displayed with value 'No'
+[INFO ] [2023-09-28 09:12:51,343] TC_05 - Step 51: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-28 09:12:51,438] TC_05 - Step 52: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-28 09:12:51,516] TC_05 - Step 53: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed 
+[INFO ] [2023-09-28 09:12:51,597] TC_05 - Step 54: Verify 'Order Total' Price At Table Cart Total is '$2500.00' displayed 
+[INFO ] [2023-09-28 09:12:51,692] TC_05 - Step 55: Verify 'Earn reward points' At Table Cart Total is '250 points' displayed 
+[INFO ] [2023-09-28 09:12:51,764] TC_05 - Step 56: Click to 'Confirm' button at Confirm order
+[INFO ] [2023-09-28 09:12:51,925] TC_05 - Step 57: Verify 'Thank you' title is displayed 
+[INFO ] [2023-09-28 09:12:53,531] TC_05 - Step 58: Verify 'title' is displayed with value 'Your order has been successfully processed!'
+[INFO ] [2023-09-28 09:12:53,609] TC_05 - Step 59: Verify 'order number' is displayed 
+[INFO ] [2023-09-28 09:12:53,720] TC_05 - Step 60: Get  'order number' 
+[INFO ] [2023-09-28 09:48:10,898] Precondition - Step 01: Navigate to 'Register' page
+[INFO ] [2023-09-28 09:48:12,276] Precondition - Step 02: Click to Radio button 'Male' 
+[INFO ] [2023-09-28 09:48:12,543] Precondition - Step 03: Enter to FirstName textbox with value is 'Automation'
+[INFO ] [2023-09-28 09:48:12,817] Precondition - Step 04: Enter to LastName textbox with value is 'FC'
+[INFO ] [2023-09-28 09:48:13,026] Precondition - Step 05: Enter to Email textbox with value is 'afc7196@mail.vn'
+[INFO ] [2023-09-28 09:48:13,276] Precondition - Step 06: Select Dropdown DateOfBirthDay with value is '10'
+[INFO ] [2023-09-28 09:48:15,519] Precondition - Step 07: Select Dropdown DateOfBirthMonth with value is 'May'
+[INFO ] [2023-09-28 09:48:17,720] Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '1998'
+[INFO ] [2023-09-28 09:48:19,931] Precondition - Step 02: Click to Checkbox 'Newsletter' 
+[INFO ] [2023-09-28 09:48:20,061] Precondition - Step 10: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-28 09:48:20,314] Precondition - Step 11: Enter to Comfirm Password textbox with value is '1234556'
+[INFO ] [2023-09-28 09:48:20,549] Precondition - Step 12: Click to 'Register' button 
+[INFO ] [2023-09-28 09:48:21,330] Precondition - Step 13: Verify register success message is displayed 
+[INFO ] [2023-09-28 09:48:21,452] Precondition - Step 14: Navigate to 'Login' page
+[INFO ] [2023-09-28 09:48:21,976] Precondition - Step 15: Enter to Email textbox with value is 'afc7196@mail.vn'
+[INFO ] [2023-09-28 09:48:22,223] Precondition - Step 16: Enter to Password textbox with value is '1234556'
+[INFO ] [2023-09-28 09:48:22,424] Precondition - Step 17: Click to 'Log in' button
+[INFO ] [2023-09-28 09:48:23,274] Precondition - Step 18: Verify 'My Account' link is displayed 
+[INFO ] [2023-09-28 09:48:23,410] Precondition - Step 19: Swith to 'Computers' page
+[INFO ] [2023-09-28 09:48:24,060] Precondition - Step 20: Verify 'Computers' title is displayed 
+[INFO ] [2023-09-28 09:48:24,188] Precondition - Step 21: Swith to 'Notebooks' page
+[INFO ] [2023-09-28 09:48:25,411] Precondition - Step 22: Verify 'Notebooks' title is displayed 
+[INFO ] [2023-09-28 09:48:26,135] Soft_01 - Step 01: Select Dropdown Product soft order with value is 'Name: A to Z'
+[INFO ] [2023-09-28 09:48:29,356] Soft_01 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Name: A to Z'
+[INFO ] [2023-09-28 09:48:30,030] Soft_02 - Step 01: Select Dropdown Product soft order with value is 'Name: Z to A'
+[INFO ] [2023-09-28 09:48:33,247] Soft_02 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Name: Z to A'
+[INFO ] [2023-09-28 09:48:33,472] Soft_03 - Step 01: Select Dropdown Product soft order with value is 'Price: Low to High'
+[INFO ] [2023-09-28 09:48:36,728] Soft_03 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: Low to High'
+[INFO ] [2023-09-28 09:48:36,971] Soft_04 - Step 01: Select Dropdown Product soft order with value is 'Price: High to Low'
+[INFO ] [2023-09-28 09:48:40,184] Soft_04 - Step 02: Verify Dropdown  Product soft order result is correct with value of 'Price: High to Low'
+[INFO ] [2023-09-28 09:48:40,401] Soft_05 - Step 01: Select Dropdown Product page size with value is '3'
+[INFO ] [2023-09-28 09:48:43,638] Soft_05 - Step 02: Verify three product names are displayed. 
+[INFO ] [2023-09-28 09:48:43,717] Soft_05 - Step 03: Verify Paging 'Next' Icon displayed
+[INFO ] [2023-09-28 09:48:43,823] Soft_05 - Step 04: Click to Paging Icon  '2' 
+[INFO ] [2023-09-28 09:48:43,981] Soft_05 - Step 03: Verify Paging 'Previous' Icon displayed
+[INFO ] [2023-09-28 09:48:44,403] Soft_06 - Step 01: Select Dropdown Product page size with value is '6'
+[INFO ] [2023-09-28 09:48:47,649] Soft_06 - Step 02: Verify six product names are displayed. 
+[INFO ] [2023-09-28 09:48:47,775] Soft_06 - Step 03: Verify Paging Icon 'Previous' undisplayed
+[INFO ] [2023-09-28 09:49:23,039] Soft_07 - Step 01: Select Dropdown Product page size with value is '9'
+[INFO ] [2023-09-28 09:49:26,271] Soft_07 - Step 02: Verify nine product names are displayed. 
+[INFO ] [2023-09-28 09:49:26,428] Soft_07 - Step 03: Verify Paging Icon'Next' undisplayed
+[INFO ] [2023-09-28 09:50:01,596] OS name = windows 10
+[INFO ] [2023-09-28 09:50:01,596] Driver instance name = chromedriver: chrome on windows (71f7e9ebbaccf69ba5dd6982ad007ea4)

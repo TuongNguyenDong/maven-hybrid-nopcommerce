@@ -143,6 +143,8 @@ public class BaseTest {
 			prefs.put("credentials_enable_service", false);
 			prefs.put("profile.password_manager_enabled", false);
 			prefs.put("autofill.profile_enabled", false);		
+			prefs.put("autofill.credit_card_enabled", false);		
+	
 //			options.addArguments("--disable-geolocation");
 //			options.addArguments("--disable-notifications");
 //			options.addArguments("--ignore-autocomplete-off-autofill");

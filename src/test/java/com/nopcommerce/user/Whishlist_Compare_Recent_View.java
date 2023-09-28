@@ -41,9 +41,9 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
-	public void beforeClass(String browerName, String enviromentName) {
+	public void beforeClass(String browerName, String environmentName) {
 		
-		driver = getBrowserDriver(browerName, enviromentName);
+		driver = getBrowserDriver(browerName, environmentName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		firstName = "Automation";
@@ -372,10 +372,10 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 
-		//closeBrowserDriver();
+		closeBrowserDriver();
 	}
 
 }

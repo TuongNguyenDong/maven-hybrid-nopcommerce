@@ -32,8 +32,8 @@ public class Sort_Display_Paging extends BaseTest {
 	
 	@Parameters({ "browser", "environment" })
 	@BeforeClass
-	public void beforeClass(String browerName, String enviromentName) {
-		driver = getBrowserDriver(browerName, enviromentName);
+	public void beforeClass(String browerName, String environmentName) {
+		driver = getBrowserDriver(browerName, environmentName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		firstName = "Automation";
@@ -217,7 +217,7 @@ public class Sort_Display_Paging extends BaseTest {
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		//closeBrowserDriver();
+		closeBrowserDriver();
 	}
 
 }

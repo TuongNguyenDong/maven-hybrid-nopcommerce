@@ -25,8 +25,8 @@ public class Register extends BaseTest {
 	
 	@Parameters({"browser", "environment"})
 	@BeforeClass
-	public void beforceClass(String browerName, String enviromentName) {
-		driver =  getBrowserDriver(browerName, enviromentName);
+	public void beforceClass(String browerName, String environmentName) {
+		driver =  getBrowserDriver(browerName, environmentName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		
 		firstName = "Automation";
