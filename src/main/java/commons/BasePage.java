@@ -849,9 +849,9 @@ public class BasePage {
 	 * @param dropdownName
 	 * @return
 	 */
-	public Boolean isDefaultCheckboxOrRadioButtonSelectedByLable(WebDriver driver, String lableValue) {
-		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, lableValue);
-		return isELementSelected(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, lableValue);
+	public Boolean isDefaultCheckboxOrRadioButtonSelectedByLabel(WebDriver driver, String labelValue) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, labelValue);
+		return isELementSelected(driver, BasePageNopCommerceUI.DYNAMIC_RADIO_BY_LABEL, labelValue);
 	}
 	
 	/**

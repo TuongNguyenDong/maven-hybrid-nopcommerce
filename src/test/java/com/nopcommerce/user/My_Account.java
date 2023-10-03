@@ -167,7 +167,7 @@ public class My_Account extends BaseTest {
 		Assert.assertEquals(customerInforPage.getCustomerInfoUpdateSuccessMessage(), "The customer info has been updated successfully.");
 
 		log.info("My_Account_01 - Step 12: Verify Radio button 'Female' is updated ");
-		Assert.assertTrue(customerInforPage.isDefaultCheckboxOrRadioButtonSelectedByLable(driver, "Female"));
+		Assert.assertTrue(customerInforPage.isDefaultCheckboxOrRadioButtonSelectedByLabel(driver, "Female"));
 
 		log.info("My_Account_01 - Step 13: Verify FirstName textbox is updated with value '" + updateFirstName + "' ");
 		Assert.assertEquals(customerInforPage.getTextboxValueByID(driver, "FirstName"), updateFirstName);

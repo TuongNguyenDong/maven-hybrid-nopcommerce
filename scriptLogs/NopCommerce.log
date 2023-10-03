@@ -18288,3 +18288,143 @@
 [INFO ] [2023-10-03 10:03:30,323] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 03: Uncheck to Checkbox 'Search subcategories' 
 [INFO ] [2023-10-03 10:03:30,454] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 04: click To Search Button
 [INFO ] [2023-10-03 10:03:30,596] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 05: Verify  'DataTable' empty 
+[INFO ] [2023-10-03 10:32:56,021] Precondition - Step 01: Enter to Email textbox with value is 'admin@yourstore.com'
+[INFO ] [2023-10-03 10:32:56,914] Precondition - Step 02: Enter to LastName textbox with value is 'admin'
+[INFO ] [2023-10-03 10:32:57,141] Precondition - Step 03: Click to 'Log in' button
+[INFO ] [2023-10-03 10:33:01,174] Precondition - Step 04: Verify Content Header 'Dashboard' title is displayed 
+[INFO ] [2023-10-03 10:33:01,525] Precondition - Step 05: Click  To 'Catalog' nav SideBar
+[INFO ] [2023-10-03 10:33:01,885] Precondition - Step 06: Navigate  To 'Products' page
+[INFO ] [2023-10-03 10:33:03,919] Precondition - Step 07: Verify Content Header 'Products' title is displayed 
+[INFO ] [2023-10-03 10:33:04,783] Admin_01_Search_With_Product_Name - Step 01: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 10:33:05,049] Admin_01_Search_With_Product_Name - Step 02: click To Search Button
+[INFO ] [2023-10-03 10:33:06,255] Admin_01_Search_With_Product_Name - Step 03: Verify 'Product name' product is displayed with value 'Build your own computer'
+[INFO ] [2023-10-03 10:33:06,468] Admin_01_Search_With_Product_Name - Step 04: Verify 'SKU' product is  displayed with value COMP_CUST'
+[INFO ] [2023-10-03 10:33:06,574] Admin_01_Search_With_Product_Name - Step 05: Verify 'Price' product is  displayed with value 1200'
+[INFO ] [2023-10-03 10:33:06,685] Admin_01_Search_With_Product_Name - Step 06: Verify 'Stock quantity' product is  displayed with value 10000'
+[INFO ] [2023-10-03 10:33:06,796] Admin_01_Search_With_Product_Name - Step 07: Verify 'Published' product is displayed
+[INFO ] [2023-10-03 10:33:06,925] Admin_01_Search_With_Product_Name - Step 08: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-10-03 10:33:09,700] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 10:33:10,720] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 10:33:11,064] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-10-03 10:33:13,274] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 10:33:13,384] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 05: click To Search Button
+[INFO ] [2023-10-03 10:33:14,545] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 06: Verify  'DataTable' empty 
+[INFO ] [2023-10-03 10:33:14,660] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 10:33:15,557] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 10:33:16,378] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-10-03 10:33:18,605] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 10:33:18,776] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 05: click To Search Button
+[INFO ] [2023-10-03 10:33:19,930] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 06: Verify 'Product name' product is displayed with value 'Build your own computer'
+[INFO ] [2023-10-03 10:33:20,154] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 07: Verify 'SKU' product is  displayed with value COMP_CUST'
+[INFO ] [2023-10-03 10:33:20,291] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 08: Verify 'Price' product is  displayed with value 1200'
+[INFO ] [2023-10-03 10:33:20,406] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 09: Verify 'Stock quantity' product is  displayed with value 10000'
+[INFO ] [2023-10-03 10:33:20,610] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 10: Verify 'Published' product is displayed
+[INFO ] [2023-10-03 10:33:20,717] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 11: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-10-03 14:37:19,686] Precondition - Step 01: Enter to Email textbox with value is 'admin@yourstore.com'
+[INFO ] [2023-10-03 14:37:21,330] Precondition - Step 02: Enter to LastName textbox with value is 'admin'
+[INFO ] [2023-10-03 14:37:21,559] Precondition - Step 03: Click to 'Log in' button
+[INFO ] [2023-10-03 14:37:27,518] Precondition - Step 04: Verify Content Header 'Dashboard' title is displayed 
+[INFO ] [2023-10-03 14:37:27,848] Precondition - Step 05: Click  To 'Catalog' nav SideBar
+[INFO ] [2023-10-03 14:37:28,144] Precondition - Step 06: Navigate  To 'Products' page
+[INFO ] [2023-10-03 14:37:29,837] Precondition - Step 07: Verify Content Header 'Products' title is displayed 
+[INFO ] [2023-10-03 14:37:34,972] Admin_01_Search_With_Product_Name - Step 01: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 14:37:35,306] Admin_01_Search_With_Product_Name - Step 02: click To Search Button
+[INFO ] [2023-10-03 14:37:36,539] Admin_01_Search_With_Product_Name - Step 03: Verify 'Product name' product is displayed with value 'Build your own computer'
+[INFO ] [2023-10-03 14:37:36,900] Admin_01_Search_With_Product_Name - Step 04: Verify 'SKU' product is  displayed with value COMP_CUST'
+[INFO ] [2023-10-03 14:37:37,031] Admin_01_Search_With_Product_Name - Step 05: Verify 'Price' product is  displayed with value 1200'
+[INFO ] [2023-10-03 14:37:37,154] Admin_01_Search_With_Product_Name - Step 06: Verify 'Stock quantity' product is  displayed with value 10000'
+[INFO ] [2023-10-03 14:37:37,264] Admin_01_Search_With_Product_Name - Step 07: Verify 'Published' product is displayed
+[INFO ] [2023-10-03 14:37:38,682] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 14:37:44,666] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 14:37:45,087] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-10-03 14:37:48,305] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 14:37:49,870] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 05: click To Search Button
+[INFO ] [2023-10-03 14:37:51,072] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 06: Verify  'DataTable' empty 
+[INFO ] [2023-10-03 14:37:51,210] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 14:37:52,516] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 14:37:52,830] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-10-03 14:37:55,203] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 14:37:55,409] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 05: click To Search Button
+[INFO ] [2023-10-03 14:37:56,598] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 06: Verify 'Product name' product is displayed with value 'Build your own computer'
+[INFO ] [2023-10-03 14:37:56,746] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 07: Verify 'SKU' product is  displayed with value COMP_CUST'
+[INFO ] [2023-10-03 14:37:56,871] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 08: Verify 'Price' product is  displayed with value 1200'
+[INFO ] [2023-10-03 14:37:56,980] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 09: Verify 'Stock quantity' product is  displayed with value 10000'
+[INFO ] [2023-10-03 14:37:57,125] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 10: Verify 'Published' product is displayed
+[INFO ] [2023-10-03 14:37:57,249] Admin_04_Search_With_Product_Name_Child_Catagory - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 14:38:00,230] Admin_04_Search_With_Product_Name_Child_Catagory - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 14:38:00,529] Admin_04_Search_With_Product_Name_Child_Catagory - Step 03: Select Dropdown Category with value is 'Computers >> Desktops'
+[INFO ] [2023-10-03 14:38:02,729] Admin_04_Search_With_Product_Name_Child_Catagory - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 14:38:02,845] Admin_04_Search_With_Product_Name_Child_Catagory - Step 05: click To Search Button
+[INFO ] [2023-10-03 14:38:04,005] Admin_04_Search_With_Product_Name_Child_Catagory - Step 06: Verify 'Product name' product is displayed with value 'Build your own computer'
+[INFO ] [2023-10-03 14:38:04,125] Admin_04_Search_With_Product_Name_Child_Catagory - Step 07: Verify 'SKU' product is  displayed with value COMP_CUST'
+[INFO ] [2023-10-03 14:38:04,251] Admin_04_Search_With_Product_Name_Child_Catagory - Step 08: Verify 'Price' product is  displayed with value 1200'
+[INFO ] [2023-10-03 14:38:04,386] Admin_04_Search_With_Product_Name_Child_Catagory - Step 09: Verify 'Stock quantity' product is  displayed with value 10000'
+[INFO ] [2023-10-03 14:38:04,516] Admin_04_Search_With_Product_Name_Child_Catagory - Step 10: Verify 'Published' product is displayed
+[INFO ] [2023-10-03 14:38:04,648] Admin_05_Search_With_Product_Name_Manufacturer - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 14:38:05,814] Admin_05_Search_With_Product_Name_Manufacturer - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 14:38:06,134] Admin_05_Search_With_Product_Name_Manufacturer - Step 03: Select Dropdown Category with value is 'All'
+[INFO ] [2023-10-03 14:38:08,284] Admin_05_Search_With_Product_Name_Manufacturer - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 14:38:08,494] Admin_05_Search_With_Product_Name_Manufacturer - Step 05: Select Dropdown Manufacturer with value is 'Apple'
+[INFO ] [2023-10-03 14:38:40,399] Admin_06_Go_Direct_Product_SKU - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 14:38:42,005] Admin_06_Go_Direct_Product_SKU - Step 02: Enter to Go Directly To Product SKU textbox with value is 'COMP_CUST'
+[INFO ] [2023-10-03 14:38:42,326] Admin_06_Go_Direct_Product_SKU - Step 03: click To Go Button
+[INFO ] [2023-10-03 14:38:49,888] Admin_06_Go_Direct_Product_SKU - Step 04: Verify Cart Title 'Product info' is displayed 
+[INFO ] [2023-10-03 14:38:50,041] Admin_06_Go_Direct_Product_SKU - Step 05: Verify 'Product name' is displayed 
+[INFO ] [2023-10-03 14:38:50,192] Admin_06_Go_Direct_Product_SKU - Step 06: Verify 'productName1' is displayed 
+[INFO ] [2023-10-03 15:13:26,570] Precondition - Step 01: Enter to Email textbox with value is 'admin@yourstore.com'
+[INFO ] [2023-10-03 15:13:28,744] Precondition - Step 02: Enter to LastName textbox with value is 'admin'
+[INFO ] [2023-10-03 15:13:28,996] Precondition - Step 03: Click to 'Log in' button
+[INFO ] [2023-10-03 15:13:39,989] Precondition - Step 04: Verify Content Header 'Dashboard' title is displayed 
+[INFO ] [2023-10-03 15:13:42,365] Precondition - Step 05: Click  To 'Catalog' nav SideBar
+[INFO ] [2023-10-03 15:13:43,057] Precondition - Step 06: Navigate  To 'Products' page
+[INFO ] [2023-10-03 15:13:47,510] Precondition - Step 07: Verify Content Header 'Products' title is displayed 
+[INFO ] [2023-10-03 15:13:52,759] Admin_01_Search_With_Product_Name - Step 01: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 15:13:53,105] Admin_01_Search_With_Product_Name - Step 02: click To Search Button
+[INFO ] [2023-10-03 15:13:54,285] Admin_01_Search_With_Product_Name - Step 03: Verify 'Product name' product is displayed with value 'Build your own computer'
+[INFO ] [2023-10-03 15:13:54,560] Admin_01_Search_With_Product_Name - Step 04: Verify 'SKU' product is  displayed with value COMP_CUST'
+[INFO ] [2023-10-03 15:13:54,670] Admin_01_Search_With_Product_Name - Step 05: Verify 'Price' product is  displayed with value 1200'
+[INFO ] [2023-10-03 15:13:54,780] Admin_01_Search_With_Product_Name - Step 06: Verify 'Stock quantity' product is  displayed with value 10000'
+[INFO ] [2023-10-03 15:13:54,887] Admin_01_Search_With_Product_Name - Step 07: Verify 'Published' product is displayed
+[INFO ] [2023-10-03 15:13:56,939] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 15:13:58,117] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 15:13:58,475] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-10-03 15:14:01,102] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 15:14:01,249] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 05: click To Search Button
+[INFO ] [2023-10-03 15:14:02,407] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 06: Verify  'DataTable' empty 
+[INFO ] [2023-10-03 15:14:02,540] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 15:14:03,562] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 15:14:03,905] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 03: Select Dropdown Category with value is 'Computers'
+[INFO ] [2023-10-03 15:14:06,120] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 15:14:06,275] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 05: click To Search Button
+[INFO ] [2023-10-03 15:14:07,440] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 06: Verify 'Product name' product is displayed with value 'Build your own computer'
+[INFO ] [2023-10-03 15:14:07,555] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 07: Verify 'SKU' product is  displayed with value COMP_CUST'
+[INFO ] [2023-10-03 15:14:07,653] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 08: Verify 'Price' product is  displayed with value 1200'
+[INFO ] [2023-10-03 15:14:07,742] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 09: Verify 'Stock quantity' product is  displayed with value 10000'
+[INFO ] [2023-10-03 15:14:07,858] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 10: Verify 'Published' product is displayed
+[INFO ] [2023-10-03 15:14:07,960] Admin_04_Search_With_Product_Name_Child_Catagory - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 15:14:09,041] Admin_04_Search_With_Product_Name_Child_Catagory - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 15:14:09,436] Admin_04_Search_With_Product_Name_Child_Catagory - Step 03: Select Dropdown Category with value is 'Computers >> Desktops'
+[INFO ] [2023-10-03 15:14:11,737] Admin_04_Search_With_Product_Name_Child_Catagory - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 15:14:11,823] Admin_04_Search_With_Product_Name_Child_Catagory - Step 05: click To Search Button
+[INFO ] [2023-10-03 15:14:12,957] Admin_04_Search_With_Product_Name_Child_Catagory - Step 06: Verify 'Product name' product is displayed with value 'Build your own computer'
+[INFO ] [2023-10-03 15:14:13,059] Admin_04_Search_With_Product_Name_Child_Catagory - Step 07: Verify 'SKU' product is  displayed with value COMP_CUST'
+[INFO ] [2023-10-03 15:14:13,157] Admin_04_Search_With_Product_Name_Child_Catagory - Step 08: Verify 'Price' product is  displayed with value 1200'
+[INFO ] [2023-10-03 15:14:13,235] Admin_04_Search_With_Product_Name_Child_Catagory - Step 09: Verify 'Stock quantity' product is  displayed with value 10000'
+[INFO ] [2023-10-03 15:14:13,327] Admin_04_Search_With_Product_Name_Child_Catagory - Step 10: Verify 'Published' product is displayed
+[INFO ] [2023-10-03 15:14:13,451] Admin_05_Search_With_Product_Name_Manufacturer - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 15:14:14,549] Admin_05_Search_With_Product_Name_Manufacturer - Step 02: Enter to Product name textbox with value is 'Build your own computer'
+[INFO ] [2023-10-03 15:14:14,824] Admin_05_Search_With_Product_Name_Manufacturer - Step 03: Select Dropdown Category with value is 'All'
+[INFO ] [2023-10-03 15:14:17,126] Admin_05_Search_With_Product_Name_Manufacturer - Step 04: Uncheck to Checkbox 'Search subcategories' 
+[INFO ] [2023-10-03 15:14:17,307] Admin_05_Search_With_Product_Name_Manufacturer - Step 05: Select Dropdown Manufacturer with value is 'HP'
+[INFO ] [2023-10-03 15:14:19,554] Admin_05_Search_With_Product_Name_Manufacturer - Step 06: click To Search Button
+[INFO ] [2023-10-03 15:14:20,771] Admin_05_Search_With_Product_Name_Manufacturer - Step 07: Verify  'DataTable' empty 
+[INFO ] [2023-10-03 15:14:20,919] Admin_06_Go_Direct_Product_SKU - Step 01: Refresh Current Page
+[INFO ] [2023-10-03 15:14:21,898] Admin_06_Go_Direct_Product_SKU - Step 02: Enter to Go Directly To Product SKU textbox with value is 'COMP_CUST'
+[INFO ] [2023-10-03 15:14:22,233] Admin_06_Go_Direct_Product_SKU - Step 03: click To Go Button
+[INFO ] [2023-10-03 15:14:27,511] Admin_06_Go_Direct_Product_SKU - Step 04: Verify Cart Title 'Product info' is displayed 
+[INFO ] [2023-10-03 15:14:27,656] Admin_06_Go_Direct_Product_SKU - Step 05: Verify 'Product name' is displayed 
+[INFO ] [2023-10-03 15:14:27,793] Admin_06_Go_Direct_Product_SKU - Step 06: Verify 'productName1' is displayed 
+[INFO ] [2023-10-03 15:14:27,910] Admin_06_Go_Direct_Product_SKU - Step 07: Verify 'Short description' is displayed 
+[INFO ] [2023-10-03 15:14:28,637] Admin_06_Go_Direct_Product_SKU - Step 08: Verify 'Full description' is displayed 
+[INFO ] [2023-10-03 15:14:28,767] Admin_06_Go_Direct_Product_SKU - Step 09: Verify 'SKU' is displayed 
+[INFO ] [2023-10-03 15:14:28,917] Admin_06_Go_Direct_Product_SKU - Step 10: Verify 'SKU1' is displayed 
