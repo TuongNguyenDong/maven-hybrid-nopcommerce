@@ -746,7 +746,7 @@ public class BasePage {
 			return PageGeneratorManager.getRecentlyViewedProductsPage(driver);
 			
 		default: 
-			throw new RuntimeException("Invalid page name at Home Page menu");
+			throw new RuntimeException("Invalid page name at Footer menu");
 			
 		}
 		
@@ -1104,6 +1104,38 @@ public class BasePage {
 	public String getAddSuccessMessage(WebDriver driver) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.MESSAGE_ADD_SUCCESS);
 		return getElementText(driver, BasePageNopCommerceUI.MESSAGE_ADD_SUCCESS);
+	}
+	
+	public Boolean isContentHeaderByText(WebDriver driver, String contentHeaderName) {
+		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_CONTENT_HEADER_BY_TEXT, contentHeaderName);
+		return isELementDisplayed(driver, BasePageNopCommerceUI.DYNAMIC_CONTENT_HEADER_BY_TEXT, contentHeaderName);
+	}
+	
+	public void clickToNavSideBarByName(WebDriver driver, String navBarName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
+		
+	}
+	
+	public BasePage openpageAtNavSideBarByName(WebDriver driver, String navItemName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_NAV_TREE_VIEW_BY_TEXT, navItemName);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_NAV_TREE_VIEW_BY_TEXT, navItemName);
+		switch (navItemName) {
+		
+		case "Products":
+			return PageGeneratorManager.getAdminProductsPage(driver);
+			
+		case "Categories":
+//			return PageGeneratorManager.getCompareProductsPage(driver);
+			
+		case " Product tags":
+//			return PageGeneratorManager.getRecentlyViewedProductsPage(driver);
+		
+		default: 
+			throw new RuntimeException("Invalid page name at Dashboard Page Navigation Bar");
+			
+		}
+		
 	}
 	
 	// wordpress

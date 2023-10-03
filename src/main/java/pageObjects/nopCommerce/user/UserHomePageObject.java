@@ -18,10 +18,6 @@ public class UserHomePageObject extends BasePage {
 	public UserRegisterPageObject openRegisterPage() {
 		waitForElementClickable(driver, HomePageUI.REGISTER_LINK);
 		clickToELement(driver, HomePageUI.REGISTER_LINK);
-		// 2
-		// return new RegisterPageObject(driver);
-		 
-		 //3 
 		return PageGeneratorManager.getUserRegisterPage(driver);
 	
 	}
@@ -29,8 +25,6 @@ public class UserHomePageObject extends BasePage {
 	public UserLoginPageObject openLoginPage() {
 		waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
 		clickToELement(driver, HomePageUI.LOGIN_LINK);
-		//return new LoginPageObject(driver);
-		
 		return PageGeneratorManager.getUserLoginPage(driver);
 		
 	}

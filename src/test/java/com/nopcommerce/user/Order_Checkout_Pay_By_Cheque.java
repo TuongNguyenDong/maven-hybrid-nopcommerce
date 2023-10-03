@@ -178,617 +178,617 @@ public class Order_Checkout_Pay_By_Cheque extends BaseTest {
 	}
 
 	@Test
-	public void TC_01_Checkout_Shopping_Cart_Pay_By_Cheque() {
+	public void Order_Pay_Cheque_01_Checkout_Shopping_Cart_Pay_By_Cheque() {
 
-		log.info("TC_01 - Step 01: Click to 'Terms Of Service' checkbox");
+		log.info("Order_Pay_Cheque_01 - Step 01: Click to 'Terms Of Service' checkbox");
 		shoppingCartPage.ClickToTermsOfService();
 
-		log.info("TC_01 - Step 02: Click to Checkout button");
+		log.info("Order_Pay_Cheque_01 - Step 02: Click to Checkout button");
 		checkoutPage = shoppingCartPage.ClickToCheckoutButton();
 
-		log.info("TC_01 - Step 03: Click to Checkbox 'Ship to the same address' ");
+		log.info("Order_Pay_Cheque_01 - Step 03: Click to Checkbox 'Ship to the same address' ");
 		checkoutPage.unClickToCheckboxByLabelAtCheckoutPage("Ship to the same address");
 
-		log.info("TC_01 - Step 04: Select Dropdown 'Country' with value is '" + billingCountryId + "'");
+		log.info("Order_Pay_Cheque_01 - Step 04: Select Dropdown 'Country' with value is '" + billingCountryId + "'");
 		checkoutPage.selectToDropdownByName(driver, "BillingNewAddress.CountryId", billingCountryId);
 
-		log.info("TC_01 - Step 05: Select Dropdown 'State Province' with value is '" + billingStateId + "'");
+		log.info("Order_Pay_Cheque_01 - Step 05: Select Dropdown 'State Province' with value is '" + billingStateId + "'");
 		checkoutPage.selectToDropdownByName(driver, "BillingNewAddress.StateProvinceId", billingStateId);
 
-		log.info("TC_01 - Step 06: Enter to City textbox with value is '" + billingNewAddressCity + "'");
+		log.info("Order_Pay_Cheque_01 - Step 06: Enter to City textbox with value is '" + billingNewAddressCity + "'");
 		checkoutPage.inputToTextboxByID(driver, "BillingNewAddress_City", billingNewAddressCity);
 
-		log.info("TC_01 - Step 07: Enter to Address1 textbox with value is '" + billingNewAddress1 + "'");
+		log.info("Order_Pay_Cheque_01 - Step 07: Enter to Address1 textbox with value is '" + billingNewAddress1 + "'");
 		checkoutPage.inputToTextboxByID(driver, "BillingNewAddress_Address1", billingNewAddress1);
 
-		log.info("TC_01 - Step 08: Enter to ZipPostalCode textbox with value is '" + billingZipPostalCode + "'");
+		log.info("Order_Pay_Cheque_01 - Step 08: Enter to ZipPostalCode textbox with value is '" + billingZipPostalCode + "'");
 		checkoutPage.inputToTextboxByID(driver, "BillingNewAddress_ZipPostalCode", billingZipPostalCode);
 
-		log.info("TC_01 - Step 09: Enter to PhoneNumber textbox with value is '" + billingPhoneNumber + "'");
+		log.info("Order_Pay_Cheque_01 - Step 09: Enter to PhoneNumber textbox with value is '" + billingPhoneNumber + "'");
 		checkoutPage.inputToTextboxByID(driver, "BillingNewAddress_PhoneNumber", billingPhoneNumber);
 
-		log.info("TC_01 - Step 10: Click to 'Continue' button at Billing step");
+		log.info("Order_Pay_Cheque_01 - Step 10: Click to 'Continue' button at Billing step");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-billing", "Continue");
 
-		log.info("TC_01 - Step 11: Verify 'shipping Address'  is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 11: Verify 'shipping Address'  is displayed ");
 		Assert.assertEquals(checkoutPage.getdefaultDropdownValueByName(driver, "shipping_address_id"), billingAddress);
 
-		log.info("TC_01 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'");
+		log.info("Order_Pay_Cheque_01 - Step 12: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'");
 		checkoutPage.selectToDropdownByName(driver, "shipping_address_id", "New Address");
 
-		log.info("TC_01 - Step 13: Select Dropdown 'Country' with value is '" + shippingCountryId + "'");
+		log.info("Order_Pay_Cheque_01 - Step 13: Select Dropdown 'Country' with value is '" + shippingCountryId + "'");
 		checkoutPage.selectToDropdownByName(driver, "ShippingNewAddress.CountryId", shippingCountryId);
 
-		log.info("TC_01 - Step 14: Select Dropdown 'State Province' with value is '" + shippingStateId + "'");
+		log.info("Order_Pay_Cheque_01 - Step 14: Select Dropdown 'State Province' with value is '" + shippingStateId + "'");
 		checkoutPage.selectToDropdownByName(driver, "ShippingNewAddress.StateProvinceId", shippingStateId);
 
-		log.info("TC_01 - Step 15: Enter to City textbox with value is '" + shippingNewAddressCity + "'");
+		log.info("Order_Pay_Cheque_01 - Step 15: Enter to City textbox with value is '" + shippingNewAddressCity + "'");
 		checkoutPage.inputToTextboxByID(driver, "ShippingNewAddress_City", shippingNewAddressCity);
 
-		log.info("TC_01 - Step 16: Enter to Address1 textbox with value is '" + shippingNewAddress1 + "'");
+		log.info("Order_Pay_Cheque_01 - Step 16: Enter to Address1 textbox with value is '" + shippingNewAddress1 + "'");
 		checkoutPage.inputToTextboxByID(driver, "ShippingNewAddress_Address1", shippingNewAddress1);
 
-		log.info("TC_01 - Step 17: Enter to ZipPostalCode textbox with value is '" + shippingZipPostalCode + "'");
+		log.info("Order_Pay_Cheque_01 - Step 17: Enter to ZipPostalCode textbox with value is '" + shippingZipPostalCode + "'");
 		checkoutPage.inputToTextboxByID(driver, "ShippingNewAddress_ZipPostalCode", shippingZipPostalCode);
 
-		log.info("TC_01 - Step 18: Enter to PhoneNumber textbox with value is '" + shippingPhoneNumber + "'");
+		log.info("Order_Pay_Cheque_01 - Step 18: Enter to PhoneNumber textbox with value is '" + shippingPhoneNumber + "'");
 		checkoutPage.inputToTextboxByID(driver, "ShippingNewAddress_PhoneNumber", shippingPhoneNumber);
 
-		log.info("TC_01 - Step 19: Click to 'Continue' button at Shipping step");
+		log.info("Order_Pay_Cheque_01 - Step 19: Click to 'Continue' button at Shipping step");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-shipping", "Continue");
 
-		log.info("TC_01 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name");
+		log.info("Order_Pay_Cheque_01 - Step 20: Click to Radio button 'Ground ($0.00)' shipping method name");
 		registerPage.clicktoRadioButtonByLabel(driver, "Ground ($0.00)");
 
-		log.info("TC_01 - Step 21: Click to 'Continue' button at Shipping method");
+		log.info("Order_Pay_Cheque_01 - Step 21: Click to 'Continue' button at Shipping method");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-shipping-method", "Continue");
 
-		log.info("TC_01 - Step 22: Click to Radio button 'Check / Money Order' payment method name");
+		log.info("Order_Pay_Cheque_01 - Step 22: Click to Radio button 'Check / Money Order' payment method name");
 		registerPage.clicktoRadioButtonByLabel(driver, "Check / Money Order");
 
-		log.info("TC_01 - Step 23: Click to 'Continue' button at Payment method");
+		log.info("Order_Pay_Cheque_01 - Step 23: Click to 'Continue' button at Payment method");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-payment-method", "Continue");
 
-		log.info("TC_01 - Step 24: Click to 'Continue' button at Payment info");
+		log.info("Order_Pay_Cheque_01 - Step 24: Click to 'Continue' button at Payment info");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-payment-info", "Continue");
 
-		log.info("TC_01 - Step 25: Verify 'Payment' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 25: Verify 'Payment' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("payment-method-info"));
 
-		log.info("TC_01 - Step 26: Verify payment-method is 'Check / Money Order' is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 26: Verify payment-method is 'Check / Money Order' is displayed ");
 		Assert.assertTrue(checkoutPage.getOrderReviewDataByNameAtComfirmOrder("payment-method").contains("Check / Money Order"));
 
-		log.info("TC_01 - Step 27: Verify 'Shipping' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 27: Verify 'Shipping' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("shipping-method-info"));
 
-		log.info("TC_01 - Step 28: Verify Shipping method is 'Ground' is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 28: Verify Shipping method is 'Ground' is displayed ");
 		Assert.assertTrue(checkoutPage.getOrderReviewDataByNameAtComfirmOrder("shipping-method").contains("Ground"));
 
-		log.info("TC_01 - Step 29: Verify 'Billing Address' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 29: Verify 'Billing Address' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("billing-info"));
 
-		log.info("TC_01 - Step 30: Verify 'Name of Billing Address' is displayed with value " + firstName + " " + lastName);
+		log.info("Order_Pay_Cheque_01 - Step 30: Verify 'Name of Billing Address' is displayed with value " + firstName + " " + lastName);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "name").contains(firstName + " " + lastName));
 
-		log.info("TC_01 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: " + emailAddress);
+		log.info("Order_Pay_Cheque_01 - Step 31: Verify 'Email of Billing Address' is displayed with value Email: " + emailAddress);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "email").contains("Email: " + emailAddress));
 
-		log.info("TC_01 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: " + billingPhoneNumber);
+		log.info("Order_Pay_Cheque_01 - Step 32: Verify 'Phone of Billing Address' is displayed with value Phone: " + billingPhoneNumber);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "phone").contains("Phone: " + billingPhoneNumber));
 
-		log.info("TC_01 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'");
+		log.info("Order_Pay_Cheque_01 - Step 33: Verify 'Fax of Billing Address' is displayed with value 'Fax:'");
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "fax").contains("Fax:"));
 
-		log.info("TC_01 - Step 34: Verify 'Address1 of Billing Address' is displayed with value " + billingNewAddress1);
+		log.info("Order_Pay_Cheque_01 - Step 34: Verify 'Address1 of Billing Address' is displayed with value " + billingNewAddress1);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "address1").contains(billingNewAddress1));
 
-		log.info("TC_01 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value " + billingNewAddressCity + ", " + billingStateId + ", " + billingZipPostalCode);
+		log.info("Order_Pay_Cheque_01 - Step 35: Verify 'City_State_Zip of Billing Address' is displayed with value " + billingNewAddressCity + ", " + billingStateId + ", " + billingZipPostalCode);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "city-state-zip").contains(billingNewAddressCity + "," + billingStateId + "," + billingZipPostalCode));
 
-		log.info("TC_01 - Step 36: Verify 'Country of Billing Address' is displayed with value " + billingCountryId);
+		log.info("Order_Pay_Cheque_01 - Step 36: Verify 'Country of Billing Address' is displayed with value " + billingCountryId);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "country").contains(billingCountryId));
 
-		log.info("TC_01 - Step 37: Verify 'Shipping Address' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 37: Verify 'Shipping Address' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("shipping-info"));
 
-		log.info("TC_01 - Step 38: Verify 'Name of Shipping Address' is displayed with value " + firstName + " " + lastName);
+		log.info("Order_Pay_Cheque_01 - Step 38: Verify 'Name of Shipping Address' is displayed with value " + firstName + " " + lastName);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "name").contains(firstName + " " + lastName));
 
-		log.info("TC_01 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: " + emailAddress);
+		log.info("Order_Pay_Cheque_01 - Step 39: Verify 'Email of Shipping Address' is displayed with value Email: " + emailAddress);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "email").contains("Email: " + emailAddress));
 
-		log.info("TC_01 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: " + shippingPhoneNumber);
+		log.info("Order_Pay_Cheque_01 - Step 40: Verify 'Phone of Shipping Address' is displayed with value Phone: " + shippingPhoneNumber);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "phone").contains("Phone: " + shippingPhoneNumber));
 
-		log.info("TC_01 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'");
+		log.info("Order_Pay_Cheque_01 - Step 41: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'");
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "fax").contains("Fax:"));
 
-		log.info("TC_01 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value " + shippingNewAddress1);
+		log.info("Order_Pay_Cheque_01 - Step 42: Verify 'Address1 of Shipping Address' is displayed with value " + shippingNewAddress1);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "address1").contains(shippingNewAddress1));
 
-		log.info("TC_01 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value " + shippingNewAddressCity + ", " + shippingStateId + ", " + shippingZipPostalCode);
+		log.info("Order_Pay_Cheque_01 - Step 43: Verify 'City_State_Zip of Shipping Address' is displayed with value " + shippingNewAddressCity + ", " + shippingStateId + ", " + shippingZipPostalCode);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "city-state-zip").contains(shippingNewAddressCity + "," + shippingStateId + "," + shippingZipPostalCode));
 
-		log.info("TC_01 - Step 44: Verify 'Country of Shipping Address' is displayed with value " + shippingCountryId);
+		log.info("Order_Pay_Cheque_01 - Step 44: Verify 'Country of Shipping Address' is displayed with value " + shippingCountryId);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "country").contains(shippingCountryId));
 
-		log.info("TC_01 - Step 45: Verify 'LE_IC_600' SKU  is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 45: Verify 'LE_IC_600' SKU  is displayed ");
 		Assert.assertEquals(checkoutPage.getTextProductByColumnAtRowNumberAtCheckOutPage("SKU", "1"), "LE_IC_600");
 
-		log.info("TC_01 - Step 46: Verify '" + productName1 + "' title product is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 46: Verify '" + productName1 + "' title product is displayed ");
 		Assert.assertEquals(checkoutPage.getTextLinkNameProductByColumnAtRowNumberAtCheckOutPage("Product(s)", "1"), productName1);
 
-		log.info("TC_01 - Step 47: Verify '$500.00' Price is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 47: Verify '$500.00' Price is displayed ");
 		Assert.assertEquals(checkoutPage.getTextProductByColumnAtRowNumberAtCheckOutPage("Price", "1"), "$500.00");
 
-		log.info("TC_01 - Step 48: Verify '5' Qty is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 48: Verify '5' Qty is displayed ");
 		Assert.assertEquals(checkoutPage.getTextProductByColumnAtRowNumberAtCheckOutPage("Qty.", "1"), "5");
 
-		log.info("TC_01 - Step 49: Verify '$2,500.00' Total is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 49: Verify '$2,500.00' Total is displayed ");
 		Assert.assertEquals(checkoutPage.getTextProductByColumnAtRowNumberAtCheckOutPage("Total", "1"), "$2,500.00");
 
-		log.info("TC_01 - Step 50: Verify 'Gift wrapping' with value is displayed with value 'No'");
+		log.info("Order_Pay_Cheque_01 - Step 50: Verify 'Gift wrapping' with value is displayed with value 'No'");
 		Assert.assertTrue(checkoutPage.getSelectedCartOptionAtComfirmOrder().contains("Gift wrapping: No"));
 
-		log.info("TC_01 - Step 51: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 51: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("Sub-Total:"), "$2,500.00");
 
-		log.info("TC_01 - Step 52: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 52: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("Shipping:"), "$0.00");
 
-		log.info("TC_01 - Step 53: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 53: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("Tax:"), "$0.00");
 
-		log.info("TC_01 - Step 54: Verify 'Order Total' Price At Table Cart Total is '$2500.00' displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 54: Verify 'Order Total' Price At Table Cart Total is '$2500.00' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("Total:"), "$2,500.00");
 
-		log.info("TC_01 - Step 55: Verify 'Earn reward points' At Table Cart Total is '250 points' displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 55: Verify 'Earn reward points' At Table Cart Total is '250 points' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("You will earn:"), "250 points");
 
-		log.info("TC_01 - Step 56: Click to 'Confirm' button at Confirm order");
+		log.info("Order_Pay_Cheque_01 - Step 56: Click to 'Confirm' button at Confirm order");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-confirm-order", "Confirm");
 
-		log.info("TC_01 - Step 57: Verify 'Thank you' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 57: Verify 'Thank you' title is displayed ");
 		Assert.assertTrue(checkoutPage.isPageTitleByText(driver, "Thank you"));
 
-		log.info("TC_01 - Step 58: Verify 'title' is displayed with value 'Your order has been successfully processed!'");
+		log.info("Order_Pay_Cheque_01 - Step 58: Verify 'title' is displayed with value 'Your order has been successfully processed!'");
 		Assert.assertTrue(checkoutPage.isTextByClassAtCheckoutPage("title"));
 
-		log.info("TC_01 - Step 59: Verify 'order number' is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 59: Verify 'order number' is displayed ");
 		Assert.assertTrue(checkoutPage.isTextByClassAtCheckoutPage("order-number"));
 
-		log.info("TC_01 - Step 60: Get  'order number' ");
+		log.info("Order_Pay_Cheque_01 - Step 60: Get  'order number' ");
 		orderNumber = checkoutPage.getTextByClassAtCheckoutPage("order-number");
 
-		log.info("TC_01 - Step 61: Navigate to 'Home' page ");
+		log.info("Order_Pay_Cheque_01 - Step 61: Navigate to 'Home' page ");
 		homePage = checkoutPage.clickToContinueButtonAtOrderCompletedPage();
 
-		log.info("TC_01 - Step 62: Navigate to 'My Account' page ");
+		log.info("Order_Pay_Cheque_01 - Step 62: Navigate to 'My Account' page ");
 		customerInforPage = homePage.openMyAccountPage(driver);
 
-		log.info("TC_01 - Step 63: Navigate to 'Orders' page ");
+		log.info("Order_Pay_Cheque_01 - Step 63: Navigate to 'Orders' page ");
 		orderPage = (OrderPageObject) customerInforPage.openpageAtMyAccountByName(driver, "Orders");
 
-		log.info("TC_01 - Step 64: Verify 'Orders' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 64: Verify 'Orders' title is displayed ");
 		Assert.assertTrue(orderPage.isPageTitleByText(driver, "My account - Orders"));
 
-		log.info("TC_01 - Step 65: Verify 'Orders name' title is displayed with value " + orderNumber);
+		log.info("Order_Pay_Cheque_01 - Step 65: Verify 'Orders name' title is displayed with value " + orderNumber);
 		Assert.assertEquals(orderPage.getOrderNumberNameAtOrderPage(), orderNumber);
 
-		log.info("TC_01 - Step 66: Click to 'Details' button ");
+		log.info("Order_Pay_Cheque_01 - Step 66: Click to 'Details' button ");
 		orderPage.clickToButtonByText(driver, "Details");
 
-		log.info("TC_01 - Step 66: Verify 'Orders Number' at Order Overview is displayed with value " + orderNumber);
+		log.info("Order_Pay_Cheque_01 - Step 66: Verify 'Orders Number' at Order Overview is displayed with value " + orderNumber);
 		Assert.assertEquals(orderPage.getOrderNumberNameInOrderOverViewAtOrderPage(), orderNumber);
 
-//		log.info("TC_01 - Step 67: Verify 'order-date' in OrderCOntent Area at Order Page is displayed with value Tuesday, September 26, 2023");
+//		log.info("Order_Pay_Cheque_01 - Step 67: Verify 'order-date' in OrderCOntent Area at Order Page is displayed with value Tuesday, September 26, 2023");
 //		Assert.assertTrue(orderPage.getOrderContentInOrderOverviewAtOrderPage("order-date").contains("Tuesday, September 26, 2023"));
 
-		log.info("TC_01 - Step 68: Verify 'order-status' in OrderCOntent Area at Order Page is displayed with value Pending");
+		log.info("Order_Pay_Cheque_01 - Step 68: Verify 'order-status' in OrderCOntent Area at Order Page is displayed with value Pending");
 		Assert.assertTrue(orderPage.getOrderContentInOrderOverviewAtOrderPage("order-status").contains("Pending"));
 
-		log.info("TC_01 - Step 69: Verify 'order-total' in OrderCOntent Area at Order Page is displayed with value $2,500.00");
+		log.info("Order_Pay_Cheque_01 - Step 69: Verify 'order-total' in OrderCOntent Area at Order Page is displayed with value $2,500.00");
 		Assert.assertTrue(orderPage.getOrderContentInOrderOverviewAtOrderPage("order-total").contains("$2,500.00"));
 
-		log.info("TC_01 - Step 70: Verify 'Payment' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 70: Verify 'Payment' title is displayed ");
 		Assert.assertTrue(orderPage.isTitleByClassNameAtOrderPage("payment-method-info"));
 
-		log.info("TC_01 - Step 71: Verify payment-method is 'Check / Money Order' is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 71: Verify payment-method is 'Check / Money Order' is displayed ");
 		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("payment-method").contains("Check / Money Order"));
 
-		log.info("TC_01 - Step 72: Verify payment-method status is 'Pending' is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 72: Verify payment-method status is 'Pending' is displayed ");
 		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("payment-method-status").contains("Pending"));
 
-		log.info("TC_01 - Step 73: Verify 'Shipping' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 73: Verify 'Shipping' title is displayed ");
 		Assert.assertTrue(orderPage.isTitleByClassNameAtOrderPage("shipping-method-info"));
 
-		log.info("TC_01 - Step 74: Verify Shipping method is 'Ground' is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 74: Verify Shipping method is 'Ground' is displayed ");
 		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("shipping-method").contains("Ground"));
 
-		log.info("TC_01 - Step 75: Verify Shipping status is 'Not yet shipped' is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 75: Verify Shipping status is 'Not yet shipped' is displayed ");
 		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("shipping-status").contains("Not yet shipped"));
 
-		log.info("TC_01 - Step 76: Verify 'Billing Address' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 76: Verify 'Billing Address' title is displayed ");
 		Assert.assertTrue(orderPage.isTitleByClassNameAtOrderPage("billing-info"));
 
-		log.info("TC_01 - Step 77: Verify 'Name of Billing Address' is displayed with value " + firstName + " " + lastName);
+		log.info("Order_Pay_Cheque_01 - Step 77: Verify 'Name of Billing Address' is displayed with value " + firstName + " " + lastName);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "name").contains(firstName + " " + lastName));
 
-		log.info("TC_01 - Step 78: Verify 'Email of Billing Address' is displayed with value Email: " + emailAddress);
+		log.info("Order_Pay_Cheque_01 - Step 78: Verify 'Email of Billing Address' is displayed with value Email: " + emailAddress);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "email").contains("Email: " + emailAddress));
 
-		log.info("TC_01 - Step 79: Verify 'Phone of Billing Address' is displayed with value Phone: " + billingPhoneNumber);
+		log.info("Order_Pay_Cheque_01 - Step 79: Verify 'Phone of Billing Address' is displayed with value Phone: " + billingPhoneNumber);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "phone").contains("Phone: " + billingPhoneNumber));
 
-		log.info("TC_01 - Step 80: Verify 'Fax of Billing Address' is displayed with value 'Fax:'");
+		log.info("Order_Pay_Cheque_01 - Step 80: Verify 'Fax of Billing Address' is displayed with value 'Fax:'");
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "fax").contains("Fax:"));
 
-		log.info("TC_01 - Step 81: Verify 'Address1 of Billing Address' is displayed with value " + billingNewAddress1);
+		log.info("Order_Pay_Cheque_01 - Step 81: Verify 'Address1 of Billing Address' is displayed with value " + billingNewAddress1);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "address1").contains(billingNewAddress1));
 
-		log.info("TC_01 - Step 82: Verify 'City_State_Zip of Billing Address' is displayed with value " + billingNewAddressCity + ", " + billingStateId + ", " + billingZipPostalCode);
+		log.info("Order_Pay_Cheque_01 - Step 82: Verify 'City_State_Zip of Billing Address' is displayed with value " + billingNewAddressCity + ", " + billingStateId + ", " + billingZipPostalCode);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "city-state-zip").contains(billingNewAddressCity + "," + billingStateId + "," + billingZipPostalCode));
 
-		log.info("TC_01 - Step 83: Verify 'Country of Billing Address' is displayed with value " + billingCountryId);
+		log.info("Order_Pay_Cheque_01 - Step 83: Verify 'Country of Billing Address' is displayed with value " + billingCountryId);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "country").contains(billingCountryId));
 
-		log.info("TC_01 - Step 84: Verify 'Shipping Address' title is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 84: Verify 'Shipping Address' title is displayed ");
 		Assert.assertTrue(orderPage.isTitleByClassNameAtOrderPage("shipping-info"));
 
-		log.info("TC_01 - Step 85: Verify 'Name of Shipping Address' is displayed with value " + firstName + " " + lastName);
+		log.info("Order_Pay_Cheque_01 - Step 85: Verify 'Name of Shipping Address' is displayed with value " + firstName + " " + lastName);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "name").contains(firstName + " " + lastName));
 
-		log.info("TC_01 - Step 86: Verify 'Email of Shipping Address' is displayed with value Email: " + emailAddress);
+		log.info("Order_Pay_Cheque_01 - Step 86: Verify 'Email of Shipping Address' is displayed with value Email: " + emailAddress);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "email").contains("Email: " + emailAddress));
 
-		log.info("TC_01 - Step 87: Verify 'Phone of Shipping Address' is displayed with value Phone: " + shippingPhoneNumber);
+		log.info("Order_Pay_Cheque_01 - Step 87: Verify 'Phone of Shipping Address' is displayed with value Phone: " + shippingPhoneNumber);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "phone").contains("Phone: " + shippingPhoneNumber));
 
-		log.info("TC_01 - Step 88: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'");
+		log.info("Order_Pay_Cheque_01 - Step 88: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'");
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "fax").contains("Fax:"));
 
-		log.info("TC_01 - Step 89: Verify 'Address1 of Shipping Address' is displayed with value " + shippingNewAddress1);
+		log.info("Order_Pay_Cheque_01 - Step 89: Verify 'Address1 of Shipping Address' is displayed with value " + shippingNewAddress1);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "address1").contains(shippingNewAddress1));
 
-		log.info("TC_01 - Step 90: Verify 'City_State_Zip of Shipping Address' is displayed with value " + shippingNewAddressCity + ", " + shippingStateId + ", " + shippingZipPostalCode);
+		log.info("Order_Pay_Cheque_01 - Step 90: Verify 'City_State_Zip of Shipping Address' is displayed with value " + shippingNewAddressCity + ", " + shippingStateId + ", " + shippingZipPostalCode);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "city-state-zip").contains(shippingNewAddressCity + "," + shippingStateId + "," + shippingZipPostalCode));
 
-		log.info("TC_01 - Step 91: Verify 'Country of Shipping Address' is displayed with value " + shippingCountryId);
+		log.info("Order_Pay_Cheque_01 - Step 91: Verify 'Country of Shipping Address' is displayed with value " + shippingCountryId);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "country").contains(shippingCountryId));
 
-		log.info("TC_01 - Step 92: Verify 'LE_IC_600' SKU  is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 92: Verify 'LE_IC_600' SKU  is displayed ");
 		Assert.assertEquals(orderPage.getTextProductByColumnAtRowNumberAtOrderPage("SKU", "1"), "LE_IC_600");
 
-		log.info("TC_01 - Step 93: Verify " + productName1 + " title product is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 93: Verify " + productName1 + " title product is displayed ");
 		Assert.assertEquals(orderPage.getTextLinkNameProductByColumnAtRowNumberAtOrderPage("Name", "1"), productName1);
 
-		log.info("TC_01 - Step 94: Verify '$500.00' Price is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 94: Verify '$500.00' Price is displayed ");
 		Assert.assertEquals(orderPage.getTextProductByColumnAtRowNumberAtOrderPage("Price", "1"), "$500.00");
 
-		log.info("TC_01 - Step 94: Verify '5' Quantity is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 94: Verify '5' Quantity is displayed ");
 		Assert.assertEquals(orderPage.getTextProductByColumnAtRowNumberAtOrderPage("Quantity", "1"), "5");
 
-		log.info("TC_01 - Step 96: Verify '$2,500.00' Total is displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 96: Verify '$2,500.00' Total is displayed ");
 		Assert.assertEquals(orderPage.getTextProductByColumnAtRowNumberAtOrderPage("Total", "1"), "$2,500.00");
 
-		log.info("TC_01 - Step 97: Verify 'Gift wrapping' with value is displayed with value 'No'");
+		log.info("Order_Pay_Cheque_01 - Step 97: Verify 'Gift wrapping' with value is displayed with value 'No'");
 		Assert.assertTrue(orderPage.getSelectedCartOptionAtOrderPage().contains("Gift wrapping: No"));
 
-		log.info("TC_01 - Step 98: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 98: Verify 'Cart Total' Price At Table Cart Total is '$2500.00' displayed ");
 		Assert.assertEquals(orderPage.getCartTotalInfoByLableAtOrderPage("Sub-Total:"), "$2,500.00");
 
-		log.info("TC_01 - Step 99: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 99: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed ");
 		Assert.assertEquals(orderPage.getCartTotalInfoByLableAtOrderPage("Shipping:"), "$0.00");
 
-		log.info("TC_01 - Step 100: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 100: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed ");
 		Assert.assertEquals(orderPage.getCartTotalInfoByLableAtOrderPage("Tax:"), "$0.00");
 
-		log.info("TC_01 - Step 101: Verify 'Order Total' Price At Table Cart Total is '$2,500.00' displayed ");
+		log.info("Order_Pay_Cheque_01 - Step 101: Verify 'Order Total' Price At Table Cart Total is '$2,500.00' displayed ");
 		Assert.assertEquals(orderPage.getCartTotalInfoByLableAtOrderPage("Order Total:"), "$2,500.00");
 
 	}
 
 	@Test
-	public void TC_02_Re_Order() {
+	public void Order_Pay_Cheque_02_Re_Order() {
 
-		log.info("TC_02 - Step 01: Click to 'Re-order' button ");
+		log.info("ReOrder_02 - Step 01: Click to 'Re-order' button ");
 		shoppingCartPage = orderPage.clickToReOrderButton();
 
-		log.info("TC_02 - Step 02: Enter to 'Qty' product is '10' is displayed ");
+		log.info("ReOrder_02 - Step 02: Enter to 'Qty' product is '10' is displayed ");
 		shoppingCartPage.inputToQtyByColumnAtRowNumberatShoppingCart("Qty.", "1", "10");
 
-		log.info("TC_02 - Step 03: Click to 'Update  Shopping Cart' button");
+		log.info("ReOrder_02 - Step 03: Click to 'Update  Shopping Cart' button");
 		shoppingCartPage.clicktoShoppingCartButtonByTextName("Update shopping cart");
 
-		log.info("TC_02 - Step 04: Verify 'Qty' product is '10' is displayed ");
+		log.info("ReOrder_02 - Step 04: Verify 'Qty' product is '10' is displayed ");
 		Assert.assertEquals(shoppingCartPage.getValueTextBoxProductByColumnAtRowNumberatShoppingCart("Qty.", "1"), "10");
 
-		log.info("TC_02 - Step 05: Verify 'Total' product is '$5,000.00' is displayed ");
+		log.info("ReOrder_02 - Step 05: Verify 'Total' product is '$5,000.00' is displayed ");
 		Assert.assertEquals(shoppingCartPage.getTextProductByColumnAtRowNumberatShoppingCart("Total", "1"), "$5,000.00");
 
-		log.info("TC_02 - Step 06: Click to 'Terms Of Service' checkbox");
+		log.info("ReOrder_02 - Step 06: Click to 'Terms Of Service' checkbox");
 		shoppingCartPage.ClickToTermsOfService();
 
-		log.info("TC_02 - Step 07: Click to Checkout button");
+		log.info("ReOrder_02 - Step 07: Click to Checkout button");
 		checkoutPage = shoppingCartPage.ClickToCheckoutButton();
 
-		log.info("TC_02 - Step 08: Click to Checkbox 'Ship to the same address' ");
+		log.info("ReOrder_02 - Step 08: Click to Checkbox 'Ship to the same address' ");
 		checkoutPage.unClickToCheckboxByLabelAtCheckoutPage("Ship to the same address");
 
-		log.info("TC_02 - Step 09: Click to 'Continue' button at Billing step");
+		log.info("ReOrder_02 - Step 09: Click to 'Continue' button at Billing step");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-billing", "Continue");
 
-		log.info("TC_02 - Step 10: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'");
+		log.info("ReOrder_02 - Step 10: Select Dropdown 'Select a shipping address from your address book or enter a new address.' with value is 'New Address'");
 		checkoutPage.selectToDropdownByName(driver, "shipping_address_id", "New Address");
 
-		log.info("TC_02 - Step 11: Select Dropdown 'Country' with value is '" + newShippingCountryId + "'");
+		log.info("ReOrder_02 - Step 11: Select Dropdown 'Country' with value is '" + newShippingCountryId + "'");
 		checkoutPage.selectToDropdownByName(driver, "ShippingNewAddress.CountryId", newShippingCountryId);
 
-		log.info("TC_02 - Step 12: Select Dropdown 'State Province' with value is '" + newShippingStateId + "'");
+		log.info("ReOrder_02 - Step 12: Select Dropdown 'State Province' with value is '" + newShippingStateId + "'");
 		checkoutPage.selectToDropdownByName(driver, "ShippingNewAddress.StateProvinceId", newShippingStateId);
 
-		log.info("TC_02 - Step 13: Enter to City textbox with value is '" + newShippingNewAddressCity + "'");
+		log.info("ReOrder_02 - Step 13: Enter to City textbox with value is '" + newShippingNewAddressCity + "'");
 		checkoutPage.inputToTextboxByID(driver, "ShippingNewAddress_City", newShippingNewAddressCity);
 
-		log.info("TC_02 - Step 14: Enter to Address1 textbox with value is '" + newShippingNewAddress1 + "'");
+		log.info("ReOrder_02 - Step 14: Enter to Address1 textbox with value is '" + newShippingNewAddress1 + "'");
 		checkoutPage.inputToTextboxByID(driver, "ShippingNewAddress_Address1", newShippingNewAddress1);
 
-		log.info("TC_02 - Step 15: Enter to ZipPostalCode textbox with value is '" + newShippingZipPostalCode + "'");
+		log.info("ReOrder_02 - Step 15: Enter to ZipPostalCode textbox with value is '" + newShippingZipPostalCode + "'");
 		checkoutPage.inputToTextboxByID(driver, "ShippingNewAddress_ZipPostalCode", newShippingZipPostalCode);
 
-		log.info("TC_02 - Step 16: Enter to PhoneNumber textbox with value is '" + newShippingPhoneNumber + "'");
+		log.info("ReOrder_02 - Step 16: Enter to PhoneNumber textbox with value is '" + newShippingPhoneNumber + "'");
 		checkoutPage.inputToTextboxByID(driver, "ShippingNewAddress_PhoneNumber", newShippingPhoneNumber);
 
-		log.info("TC_02 - Step 17: Click to 'Continue' button at Shipping step");
+		log.info("ReOrder_02 - Step 17: Click to 'Continue' button at Shipping step");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-shipping", "Continue");
 
-		log.info("TC_02 - Step 18: Click to Radio button 'Next Day Air ($0.00)' shipping method name");
+		log.info("ReOrder_02 - Step 18: Click to Radio button 'Next Day Air ($0.00)' shipping method name");
 		registerPage.clicktoRadioButtonByLabel(driver, "Next Day Air ($0.00)");
 
-		log.info("TC_02 - Step 19: Click to 'Continue' button at Shipping method");
+		log.info("ReOrder_02 - Step 19: Click to 'Continue' button at Shipping method");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-shipping-method", "Continue");
 
-		log.info("TC_02 - Step 20: Click to Radio button 'Check / Money Order' payment method name");
+		log.info("ReOrder_02 - Step 20: Click to Radio button 'Check / Money Order' payment method name");
 		registerPage.clicktoRadioButtonByLabel(driver, "Check / Money Order");
 
-		log.info("TC_02 - Step 21: Click to 'Continue' button at Payment method");
+		log.info("ReOrder_02 - Step 21: Click to 'Continue' button at Payment method");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-payment-method", "Continue");
 
-		log.info("TC_02 - Step 22: Click to 'Continue' button at Payment info");
+		log.info("ReOrder_02 - Step 22: Click to 'Continue' button at Payment info");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-payment-info", "Continue");
 
-		log.info("TC_02 - Step 23: Verify 'Payment' title is displayed ");
+		log.info("ReOrder_02 - Step 23: Verify 'Payment' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("payment-method-info"));
 
-		log.info("TC_02 - Step 24: Verify payment-method is 'Check / Money Order' is displayed ");
+		log.info("ReOrder_02 - Step 24: Verify payment-method is 'Check / Money Order' is displayed ");
 		Assert.assertTrue(checkoutPage.getOrderReviewDataByNameAtComfirmOrder("payment-method").contains("Check / Money Order"));
 
-		log.info("TC_02 - Step 25: Verify 'Shipping' title is displayed ");
+		log.info("ReOrder_02 - Step 25: Verify 'Shipping' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("shipping-method-info"));
 
-		log.info("TC_02 - Step 26: Verify Shipping method is 'Next Day Air' is displayed ");
+		log.info("ReOrder_02 - Step 26: Verify Shipping method is 'Next Day Air' is displayed ");
 		Assert.assertTrue(checkoutPage.getOrderReviewDataByNameAtComfirmOrder("shipping-method").contains("Next Day Air"));
 
-		log.info("TC_02 - Step 27: Verify 'Billing Address' title is displayed ");
+		log.info("ReOrder_02 - Step 27: Verify 'Billing Address' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("billing-info"));
 
-		log.info("TC_02 - Step 28: Verify 'Name of Billing Address' is displayed with value " + firstName + " " + lastName);
+		log.info("ReOrder_02 - Step 28: Verify 'Name of Billing Address' is displayed with value " + firstName + " " + lastName);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "name").contains(firstName + " " + lastName));
 
-		log.info("TC_02 - Step 29: Verify 'Email of Billing Address' is displayed with value Email: " + emailAddress);
+		log.info("ReOrder_02 - Step 29: Verify 'Email of Billing Address' is displayed with value Email: " + emailAddress);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "email").contains("Email: " + emailAddress));
 
-		log.info("TC_02 - Step 30: Verify 'Phone of Billing Address' is displayed with value Phone: " + billingPhoneNumber);
+		log.info("ReOrder_02 - Step 30: Verify 'Phone of Billing Address' is displayed with value Phone: " + billingPhoneNumber);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "phone").contains("Phone: " + billingPhoneNumber));
 
-		log.info("TC_02 - Step 31: Verify 'Fax of Billing Address' is displayed with value 'Fax:'");
+		log.info("ReOrder_02 - Step 31: Verify 'Fax of Billing Address' is displayed with value 'Fax:'");
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "fax").contains("Fax:"));
 
-		log.info("TC_02 - Step 32: Verify 'Address1 of Billing Address' is displayed with value " + billingNewAddress1);
+		log.info("ReOrder_02 - Step 32: Verify 'Address1 of Billing Address' is displayed with value " + billingNewAddress1);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "address1").contains(billingNewAddress1));
 
-		log.info("TC_02 - Step 33: Verify 'City_State_Zip of Billing Address' is displayed with value " + billingNewAddressCity + ", " + billingStateId + ", " + billingZipPostalCode);
+		log.info("ReOrder_02 - Step 33: Verify 'City_State_Zip of Billing Address' is displayed with value " + billingNewAddressCity + ", " + billingStateId + ", " + billingZipPostalCode);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "city-state-zip").contains(billingNewAddressCity + "," + billingStateId + "," + billingZipPostalCode));
 
-		log.info("TC_02 - Step 34: Verify 'Country of Billing Address' is displayed with value " + billingCountryId);
+		log.info("ReOrder_02 - Step 34: Verify 'Country of Billing Address' is displayed with value " + billingCountryId);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "country").contains(billingCountryId));
 
-		log.info("TC_02 - Step 35: Verify 'Shipping Address' title is displayed ");
+		log.info("ReOrder_02 - Step 35: Verify 'Shipping Address' title is displayed ");
 		Assert.assertTrue(checkoutPage.isTitleByClassNameAtComfirmOrder("shipping-info"));
 
-		log.info("TC_02 - Step 36: Verify 'Name of Shipping Address' is displayed with value " + firstName + " " + lastName);
+		log.info("ReOrder_02 - Step 36: Verify 'Name of Shipping Address' is displayed with value " + firstName + " " + lastName);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "name").contains(firstName + " " + lastName));
 
-		log.info("TC_02 - Step 37: Verify 'Email of Shipping Address' is displayed with value Email: " + emailAddress);
+		log.info("ReOrder_02 - Step 37: Verify 'Email of Shipping Address' is displayed with value Email: " + emailAddress);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "email").contains("Email: " + emailAddress));
 
-		log.info("TC_02 - Step 38: Verify 'Phone of Shipping Address' is displayed with value Phone: " + newShippingPhoneNumber);
+		log.info("ReOrder_02 - Step 38: Verify 'Phone of Shipping Address' is displayed with value Phone: " + newShippingPhoneNumber);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "phone").contains("Phone: " + newShippingPhoneNumber));
 
-		log.info("TC_02 - Step 39: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'");
+		log.info("ReOrder_02 - Step 39: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'");
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "fax").contains("Fax:"));
 
-		log.info("TC_02 - Step 40: Verify 'Address1 of Shipping Address' is displayed with value " + newShippingNewAddress1);
+		log.info("ReOrder_02 - Step 40: Verify 'Address1 of Shipping Address' is displayed with value " + newShippingNewAddress1);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "address1").contains(newShippingNewAddress1));
 
-		log.info("TC_02 - Step 41: Verify 'City_State_Zip of Shipping Address' is displayed with value " + newShippingNewAddressCity + ", " + newShippingStateId + ", " + newShippingZipPostalCode);
+		log.info("ReOrder_02 - Step 41: Verify 'City_State_Zip of Shipping Address' is displayed with value " + newShippingNewAddressCity + ", " + newShippingStateId + ", " + newShippingZipPostalCode);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "city-state-zip").contains(newShippingNewAddressCity + "," + newShippingStateId + "," + newShippingZipPostalCode));
 
-		log.info("TC_02 - Step 42: Verify 'Country of Shipping Address' is displayed with value " + newShippingCountryId);
+		log.info("ReOrder_02 - Step 42: Verify 'Country of Shipping Address' is displayed with value " + newShippingCountryId);
 		Assert.assertTrue(checkoutPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "country").contains(newShippingCountryId));
 
-		log.info("TC_02 - Step 43: Verify 'LE_IC_600' SKU  is displayed ");
+		log.info("ReOrder_02 - Step 43: Verify 'LE_IC_600' SKU  is displayed ");
 		Assert.assertEquals(checkoutPage.getTextProductByColumnAtRowNumberAtCheckOutPage("SKU", "1"), "LE_IC_600");
 
-		log.info("TC_02 - Step 44: Verify '" + productName1 + "' title product is displayed ");
+		log.info("ReOrder_02 - Step 44: Verify '" + productName1 + "' title product is displayed ");
 		Assert.assertEquals(checkoutPage.getTextLinkNameProductByColumnAtRowNumberAtCheckOutPage("Product(s)", "1"), productName1);
 
-		log.info("TC_02 - Step 45: Verify '$500.00' Price is displayed ");
+		log.info("ReOrder_02 - Step 45: Verify '$500.00' Price is displayed ");
 		Assert.assertEquals(checkoutPage.getTextProductByColumnAtRowNumberAtCheckOutPage("Price", "1"), "$500.00");
 
-		log.info("TC_02 - Step 46: Verify '5' Qty is displayed ");
+		log.info("ReOrder_02 - Step 46: Verify '5' Qty is displayed ");
 		Assert.assertEquals(checkoutPage.getTextProductByColumnAtRowNumberAtCheckOutPage("Qty.", "1"), "10");
 
-		log.info("TC_02 - Step 47: Verify '$5,000.00' Total is displayed ");
+		log.info("ReOrder_02 - Step 47: Verify '$5,000.00' Total is displayed ");
 		Assert.assertEquals(checkoutPage.getTextProductByColumnAtRowNumberAtCheckOutPage("Total", "1"), "$5,000.00");
 
-		log.info("TC_02 - Step 48: Verify 'Gift wrapping' with value is displayed with value 'No'");
+		log.info("ReOrder_02 - Step 48: Verify 'Gift wrapping' with value is displayed with value 'No'");
 		Assert.assertTrue(checkoutPage.getSelectedCartOptionAtComfirmOrder().contains("Gift wrapping: No"));
 
-		log.info("TC_02 - Step 49: Verify 'Cart Total' Price At Table Cart Total is '$5,000.00' displayed ");
+		log.info("ReOrder_02 - Step 49: Verify 'Cart Total' Price At Table Cart Total is '$5,000.00' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("Sub-Total:"), "$5,000.00");
 
-		log.info("TC_02 - Step 50: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed ");
+		log.info("ReOrder_02 - Step 50: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("Shipping:"), "$0.00");
 
-		log.info("TC_02 - Step 51: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed ");
+		log.info("ReOrder_02 - Step 51: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("Tax:"), "$0.00");
 
-		log.info("TC_02 - Step 52: Verify 'Order Total' Price At Table Cart Total is '$5,000.00' displayed ");
+		log.info("ReOrder_02 - Step 52: Verify 'Order Total' Price At Table Cart Total is '$5,000.00' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("Total:"), "$5,000.00");
 
-		log.info("TC_02 - Step 53: Verify 'Earn reward points' At Table Cart Total is '500 points' displayed ");
+		log.info("ReOrder_02 - Step 53: Verify 'Earn reward points' At Table Cart Total is '500 points' displayed ");
 		Assert.assertEquals(checkoutPage.getCartTotalInfoByLableAtComfirmOrder("You will earn:"), "500 points");
 
-		log.info("TC_02 - Step 54: Click to 'Confirm' button at Confirm order");
+		log.info("ReOrder_02 - Step 54: Click to 'Confirm' button at Confirm order");
 		checkoutPage.clickToButtonByIDAtCheckoutPage("checkout-step-confirm-order", "Confirm");
 
-		log.info("TC_02 - Step 55: Verify 'Thank you' title is displayed ");
+		log.info("ReOrder_02 - Step 55: Verify 'Thank you' title is displayed ");
 		Assert.assertTrue(checkoutPage.isPageTitleByText(driver, "Thank you"));
 
-		log.info("TC_02 - Step 56: Verify 'title' is displayed with value 'Your order has been successfully processed!'");
+		log.info("ReOrder_02 - Step 56: Verify 'title' is displayed with value 'Your order has been successfully processed!'");
 		Assert.assertTrue(checkoutPage.isTextByClassAtCheckoutPage("title"));
 
-		log.info("TC_02 - Step 57: Verify 'order number' is displayed ");
+		log.info("ReOrder_02 - Step 57: Verify 'order number' is displayed ");
 		Assert.assertTrue(checkoutPage.isTextByClassAtCheckoutPage("order-number"));
 
-		log.info("TC_02 - Step 58: Get  'order number' ");
+		log.info("ReOrder_02 - Step 58: Get  'order number' ");
 		orderNumber = checkoutPage.getTextByClassAtCheckoutPage("order-number");
 
-		log.info("TC_02 - Step 59: Navigate to 'Home' page ");
+		log.info("ReOrder_02 - Step 59: Navigate to 'Home' page ");
 		homePage = checkoutPage.clickToContinueButtonAtOrderCompletedPage();
 
-		log.info("TC_02 - Step 60: Navigate to 'My Account' page ");
+		log.info("ReOrder_02 - Step 60: Navigate to 'My Account' page ");
 		customerInforPage = homePage.openMyAccountPage(driver);
 
-		log.info("TC_02 - Step 61: Navigate to 'Orders' page ");
+		log.info("ReOrder_02 - Step 61: Navigate to 'Orders' page ");
 		orderPage = (OrderPageObject) customerInforPage.openpageAtMyAccountByName(driver, "Orders");
 
-		log.info("TC_02 - Step 62: Verify 'Orders' title is displayed ");
+		log.info("ReOrder_02 - Step 62: Verify 'Orders' title is displayed ");
 		Assert.assertTrue(orderPage.isPageTitleByText(driver, "My account - Orders"));
 
-		log.info("TC_02 - Step 63: Verify 'Orders name' title is displayed with value " + orderNumber);
+		log.info("ReOrder_02 - Step 63: Verify 'Orders name' title is displayed with value " + orderNumber);
 		Assert.assertEquals(orderPage.getOrderNumberNameAtOrderPage(), orderNumber);
 
-		log.info("TC_02 - Step 64: Click to 'Details' button ");
+		log.info("ReOrder_02 - Step 64: Click to 'Details' button ");
 		orderPage.clickToButtonByText(driver, "Details");
 
-		log.info("TC_02 - Step 65: Verify 'Orders Number' at Order Overview is displayed with value " + orderNumber);
+		log.info("ReOrder_02 - Step 65: Verify 'Orders Number' at Order Overview is displayed with value " + orderNumber);
 		Assert.assertEquals(orderPage.getOrderNumberNameInOrderOverViewAtOrderPage(), orderNumber);
 
-//		log.info("TC_02 - Step 66: Verify 'order-date' in OrderCOntent Area at Order Page is displayed with value Tuesday, September 26, 2023");
+//		log.info("ReOrder_02 - Step 66: Verify 'order-date' in OrderCOntent Area at Order Page is displayed with value Tuesday, September 26, 2023");
 //		Assert.assertTrue(orderPage.getOrderContentInOrderOverviewAtOrderPage("order-date").contains("Tuesday, September 26, 2023"));
 
-		log.info("TC_02 - Step 67: Verify 'order-status' in OrderCOntent Area at Order Page is displayed with value Pending");
+		log.info("ReOrder_02 - Step 67: Verify 'order-status' in OrderCOntent Area at Order Page is displayed with value Pending");
 		Assert.assertTrue(orderPage.getOrderContentInOrderOverviewAtOrderPage("order-status").contains("Pending"));
 
-		log.info("TC_02 - Step 68: Verify 'order-total' in OrderCOntent Area at Order Page is displayed with value $5,000.00");
+		log.info("ReOrder_02 - Step 68: Verify 'order-total' in OrderCOntent Area at Order Page is displayed with value $5,000.00");
 		Assert.assertTrue(orderPage.getOrderContentInOrderOverviewAtOrderPage("order-total").contains("$5,000.00"));
 
-		log.info("TC_02 - Step 69: Verify 'Payment' title is displayed ");
+		log.info("ReOrder_02 - Step 69: Verify 'Payment' title is displayed ");
 		Assert.assertTrue(orderPage.isTitleByClassNameAtOrderPage("payment-method-info"));
 
-		log.info("TC_02 - Step 70: Verify payment-method is 'Check / Money Order' is displayed ");
+		log.info("ReOrder_02 - Step 70: Verify payment-method is 'Check / Money Order' is displayed ");
 		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("payment-method").contains("Check / Money Order"));
 
-		log.info("TC_02 - Step 71: Verify payment-method status is 'Pending' is displayed ");
+		log.info("ReOrder_02 - Step 71: Verify payment-method status is 'Pending' is displayed ");
 		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("payment-method-status").contains("Pending"));
 
-		log.info("TC_02 - Step 72: Verify 'Shipping' title is displayed ");
+		log.info("ReOrder_02 - Step 72: Verify 'Shipping' title is displayed ");
 		Assert.assertTrue(orderPage.isTitleByClassNameAtOrderPage("shipping-method-info"));
 
-		log.info("TC_02 - Step 73: Verify Shipping method is 'Next Day Air' is displayed ");
+		log.info("ReOrder_02 - Step 73: Verify Shipping method is 'Next Day Air' is displayed ");
 		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("shipping-method").contains("Next Day Air"));
 
-		log.info("TC_02 - Step 74: Verify Shipping status is 'Not yet shipped' is displayed ");
+		log.info("ReOrder_02 - Step 74: Verify Shipping status is 'Not yet shipped' is displayed ");
 		Assert.assertTrue(orderPage.getOrderReviewDataByNameAtOrderPage("shipping-status").contains("Not yet shipped"));
 
-		log.info("TC_02 - Step 75: Verify 'Billing Address' title is displayed ");
+		log.info("ReOrder_02 - Step 75: Verify 'Billing Address' title is displayed ");
 		Assert.assertTrue(orderPage.isTitleByClassNameAtOrderPage("billing-info"));
 
-		log.info("TC_02 - Step 76: Verify 'Name of Billing Address' is displayed with value " + firstName + " " + lastName);
+		log.info("ReOrder_02 - Step 76: Verify 'Name of Billing Address' is displayed with value " + firstName + " " + lastName);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "name").contains(firstName + " " + lastName));
 
-		log.info("TC_02 - Step 77: Verify 'Email of Billing Address' is displayed with value Email: " + emailAddress);
+		log.info("ReOrder_02 - Step 77: Verify 'Email of Billing Address' is displayed with value Email: " + emailAddress);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "email").contains("Email: " + emailAddress));
 
-		log.info("TC_02 - Step 78: Verify 'Phone of Billing Address' is displayed with value Phone: " + billingPhoneNumber);
+		log.info("ReOrder_02 - Step 78: Verify 'Phone of Billing Address' is displayed with value Phone: " + billingPhoneNumber);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "phone").contains("Phone: " + billingPhoneNumber));
 
-		log.info("TC_02 - Step 79: Verify 'Fax of Billing Address' is displayed with value 'Fax:'");
+		log.info("ReOrder_02 - Step 79: Verify 'Fax of Billing Address' is displayed with value 'Fax:'");
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "fax").contains("Fax:"));
 
-		log.info("TC_02 - Step 80: Verify 'Address1 of Billing Address' is displayed with value " + billingNewAddress1);
+		log.info("ReOrder_02 - Step 80: Verify 'Address1 of Billing Address' is displayed with value " + billingNewAddress1);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "address1").contains(billingNewAddress1));
 
-		log.info("TC_02 - Step 81: Verify 'City_State_Zip of Billing Address' is displayed with value " + billingNewAddressCity + ", " + billingStateId + ", " + billingZipPostalCode);
+		log.info("ReOrder_02 - Step 81: Verify 'City_State_Zip of Billing Address' is displayed with value " + billingNewAddressCity + ", " + billingStateId + ", " + billingZipPostalCode);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "city-state-zip").contains(billingNewAddressCity + "," + billingStateId + "," + billingZipPostalCode));
 
-		log.info("TC_02 - Step 82: Verify 'Country of Billing Address' is displayed with value " + billingCountryId);
+		log.info("ReOrder_02 - Step 82: Verify 'Country of Billing Address' is displayed with value " + billingCountryId);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Billing Address", "country").contains(billingCountryId));
 
-		log.info("TC_02 - Step 83: Verify 'Shipping Address' title is displayed ");
+		log.info("ReOrder_02 - Step 83: Verify 'Shipping Address' title is displayed ");
 		Assert.assertTrue(orderPage.isTitleByClassNameAtOrderPage("shipping-info"));
 
-		log.info("TC_02 - Step 84: Verify 'Name of Shipping Address' is displayed with value " + firstName + " " + lastName);
+		log.info("ReOrder_02 - Step 84: Verify 'Name of Shipping Address' is displayed with value " + firstName + " " + lastName);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "name").contains(firstName + " " + lastName));
 
-		log.info("TC_02 - Step 85: Verify 'Email of Shipping Address' is displayed with value Email: " + emailAddress);
+		log.info("ReOrder_02 - Step 85: Verify 'Email of Shipping Address' is displayed with value Email: " + emailAddress);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "email").contains("Email: " + emailAddress));
 
-		log.info("TC_02 - Step 86: Verify 'Phone of Shipping Address' is displayed with value Phone: " + newShippingPhoneNumber);
+		log.info("ReOrder_02 - Step 86: Verify 'Phone of Shipping Address' is displayed with value Phone: " + newShippingPhoneNumber);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "phone").contains("Phone: " + newShippingPhoneNumber));
 
-		log.info("TC_02 - Step 87: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'");
+		log.info("ReOrder_02 - Step 87: Verify 'Fax of Shipping Address' is displayed with value 'Fax:'");
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "fax").contains("Fax:"));
 
-		log.info("TC_02 - Step 88: Verify 'Address1 of Shipping Address' is displayed with value " + newShippingNewAddress1);
+		log.info("ReOrder_02 - Step 88: Verify 'Address1 of Shipping Address' is displayed with value " + newShippingNewAddress1);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "address1").contains(newShippingNewAddress1));
 
-		log.info("TC_02 - Step 89: Verify 'City_State_Zip of Shipping Address' is displayed with value " + newShippingNewAddressCity + ", " + newShippingStateId + ", " + newShippingZipPostalCode);
+		log.info("ReOrder_02 - Step 89: Verify 'City_State_Zip of Shipping Address' is displayed with value " + newShippingNewAddressCity + ", " + newShippingStateId + ", " + newShippingZipPostalCode);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "city-state-zip").contains(newShippingNewAddressCity + "," + newShippingStateId + "," + newShippingZipPostalCode));
 
-		log.info("TC_02 - Step 90: Verify 'Country of Shipping Address' is displayed with value " + newShippingCountryId);
+		log.info("ReOrder_02 - Step 90: Verify 'Country of Shipping Address' is displayed with value " + newShippingCountryId);
 		Assert.assertTrue(orderPage.getTextboxValueByTitleNameAndNameClass("Shipping Address", "country").contains(newShippingCountryId));
 
-		log.info("TC_02 - Step 91: Verify 'LE_IC_600' SKU  is displayed ");
+		log.info("ReOrder_02 - Step 91: Verify 'LE_IC_600' SKU  is displayed ");
 		Assert.assertEquals(orderPage.getTextProductByColumnAtRowNumberAtOrderPage("SKU", "1"), "LE_IC_600");
 
-		log.info("TC_02 - Step 92: Verify " + productName1 + " title product is displayed ");
+		log.info("ReOrder_02 - Step 92: Verify " + productName1 + " title product is displayed ");
 		Assert.assertEquals(orderPage.getTextLinkNameProductByColumnAtRowNumberAtOrderPage("Name", "1"), productName1);
 
-		log.info("TC_02 - Step 93: Verify '$500.00' Price is displayed ");
+		log.info("ReOrder_02 - Step 93: Verify '$500.00' Price is displayed ");
 		Assert.assertEquals(orderPage.getTextProductByColumnAtRowNumberAtOrderPage("Price", "1"), "$500.00");
 
-		log.info("TC_02 - Step 94: Verify '10' Quantity is displayed ");
+		log.info("ReOrder_02 - Step 94: Verify '10' Quantity is displayed ");
 		Assert.assertEquals(orderPage.getTextProductByColumnAtRowNumberAtOrderPage("Quantity", "1"), "10");
 
-		log.info("TC_02 - Step 95: Verify '$5,000.00' Total is displayed ");
+		log.info("ReOrder_02 - Step 95: Verify '$5,000.00' Total is displayed ");
 		Assert.assertEquals(orderPage.getTextProductByColumnAtRowNumberAtOrderPage("Total", "1"), "$5,000.00");
 
-		log.info("TC_02 - Step 96: Verify 'Gift wrapping' with value is displayed with value 'No'");
+		log.info("ReOrder_02 - Step 96: Verify 'Gift wrapping' with value is displayed with value 'No'");
 		Assert.assertTrue(orderPage.getSelectedCartOptionAtOrderPage().contains("Gift wrapping: No"));
 
-		log.info("TC_02 - Step 97: Verify 'Cart Total' Price At Table Cart Total is '$5,000.00' displayed ");
+		log.info("ReOrder_02 - Step 97: Verify 'Cart Total' Price At Table Cart Total is '$5,000.00' displayed ");
 		Assert.assertEquals(orderPage.getCartTotalInfoByLableAtOrderPage("Sub-Total:"), "$5,000.00");
 
-		log.info("TC_02 - Step 98: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed ");
+		log.info("ReOrder_02 - Step 98: Verify 'Shipping Cost' Price At Table Cart Total is '$0.00' displayed ");
 		Assert.assertEquals(orderPage.getCartTotalInfoByLableAtOrderPage("Shipping:"), "$0.00");
 
-		log.info("TC_02 - Step 99: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed ");
+		log.info("ReOrder_02 - Step 99: Verify 'Tax' Price At Table Cart Total is '$0.00' displayed ");
 		Assert.assertEquals(orderPage.getCartTotalInfoByLableAtOrderPage("Tax:"), "$0.00");
 
-		log.info("TC_02 - Step 100: Verify 'Order Total' Price At Table Cart Total is '$5,000.00' displayed ");
+		log.info("ReOrder_02 - Step 100: Verify 'Order Total' Price At Table Cart Total is '$5,000.00' displayed ");
 		Assert.assertEquals(orderPage.getCartTotalInfoByLableAtOrderPage("Order Total:"), "$5,000.00");
 
 	}
@@ -796,7 +796,7 @@ public class Order_Checkout_Pay_By_Cheque extends BaseTest {
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 
-//		closeBrowserDriver();
+		closeBrowserDriver();
 	}
 
 }

@@ -35,5 +35,12 @@ public class BasePageNopCommerceUI {
 	public static final String ADD_TO_COMPARE_LIST_BY_PRODUCT_NAME = "xpath=//div[@class='item-box']//a[text()='%s']/parent::h2/following-sibling::div//button[text()='Add to compare list']";
 	
 	public static final String MESSAGE_ADD_SUCCESS = "xpath=//div[contains(@class,'success')]/p";
+	
+	public static final String DYNAMIC_CONTENT_HEADER_BY_TEXT = "xpath=//div[contains(@class,'content-header')]/h1[contains(text(),%s)]";
+	public static final String DYNAMIC_NAV_SIDEBAR_BY_TEXT = "xpath=//ul[contains(@class,'nav-sidebar')]//p[contains(text(),'%s')]";
+	public static final String DYNAMIC_NAV_TREE_VIEW_BY_TEXT = "xpath=//ul[contains(@class,'nav-treeview')and @style]//p[contains(text(),'%s')]";
+	
+	
+	
 
 }

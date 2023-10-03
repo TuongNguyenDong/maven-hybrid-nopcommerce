@@ -44,7 +44,7 @@ public class Register extends BaseTest {
 	}
 	
 	@Test
-	public void TC_01_Register_Emmpty_Data() {
+	public void Register_01_Emmpty_Data() {
 		log.info("Register_01 - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
 
@@ -69,7 +69,7 @@ public class Register extends BaseTest {
 	}
 	
 	@Test
-	public void TC_02_Register_Invalid_Email () {
+	public void Register_02_Invalid_Email () {
 		log.info("Register_02 - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
 		
@@ -112,7 +112,7 @@ public class Register extends BaseTest {
 	}
 
 	@Test
-	public void TC_03_Register_Success () {
+	public void Register_03_Success () {
 		
 		log.info("Register_03 - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
@@ -157,7 +157,7 @@ public class Register extends BaseTest {
 	}
 
 	@Test
-	public void TC_04_Register_Existing_Email () {
+	public void Register_04_Existing_Email () {
 		log.info("Register_04 - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
 
@@ -200,7 +200,7 @@ public class Register extends BaseTest {
 	}
 
 	@Test
-	public void TC_05_Register_Password_Less_Than_6_Chars () {
+	public void Register_05_Password_Less_Than_6_Chars () {
 		
 		log.info("Register_05 - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
@@ -245,7 +245,7 @@ public class Register extends BaseTest {
 	}
 	
 	@Test
-	public void TC_06_Register_Invalid_Confirm_Password () {
+	public void Register_06_Invalid_Confirm_Password () {
 
 		log.info("Register_06 - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();

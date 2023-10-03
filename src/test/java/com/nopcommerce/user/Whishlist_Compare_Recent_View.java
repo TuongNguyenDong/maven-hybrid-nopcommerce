@@ -126,248 +126,248 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 	}
 
 	@Test
-	public void TC_01_Add_To_Wishlist() {
+	public void Whishlist_Compare_Recent_View_01_Add_To_Wishlist() {
 		
-		log.info("TC_01 - Step 01: Click 'Add to wishlist'" );
+		log.info("Whishlist_Compare_Recent_View_01 - Step 01: Click 'Add to wishlist'" );
 		productsNamePage.clickToOverviewButtonByText("Add to wishlist");
 		
-		log.info("TC_01 - Step 02: Verify add to wishlist success message is displayed ");
+		log.info("Whishlist_Compare_Recent_View_01 - Step 02: Verify add to wishlist success message is displayed ");
 		Assert.assertTrue(productsNamePage.getAddToWishlistSuccessMessage().contains("The product has been added"));
 		
-		log.info("TC_01 - Step 03: Close 'Change Password' success message ");
+		log.info("Whishlist_Compare_Recent_View_01 - Step 03: Close 'Change Password' success message ");
 		productsNamePage.clickToCloseSuccessMessage();
 		
-		log.info("TC_01 - Step 04: Navigate to 'Wishlist' page");
+		log.info("Whishlist_Compare_Recent_View_01 - Step 04: Navigate to 'Wishlist' page");
 		wishlistPage = productsNamePage.openWishlistPage();
 		
-		log.info("TC_01 - Step 05: Get 'Wishlist' page Url");
+		log.info("Whishlist_Compare_Recent_View_01 - Step 05: Get 'Wishlist' page Url");
 		wishlistUrl = wishlistPage.getPageUrl(driver);
 		
-		log.info("TC_01 - Step 06: Verify 'Wishlist' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_01 - Step 06: Verify 'Wishlist' title is displayed " );
 		Assert.assertTrue(wishlistPage.isPageTitleByText(driver, "Wishlist"));
 		
-		log.info("TC_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed " );
+		log.info("Whishlist_Compare_Recent_View_01 - Step 07: Verify 'Apple MacBook Pro 13-inch' product is displayed " );
 		Assert.assertEquals(wishlistPage.getTextProductByColumnAtRowNumber("Product(s)", "1"), "Apple MacBook Pro 13-inch");
 		
-		log.info("TC_01 - Step 08: Click  To 'Your wishlist URL for sharing:'" );
+		log.info("Whishlist_Compare_Recent_View_01 - Step 08: Click  To 'Your wishlist URL for sharing:'" );
 		wishlistPage.clickToWishlistSharingLink();
 		
-		log.info("TC_01 - Step 09: Verify 'Wishlist of fullName' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_01 - Step 09: Verify 'Wishlist of fullName' title is displayed " );
 		Assert.assertTrue(wishlistPage.isPageTitleByText(driver, "Wishlist of Automation FC"));
 		
 	}
 
 	@Test
-	public void TC_02_Add_To_Car_From_Wishlist() {
-		log.info("TC_02 - Step 01: Open 'Wishlist' page");
+	public void Whishlist_Compare_Recent_View_02_Add_To_Car_From_Wishlist() {
+		log.info("Whishlist_Compare_Recent_View_02 - Step 01: Open 'Wishlist' page");
 		wishlistPage = wishlistPage.openWishlistPageUrl(wishlistUrl);
 		
-		log.info("TC_02 - Step 01: Click  To 'Add to cart'checkbox" );
+		log.info("Whishlist_Compare_Recent_View_02 - Step 01: Click  To 'Add to cart'checkbox" );
 		wishlistPage.checkToCheckboxByColumnNameAtRowNumber("Add to cart", "1");
 		
-		log.info("TC_02 - Step 02: Click  To 'Add to cart'button" );
+		log.info("Whishlist_Compare_Recent_View_02 - Step 02: Click  To 'Add to cart'button" );
 		shoppingCartPage = wishlistPage.clickToAddToCartButton();
 		
-		log.info("TC_02 - Step 03: Verify 'Shopping cart' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_02 - Step 03: Verify 'Shopping cart' title is displayed " );
 		Assert.assertTrue(shoppingCartPage.isPageTitleByText(driver, "Shopping cart"));
 		
-		log.info("TC_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed " );
+		log.info("Whishlist_Compare_Recent_View_02 - Step 04: Verify 'Apple MacBook Pro 13-inch' product is displayed " );
 		Assert.assertEquals(shoppingCartPage.getTextLinkNameProductByColumnAtRowNumberatShoppingCart("Product(s)", "1"), "Apple MacBook Pro 13-inch");
 		
-		log.info("TC_02 - Step 05: Open 'Wishlist' page");
+		log.info("Whishlist_Compare_Recent_View_02 - Step 05: Open 'Wishlist' page");
 		wishlistPage = shoppingCartPage.openWishlistPage();
 		
-		log.info("TC_02 - Step 06: Verify 'Wishlist is empty' is displayed " );
+		log.info("Whishlist_Compare_Recent_View_02 - Step 06: Verify 'Wishlist is empty' is displayed " );
 		Assert.assertTrue(wishlistPage.isWishlistEmptyMessage());
 		
 
 	}
 
 	@Test
-	public void TC_03_Remove_Product_Wishlist() {
+	public void Whishlist_Compare_Recent_View_03_Remove_Product_Wishlist() {
 		
-		log.info("TC_03 - Step 01: Swith to 'Computers' page");
+		log.info("Whishlist_Compare_Recent_View_03 - Step 01: Swith to 'Computers' page");
 		computersPage = (UserComputersPageObject) wishlistPage.openpageAtHomePageByName(driver, "Computers");
 		
-		log.info("TC_03 - Step 02: Verify 'Computers' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_03 - Step 02: Verify 'Computers' title is displayed " );
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
-		log.info("TC_03 - Step 03: Swith to 'Notebooks' page");
+		log.info("Whishlist_Compare_Recent_View_03 - Step 03: Swith to 'Notebooks' page");
 		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
 		
-		log.info("TC_03 - Step 04: Verify 'Notebooks' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_03 - Step 04: Verify 'Notebooks' title is displayed " );
 		Assert.assertTrue(notebooksPage.isPageTitleByText(driver, "Notebooks"));
 		
-		log.info("TC_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' " );
+		log.info("Whishlist_Compare_Recent_View_03 - Step 05: Click Product name  with  title 'Asus N551JK-XO076H Laptop' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "Asus N551JK-XO076H Laptop");
 		
-		log.info("TC_03 - Step 06: Click 'Add to wishlist'" );
+		log.info("Whishlist_Compare_Recent_View_03 - Step 06: Click 'Add to wishlist'" );
 		productsNamePage.clickToOverviewButtonByText("Add to wishlist");
 		
-		log.info("TC_03 - Step 07: Verify add to wishlist success message is displayed ");
+		log.info("Whishlist_Compare_Recent_View_03 - Step 07: Verify add to wishlist success message is displayed ");
 		Assert.assertTrue(productsNamePage.getAddToWishlistSuccessMessage().contains("The product has been added"));
 		
-		log.info("TC_03 - Step 08: Close 'add to wishlist' success message ");
+		log.info("Whishlist_Compare_Recent_View_03 - Step 08: Close 'add to wishlist' success message ");
 		productsNamePage.clickToCloseSuccessMessage();
 		
-		log.info("TC_03 - Step 09: Navigate to 'Wishlist' page");
+		log.info("Whishlist_Compare_Recent_View_03 - Step 09: Navigate to 'Wishlist' page");
 		wishlistPage = productsNamePage.openWishlistPage();
 		
-		log.info("TC_03 - Step 10: Get 'Wishlist' page Url");
+		log.info("Whishlist_Compare_Recent_View_03 - Step 10: Get 'Wishlist' page Url");
 		wishlistUrl = wishlistPage.getPageUrl(driver);
 		
-		log.info("TC_03 - Step 11: Verify 'Wishlist' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_03 - Step 11: Verify 'Wishlist' title is displayed " );
 		Assert.assertTrue(wishlistPage.isPageTitleByText(driver, "Wishlist"));
 		
-		log.info("TC_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed " );
+		log.info("Whishlist_Compare_Recent_View_03 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product is displayed " );
 		Assert.assertEquals(wishlistPage.getTextProductByColumnAtRowNumber("Product(s)", "1"), "Asus N551JK-XO076H Laptop");
 		
-		log.info("TC_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' " );
+		log.info("Whishlist_Compare_Recent_View_03 - Step 13: ClickTo Remove Button with Product name 'Asus N551JK-XO076H Laptop' " );
 		wishlistPage.clickToRemoveButtonByProductName("Asus N551JK-XO076H Laptop");
 		
-		log.info("TC_03 - Step 14: Verify 'Wishlist is empty' is displayed " );
+		log.info("Whishlist_Compare_Recent_View_03 - Step 14: Verify 'Wishlist is empty' is displayed " );
 		Assert.assertTrue(wishlistPage.isWishlistEmptyMessage());
 		
 	}
 	
 	@Test
-	public void TC_04_Add_to_Compare() {
+	public void Whishlist_Compare_Recent_View_04_Add_to_Compare() {
 		
-		log.info("TC_04 - Step 01: Swith to 'Computers' page");
+		log.info("Whishlist_Compare_Recent_View_04 - Step 01: Swith to 'Computers' page");
 		computersPage = (UserComputersPageObject) wishlistPage.openpageAtHomePageByName(driver, "Computers");
 		
-		log.info("TC_04 - Step 02: Verify 'Computers' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 02: Verify 'Computers' title is displayed " );
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
-		log.info("TC_04 - Step 03: Swith to 'Notebooks' page");
+		log.info("Whishlist_Compare_Recent_View_04 - Step 03: Swith to 'Notebooks' page");
 		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
 		
-		log.info("TC_04 - Step 04: Verify 'Notebooks' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 04: Verify 'Notebooks' title is displayed " );
 		Assert.assertTrue(notebooksPage.isPageTitleByText(driver, "Notebooks"));
 		
-		log.info("TC_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 05: Click Add To Compare List  with product title 'Asus N551JK-XO076H Laptop' " );
 		notebooksPage.clickToAddToCompareListByProductTitile(driver, "Asus N551JK-XO076H Laptop");
 		
-		log.info("TC_04 - Step 06: Verify add to compare list success message is displayed ");
+		log.info("Whishlist_Compare_Recent_View_04 - Step 06: Verify add to compare list success message is displayed ");
 		Assert.assertTrue(notebooksPage.getAddSuccessMessage(driver).contains("The product has been added"));
 		
-		log.info("TC_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 07: Click Add To Compare List  with product title 'HP Spectre XT Pro UltraBook' " );
 		notebooksPage.clickToAddToCompareListByProductTitile(driver, "HP Spectre XT Pro UltraBook");
 		
-		log.info("TC_04 - Step 08: Verify add to compare list success message is displayed ");
+		log.info("Whishlist_Compare_Recent_View_04 - Step 08: Verify add to compare list success message is displayed ");
 		Assert.assertTrue(notebooksPage.getAddSuccessMessage(driver).contains("The product has been added"));
 		
-		log.info("TC_04 - Step 09: Navigate to 'Compare Products' page");
+		log.info("Whishlist_Compare_Recent_View_04 - Step 09: Navigate to 'Compare Products' page");
 		compareProductsPage = (CompareProductsPageObject) notebooksPage.openpageAtFooterByName(driver, "Compare products list");
 		
-		log.info("TC_04 - Step 10: Verify 'Compare products' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 10: Verify 'Compare products' title is displayed " );
 		Assert.assertTrue(compareProductsPage.isPageTitleByText(driver, "Compare products"));
 		
-		log.info("TC_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 11: Verify 'HP Spectre XT Pro UltraBook' product name is displayed " );
 		Assert.assertEquals(compareProductsPage.getTextProductByRowAtColumnNumber("Name", "2"), "HP Spectre XT Pro UltraBook");
 		
-		log.info("TC_04 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product name is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 12: Verify 'Asus N551JK-XO076H Laptop' product name is displayed " );
 		Assert.assertEquals(compareProductsPage.getTextProductByRowAtColumnNumber("Name", "3"), "Asus N551JK-XO076H Laptop");
 		
-		log.info("TC_04 - Step 13: Verify 'Price' of HP Spectre XT Pro UltraBook is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 13: Verify 'Price' of HP Spectre XT Pro UltraBook is displayed " );
 		Assert.assertEquals(compareProductsPage.getPriceProductByRowAtColumnNumber("Price", "2"), "$1,350.00");
 		
-		log.info("TC_04 - Step 14: Verify 'Price'of Asus N551JK-XO076H Laptop is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 14: Verify 'Price'of Asus N551JK-XO076H Laptop is displayed " );
 		Assert.assertEquals(compareProductsPage.getPriceProductByRowAtColumnNumber("Price", "3"), "$1,500.00");
 		
-		log.info("TC_04 - Step 15: Verify 'Screensize'of HP Spectre XT Pro UltraBook is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 15: Verify 'Screensize'of HP Spectre XT Pro UltraBook is displayed " );
 		Assert.assertEquals(compareProductsPage.getSpecificationProductByRowAtColumnNumber("Screensize", "2"), "13.3'"+"'");
 		
-		log.info("TC_04 - Step 16: Verify 'Screensize'of Asus N551JK-XO076H Laptop is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 16: Verify 'Screensize'of Asus N551JK-XO076H Laptop is displayed " );
 		Assert.assertEquals(compareProductsPage.getSpecificationProductByRowAtColumnNumber("Screensize", "3"), "15.6'"+"'");
 		
-		log.info("TC_04 - Step 17: Verify 'CPU Type' of HP Spectre XT Pro UltraBook is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 17: Verify 'CPU Type' of HP Spectre XT Pro UltraBook is displayed " );
 		Assert.assertEquals(compareProductsPage.getSpecificationProductByRowAtColumnNumber("CPU Type", "2"), "Intel Core i5");
 		
-		log.info("TC_04 - Step 18: Verify 'CPU Type'of Asus N551JK-XO076H Laptop is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 18: Verify 'CPU Type'of Asus N551JK-XO076H Laptop is displayed " );
 		Assert.assertEquals(compareProductsPage.getSpecificationProductByRowAtColumnNumber("CPU Type", "3"), "Intel Core i7");
 
-		log.info("TC_04 - Step 17: Verify 'Memory' of HP Spectre XT Pro UltraBook is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 17: Verify 'Memory' of HP Spectre XT Pro UltraBook is displayed " );
 		Assert.assertEquals(compareProductsPage.getSpecificationProductByRowAtColumnNumber("Memory", "2"), "4 GB");
 		
-		log.info("TC_04 - Step 18: Verify 'Memory'of Asus N551JK-XO076H Laptop is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 18: Verify 'Memory'of Asus N551JK-XO076H Laptop is displayed " );
 		Assert.assertEquals(compareProductsPage.getSpecificationProductByRowAtColumnNumber("Memory", "3"), "16 GB");
 
-		log.info("TC_04 - Step 17: Verify 'Hard drive' of HP Spectre XT Pro UltraBook is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 17: Verify 'Hard drive' of HP Spectre XT Pro UltraBook is displayed " );
 		Assert.assertEquals(compareProductsPage.getSpecificationProductByRowAtColumnNumber("Hard drive", "2"), "128 GB");
 		
-		log.info("TC_04 - Step 18: Verify 'Hard drive'of Asus N551JK-XO076H Laptop is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 18: Verify 'Hard drive'of Asus N551JK-XO076H Laptop is displayed " );
 		Assert.assertEquals(compareProductsPage.getSpecificationProductByRowAtColumnNumber("Hard drive", "3"), "1 TB");
 		
-		log.info("TC_04 - Step 19: Verify 'Remove Button' of HP Spectre XT Pro UltraBook is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 19: Verify 'Remove Button' of HP Spectre XT Pro UltraBook is displayed " );
 		Assert.assertTrue(compareProductsPage.getRemoveButtonRTextByColumnNumber("2").contains("Remove"));
 		
-		log.info("TC_04 - Step 20: Verify 'Remove Button'of Asus N551JK-XO076H Laptop is displayed " );
+		log.info("Whishlist_Compare_Recent_View_04 - Step 20: Verify 'Remove Button'of Asus N551JK-XO076H Laptop is displayed " );
 		Assert.assertTrue(compareProductsPage.getRemoveButtonRTextByColumnNumber("3").contains("Remove"));
 
-		log.info("TC_04 - Step 21: Click To 'Clear List'");
+		log.info("Whishlist_Compare_Recent_View_04 - Step 21: Click To 'Clear List'");
 		compareProductsPage.clickToClearList();
 
-		log.info("TC_04 - Step 22: Verify 'Compare List is empty' is displayed ");
+		log.info("Whishlist_Compare_Recent_View_04 - Step 22: Verify 'Compare List is empty' is displayed ");
 		Assert.assertTrue(compareProductsPage.isCompareProductsEmptyMessage());
 
 	}
 
 	@Test
-	public void TC_05_Recently_Reviewd_Products() {
+	public void Whishlist_Compare_Recent_View_05_Recently_Reviewd_Products() {
 		
-		log.info("TC_05 - Step 01: Swith to 'Computers' page");
-		computersPage = (UserComputersPageObject) homePage.openpageAtHomePageByName(driver, "Computers");
+		log.info("Whishlist_Compare_Recent_View_05 - Step 01: Swith to 'Computers' page");
+		computersPage = (UserComputersPageObject) compareProductsPage.openpageAtHomePageByName(driver, "Computers");
 		
-		log.info("TC_05 - Step 02: Verify 'Computers' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 02: Verify 'Computers' title is displayed " );
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
-		log.info("TC_05 - Step 03: Swith to 'Notebooks' page");
+		log.info("Whishlist_Compare_Recent_View_05 - Step 03: Swith to 'Notebooks' page");
 		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
 		
-		log.info("TC_05 - Step 04: Verify 'Notebooks' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 04: Verify 'Notebooks' title is displayed " );
 		Assert.assertTrue(notebooksPage.isPageTitleByText(driver, "Notebooks"));
 		
-		log.info("TC_05 - Step 05: Click Product name  with  title 'Apple MacBook Pro 13-inch' " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 05: Click Product name  with  title 'Apple MacBook Pro 13-inch' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "Apple MacBook Pro 13-inch");
 		
-		log.info("TC_05 - Step 06: Swith to 'Notebooks' page From UserProducts Page");
+		log.info("Whishlist_Compare_Recent_View_05 - Step 06: Swith to 'Notebooks' page From UserProducts Page");
 		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName( "Notebooks");
 		
-		log.info("TC_05 - Step 07: Click Product name  with  title 'Asus N551JK-XO076H Laptop' " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 07: Click Product name  with  title 'Asus N551JK-XO076H Laptop' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "Asus N551JK-XO076H Laptop");
 		
-		log.info("TC_05 - Step 08: Swith to 'Notebooks' page From UserProducts Page");
+		log.info("Whishlist_Compare_Recent_View_05 - Step 08: Swith to 'Notebooks' page From UserProducts Page");
 		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName( "Notebooks");
 		
-		log.info("TC_05 - Step 09: Click Product name  with  title 'HP Envy 6-1180ca 15.6-Inch Sleekbook' " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 09: Click Product name  with  title 'HP Envy 6-1180ca 15.6-Inch Sleekbook' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "HP Envy 6-1180ca 15.6-Inch Sleekbook");
 		
-		log.info("TC_05 - Step 10: Swith to 'Notebooks' page From UserProducts Page");
+		log.info("Whishlist_Compare_Recent_View_05 - Step 10: Swith to 'Notebooks' page From UserProducts Page");
 		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName( "Notebooks");
 		
-		log.info("TC_05 - Step 11: Click Product name  with  title 'HP Spectre XT Pro UltraBook' " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 11: Click Product name  with  title 'HP Spectre XT Pro UltraBook' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "HP Spectre XT Pro UltraBook");
 		
-		log.info("TC_05 - Step 12: Swith to 'Notebooks' page From UserProducts Page");
+		log.info("Whishlist_Compare_Recent_View_05 - Step 12: Swith to 'Notebooks' page From UserProducts Page");
 		notebooksPage = (UserNotebooksPageObject) productsNamePage.openPageAtUserProductsPageByName( "Notebooks");
 		
-		log.info("TC_05 - Step 13: Click Product name  with  title 'Lenovo Thinkpad X1 Carbon Laptop' " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 13: Click Product name  with  title 'Lenovo Thinkpad X1 Carbon Laptop' " );
 		productsNamePage = notebooksPage.clickToProductByText(driver, "Lenovo Thinkpad X1 Carbon Laptop");
 		
-		log.info("TC_05 - Step 14: Open 'Recently viewed products' page");	
+		log.info("Whishlist_Compare_Recent_View_05 - Step 14: Open 'Recently viewed products' page");	
 		recentlyViewedProductsPage = (RecentlyViewedProductsPageObject) productsNamePage.openpageAtFooterByName(driver, "Recently viewed products");
 	
-		log.info("TC_05 - Step 15: Verify 'Recently viewed products' title is displayed " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 15: Verify 'Recently viewed products' title is displayed " );
 		Assert.assertTrue(recentlyViewedProductsPage.isPageTitleByText(driver, "Recently viewed products"));
 		
-		log.info("TC_05 - Step 16: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product Name is displayed " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 16: Verify 'Lenovo Thinkpad X1 Carbon Laptop' product Name is displayed " );
 		Assert.assertTrue(recentlyViewedProductsPage.getProductNameByTextAtRViewedPage("Lenovo Thinkpad X1 Carbon Laptop"));
 		
-		log.info("TC_05 - Step 17: Verify 'HP Spectre XT Pro UltraBook' product Name is displayed " );		
+		log.info("Whishlist_Compare_Recent_View_05 - Step 17: Verify 'HP Spectre XT Pro UltraBook' product Name is displayed " );		
 		Assert.assertTrue(recentlyViewedProductsPage.getProductNameByTextAtRViewedPage("HP Spectre XT Pro UltraBook"));
 		
-		log.info("TC_05 - Step 18: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product Name is displayed " );
+		log.info("Whishlist_Compare_Recent_View_05 - Step 18: Verify 'HP Envy 6-1180ca 15.6-Inch Sleekbook' product Name is displayed " );
 		Assert.assertTrue(recentlyViewedProductsPage.getProductNameByTextAtRViewedPage("HP Envy 6-1180ca 15.6-Inch Sleekbook"));
 		
 	}

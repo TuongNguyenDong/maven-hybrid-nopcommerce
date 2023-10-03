@@ -14,17 +14,17 @@ public class AdminLoginPageObject extends BasePage{
 		this.driver = driver;
 	}
 
-	public void inputToUserNameTextbox(String emailAddress) {
-		waitForAllElementVisible(driver, AdminLoginPageUI.EMAIL_TEXTBOX);
-		sendkeyToElement(driver, AdminLoginPageUI.EMAIL_TEXTBOX, emailAddress);
-
-	}
-
-	public void inputToPasswordTextbox(String Password) {
-		waitForAllElementVisible(driver, AdminLoginPageUI.PASSWORD_TEXTBOX);
-		sendkeyToElement(driver, AdminLoginPageUI.PASSWORD_TEXTBOX, Password);
-
-	}
+//	public void inputToUserNameTextbox(String emailAddress) {
+//		waitForAllElementVisible(driver, AdminLoginPageUI.EMAIL_TEXTBOX);
+//		sendkeyToElement(driver, AdminLoginPageUI.EMAIL_TEXTBOX, emailAddress);
+//
+//	}
+//
+//	public void inputToPasswordTextbox(String Password) {
+//		waitForAllElementVisible(driver, AdminLoginPageUI.PASSWORD_TEXTBOX);
+//		sendkeyToElement(driver, AdminLoginPageUI.PASSWORD_TEXTBOX, Password);
+//
+//	}
 
 	public AdminDashboardPageObject clickToLoginButton() {
 		waitForAllElementVisible(driver, AdminLoginPageUI.LOGIN_BUTTON);
@@ -34,10 +34,10 @@ public class AdminLoginPageObject extends BasePage{
 
 	}
 	
-	public AdminDashboardPageObject loginAsAdmin(String emailAddress, String password) {
-		inputToUserNameTextbox(emailAddress);
-		inputToPasswordTextbox(password);
-		return clickToLoginButton();
-	}
+//	public AdminDashboardPageObject loginAsAdmin(String emailAddress, String password) {
+//		inputToUserNameTextbox(emailAddress);
+//		inputToPasswordTextbox(password);
+//		return clickToLoginButton();
+//	}
 
 }

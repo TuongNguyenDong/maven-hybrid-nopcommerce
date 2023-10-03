@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import pageUIs.nopCommerce.user.CompareProductsPageUI;
-import pageUIs.nopCommerce.user.WishlistPageUI;
 
 public class CompareProductsPageObject extends BasePage {
 
