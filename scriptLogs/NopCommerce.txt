@@ -1,57 +1,79 @@
-[INFO ] [2023-10-03 15:13:26,570] Precondition - Step 01: Enter to Email textbox with value is 'admin@yourstore.com'
-[INFO ] [2023-10-03 15:13:28,744] Precondition - Step 02: Enter to LastName textbox with value is 'admin'
-[INFO ] [2023-10-03 15:13:28,996] Precondition - Step 03: Click to 'Log in' button
-[INFO ] [2023-10-03 15:13:39,989] Precondition - Step 04: Verify Content Header 'Dashboard' title is displayed 
-[INFO ] [2023-10-03 15:13:42,365] Precondition - Step 05: Click  To 'Catalog' nav SideBar
-[INFO ] [2023-10-03 15:13:43,057] Precondition - Step 06: Navigate  To 'Products' page
-[INFO ] [2023-10-03 15:13:47,510] Precondition - Step 07: Verify Content Header 'Products' title is displayed 
-[INFO ] [2023-10-03 15:13:52,759] Admin_01_Search_With_Product_Name - Step 01: Enter to Product name textbox with value is 'Build your own computer'
-[INFO ] [2023-10-03 15:13:53,105] Admin_01_Search_With_Product_Name - Step 02: click To Search Button
-[INFO ] [2023-10-03 15:13:54,285] Admin_01_Search_With_Product_Name - Step 03: Verify 'Product name' product is displayed with value 'Build your own computer'
-[INFO ] [2023-10-03 15:13:54,560] Admin_01_Search_With_Product_Name - Step 04: Verify 'SKU' product is  displayed with value COMP_CUST'
-[INFO ] [2023-10-03 15:13:54,670] Admin_01_Search_With_Product_Name - Step 05: Verify 'Price' product is  displayed with value 1200'
-[INFO ] [2023-10-03 15:13:54,780] Admin_01_Search_With_Product_Name - Step 06: Verify 'Stock quantity' product is  displayed with value 10000'
-[INFO ] [2023-10-03 15:13:54,887] Admin_01_Search_With_Product_Name - Step 07: Verify 'Published' product is displayed
-[INFO ] [2023-10-03 15:13:56,939] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 01: Refresh Current Page
-[INFO ] [2023-10-03 15:13:58,117] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 02: Enter to Product name textbox with value is 'Build your own computer'
-[INFO ] [2023-10-03 15:13:58,475] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 03: Select Dropdown Category with value is 'Computers'
-[INFO ] [2023-10-03 15:14:01,102] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 04: Uncheck to Checkbox 'Search subcategories' 
-[INFO ] [2023-10-03 15:14:01,249] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 05: click To Search Button
-[INFO ] [2023-10-03 15:14:02,407] Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 06: Verify  'DataTable' empty 
-[INFO ] [2023-10-03 15:14:02,540] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 01: Refresh Current Page
-[INFO ] [2023-10-03 15:14:03,562] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 02: Enter to Product name textbox with value is 'Build your own computer'
-[INFO ] [2023-10-03 15:14:03,905] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 03: Select Dropdown Category with value is 'Computers'
-[INFO ] [2023-10-03 15:14:06,120] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 04: Uncheck to Checkbox 'Search subcategories' 
-[INFO ] [2023-10-03 15:14:06,275] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 05: click To Search Button
-[INFO ] [2023-10-03 15:14:07,440] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 06: Verify 'Product name' product is displayed with value 'Build your own computer'
-[INFO ] [2023-10-03 15:14:07,555] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 07: Verify 'SKU' product is  displayed with value COMP_CUST'
-[INFO ] [2023-10-03 15:14:07,653] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 08: Verify 'Price' product is  displayed with value 1200'
-[INFO ] [2023-10-03 15:14:07,742] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 09: Verify 'Stock quantity' product is  displayed with value 10000'
-[INFO ] [2023-10-03 15:14:07,858] Admin_03_Search_With_Product_Name_Catagory_Checked - Step 10: Verify 'Published' product is displayed
-[INFO ] [2023-10-03 15:14:07,960] Admin_04_Search_With_Product_Name_Child_Catagory - Step 01: Refresh Current Page
-[INFO ] [2023-10-03 15:14:09,041] Admin_04_Search_With_Product_Name_Child_Catagory - Step 02: Enter to Product name textbox with value is 'Build your own computer'
-[INFO ] [2023-10-03 15:14:09,436] Admin_04_Search_With_Product_Name_Child_Catagory - Step 03: Select Dropdown Category with value is 'Computers >> Desktops'
-[INFO ] [2023-10-03 15:14:11,737] Admin_04_Search_With_Product_Name_Child_Catagory - Step 04: Uncheck to Checkbox 'Search subcategories' 
-[INFO ] [2023-10-03 15:14:11,823] Admin_04_Search_With_Product_Name_Child_Catagory - Step 05: click To Search Button
-[INFO ] [2023-10-03 15:14:12,957] Admin_04_Search_With_Product_Name_Child_Catagory - Step 06: Verify 'Product name' product is displayed with value 'Build your own computer'
-[INFO ] [2023-10-03 15:14:13,059] Admin_04_Search_With_Product_Name_Child_Catagory - Step 07: Verify 'SKU' product is  displayed with value COMP_CUST'
-[INFO ] [2023-10-03 15:14:13,157] Admin_04_Search_With_Product_Name_Child_Catagory - Step 08: Verify 'Price' product is  displayed with value 1200'
-[INFO ] [2023-10-03 15:14:13,235] Admin_04_Search_With_Product_Name_Child_Catagory - Step 09: Verify 'Stock quantity' product is  displayed with value 10000'
-[INFO ] [2023-10-03 15:14:13,327] Admin_04_Search_With_Product_Name_Child_Catagory - Step 10: Verify 'Published' product is displayed
-[INFO ] [2023-10-03 15:14:13,451] Admin_05_Search_With_Product_Name_Manufacturer - Step 01: Refresh Current Page
-[INFO ] [2023-10-03 15:14:14,549] Admin_05_Search_With_Product_Name_Manufacturer - Step 02: Enter to Product name textbox with value is 'Build your own computer'
-[INFO ] [2023-10-03 15:14:14,824] Admin_05_Search_With_Product_Name_Manufacturer - Step 03: Select Dropdown Category with value is 'All'
-[INFO ] [2023-10-03 15:14:17,126] Admin_05_Search_With_Product_Name_Manufacturer - Step 04: Uncheck to Checkbox 'Search subcategories' 
-[INFO ] [2023-10-03 15:14:17,307] Admin_05_Search_With_Product_Name_Manufacturer - Step 05: Select Dropdown Manufacturer with value is 'HP'
-[INFO ] [2023-10-03 15:14:19,554] Admin_05_Search_With_Product_Name_Manufacturer - Step 06: click To Search Button
-[INFO ] [2023-10-03 15:14:20,771] Admin_05_Search_With_Product_Name_Manufacturer - Step 07: Verify  'DataTable' empty 
-[INFO ] [2023-10-03 15:14:20,919] Admin_06_Go_Direct_Product_SKU - Step 01: Refresh Current Page
-[INFO ] [2023-10-03 15:14:21,898] Admin_06_Go_Direct_Product_SKU - Step 02: Enter to Go Directly To Product SKU textbox with value is 'COMP_CUST'
-[INFO ] [2023-10-03 15:14:22,233] Admin_06_Go_Direct_Product_SKU - Step 03: click To Go Button
-[INFO ] [2023-10-03 15:14:27,511] Admin_06_Go_Direct_Product_SKU - Step 04: Verify Cart Title 'Product info' is displayed 
-[INFO ] [2023-10-03 15:14:27,656] Admin_06_Go_Direct_Product_SKU - Step 05: Verify 'Product name' is displayed 
-[INFO ] [2023-10-03 15:14:27,793] Admin_06_Go_Direct_Product_SKU - Step 06: Verify 'productName1' is displayed 
-[INFO ] [2023-10-03 15:14:27,910] Admin_06_Go_Direct_Product_SKU - Step 07: Verify 'Short description' is displayed 
-[INFO ] [2023-10-03 15:14:28,637] Admin_06_Go_Direct_Product_SKU - Step 08: Verify 'Full description' is displayed 
-[INFO ] [2023-10-03 15:14:28,767] Admin_06_Go_Direct_Product_SKU - Step 09: Verify 'SKU' is displayed 
-[INFO ] [2023-10-03 15:14:28,917] Admin_06_Go_Direct_Product_SKU - Step 10: Verify 'SKU1' is displayed 
+[INFO ] [2023-10-09 11:42:53,917] Precondition - Step 01: Enter to Email textbox with value is 'admin@yourstore.com'
+[INFO ] [2023-10-09 11:42:54,526] Precondition - Step 02: Enter to LastName textbox with value is 'admin'
+[INFO ] [2023-10-09 11:42:54,763] Precondition - Step 03: Click to 'Log in' button
+[INFO ] [2023-10-09 11:42:58,721] Precondition - Step 04: Verify Content Header 'Dashboard' title is displayed 
+[INFO ] [2023-10-09 11:42:58,912] Precondition - Step 05: Click  To 'Catalog' nav SideBar
+[INFO ] [2023-10-09 11:42:59,153] Precondition - Step 06: Navigate  To 'Products' page
+[INFO ] [2023-10-09 11:43:00,514] Precondition - Step 07: Verify Content Header 'Products' title is displayed 
+[INFO ] [2023-10-09 11:43:06,578] Admin_07_Creat_New_Customer - Step 01: Click  To 'Customers' nav SideBar
+[INFO ] [2023-10-09 11:43:06,743] Admin_07_Creat_New_Customer - Step 02: Navigate  To 'Customers' page
+[INFO ] [2023-10-09 11:43:07,870] Admin_07_Creat_New_Customer - Step 03: Verify Content Header 'Customers' title is displayed 
+[INFO ] [2023-10-09 11:43:08,075] Admin_07_Creat_New_Customer - Step 04: Click  To 'Add new' at Admin Customer Page
+[INFO ] [2023-10-09 11:43:09,949] Admin_07_Creat_New_Customer - Step 05: Verify Cart Title 'Customer info' is displayed 
+[INFO ] [2023-10-09 11:43:10,096] Admin_07_Creat_New_Customer - Step 07: Enter to Email textbox with value is 'afc5786@mail.vn'
+[INFO ] [2023-10-09 11:43:10,362] Admin_07_Creat_New_Customer - Step 08: Enter to Password textbox with value is '123456'
+[INFO ] [2023-10-09 11:43:10,586] Admin_07_Creat_New_Customer - Step 09: Enter to FirstName textbox with value is 'Automation2'
+[INFO ] [2023-10-09 11:43:10,866] Admin_07_Creat_New_Customer - Step 10: Enter to LastName textbox with value is 'FC2'
+[INFO ] [2023-10-09 11:43:11,081] Admin_07_Creat_New_Customer - Step 11: Click to Radio button 'Female'
+[INFO ] [2023-10-09 11:43:11,355] Admin_07_Creat_New_Customer - Step 12: Enter to DateOfBirth textbox with value is '11/11/2022'
+[INFO ] [2023-10-09 11:43:11,629] Admin_07_Creat_New_Customer - Step 13: Enter to Company  Name textbox with value is 'Automation FC'
+[INFO ] [2023-10-09 11:43:11,860] Admin_07_Creat_New_Customer - Step 14: Delete to Customer Role Dropdown selected 'Registered' 
+[INFO ] [2023-10-09 11:43:12,004] Admin_07_Creat_New_Customer - Step 15: Select Dropdown Customers Role with value 'Guests'
+[INFO ] [2023-10-09 11:43:21,435] Admin_07_Creat_New_Customer - Step 16: Click to Checkbox 'Active' 
+[INFO ] [2023-10-09 11:43:21,541] Admin_07_Creat_New_Customer - Step 17: Enter to Admin Comment textarea with value is 'Add new customer (Guest)'
+[INFO ] [2023-10-09 11:43:21,824] Admin_07_Creat_New_Customer - Step 18: Click to Checkbox 'Save and Continue Edit' button 
+[INFO ] [2023-10-09 11:43:23,953] Admin_07_Creat_New_Customer - Step 19: Verify Address  add success message is displayed 
+[INFO ] [2023-10-09 11:43:24,222] Admin_07_Creat_New_Customer - Step 20: Verify Email textbox is displayed with value 'afc5786@mail.vn' 
+[INFO ] [2023-10-09 11:43:24,317] Admin_07_Creat_New_Customer - Step 21: Verify FirstName textbox is displayed with value 'Automation2' 
+[INFO ] [2023-10-09 11:43:24,409] Admin_07_Creat_New_Customer - Step 22: Verify LastName textbox is displayed with value 'FC2' 
+[INFO ] [2023-10-09 11:43:24,471] Admin_07_Creat_New_Customer - Step 23: Verify Radio button 'Female' is selected 
+[INFO ] [2023-10-09 11:43:24,545] Admin_07_Creat_New_Customer - Step 24: Verify Date of Birth textbox is displayed with value '11/11/2022' 
+[INFO ] [2023-10-09 11:43:24,628] Admin_07_Creat_New_Customer - Step 25: Verify Company textbox is displayed with value 'Automation FC' 
+[INFO ] [2023-10-09 11:43:24,690] Admin_07_Creat_New_Customer - Step 26: Verify CustomerRole Dropdown TextArea is displayed with value 'Guests' 
+[INFO ] [2023-10-09 11:43:24,805] Admin_07_Creat_New_Customer - Step 27: Verify Checkbox 'Active' is selected 
+[INFO ] [2023-10-09 11:43:24,876] Admin_07_Creat_New_Customer - Step 28: Verify AdminComment TextArea is displayed with value 'Add new customer (Guest)' 
+[INFO ] [2023-10-09 11:43:24,954] Admin_07_Creat_New_Customer - Step 29: Click  To 'back to customer list' Link at Admin Customer Page
+[INFO ] [2023-10-09 11:43:26,326] Admin_07_Creat_New_Customer - Step 30: Delete to Customer Role Dropdown selected 'Registered' 
+[INFO ] [2023-10-09 11:43:26,568] Admin_07_Creat_New_Customer - Step 31: Select Dropdown Customers Role with value 'Guests'
+[INFO ] [2023-10-09 11:43:35,961] Admin_07_Creat_New_Customer - Step 32: click To Search Button
+[INFO ] [2023-10-09 11:43:37,196] Admin_07_Creat_New_Customer - Step 33: Verify 'Name' CustomerRole is displayed with value 'Automation2 FC2'
+[INFO ] [2023-10-09 11:43:37,311] Admin_07_Creat_New_Customer - Step 34: Verify 'Customer roles' CustomerRole is displayed with value 'Guests'
+[INFO ] [2023-10-09 11:43:37,421] Admin_07_Creat_New_Customer - Step 35: Verify 'Company name' CustomerRole is displayed with value 'Automation FC'
+[INFO ] [2023-10-09 11:43:37,862] Admin_08_Search_Customer_With_Email - Step 01: Refresh Current Page
+[INFO ] [2023-10-09 11:43:38,882] Admin_08_Search_Customer_With_Email - Step 02: Enter to Email textbox with value is 'afc5786@mail.vn'
+[INFO ] [2023-10-09 11:43:39,219] Admin_08_Search_Customer_With_Email - Step 03: Delete to Customer Role Dropdown selected 'Registered' 
+[INFO ] [2023-10-09 11:43:39,357] Admin_08_Search_Customer_With_Email - Step 04: Select Dropdown Customers Role with value 'Guests'
+[INFO ] [2023-10-09 11:43:48,770] Admin_08_Search_Customer_With_Email - Step 05: click To Search Button
+[INFO ] [2023-10-09 11:43:49,952] Admin_08_Search_Customer_With_Email - Step 06: Verify 'Name' CustomerRole is displayed with value 'Automation2 FC2'
+[INFO ] [2023-10-09 11:43:50,085] Admin_08_Search_Customer_With_Email - Step 07: Verify 'Customer roles' CustomerRole is displayed with value 'Guests'
+[INFO ] [2023-10-09 11:43:50,178] Admin_08_Search_Customer_With_Email - Step 08: Verify 'Company name' CustomerRole is displayed with value 'Automation FC'
+[INFO ] [2023-10-09 11:43:50,265] Admin_09_Search_Customer_With_Company_Name - Step 01: Refresh Current Page
+[INFO ] [2023-10-09 11:43:51,272] Admin_09_Search_Customer_With_Company_Name - Step 02: Enter to Company textbox with value is 'Automation FC'
+[INFO ] [2023-10-09 11:43:51,609] Admin_09_Search_Customer_With_Company_Name - Step 03: Delete to Customer Role Dropdown selected 'Registered' 
+[INFO ] [2023-10-09 11:43:51,770] Admin_09_Search_Customer_With_Company_Name - Step 04: Select Dropdown Customers Role with value 'Guests'
+[INFO ] [2023-10-09 11:44:01,170] Admin_09_Search_Customer_With_Company_Name - Step 05: click To Search Button
+[INFO ] [2023-10-09 11:44:02,380] Admin_09_Search_Customer_With_Company_Name - Step 06: Verify 'Name' CustomerRole is displayed with value 'Automation2 FC2'
+[INFO ] [2023-10-09 11:44:02,465] Admin_09_Search_Customer_With_Company_Name - Step 07: Verify 'Customer roles' CustomerRole is displayed with value 'Guests'
+[INFO ] [2023-10-09 11:44:02,560] Admin_09_Search_Customer_With_Company_Name - Step 08: Verify 'Company name' CustomerRole is displayed with value 'Automation FC'
+[INFO ] [2023-10-09 11:44:02,659] Admin_09_Search_Customer_With_Company_Name - Step 01: Refresh Current Page
+[INFO ] [2023-10-09 11:44:03,685] Admin_09_Search_Customer_With_Company_Name - Step 02: Enter to FirstName textbox with value is 'Automation2'
+[INFO ] [2023-10-09 11:44:03,999] Admin_09_Search_Customer_With_Company_Name - Step 03: Enter to LastName textbox with value is 'FC2'
+[INFO ] [2023-10-09 11:44:04,223] Admin_09_Search_Customer_With_Company_Name - Step 04: Delete to Customer Role Dropdown selected 'Registered' 
+[INFO ] [2023-10-09 11:44:04,389] Admin_09_Search_Customer_With_Company_Name - Step 05: Select Dropdown Customers Role with value 'Guests'
+[INFO ] [2023-10-09 11:44:13,745] Admin_09_Search_Customer_With_Company_Name - Step 06: click To Search Button
+[INFO ] [2023-10-09 11:44:14,918] Admin_09_Search_Customer_With_Company_Name - Step 07: Verify 'Name' CustomerRole is displayed with value 'Automation2 FC2'
+[INFO ] [2023-10-09 11:44:15,058] Admin_09_Search_Customer_With_Company_Name - Step 08: Verify 'Customer roles' CustomerRole is displayed with value 'Guests'
+[INFO ] [2023-10-09 11:44:15,197] Admin_09_Search_Customer_With_Company_Name - Step 09: Verify 'Company name' CustomerRole is displayed with value 'Automation FC'
+[INFO ] [2023-10-09 11:44:15,328] Admin_11_Search_Customer_With_Full_Data - Step 01: Refresh Current Page
+[INFO ] [2023-10-09 11:44:16,326] Admin_11_Search_Customer_With_Full_Data - Step 02: Enter to Email textbox with value is 'afc5786@mail.vn'
+[INFO ] [2023-10-09 11:44:16,663] Admin_11_Search_Customer_With_Full_Data - Step 03: Enter to FirstName textbox with value is 'Automation2'
+[INFO ] [2023-10-09 11:44:16,890] Admin_11_Search_Customer_With_Full_Data - Step 04: Enter to LastName textbox with value is 'FC2'
+[INFO ] [2023-10-09 11:44:17,103] Admin_11_Search_Customer_With_Full_Data - Step 05: Enter to Company textbox with value is 'Automation FC'
+[INFO ] [2023-10-09 11:44:17,404] Admin_11_Search_Customer_With_Full_Data - Step 06: Select to MonthofBirth Dropdown with value is '11'
+[INFO ] [2023-10-09 11:44:19,681] Admin_11_Search_Customer_With_Full_Data - Step 07: Select to DateofBirth Dropdown with value is '11'
+[INFO ] [2023-10-09 11:44:21,898] Admin_11_Search_Customer_With_Full_Data - Step 08: Delete to Customer Role Dropdown selected 'Registered' 
+[INFO ] [2023-10-09 11:44:22,122] Admin_11_Search_Customer_With_Full_Data - Step 09: Select Dropdown Customers Role with value 'Guests'
+[INFO ] [2023-10-09 11:44:31,503] Admin_11_Search_Customer_With_Full_Data - Step 10: click To Search Button
+[INFO ] [2023-10-09 11:44:32,742] Admin_11_Search_Customer_With_Full_Data - Step 11: Verify 'Name' CustomerRole is displayed with value 'Automation2 FC2'
+[INFO ] [2023-10-09 11:44:32,886] Admin_11_Search_Customer_With_Full_Data - Step 12: Verify 'Customer roles' CustomerRole is displayed with value 'Guests'
+[INFO ] [2023-10-09 11:44:33,075] Admin_11_Search_Customer_With_Full_Data - Step 13: Verify 'Company name' CustomerRole is displayed with value 'Automation FC'

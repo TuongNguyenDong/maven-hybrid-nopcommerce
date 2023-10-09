@@ -111,6 +111,7 @@ public class BaseTest {
 			throw new RuntimeException("Please input with correct browser name");
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 		driver.get(GlobalConstants.ADMIN_PAGE_ULR);
 
 		return driver;

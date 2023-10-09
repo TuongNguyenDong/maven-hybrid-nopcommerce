@@ -16,8 +16,9 @@ public class BasePageNopCommerceUI {
 	public static final String DYNAMIC_TEXTBOX_BY_ID = "xpath=//input[@id='%s']";
 	public static final String DYNAMIC_BUTTON_BY_TEXT = "xpath=//div[@class='page-body']//button[text()='%s']";
 	public static final String DYNAMIC_DROPDOWN_BY_NAME = "xpath=//select[@name='%s']";
-	public static final String DYNAMIC_RADIO_BY_LABEL = "xpath=//label[text()='%s']/preceding-sibling::input";
+	public static final String DYNAMIC_RADIO_BY_LABEL = "xpath=//label[contains(text(),'%s')]/preceding-sibling::input";
 	public static final String DYNAMIC_CHECKBOX_BY_LABEL = "xpath=//label[contains(text(),'%s')]/following-sibling::input";
+	public static final String DYNAMIC_CHECKBOX_BY_ID = "xpath=//input[@id='%s']";
 	
 	public static final String DYNAMIC_ERROR_MASSAGE = "xpath=//span[@id='%s']";
 
@@ -36,9 +37,19 @@ public class BasePageNopCommerceUI {
 	
 	public static final String MESSAGE_ADD_SUCCESS = "xpath=//div[contains(@class,'success')]/p";
 	
-	public static final String DYNAMIC_CONTENT_HEADER_BY_TEXT = "xpath=//div[contains(@class,'content-header')]/h1[contains(text(),%s)]";
+	public static final String DYNAMIC_CONTENT_HEADER_BY_TEXT = "xpath=//div[contains(@class,'content-header')]/h1[contains(text(),'%s')]";
 	public static final String DYNAMIC_NAV_SIDEBAR_BY_TEXT = "xpath=//ul[contains(@class,'nav-sidebar')]//p[contains(text(),'%s')]";
 	public static final String DYNAMIC_NAV_TREE_VIEW_BY_TEXT = "xpath=//ul[contains(@class,'nav-treeview')and @style]//p[contains(text(),'%s')]";
+	public static final String CART_TITLE_BY_TEXT_AT_ADMIN_PRODUCTS_PAGE = "xpath=//nop-cards[@id='%s']//div[text()='%s']";
+	public static final String DYNAMIC_LINK_AT_ADMIN_PAGE = "xpath=//div[contains(@class,'content-header')]/div/a[contains(.,('%s'))]";
+	public static final String CHILD_CUSTOMER_DROPDOWN_AT_ADMIN_CUSTOMER_PAGE = "xpath=//ul[@id='SelectedCustomerRoleIds_listbox']/li";
+	public static final String PARENT_CUSTOMER_DROPDOWN_AT_ADMIN_CUSTOMER_PAGE = "xpath=//input[contains(@class,'k-input') and @aria-owns='SelectedCustomerRoleIds_taglist SelectedCustomerRoleIds_listbox']";
+	public static final String DELETE_CUSTOME_DROPDOWN_MUTIPLE_SELECTED_BY_TEXT = "xpath=//span[text()='%s']/following-sibling::span";
+	public static final String DYNAMIC_BUTTON_BY_NAME_AT_ADMIN_PAGE = "xpath=//div[contains(@class,'content-header')]//button[@name='%s']";
+	public static final String ARLERT_SUCCESS_AT_ADMIN_PAGE = "xpath=//div[contains(@class,'alert-success')]";
+	public static final String DYNAMIC_TEXTAREA_BY_ID = "xpath=//textarea[@id='%s']";
+	public static final String DYNAMIC_LINK_AT_FLOAT_LEFT_ADMIN_PAGE = "xpath=//div[contains(@class,'content-header')]/h1//a[contains(.,('%s'))]";
+	public static final String SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE = "xpath=//button[contains(@class,'btn-search')]";
 	
 	
 	

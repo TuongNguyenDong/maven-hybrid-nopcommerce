@@ -28,12 +28,6 @@ public class AdminProductsPageObject extends BasePage{
 		waitForElementVisible(driver, AdminProductsPageUI.ICONS_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,String.valueOf(columnIndex));
 		return isELementDisplayed(driver, AdminProductsPageUI.ICONS_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,String.valueOf(columnIndex));
 	}
-	
-	public void clicktoSearchButtonAtAdminProductsPage() {
-		waitForElementClickable(driver, AdminProductsPageUI.SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
-		clickToELement(driver, AdminProductsPageUI.SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
-		sleepInSecond(1);
-	}
 
 	public void clicktoGoButtonAtAdminProductsPage() {
 		waitForElementClickable(driver, AdminProductsPageUI.GO_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
@@ -57,11 +51,7 @@ public class AdminProductsPageObject extends BasePage{
 		uncheckToDefaultCheckbox(driver, AdminProductsPageUI.DYNAMIC_CHECKBOX_BY_LABEL, checkBoxLabelName);	
 		
 	}
-	
-	public Boolean isCartTitleByText( String cartTitleName) {
-		waitForElementVisible(driver, AdminProductsPageUI.CART_TITLE_BY_TEXT_AT_ADMIN_PRODUCTS_PAGE, cartTitleName);
-		return isELementDisplayed(driver, AdminProductsPageUI.CART_TITLE_BY_TEXT_AT_ADMIN_PRODUCTS_PAGE, cartTitleName);
-	}
+
 	
 	public Boolean isProductDetailByLabel( String productDetailName) {
 		waitForElementVisible(driver, AdminProductsPageUI.PRODUCT_DETAIL_BY_LABEL_AT_ADMIN_PRODUCTS_PAGE, productDetailName);
