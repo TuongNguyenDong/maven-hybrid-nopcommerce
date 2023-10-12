@@ -76,14 +76,14 @@ public class Admin1 extends BaseTest {
 		log.info("Precondition - Step 04: Verify Content Header 'Dashboard' title is displayed ");
 		Assert.assertTrue(adminDashboardPage.isContentHeaderByText(driver, "Dashboard"));
 
-//		log.info("Precondition - Step 05: Click  To 'Catalog' nav SideBar");
-//		adminDashboardPage.clickToNavSideBarByName(driver, "Catalog");
-//
-//		log.info("Precondition - Step 06: Navigate  To 'Products' page");
-//		adminProductPage = (AdminProductsPageObject) adminDashboardPage.openpageAtNavSideBarByName(driver, "Products");
-//
-//		log.info("Precondition - Step 07: Verify Content Header 'Products' title is displayed ");
-//		Assert.assertTrue(adminProductPage.isContentHeaderByText(driver, "Products"));
+		log.info("Precondition - Step 05: Click  To 'Catalog' nav SideBar");
+		adminDashboardPage.clickToNavSideBarByName(driver, "Catalog");
+
+		log.info("Precondition - Step 06: Navigate  To 'Products' page");
+		adminProductPage = (AdminProductsPageObject) adminDashboardPage.openpageAtNavSideBarByName(driver, "Products");
+
+		log.info("Precondition - Step 07: Verify Content Header 'Products' title is displayed ");
+		Assert.assertTrue(adminProductPage.isContentHeaderByText(driver, "Products"));
 
 	}
 
