@@ -31,7 +31,7 @@
 		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
 		<classes>
 		   <!--  <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
-			<class name="com.nopcommerce.admin.Admin" />
+			<class name="com.nopcommerce.admin.Admin2" />
 			<!-- <class name="javaException.HandleException" />-->
 		</classes>
 	</test> <!-- Test -->

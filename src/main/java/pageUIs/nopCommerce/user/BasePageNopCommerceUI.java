@@ -38,7 +38,7 @@ public class BasePageNopCommerceUI {
 	public static final String MESSAGE_ADD_SUCCESS = "xpath=//div[contains(@class,'success')]/p";
 	
 	public static final String DYNAMIC_CONTENT_HEADER_BY_TEXT = "xpath=//div[contains(@class,'content-header')]/h1[contains(text(),'%s')]";
-	public static final String DYNAMIC_NAV_SIDEBAR_BY_TEXT = "xpath=//ul[contains(@class,'nav-sidebar')]//p[contains(text(),'%s')]";
+	public static final String DYNAMIC_NAV_SIDEBAR_BY_TEXT = "xpath=//ul[contains(@class,'nav-sidebar')]//p[contains(text(),'%s')]/parent::a[@href='#']";
 	public static final String DYNAMIC_NAV_TREE_VIEW_BY_TEXT = "xpath=//ul[contains(@class,'nav-treeview')and @style]//p[contains(text(),'%s')]";
 	public static final String CART_TITLE_BY_TEXT_AT_ADMIN_PRODUCTS_PAGE = "xpath=//nop-cards[@id='%s']//div[text()='%s']";
 	public static final String DYNAMIC_LINK_AT_ADMIN_PAGE = "xpath=//div[contains(@class,'content-header')]/div/a[contains(.,('%s'))]";
@@ -50,6 +50,12 @@ public class BasePageNopCommerceUI {
 	public static final String DYNAMIC_TEXTAREA_BY_ID = "xpath=//textarea[@id='%s']";
 	public static final String DYNAMIC_LINK_AT_FLOAT_LEFT_ADMIN_PAGE = "xpath=//div[contains(@class,'content-header')]/h1//a[contains(.,('%s'))]";
 	public static final String SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE = "xpath=//button[contains(@class,'btn-search')]";
+	public static final String COLLAPSE_BUTTON_BY_CART_TITLE = "xpath=//div[text()='%s']/following-sibling::div/button";
+	public static final String DYNAMIC_BUTTON_BY_TEXT_AT_CUSTOMER_ADMIN_PAGE = "xpath=//div[@class='card-body']//button[contains(.,'%s')]";
+	public static final String CHECK_COLLAPSE_CUSTOMER_ADMIN_PAGE = "xpath=//div[contains(@class,'collapsed-card')]//div[text()='%s']";
+	public static final String DYNAMIC_BUTTON_BY_TEXT_AT_ADMIN_PAGE = "xpath=//div[contains(@class,'content-header')]//button[contains(text(),'%s')]";
+	
+	
 	
 	
 	

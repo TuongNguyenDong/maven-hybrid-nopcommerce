@@ -197,6 +197,11 @@ public class BasePage {
 
 	}
 
+//	public List<WebElement> getListWebElement(WebDriver driver, String locatorType,String... dynamicValues) {
+//		return driver.findElements(getByLocator(getDynamicXpath(locatorType, dynamicValues)));
+
+//	}
+
 	public void clickToELement(WebDriver driver, String locatorType) {
 		getWebElement(driver, locatorType).click();
 
@@ -267,14 +272,14 @@ public class BasePage {
 	}
 
 	public void selectItemInCustomDropDown(WebDriver driver, String parentLocator, String ChildLocator, String expectedItem) {
-		
+
 		getWebElement(driver, parentLocator).click();
 		sleepInSecond(1);
-		
+
 		WebDriverWait explicitWait = new WebDriverWait(driver, longTimeout);
-		
+
 		List<WebElement> allDropdownItems = explicitWait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(getByLocator(ChildLocator)));
-		
+
 		for (WebElement item : allDropdownItems) {
 			String actualTextItem = item.getText();
 			System.out.println("Item text : " + actualTextItem);
@@ -288,7 +293,7 @@ public class BasePage {
 			}
 		}
 	}
-	
+
 	public void selectItemInCustomDropDownJS(WebDriver driver, String parentLocator, String ChildLocator, String expectedItem) {
 
 		getWebElement(driver, parentLocator).click();
@@ -521,9 +526,19 @@ public class BasePage {
 		jsExecutor.executeScript("arguments[0].click();", getWebElement(driver, locatorType));
 	}
 
+	public void clickToElementByJS(WebDriver driver, String locatorType, String... dynamicValues) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].click();", getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
+	}
+
 	public void scrollToElement(WebDriver driver, String locatorType) {
 		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, locatorType));
+	}
+
+	public void scrollToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
 	}
 
 	public void removeAttributeInDOM(WebDriver driver, String locator, String attributeRemove) {
@@ -873,7 +888,7 @@ public class BasePage {
 	 * 
 	 * @author Tuong Nguyen
 	 * @param driver
-	 * @param dropdownName
+	 * @param labelValue
 	 * @return
 	 */
 	public Boolean isDefaultCheckboxOrRadioButtonSelectedByLabel(WebDriver driver, String labelValue) {
@@ -1131,10 +1146,18 @@ public class BasePage {
 		waitForElementVisible(driver, BasePageNopCommerceUI.MESSAGE_ADD_SUCCESS);
 		return getElementText(driver, BasePageNopCommerceUI.MESSAGE_ADD_SUCCESS);
 	}
+
 // Admin Page
 	public Boolean isContentHeaderByText(WebDriver driver, String contentHeaderName) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_CONTENT_HEADER_BY_TEXT, contentHeaderName);
 		return isELementDisplayed(driver, BasePageNopCommerceUI.DYNAMIC_CONTENT_HEADER_BY_TEXT, contentHeaderName);
+	}
+
+	public void clickToNavSideBarByNameByJS(WebDriver driver, String navBarName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
+//		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
+		clickToElementByJS(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
+
 	}
 
 	public void clickToNavSideBarByName(WebDriver driver, String navBarName) {
@@ -1165,12 +1188,13 @@ public class BasePage {
 	}
 
 	public Boolean isCartTitleByCartNameAndCartTitle(WebDriver driver, String cartName, String cartTitle) {
+		scrollToElement(driver, BasePageNopCommerceUI.CART_TITLE_BY_TEXT_AT_ADMIN_PRODUCTS_PAGE, cartName, cartTitle);
 		waitForElementVisible(driver, BasePageNopCommerceUI.CART_TITLE_BY_TEXT_AT_ADMIN_PRODUCTS_PAGE, cartName, cartTitle);
 		return isELementDisplayed(driver, BasePageNopCommerceUI.CART_TITLE_BY_TEXT_AT_ADMIN_PRODUCTS_PAGE, cartName, cartTitle);
 	}
 
 	public void clickToLinkAtAdminPageByName(WebDriver driver, String LinkName) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_LINK_AT_ADMIN_PAGE, LinkName );
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_LINK_AT_ADMIN_PAGE, LinkName);
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_LINK_AT_ADMIN_PAGE, LinkName);
 
 	}
@@ -1178,56 +1202,84 @@ public class BasePage {
 	public void selectToAdminCustomerRoleDropdown(WebDriver driver, String itemvalue) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.PARENT_CUSTOMER_DROPDOWN_AT_ADMIN_CUSTOMER_PAGE);
 		selectItemInCustomDropDownJS(driver, BasePageNopCommerceUI.PARENT_CUSTOMER_DROPDOWN_AT_ADMIN_CUSTOMER_PAGE, BasePageNopCommerceUI.CHILD_CUSTOMER_DROPDOWN_AT_ADMIN_CUSTOMER_PAGE, itemvalue);
-		sleepInSecond(2);
+		sleepInSecond(1);
 
 	}
-	
-	public void clickToCustomeDropdownSelectedByName(WebDriver driver,String dropdownSelectedName) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.DELETE_CUSTOME_DROPDOWN_MUTIPLE_SELECTED_BY_TEXT,dropdownSelectedName );
-		clickToELement(driver, BasePageNopCommerceUI.DELETE_CUSTOME_DROPDOWN_MUTIPLE_SELECTED_BY_TEXT,dropdownSelectedName);
+
+	public void clickToCustomeDropdownSelectedByName(WebDriver driver, String dropdownSelectedName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DELETE_CUSTOME_DROPDOWN_MUTIPLE_SELECTED_BY_TEXT, dropdownSelectedName);
+		clickToELement(driver, BasePageNopCommerceUI.DELETE_CUSTOME_DROPDOWN_MUTIPLE_SELECTED_BY_TEXT, dropdownSelectedName);
 
 	}
-	
+
 	public void clickToButtonByNameAtAdminPage(WebDriver driver, String buttonName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_NAME_AT_ADMIN_PAGE, buttonName);
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_NAME_AT_ADMIN_PAGE, buttonName);
 
 	}
-	
+
 	public String getArlertMessageSuccessAtAdminPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageNopCommerceUI.ARLERT_SUCCESS_AT_ADMIN_PAGE );
-		return getElementText(driver, BasePageNopCommerceUI.ARLERT_SUCCESS_AT_ADMIN_PAGE );
+		waitForElementVisible(driver, BasePageNopCommerceUI.ARLERT_SUCCESS_AT_ADMIN_PAGE);
+		return getElementText(driver, BasePageNopCommerceUI.ARLERT_SUCCESS_AT_ADMIN_PAGE);
 	}
-	
+
 	public void inputToTextareaByID(WebDriver driver, String textareaID, String value) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTAREA_BY_ID, textareaID);
 		sendkeyToElement(driver, BasePageNopCommerceUI.DYNAMIC_TEXTAREA_BY_ID, value, textareaID);
 
 	}
-	
+
 	public Boolean isDefaultCheckboxOrRadioButtonSelectedByID(WebDriver driver, String ckeckboxID) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_ID, ckeckboxID);
 		return isELementSelected(driver, BasePageNopCommerceUI.DYNAMIC_CHECKBOX_BY_ID, ckeckboxID);
 	}
-	
+
 	public String getTextAreaByID(WebDriver driver, String textareaID) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_TEXTAREA_BY_ID, textareaID);
 		return getElementText(driver, BasePageNopCommerceUI.DYNAMIC_TEXTAREA_BY_ID, textareaID);
 	}
 
 	public void clickToFloatLeftLinkAtAdminPageByName(WebDriver driver, String LinkName) {
-		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_LINK_AT_FLOAT_LEFT_ADMIN_PAGE, LinkName );
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_LINK_AT_FLOAT_LEFT_ADMIN_PAGE, LinkName);
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_LINK_AT_FLOAT_LEFT_ADMIN_PAGE, LinkName);
 
 	}
-	
+
 	public void clicktoSearchButtonAtAdminProductsPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
 		clickToELement(driver, BasePageNopCommerceUI.SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
 		sleepInSecond(1);
 	}
 
+	public void clickToCollapseButtonByCartNameJS(WebDriver driver, String cartTitleName) {
+		scrollToElement(driver, BasePageNopCommerceUI.COLLAPSE_BUTTON_BY_CART_TITLE, cartTitleName);
+		waitForElementClickable(driver, BasePageNopCommerceUI.COLLAPSE_BUTTON_BY_CART_TITLE, cartTitleName);
+		clickToElementByJS(driver, BasePageNopCommerceUI.COLLAPSE_BUTTON_BY_CART_TITLE, cartTitleName);
 
+	}
+
+	public void clickToButtonByNameAtCustomerAdminPage(WebDriver driver, String buttonName) {
+
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT_AT_CUSTOMER_ADMIN_PAGE, buttonName);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT_AT_CUSTOMER_ADMIN_PAGE, buttonName);
+
+	}
+
+	public void checkToCollapseByNameAtCustomerAdminPage(WebDriver driver, String cartTitleName) {
+
+		if (isElementUndisplayed(driver, BasePageNopCommerceUI.CHECK_COLLAPSE_CUSTOMER_ADMIN_PAGE, cartTitleName) == true) {
+			
+		} else {
+			clickToCollapseButtonByCartNameJS(driver, cartTitleName);
+		}
+	}
+	
+
+	public void clicktoButtonByTextNameAtAddressAdminPage(WebDriver driver, String textName) {
+		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT_AT_ADMIN_PAGE, textName);
+		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT_AT_ADMIN_PAGE,textName);
+		sleepInSecond(1);
+	}
 	// wordpress
 //	public UserHomePO openEndUserSite(WebDriver driver, String endUserUrl) {
 //		openPageUrl(driver, endUserUrl);

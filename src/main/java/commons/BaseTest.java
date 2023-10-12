@@ -59,12 +59,24 @@ public class BaseTest {
 			// System.setProperty("webdriver.chrome.driver", projectPath +
 			// "\\browserDrivers\\chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			System.setProperty("webdriver.chrome.args", "--disable-logging");
+			System.setProperty("webdriver.chrome.silentOutput", "True");
+			ChromeOptions options = new ChromeOptions();
+			Map<String, Object> prefs = new HashMap<String, Object>();
+			prefs.put("credentials_enable_service", false);
+			prefs.put("profile.password_manager_enabled", false);
+			prefs.put("autofill.profile_enabled", false);		
+			prefs.put("autofill.credit_card_enabled", false);
+			options.setExperimentalOption("prefs", prefs);
+			options.setAcceptInsecureCerts(true);
+			driver = new ChromeDriver(options);
 		} else if (browserList == BrowserList.H_CHROME) {
 
 			// System.setProperty("webdriver.chrome.driver", projectPath +
 			// "\\browserDrivers\\chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.args", "--disable-logging");
+			System.setProperty("webdriver.chrome.silentOutput", "True");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless");
 			options.addArguments("window-size=1366x768");

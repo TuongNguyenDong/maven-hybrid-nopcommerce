@@ -21,58 +21,58 @@ public class AdminCustomersPageObject extends BasePage{
 	
 	public String getTextByColumnAtRowNumberatAdminCustomerPage(String columnName, String rowNumber) {
 		
-		int columnIndex = getElementSize(driver, AdminCustomersPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
+		int columnIndex = getElementSize(driver, AdminCustomersPageUI.COLUMN_INDEX_BY_NAME_COLUMN, columnName) + 1;
 		
 		waitForElementVisible(driver, AdminCustomersPageUI.TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,String.valueOf(columnIndex));
 		return getElementText(driver, AdminCustomersPageUI.TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,String.valueOf(columnIndex));
 	}
-//	
-//	public Boolean getIconsByColumnAtRowNumberatAdminProductPage(String columnName, String rowNumber) {
-//
-//		int columnIndex = getElementSize(driver, AdminProductsPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
-//
-//		waitForElementVisible(driver, AdminProductsPageUI.ICONS_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,String.valueOf(columnIndex));
-//		return isELementDisplayed(driver, AdminProductsPageUI.ICONS_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,String.valueOf(columnIndex));
-//	}
-//	
-//	public void clicktoSearchButtonAtAdminProductsPage() {
-//		waitForElementClickable(driver, AdminProductsPageUI.SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
-//		clickToELement(driver, AdminProductsPageUI.SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
-//		sleepInSecond(1);
-//	}
-//
-//	public void clicktoGoButtonAtAdminProductsPage() {
-//		waitForElementClickable(driver, AdminProductsPageUI.GO_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
-//		clickToELement(driver, AdminProductsPageUI.GO_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
-//		sleepInSecond(1);
-//	}
-//
-//	public Boolean isDataTableEmpty() {
-//		waitForElementVisible(driver, AdminProductsPageUI.DATATABLE_EMPTY_AT_ADMIN_PRODUCTS_PAGE);
-//		return isELementDisplayed(driver, AdminProductsPageUI.DATATABLE_EMPTY_AT_ADMIN_PRODUCTS_PAGE);
-//	}
-//	
-//	public void clickToCheckboxByLabel( String checkBoxLabelName) {
-//		waitForElementClickable(driver, AdminProductsPageUI.DYNAMIC_CHECKBOX_BY_LABEL, checkBoxLabelName);
-//		checkToDefaultCheckboxOrRadio(driver, AdminProductsPageUI.DYNAMIC_CHECKBOX_BY_LABEL, checkBoxLabelName);	
-//		
-//	}
-//	
-//	public void unCheckToCheckboxByLabel( String checkBoxLabelName) {
-//		waitForElementClickable(driver, AdminProductsPageUI.DYNAMIC_CHECKBOX_BY_LABEL, checkBoxLabelName);
-//		uncheckToDefaultCheckbox(driver, AdminProductsPageUI.DYNAMIC_CHECKBOX_BY_LABEL, checkBoxLabelName);	
-//		
-//	}
-//	
-//	public Boolean isCartTitleByText( String cartTitleName) {
-//		waitForElementVisible(driver, AdminProductsPageUI.CART_TITLE_BY_TEXT_AT_ADMIN_PRODUCTS_PAGE, cartTitleName);
-//		return isELementDisplayed(driver, AdminProductsPageUI.CART_TITLE_BY_TEXT_AT_ADMIN_PRODUCTS_PAGE, cartTitleName);
-//	}
-//	
-//	public Boolean isProductDetailByLabel( String productDetailName) {
-//		waitForElementVisible(driver, AdminProductsPageUI.PRODUCT_DETAIL_BY_LABEL_AT_ADMIN_PRODUCTS_PAGE, productDetailName);
-//		return isELementDisplayed(driver, AdminProductsPageUI.PRODUCT_DETAIL_BY_LABEL_AT_ADMIN_PRODUCTS_PAGE, productDetailName);
-//	}
-//	
+	
+	public void clickToButtonLinkByColumnAtRowNumberatAdminCustomerPage(String columnName, String rowNumber) {
+		
+		int columnIndex = getElementSize(driver, AdminCustomersPageUI.COLUMN_INDEX_BY_NAME_COLUMN, columnName) + 1;
+		
+		waitForElementVisible(driver, AdminCustomersPageUI.LINK_TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,String.valueOf(columnIndex));
+		clickToELement(driver, AdminCustomersPageUI.LINK_TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX, rowNumber,String.valueOf(columnIndex));
+	}
+	
+	public String getTextByColumnMulCartAtRowNumberatAdminCustomerPage(String cartName, String columnName, String rowNumber) {
 
+		int columnIndex = getElementSize(driver, AdminCustomersPageUI.COLUMN_INDEX_BY_CART_NAME_AND_NAME_COLUMN, cartName, columnName) + 1;
+
+		waitForElementVisible(driver, AdminCustomersPageUI.TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX, cartName, rowNumber, String.valueOf(columnIndex));
+		return getElementText(driver, AdminCustomersPageUI.TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX, cartName, rowNumber, String.valueOf(columnIndex));
+
+	}
+
+//	public String getTextByColumnAtRowNumberatAdminCustomerPageTest(String columnName, String expecCustomeName) {
+//
+//		int columnIndex = getElementSize(driver, AdminCustomersPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
+//		List<WebElement> customerNames = getListWebElement(driver, AdminCustomersPageUI.TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX_TEST, String.valueOf(columnIndex));
+//
+//		for (WebElement customerName : customerNames) {
+//			String actualCustomerName = customerName.getText();
+//			System.out.println("value : " + actualCustomerName);
+//			if (actualCustomerName.equals(expecCustomeName)) {
+//				System.out.println("value  1 : " + actualCustomerName);
+//
+//			} 
+////			else if (!actualCustomerName.equals(expecCustomeName)) {
+////				clickToNextPagingPage();
+////				
+////			}  else {
+////				break;
+////			}
+//		}
+//		return expecCustomeName;
+//
+//	}
+
+//	public void clickToNextPagingPage() {
+//		waitForElementClickable(driver, AdminCustomersPageUI.PAGING_NEXT);
+//		clickToELement(driver, AdminCustomersPageUI.PAGING_NEXT);
+//		sleepInSecond(2);
+//
+//	}
+	
+	
 }
