@@ -506,12 +506,14 @@ public class Admin2 extends BaseTest {
 		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 17: click To Delete Button at Addresses Customer table");
 		admincustomerPage.clickToButtonLinkByColumnMulCartAtRowNumberatAdminCustomerPage("Addresses","Delete", "1");
 		
-		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 17: Verify confirm alert delete item display");
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 18: Verify confirm alert delete item display");
 		Assert.assertTrue(admincustomerPage.getAlertText(driver).contains("Are you sure you want to delete this item?"));
 
-		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 17: Accept confirm alert delete item display");
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 19: Accept confirm alert delete item display");
 		admincustomerPage.acceptAlert(driver);
 
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 20: Verify 'DataTable' empty at Addresses card ");
+		Assert.assertTrue(admincustomerPage.isDataTableEmpty());
 
 	}
 	

@@ -109,7 +109,7 @@ public class Order extends BaseTest {
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 
 		log.info("Precondition - Step 21: Swith to 'Desktops' page");
-		desktopsPage = (UserDesktopsPageObject) computersPage.openpageAtComputersPageByName(driver, "Desktops");
+		desktopsPage = (UserDesktopsPageObject) computersPage.openpageAtComputersPageByName("Desktops");
 
 		log.info("Precondition - Step 22: Verify 'Desktops' title is displayed ");
 		Assert.assertTrue(desktopsPage.isPageTitleByText(driver, "Desktops"));
@@ -272,7 +272,7 @@ public class Order extends BaseTest {
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 
 		log.info("Order_04 - Step 03: Swith to 'Desktops' page");
-		desktopsPage = (UserDesktopsPageObject) computersPage.openpageAtComputersPageByName(driver, "Desktops");
+		desktopsPage = (UserDesktopsPageObject) computersPage.openpageAtComputersPageByName( "Desktops");
 
 		log.info("Order_04 - Step 04: Verify 'Desktops' title is displayed ");
 		Assert.assertTrue(desktopsPage.isPageTitleByText(driver, "Desktops"));

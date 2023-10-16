@@ -334,7 +334,7 @@ public class My_Account extends BaseTest {
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
 		log.info("My_Account_04 - Step 03: Swith to 'Desktops' page");
-		desktopsPage =  (UserDesktopsPageObject) computersPage.openpageAtComputersPageByName(driver, "Desktops");
+		desktopsPage =  (UserDesktopsPageObject) computersPage.openpageAtComputersPageByName("Desktops");
 		
 		log.info("My_Account_04 - Step 04: Verify 'Desktops' title is displayed " );
 		Assert.assertTrue(desktopsPage.isPageTitleByText(driver, "Desktops"));

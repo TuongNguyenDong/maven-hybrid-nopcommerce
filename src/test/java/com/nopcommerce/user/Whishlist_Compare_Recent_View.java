@@ -115,7 +115,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
 		log.info("Precondition - Step 21: Swith to 'Notebooks' page");
-		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
+		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName("Notebooks");
 		
 		log.info("Precondition - Step 22: Verify 'Notebooks' title is displayed " );
 		Assert.assertTrue(notebooksPage.isPageTitleByText(driver, "Notebooks"));
@@ -193,7 +193,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
 		log.info("Whishlist_Compare_Recent_View_03 - Step 03: Swith to 'Notebooks' page");
-		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
+		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName("Notebooks");
 		
 		log.info("Whishlist_Compare_Recent_View_03 - Step 04: Verify 'Notebooks' title is displayed " );
 		Assert.assertTrue(notebooksPage.isPageTitleByText(driver, "Notebooks"));
@@ -240,7 +240,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
 		log.info("Whishlist_Compare_Recent_View_04 - Step 03: Swith to 'Notebooks' page");
-		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
+		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName("Notebooks");
 		
 		log.info("Whishlist_Compare_Recent_View_04 - Step 04: Verify 'Notebooks' title is displayed " );
 		Assert.assertTrue(notebooksPage.isPageTitleByText(driver, "Notebooks"));
@@ -323,7 +323,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
 		log.info("Whishlist_Compare_Recent_View_05 - Step 03: Swith to 'Notebooks' page");
-		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
+		notebooksPage = (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName("Notebooks");
 		
 		log.info("Whishlist_Compare_Recent_View_05 - Step 04: Verify 'Notebooks' title is displayed " );
 		Assert.assertTrue(notebooksPage.isPageTitleByText(driver, "Notebooks"));

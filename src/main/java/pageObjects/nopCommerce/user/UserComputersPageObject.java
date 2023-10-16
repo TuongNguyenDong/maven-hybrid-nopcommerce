@@ -16,7 +16,7 @@ public class UserComputersPageObject extends BasePage {
 	}
 
 
-	public BasePage openpageAtComputersPageByName(WebDriver driver, String pageName) {
+	public BasePage openpageAtComputersPageByName( String pageName) {
 		waitForElementClickable(driver, UserComputersPageUI.LISTBOX_LINK_AT_COMPUTERS_PAGE, pageName);
 		clickToELement(driver, UserComputersPageUI.LISTBOX_LINK_AT_COMPUTERS_PAGE, pageName);
 		switch (pageName) {

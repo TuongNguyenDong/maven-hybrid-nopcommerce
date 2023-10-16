@@ -362,9 +362,6 @@ public class Admin1 extends BaseTest {
 		log.info("Admin_07_Create_New_Customer - Step 32: click To Search Button");
 		admincustomerPage.clicktoSearchButtonAtAdminProductsPage(driver);
 		
-//		log.info("Admin_07_Create_New_Customer - Step 33: Test");
-//		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPageTest("Name", "Automation22 FC22"), "Automation22 FC22" );
-
 		log.info("Admin_07_Create_New_Customer - Step 33: Verify 'Name' CustomerRole is displayed with value '" + newCusFirstName + " " + newCusLastName + "'");
 		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Name", "1"), newCusFirstName + " " + newCusLastName);
 

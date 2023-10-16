@@ -53,35 +53,9 @@ public class AdminCustomersPageObject extends BasePage{
 			sleepInSecond(2);
 	}
 
-//	public String getTextByColumnAtRowNumberatAdminCustomerPageTest(String columnName, String expecCustomeName) {
-//
-//		int columnIndex = getElementSize(driver, AdminCustomersPageUI.COLUMN_INDEX_BY_NAME, columnName) + 1;
-//		List<WebElement> customerNames = getListWebElement(driver, AdminCustomersPageUI.TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX_TEST, String.valueOf(columnIndex));
-//
-//		for (WebElement customerName : customerNames) {
-//			String actualCustomerName = customerName.getText();
-//			System.out.println("value : " + actualCustomerName);
-//			if (actualCustomerName.equals(expecCustomeName)) {
-//				System.out.println("value  1 : " + actualCustomerName);
-//
-//			} 
-////			else if (!actualCustomerName.equals(expecCustomeName)) {
-////				clickToNextPagingPage();
-////				
-////			}  else {
-////				break;
-////			}
-//		}
-//		return expecCustomeName;
-//
-//	}
-
-//	public void clickToNextPagingPage() {
-//		waitForElementClickable(driver, AdminCustomersPageUI.PAGING_NEXT);
-//		clickToELement(driver, AdminCustomersPageUI.PAGING_NEXT);
-//		sleepInSecond(2);
-//
-//	}
 	
-	
+	public Boolean isDataTableEmpty() {
+		waitForElementVisible(driver, AdminCustomersPageUI.DATATABLE_EMPTY_AT_ADMIN_CUSTOMER_PAGE);
+		return isELementDisplayed(driver, AdminCustomersPageUI.DATATABLE_EMPTY_AT_ADMIN_CUSTOMER_PAGE);
+	}
 }

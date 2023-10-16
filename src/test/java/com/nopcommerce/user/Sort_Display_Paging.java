@@ -112,7 +112,7 @@ public class Sort_Display_Paging extends BaseTest {
 		Assert.assertTrue(computersPage.isPageTitleByText(driver, "Computers"));
 		
 		log.info("Precondition - Step 21: Swith to 'Notebooks' page");
-		notebooksPage =   (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName(driver, "Notebooks");
+		notebooksPage =   (UserNotebooksPageObject) computersPage.openpageAtComputersPageByName("Notebooks");
 		
 		log.info("Precondition - Step 22: Verify 'Notebooks' title is displayed " );
 		Assert.assertTrue(notebooksPage.isPageTitleByText(driver, "Notebooks"));

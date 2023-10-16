@@ -8,9 +8,10 @@ public class AdminCustomersPageUI {
 	public static final String TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX = "xpath=//div[contains(text(),'%s')]/parent::div/following-sibling::div//tbody/tr[%s]/td[%s]";
 	public static final String LINK_TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX = "xpath=//div[contains(text(),'%s')]/parent::div/following-sibling::div//tbody/tr[%s]/td[%s]/a";
 	public static final String TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX = "xpath=//tbody/tr[%s]/td[%s]";
-//	public static final String TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX_TEST = "xpath=//tbody/tr/td[%s]";
 	public static final String LINK_TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX = "xpath=//tbody/tr[%s]/td[%s]/a";
 	public static final String PAGING_NEXT = "xpath=//ul/li[contains(@class,'next')]/a[@class='page-link']";
+	
+	public static final String DATATABLE_EMPTY_AT_ADMIN_CUSTOMER_PAGE = "xpath=//div[contains(text(),'%s')]/parent::div/following-sibling::div//tbody//td[@class='dataTables_empty']";
 
 
 
