@@ -23,10 +23,20 @@ public class UserHomePageObject extends BasePage {
 	}
 
 	public UserLoginPageObject openLoginPage() {
-		waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
-		clickToELement(driver, HomePageUI.LOGIN_LINK);
+
+		if (isElementUndisplayed(driver, HomePageUI.LOGIN_LINK) == false) {
+			waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
+			clickToELement(driver, HomePageUI.LOGIN_LINK);
+		} else {
+
+			waitForElementClickable(driver, HomePageUI.LOGOUT_LINK);
+			clickToELement(driver, HomePageUI.LOGOUT_LINK);
+			sleepInSecond(1);
+			waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
+			clickToELement(driver, HomePageUI.LOGIN_LINK);
+
+		}
 		return PageGeneratorManager.getUserLoginPage(driver);
-		
 	}
 
 	public boolean isMyAccountLinkDisplayed() {

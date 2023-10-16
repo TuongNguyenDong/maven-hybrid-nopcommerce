@@ -6,6 +6,7 @@ public class AdminCustomersPageUI {
 	public static final String COLUMN_INDEX_BY_CART_NAME_AND_NAME_COLUMN = "xpath=//div[contains(text(),'%s')]/parent::div/following-sibling::div//tr/th[contains(text(),'%s')]/preceding-sibling::th";
 	public static final String COLUMN_INDEX_BY_NAME_COLUMN = "xpath=//tr/th[contains(text(),'%s')]/preceding-sibling::th";
 	public static final String TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX = "xpath=//div[contains(text(),'%s')]/parent::div/following-sibling::div//tbody/tr[%s]/td[%s]";
+	public static final String LINK_TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX = "xpath=//div[contains(text(),'%s')]/parent::div/following-sibling::div//tbody/tr[%s]/td[%s]/a";
 	public static final String TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX = "xpath=//tbody/tr[%s]/td[%s]";
 //	public static final String TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX_TEST = "xpath=//tbody/tr/td[%s]";
 	public static final String LINK_TEXT_BY_COLUMN_INDEX_AND_ROM_INDEX = "xpath=//tbody/tr[%s]/td[%s]/a";

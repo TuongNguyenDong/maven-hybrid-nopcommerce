@@ -39,15 +39,11 @@ public class BaseTest {
 
 		if (browserList == BrowserList.FIREFOX) {
 
-			// System.setProperty("webdriver.gecko.driver", projectPath +
-			// "\\browserDrivers\\geckodriver.exe");
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 
 		} else if (browserList == BrowserList.H_FIREFOX) {
 
-			// System.setProperty("webdriver.gecko.driver", projectPath +
-			// "\\browserDrivers\\geckodriver.exe");
 			WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions options = new FirefoxOptions();
 			options.addArguments("--headless");
@@ -56,8 +52,6 @@ public class BaseTest {
 
 		} else if (browserList == BrowserList.CHROME) {
 
-			// System.setProperty("webdriver.chrome.driver", projectPath +
-			// "\\browserDrivers\\chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.args", "--disable-logging");
 			System.setProperty("webdriver.chrome.silentOutput", "True");
@@ -65,15 +59,13 @@ public class BaseTest {
 			Map<String, Object> prefs = new HashMap<String, Object>();
 			prefs.put("credentials_enable_service", false);
 			prefs.put("profile.password_manager_enabled", false);
-			prefs.put("autofill.profile_enabled", false);		
+			prefs.put("autofill.profile_enabled", false);
 			prefs.put("autofill.credit_card_enabled", false);
 			options.setExperimentalOption("prefs", prefs);
 			options.setAcceptInsecureCerts(true);
 			driver = new ChromeDriver(options);
 		} else if (browserList == BrowserList.H_CHROME) {
 
-			// System.setProperty("webdriver.chrome.driver", projectPath +
-			// "\\browserDrivers\\chromedriver.exe");
 			WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.args", "--disable-logging");
 			System.setProperty("webdriver.chrome.silentOutput", "True");
@@ -84,25 +76,20 @@ public class BaseTest {
 
 		} else if (browserList == BrowserList.EDGE) {
 
-			// System.setProperty("webdriver.edge.driver", projectPath +
-			// "\\browserDrivers\\msedgedriver.exe");
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 
 		} else if (browserList == BrowserList.OPERA) {
 
-			// System.setProperty("webdriver.opera.driver", projectPath +
-			// "\\browserDrivers\\operadriver.exe");
 			WebDriverManager.operadriver().setup();
 			driver = new OperaDriver();
-			// COCcoc driver giam di 6 version driver
+
 		} else if (browserList == BrowserList.IE) {
 			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
 
 		} else if (browserList == BrowserList.COCCOC) {
-			// System.setProperty("webdriver.chrome.driver", projectPath +
-			// "\\browserDrivers\\chromedriver_93.exe");
+
 			WebDriverManager.chromedriver().driverVersion("").setup();
 			ChromeOptions options = new ChromeOptions();
 			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
@@ -111,7 +98,6 @@ public class BaseTest {
 				options.setBinary("");
 			}
 			driver = new ChromeDriver(options);
-			// brave version nao thi tai chromeDriver version do
 
 		} else if (browserList == BrowserList.BRAVE) {
 			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\operadriver.exe");
@@ -152,15 +138,11 @@ public class BaseTest {
 			System.setProperty("webdriver.chrome.silentOutput", "True");
 			ChromeOptions options = new ChromeOptions();
 			Map<String, Object> prefs = new HashMap<String, Object>();
-//			prefs.put("profile.default_content_setting_values.notifications", 2);
+
 			prefs.put("credentials_enable_service", false);
 			prefs.put("profile.password_manager_enabled", false);
-			prefs.put("autofill.profile_enabled", false);		
-			prefs.put("autofill.credit_card_enabled", false);		
-	
-//			options.addArguments("--disable-geolocation");
-//			options.addArguments("--disable-notifications");
-//			options.addArguments("--ignore-autocomplete-off-autofill");
+			prefs.put("autofill.profile_enabled", false);
+			prefs.put("autofill.credit_card_enabled", false);
 			options.setExperimentalOption("prefs", prefs);
 			options.setAcceptInsecureCerts(true);
 			driver = new ChromeDriver(options);
@@ -181,15 +163,13 @@ public class BaseTest {
 
 			WebDriverManager.operadriver().setup();
 			driver = new OperaDriver();
-			// COCcoc driver giam di 6 version driver
 
 		} else if (browserName.equals("ie")) {
 			WebDriverManager.iedriver().arch32().setup();
 			driver = new InternetExplorerDriver();
 
 		} else if (browserName.equals("coccoc")) {
-			// System.setProperty("webdriver.chrome.driver", projectPath +
-			// "\\browserDrivers\\chromedriver_93.exe");
+
 			WebDriverManager.chromedriver().driverVersion("").setup();
 			ChromeOptions options = new ChromeOptions();
 			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
@@ -198,7 +178,6 @@ public class BaseTest {
 				options.setBinary("");
 			}
 			driver = new ChromeDriver(options);
-			// brave version nao thi tai chromeDriver version do
 
 		} else if (browserName.equals("brave")) {
 			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\operadriver.exe");
@@ -246,7 +225,6 @@ public class BaseTest {
 			log.info(" -------------------------- FAILED -------------------------- ");
 			pass = false;
 
-			// Add lỗi vào ReportNG
 			VerificationFailures.getFailures().addFailureForTest(Reporter.getCurrentTestResult(), e);
 			Reporter.getCurrentTestResult().setThrowable(e);
 		}

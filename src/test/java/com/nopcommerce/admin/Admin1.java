@@ -87,7 +87,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_01_Search_With_Product_Name() {
 
 		log.info("Admin_01_Search_With_Product_Name - Step 01: Enter to Product name textbox with value is '" + productName1 + "'");
@@ -113,7 +113,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_02_Search_With_Product_Name_Catagory_Uncheck() {
 		log.info("Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 01: Refresh Current Page");
 		adminProductPage.refreshCurrentPage(driver);
@@ -135,7 +135,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_03_Search_With_Product_Name_Catagory_Checked() {
 
 		log.info("Admin_03_Search_With_Product_Name_Catagory_Checked - Step 01: Refresh Current Page");
@@ -170,7 +170,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_04_Search_With_Product_Name_Child_Catagory() {
 
 		log.info("Admin_04_Search_With_Product_Name_Child_Catagory - Step 01: Refresh Current Page");
@@ -205,7 +205,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_05_Search_With_Product_Name_Manufacturer() {
 
 		log.info("Admin_05_Search_With_Product_Name_Manufacturer - Step 01: Refresh Current Page");
@@ -231,7 +231,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_06_Go_Direct_Product_SKU() {
 
 		log.info("Admin_06_Go_Direct_Product_SKU - Step 01: Refresh Current Page");
@@ -365,18 +365,18 @@ public class Admin1 extends BaseTest {
 //		log.info("Admin_07_Create_New_Customer - Step 33: Test");
 //		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPageTest("Name", "Automation22 FC22"), "Automation22 FC22" );
 
-//		log.info("Admin_07_Create_New_Customer - Step 33: Verify 'Name' CustomerRole is displayed with value '" + newCusFirstName + " " + newCusLastName + "'");
-//		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Name", "1"), newCusFirstName + " " + newCusLastName);
-//
-//		log.info("Admin_07_Create_New_Customer - Step 34: Verify 'Customer roles' CustomerRole is displayed with value '" + newCustomerRole + "'");
-//		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Customer roles", "1"), newCustomerRole);
-//
-//		log.info("Admin_07_Create_New_Customer - Step 35: Verify 'Company name' CustomerRole is displayed with value '" + newCusCompanyName + "'");
-//		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Company name", "1"), newCusCompanyName);
+		log.info("Admin_07_Create_New_Customer - Step 33: Verify 'Name' CustomerRole is displayed with value '" + newCusFirstName + " " + newCusLastName + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Name", "1"), newCusFirstName + " " + newCusLastName);
+
+		log.info("Admin_07_Create_New_Customer - Step 34: Verify 'Customer roles' CustomerRole is displayed with value '" + newCustomerRole + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Customer roles", "1"), newCustomerRole);
+
+		log.info("Admin_07_Create_New_Customer - Step 35: Verify 'Company name' CustomerRole is displayed with value '" + newCusCompanyName + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Company name", "1"), newCusCompanyName);
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_08_Search_Customer_With_Email() {
 
 		log.info("Admin_08_Search_Customer_With_Email - Step 01: Refresh Current Page");
@@ -404,7 +404,7 @@ public class Admin1 extends BaseTest {
 		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Company name", "1"), newCusCompanyName);
 	}
 
-//	@Test
+	@Test
 	public void Admin_09_Search_Customer_With_Company_Name() {
 
 		log.info("Admin_09_Search_Customer_With_Company_Name - Step 01: Refresh Current Page");
@@ -433,7 +433,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_10_Search_Customer_With_First_Name_And_Last_name() {
 
 		log.info("Admin_10_Search_Customer_With_First_Name_And_Last_name - Step 01: Refresh Current Page");
@@ -465,7 +465,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_11_Search_Customer_With_Full_Data() {
 
 		log.info("Admin_11_Search_Customer_With_Full_Data - Step 01: Refresh Current Page");
@@ -509,7 +509,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-//	@Test
+	@Test
 	public void Admin_12_Edit_Customer() {
 
 		log.info("Admin_12_Edit_Customer - Step 01: click To EDIT Button at Search result table");

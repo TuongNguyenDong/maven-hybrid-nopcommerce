@@ -36,12 +36,21 @@ public class AdminCustomersPageObject extends BasePage{
 	}
 	
 	public String getTextByColumnMulCartAtRowNumberatAdminCustomerPage(String cartName, String columnName, String rowNumber) {
+		
+		int columnIndex = getElementSize(driver, AdminCustomersPageUI.COLUMN_INDEX_BY_CART_NAME_AND_NAME_COLUMN, cartName, columnName) + 1;
+		
+		waitForElementVisible(driver, AdminCustomersPageUI.TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX, cartName, rowNumber, String.valueOf(columnIndex));
+		return getElementText(driver, AdminCustomersPageUI.TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX, cartName, rowNumber, String.valueOf(columnIndex));
+		
+	}
+	
+	public void clickToButtonLinkByColumnMulCartAtRowNumberatAdminCustomerPage(String cartName, String columnName, String rowNumber) {
 
 		int columnIndex = getElementSize(driver, AdminCustomersPageUI.COLUMN_INDEX_BY_CART_NAME_AND_NAME_COLUMN, cartName, columnName) + 1;
 
-		waitForElementVisible(driver, AdminCustomersPageUI.TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX, cartName, rowNumber, String.valueOf(columnIndex));
-		return getElementText(driver, AdminCustomersPageUI.TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX, cartName, rowNumber, String.valueOf(columnIndex));
-
+		waitForElementVisible(driver, AdminCustomersPageUI.LINK_TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX, cartName, rowNumber, String.valueOf(columnIndex));
+		 clickToELement(driver, AdminCustomersPageUI.LINK_TEXT_BY_CART_NAME_COLUMN_INDEX_AND_ROM_INDEX, cartName, rowNumber, String.valueOf(columnIndex));
+			sleepInSecond(2);
 	}
 
 //	public String getTextByColumnAtRowNumberatAdminCustomerPageTest(String columnName, String expecCustomeName) {

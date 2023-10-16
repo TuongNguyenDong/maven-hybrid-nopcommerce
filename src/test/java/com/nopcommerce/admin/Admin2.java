@@ -20,6 +20,7 @@ public class Admin2 extends BaseTest {
 	private String adminEmailAddress, adminPassword;
 	private String newCusEmailAddress, newCusPassword, newCusFirstName, newCusLastName, newCusDateofBirth, newCusCompanyName, newCustomerRole, newCusAdminComment;
 	private String newAddEmailAddress, newAddFirstName, newAddLastName, newAddCompanyName, newAddCountry, newAddState, newAddCity, newAdd1, newAdd2, newAddZip, newAddPhoneNumber,newAddCounty, newAddFax;
+	private String editAddEmailAddress, editAddFirstName, editAddLastName, editAddCompanyName, editAddCountry, editAddState, editAddCity, editAdd1, editAdd2, editAddZip, editAddPhoneNumber,editAddCounty, editAddFax;
 	private String searchCusMonthofBirth, searchCusDateofBirth;
 
 
@@ -48,7 +49,7 @@ public class Admin2 extends BaseTest {
 		newCusAdminComment = "Add new customer (Guest)";
 		searchCusDateofBirth = "11";
 		searchCusMonthofBirth = "11";
-
+		
 		newAddEmailAddress = "afc" + generateFakeNumber() + "@mail.vn";
 		newAddFirstName = "Automation44";
 		newAddLastName = "FC44";
@@ -62,6 +63,20 @@ public class Admin2 extends BaseTest {
 		newAddZip = "65000";
 		newAddPhoneNumber = "0999876543";
 		newAddFax = "+84999876543";
+
+		editAddEmailAddress = "hbric" + generateFakeNumber() + "@hotmail.com";
+		editAddFirstName = "Join";
+		editAddLastName = "Henry";
+		editAddCompanyName = "Keebler Group";
+		editAddCountry = "United States";
+		editAddState = "Texas";
+		editAddCounty = "Houston";
+		editAddCity = "Hillland";
+		editAdd1 = "103 Hanover Alley";
+		editAdd2 = "1125 Norway Maple Drive";
+		editAddZip = "51000";
+		editAddPhoneNumber = "(281) 590-1419";
+		editAddFax = "+44(281) 590-1419";
 
 
 		log.info("Precondition - Step 01: Enter to Email textbox with value is '" + adminEmailAddress + "'");
@@ -328,10 +343,179 @@ public class Admin2 extends BaseTest {
 	}
 	
 	@Test
-	public void Admin_14_Add_New_Address_In_Customer_Details() {
-		
-	}
+	public void Admin_14_Edit_Address_In_Customer_Details() {
 
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 01: click To EDIT Button at Addresses Customer table");
+		admincustomerPage.clickToButtonLinkByColumnMulCartAtRowNumberatAdminCustomerPage("Addresses","Edit", "1");
+
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 02: Verify Content Header 'Edit address' title is displayed ");
+		Assert.assertTrue(admincustomerPage.isContentHeaderByText(driver, "Edit address"));
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 03: Enter to FirstName textbox with value is '" + editAddFirstName + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_FirstName", editAddFirstName);
+
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 04: Enter to LastName textbox with value is '" + editAddLastName + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_LastName", editAddLastName);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 05: Enter to Email textbox with value is '" + editAddEmailAddress + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_Email", editAddEmailAddress);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 06: Enter to Company textbox with value is '" + editAddCompanyName + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_Company", editAddCompanyName);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 07: Select to Country Dropdown  with value is '" + editAddCountry + "'");
+		admincustomerPage.selectToDropdownByName(driver, "Address.CountryId", editAddCountry);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 08: Select to State Dropdown  with value is '" + editAddState + "'");
+		admincustomerPage.selectToDropdownByName(driver, "Address.StateProvinceId", editAddState);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 09: Enter to County textbox with value is '" + editAddCounty + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_County", editAddCounty);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 10: Enter to City textbox with value is '" + editAddCity + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_City", editAddCity);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 11: Enter to Address1 textbox with value is '" + editAdd1 + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_Address1", editAdd1);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 12: Enter to Address2 textbox with value is '" + editAdd2 + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_Address2", editAdd2);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 13: Enter to ZipCode textbox with value is '" + editAddZip + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_ZipPostalCode", editAddZip);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 14: Enter to Address2 textbox with value is '" + editAddPhoneNumber + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_PhoneNumber", editAddPhoneNumber);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 15: Enter to Address2 textbox with value is '" + editAddFax + "'");
+		admincustomerPage.inputToTextboxByID(driver, "Address_FaxNumber", editAddFax);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 16: Click to 'Save' button at Address Admin Page");
+		admincustomerPage.clicktoButtonByTextNameAtAddressAdminPage(driver, "Save");
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 17: Verify Address customer updated message is displayed ");
+		Assert.assertTrue(admincustomerPage.getArlertMessageSuccessAtAdminPage(driver).contains("The address has been updated successfully."));
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 18: Verify FirstName textbox with value is '" + editAddFirstName + "'");
+		Assert.assertEquals(admincustomerPage.getTextboxValueByID(driver, "Address_FirstName"), editAddFirstName);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 19: Verify LastName textbox with value is '" + editAddLastName + "'");
+		Assert.assertEquals(admincustomerPage.getTextboxValueByID(driver, "Address_LastName"), editAddLastName);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 20: Verify Email textbox with value is '" + editAddEmailAddress + "'");
+		Assert.assertEquals(admincustomerPage.getTextboxValueByID(driver, "Address_Email"), editAddEmailAddress);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 21: Verify Company textbox with value is '" + editAddCompanyName + "'");
+		Assert.assertEquals(admincustomerPage.getTextboxValueByID(driver, "Address_Company"), editAddCompanyName);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 22: Verify Country Dropdown with value is '" + editAddCountry + "'");
+		Assert.assertEquals(admincustomerPage.getdefaultDropdownValueByName(driver, "Address.CountryId"), editAddCountry);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 23: Verify State Dropdown with value is '" + editAddState + "'");
+		Assert.assertEquals(admincustomerPage.getdefaultDropdownValueByName(driver, "Address.StateProvinceId"), editAddState);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 24: Verify County textbox with value is '" + editAddCounty+ "'");
+		Assert.assertEquals(admincustomerPage.getTextboxValueByID(driver, "Address_County"), editAddCounty);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 25: Verify City textbox with value is '" + editAddCity + "'");
+		Assert.assertEquals(admincustomerPage.getTextboxValueByID(driver, "Address_City"), editAddCity);
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 26: Verify Address1 textbox with value is '" + editAdd1 + "'");
+		Assert.assertEquals(admincustomerPage.getTextboxValueByID(driver, "Address_Address1"), editAdd1);
+
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 27: Verify Address2 textbox with value is '" + editAdd2 + "'");
+		Assert.assertEquals(admincustomerPage.getTextboxValueByID(driver, "Address_Address2"), editAdd2);
+
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 28: Click  To 'back to customer detail' Link at Admin Customer Page");
+		admincustomerPage.clickToFloatLeftLinkAtAdminPageByName(driver, "back to customer detail");
+			
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 29: Verify Cart Title 'Addresses' is displayed ");
+		Assert.assertTrue(admincustomerPage.isCartTitleByCartNameAndCartTitle(driver, "customer-cards", "Addresses"));
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 30: Verify 'First name' of Address Customer table is displayed with value '" + editAddFirstName + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnMulCartAtRowNumberatAdminCustomerPage("Addresses","First name", "1"), editAddFirstName );
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 31: Verify 'Last name' of Address Customer table is displayed with value '" + editAddLastName + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnMulCartAtRowNumberatAdminCustomerPage("Addresses","Last name", "1"), editAddLastName );
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 32: Verify 'Email' of Address Customer table is displayed with value '" + editAddEmailAddress + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnMulCartAtRowNumberatAdminCustomerPage("Addresses","Email", "1"), editAddEmailAddress );
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 33: Verify 'Phone number' of Address Customer table is displayed with value '" + editAddPhoneNumber + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnMulCartAtRowNumberatAdminCustomerPage("Addresses","Phone number", "1"), editAddPhoneNumber );
+		
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 34: Verify 'Fax number' of Address Customer table is displayed with value '" + editAddFax + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnMulCartAtRowNumberatAdminCustomerPage("Addresses","Fax number", "1"), editAddFax );
+				
+		log.info("Admin_14_Edit_Address_In_Customer_Details - Step 35: Verify 'Address' of Address Customer table is displayed with value \n'" + editAddCompanyName + "\n" + editAdd1 + "\n" +  editAdd2 + "\n" + editAddCity  + "," + editAddState  + "," + editAddZip + "\n" + editAddCountry + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnMulCartAtRowNumberatAdminCustomerPage("Addresses","Address", "1"), editAddCompanyName + "\n" + editAdd1 + "\n" +  editAdd2 + "\n" + editAddCity  + "," + editAddState  +"," + editAddZip + "\n" + editAddCountry);
+
+	}
+	
+	@Test
+	public void Admin_15_Remove_Address_In_Customer_Details() {
+			
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 01: Click  To 'back to customer list' Link at Admin Customer Page");
+		admincustomerPage.clickToFloatLeftLinkAtAdminPageByName(driver, "back to customer list");
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 02: Enter to Email textbox with value is '" + newCusEmailAddress + "'");
+		admincustomerPage.inputToTextboxByID(driver, "SearchEmail", newCusEmailAddress);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 03: Enter to FirstName textbox with value is '" + newCusFirstName + "'");
+		admincustomerPage.inputToTextboxByID(driver, "SearchFirstName", newCusFirstName);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 04: Enter to LastName textbox with value is '" + newCusLastName + "'");
+		admincustomerPage.inputToTextboxByID(driver, "SearchLastName", newCusLastName);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 05: Enter to Company textbox with value is '" + newCusCompanyName + "'");
+		admincustomerPage.inputToTextboxByID(driver, "SearchCompany", newCusCompanyName);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 06: Select to MonthofBirth Dropdown with value is '" + searchCusMonthofBirth + "'");
+		admincustomerPage.selectToDropdownByName(driver, "SearchMonthOfBirth", searchCusMonthofBirth);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 07: Select to DateofBirth Dropdown with value is '" + searchCusDateofBirth + "'");
+		admincustomerPage.selectToDropdownByName(driver, "SearchDayOfBirth", searchCusDateofBirth);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 08: Delete to Customer Role Dropdown selected 'Registered' ");
+		admincustomerPage.clickToCustomeDropdownSelectedByName(driver, "Registered");
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 09: Select Dropdown Customers Role with value '" + newCustomerRole + "'");
+		admincustomerPage.selectToAdminCustomerRoleDropdown(driver, newCustomerRole);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 10: click To Search Button");
+		admincustomerPage.clicktoSearchButtonAtAdminProductsPage(driver);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 11: Verify 'Name' CustomerRole is displayed with value '" + newCusFirstName + " " + newCusLastName + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Name", "1"), newCusFirstName + " " + newCusLastName);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 12: Verify 'Customer roles' CustomerRole is displayed with value '" + newCustomerRole + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Customer roles", "1"), newCustomerRole);
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 13: Verify 'Company name' CustomerRole is displayed with value '" + newCusCompanyName + "'");
+		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Company name", "1"), newCusCompanyName);
+		
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 14: click To EDIT Button at Search result table");
+		admincustomerPage.clickToButtonLinkByColumnAtRowNumberatAdminCustomerPage("Edit", "1");
+		
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 15: Verify Cart Title 'Addresses' is displayed ");
+		Assert.assertTrue(admincustomerPage.isCartTitleByCartNameAndCartTitle(driver, "customer-cards", "Addresses"));
+		
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 16: Collapse  button at Addresses Card ");
+		admincustomerPage.checkToCollapseByNameAtCustomerAdminPage(driver, "Addresses");
+		
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 17: click To Delete Button at Addresses Customer table");
+		admincustomerPage.clickToButtonLinkByColumnMulCartAtRowNumberatAdminCustomerPage("Addresses","Delete", "1");
+		
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 17: Verify confirm alert delete item display");
+		Assert.assertTrue(admincustomerPage.getAlertText(driver).contains("Are you sure you want to delete this item?"));
+
+		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 17: Accept confirm alert delete item display");
+		admincustomerPage.acceptAlert(driver);
+
+
+	}
+	
+	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 //		closeBrowserDriver();		

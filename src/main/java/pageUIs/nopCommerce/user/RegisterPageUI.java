@@ -2,6 +2,7 @@ package pageUIs.nopCommerce.user;
 
 public class RegisterPageUI {
 	public static final String REGISTER_BUTTON = "xpath=//button[@id='register-button']";
+//	public static final String LOGOUT_BUTTON = "xpath=//a[@class='ico-logout']";
 	public static final String FIRSTNAME_TEXTBOX = "css=input#FirstName";
 	public static final String LASTNAME_TEXTBOX = "css=input#LastName";
 	public static final String EMAIL_TEXTBOX = "id=Email";

@@ -146,9 +146,6 @@ public class BasePage {
 
 	}
 
-//	private By getByXpath(String locatorType) {
-//		return By.xpath(locatorType);
-//	}
 	private By getByLocator(String locatorType) {
 		By by = null;
 
@@ -174,8 +171,6 @@ public class BasePage {
 		return by;
 
 	}
-	// neu truyen vao locator type la xpath = dung
-	// trutyen vao locator type # xpath = sai
 
 	private String getDynamicXpath(String locatorType, String... dynamicValues) {
 		// System.out.println("Locator Type Before "+ locatorType );
@@ -197,10 +192,10 @@ public class BasePage {
 
 	}
 
-//	public List<WebElement> getListWebElement(WebDriver driver, String locatorType,String... dynamicValues) {
-//		return driver.findElements(getByLocator(getDynamicXpath(locatorType, dynamicValues)));
+	public List<WebElement> getListWebElement(WebDriver driver, String locatorType,String... dynamicValues) {
+		return driver.findElements(getByLocator(getDynamicXpath(locatorType, dynamicValues)));
 
-//	}
+	}
 
 	public void clickToELement(WebDriver driver, String locatorType) {
 		getWebElement(driver, locatorType).click();
@@ -393,8 +388,6 @@ public class BasePage {
 		System.out.println("Start Time =" + new Date().toString());
 		overrideImplicitlyTimeout(driver, shortTimeout);
 		List<WebElement> elements = getListWebElement(driver, locatorType);
-		// neu nhu minh gan bang 5 no se apply cho tat cac cac step sau do. findElement/
-		// findElements
 		overrideImplicitlyTimeout(driver, longTimeout);
 		if (elements.size() == 0) {
 			System.out.println("Element not in DOM");
@@ -417,8 +410,7 @@ public class BasePage {
 		System.out.println("Start Time =" + new Date().toString());
 		overrideImplicitlyTimeout(driver, shortTimeout);
 		List<WebElement> elements = getListWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
-		// neu nhu minh gan bang 5 no se apply cho tat cac cac step sau do. findElement/
-		// findElements
+
 		overrideImplicitlyTimeout(driver, longTimeout);
 		if (elements.size() == 0) {
 			System.out.println("Element not in DOM");
@@ -439,12 +431,10 @@ public class BasePage {
 
 	public boolean isELementDisplayed(WebDriver driver, String locatorType) {
 		try {
-			// Tim thay element:
-			// case 1 : displayed - tra ve true
-			// case 2 : Undisplayed - tra ve false
+			
 			return getWebElement(driver, locatorType).isDisplayed();
 		} catch (NoSuchElementException e) {
-			// case 3 : Undisplayed - tra ve false
+			
 			return false;
 		}
 	}
@@ -628,10 +618,7 @@ public class BasePage {
 
 	}
 
-	/*
-	 * Wait for Element Undisplayed in DOM or not in DOM and override implicitly
-	 * timeout
-	 */
+
 	public void waitForElementUndisplayed(WebDriver driver, String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, shortTimeout);
 		overrideImplicitlyTimeout(driver, shortTimeout);
@@ -670,19 +657,6 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(getDynamicXpath(locatorType, dynamicValues))));
 	}
 
-//	public void uploadMutipleFiles(WebDriver driver, String... fileNames) {
-//		//Duong dan cua thu muc upload file
-//		String filePath = GlobalConstants.UPLOAD_FILE;
-//		String fullFileName = "";
-//		for (String file : fileNames) {
-//			fullFileName = fullFileName + filePath + file + "\n";
-//		}
-//		fullFileName = fullFileName.trim();
-//		getWebElement(driver, BasePageJQueryUI.UPLOADFILE).sendKeys(fullFileName);
-//
-//	}
-	// toi uu o bai hoc switch page level 07
-
 	public UserCustomerInforPageObject openCustomerInfoPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.CUSTOMER_INFOR_LINK);
 		clickToELement(driver, BasePageNopCommerceUI.CUSTOMER_INFOR_LINK);
@@ -715,7 +689,6 @@ public class BasePage {
 
 	}
 
-	// toi uu o bai hoc level_09_Dynamic_page ( Pattern Object)
 	public BasePage openpageAtMyAccountByName(WebDriver driver, String pageName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_PAGES_AT_ACCOUNT_AREA, pageName);
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_PAGES_AT_ACCOUNT_AREA, pageName);
@@ -775,7 +748,7 @@ public class BasePage {
 
 	}
 
-	// Pattern Object ( Nopcommerce)
+
 	/**
 	 * Enter to dynamic Textbox by ID
 	 * 
@@ -948,15 +921,15 @@ public class BasePage {
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_PRODUCT_NAME_BY_TEXT, textName);
 		return PageGeneratorManager.getUserProductsNamePage(driver);
 	}
-
+	
 	public UserHomePageObject clickToLogoutLinkAtUserPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_AT_USER);
 		clickToELement(driver, BasePageNopCommerceUI.LOGOUT_LINK_AT_USER);
-
+		
 		return PageGeneratorManager.getUserHomePage(driver);
-
+		
 	}
-
+	
 	public AdminLoginPageObject clickToLogoutLinkAtAdminPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.LOGOUT_LINK_AT_ADMIN);
 		clickToELement(driver, BasePageNopCommerceUI.LOGOUT_LINK_AT_ADMIN);
@@ -1147,7 +1120,6 @@ public class BasePage {
 		return getElementText(driver, BasePageNopCommerceUI.MESSAGE_ADD_SUCCESS);
 	}
 
-// Admin Page
 	public Boolean isContentHeaderByText(WebDriver driver, String contentHeaderName) {
 		waitForElementVisible(driver, BasePageNopCommerceUI.DYNAMIC_CONTENT_HEADER_BY_TEXT, contentHeaderName);
 		return isELementDisplayed(driver, BasePageNopCommerceUI.DYNAMIC_CONTENT_HEADER_BY_TEXT, contentHeaderName);
@@ -1155,7 +1127,6 @@ public class BasePage {
 
 	public void clickToNavSideBarByNameByJS(WebDriver driver, String navBarName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
-//		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
 		clickToElementByJS(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
 
 	}
@@ -1176,9 +1147,6 @@ public class BasePage {
 
 		case "Customers":
 			return PageGeneratorManager.getAdminCustomersPage(driver);
-
-		case "Product tags":
-//			return PageGeneratorManager.getRecentlyViewedProductsPage(driver);
 
 		default:
 			throw new RuntimeException("Invalid page name at Dashboard Page Navigation Bar");
@@ -1248,7 +1216,7 @@ public class BasePage {
 	public void clicktoSearchButtonAtAdminProductsPage(WebDriver driver) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
 		clickToELement(driver, BasePageNopCommerceUI.SEARCH_BUTTON_AT_ADMIN_PRODUCTS_PAGE);
-		sleepInSecond(1);
+		sleepInSecond(2);
 	}
 
 	public void clickToCollapseButtonByCartNameJS(WebDriver driver, String cartTitleName) {
@@ -1262,7 +1230,7 @@ public class BasePage {
 
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT_AT_CUSTOMER_ADMIN_PAGE, buttonName);
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT_AT_CUSTOMER_ADMIN_PAGE, buttonName);
-
+		sleepInSecond(2);
 	}
 
 	public void checkToCollapseByNameAtCustomerAdminPage(WebDriver driver, String cartTitleName) {
@@ -1274,22 +1242,11 @@ public class BasePage {
 		}
 	}
 	
-
 	public void clicktoButtonByTextNameAtAddressAdminPage(WebDriver driver, String textName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT_AT_ADMIN_PAGE, textName);
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_TEXT_AT_ADMIN_PAGE,textName);
 		sleepInSecond(1);
 	}
-	// wordpress
-//	public UserHomePO openEndUserSite(WebDriver driver, String endUserUrl) {
-//		openPageUrl(driver, endUserUrl);
-//		return pageObjects.wordpress.PageGeneratorManager.getUserHomePage(driver);
-//	}
-//	
-//	public AdminDashboardPO openAdminSite(WebDriver driver, String adminUrl) {
-//		openPageUrl(driver, adminUrl);
-//		return pageObjects.wordpress.PageGeneratorManager.getAdminDashboardPage(driver);
-//	}
 
 	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;

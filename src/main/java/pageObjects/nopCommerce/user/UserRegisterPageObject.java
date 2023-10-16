@@ -43,12 +43,24 @@ public class UserRegisterPageObject extends BasePage  {
 		sendkeyToElement(driver, RegisterPageUI.PASSWORD_TEXTBOX, password);
 		
 	}
-
+	
 	public void inputToConfirmPasswordTextbox(String confirmPassword) {
 		waitForElementClickable(driver, RegisterPageUI.CONFIRM_PASSWORD_TEXTBOX);
 		sendkeyToElement(driver, RegisterPageUI.CONFIRM_PASSWORD_TEXTBOX, confirmPassword);
 		
 	}
+
+//	public void checkLogoutButtonDisplayedOrUndisplayed() {
+//
+//		if (isElementUndisplayed(driver, RegisterPageUI.LOGOUT_BUTTON) == true) {
+//
+//		} else {
+//			waitForElementClickable(driver, RegisterPageUI.LOGOUT_BUTTON);
+//			clickToELement(driver, RegisterPageUI.LOGOUT_BUTTON);
+//
+//		}
+
+//	}
 
 
 	public String getRegisterSuccessMessage() {
