@@ -20,11 +20,11 @@ We know that any automation project starts with a good test architecture.
 
 This project can be your initial test architecture for a faster start. You will see the following items in this architecture:
 
-- [Page Objects pattern](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/new/master?readme=1#page-objects-pattern)
-- [Execution types](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/new/master?readme=1#execution-types)
-- [BaseTest](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/new/master?readme=1#basetest)
-- [TestListener](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/new/master?readme=1#testlistener)
-- [Logging](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/new/master?readme=1#logging)
+- [Page Objects pattern](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#page-objects-pattern)
+- [Execution types](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#execution-types)
+- [BaseTest](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#basetest)
+- [TestListener](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#testlistener)
+- [Logging](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#logging)
 
 ### Page Objects pattern
 - Test cases extend BaseTest
