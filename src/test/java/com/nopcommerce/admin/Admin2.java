@@ -520,7 +520,8 @@ public class Admin2 extends BaseTest {
 	
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-//		closeBrowserDriver();		
+		
+		closeBrowserDriver();		
 	}
 
 }
