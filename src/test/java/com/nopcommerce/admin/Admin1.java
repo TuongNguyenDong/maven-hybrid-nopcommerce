@@ -131,7 +131,7 @@ public class Admin1 extends BaseTest {
 		adminProductPage.clicktoSearchButtonAtAdminProductsPage(driver);
 
 		log.info("Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 06: Verify  'DataTable' empty ");
-		Assert.assertTrue(adminProductPage.isDataTableEmpty());
+		Assert.assertTrue(adminProductPage.isDataTableEmptyAtAdminProductPage());
 
 	}
 
@@ -227,7 +227,7 @@ public class Admin1 extends BaseTest {
 		adminProductPage.clicktoSearchButtonAtAdminProductsPage(driver);
 
 		log.info("Admin_05_Search_With_Product_Name_Manufacturer - Step 07: Verify  'DataTable' empty ");
-		Assert.assertTrue(adminProductPage.isDataTableEmpty());
+		Assert.assertTrue(adminProductPage.isDataTableEmptyAtAdminProductPage());
 
 	}
 
@@ -352,23 +352,29 @@ public class Admin1 extends BaseTest {
 
 		log.info("Admin_07_Create_New_Customer - Step 29: Click  To 'back to customer list' Link at Admin Customer Page");
 		admincustomerPage.clickToFloatLeftLinkAtAdminPageByName(driver, "back to customer list");
+		
+		log.info("Admin_07_Create_New_Customer - Step 30: Select to MonthofBirth Dropdown with value is '" + searchCusMonthofBirth + "'");
+		admincustomerPage.selectToDropdownByName(driver, "SearchMonthOfBirth", searchCusMonthofBirth);
 
-		log.info("Admin_07_Create_New_Customer - Step 30: Delete to Customer Role Dropdown selected 'Registered' ");
+		log.info("Admin_07_Create_New_Customer - Step 31: Select to DateofBirth Dropdown with value is '" + searchCusDateofBirth + "'");
+		admincustomerPage.selectToDropdownByName(driver, "SearchDayOfBirth", searchCusDateofBirth);
+
+		log.info("Admin_07_Create_New_Customer - Step 32: Delete to Customer Role Dropdown selected 'Registered' ");
 		admincustomerPage.clickToCustomeDropdownSelectedByName(driver, "Registered");
 
-		log.info("Admin_07_Create_New_Customer - Step 31: Select Dropdown Customers Role with value '" + newCustomerRole + "'");
+		log.info("Admin_07_Create_New_Customer - Step 33: Select Dropdown Customers Role with value '" + newCustomerRole + "'");
 		admincustomerPage.selectToAdminCustomerRoleDropdown(driver, newCustomerRole);
 
-		log.info("Admin_07_Create_New_Customer - Step 32: click To Search Button");
+		log.info("Admin_07_Create_New_Customer - Step 34: click To Search Button");
 		admincustomerPage.clicktoSearchButtonAtAdminProductsPage(driver);
 		
-		log.info("Admin_07_Create_New_Customer - Step 33: Verify 'Name' CustomerRole is displayed with value '" + newCusFirstName + " " + newCusLastName + "'");
+		log.info("Admin_07_Create_New_Customer - Step 35: Verify 'Name' CustomerRole is displayed with value '" + newCusFirstName + " " + newCusLastName + "'");
 		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Name", "1"), newCusFirstName + " " + newCusLastName);
 
-		log.info("Admin_07_Create_New_Customer - Step 34: Verify 'Customer roles' CustomerRole is displayed with value '" + newCustomerRole + "'");
+		log.info("Admin_07_Create_New_Customer - Step 36: Verify 'Customer roles' CustomerRole is displayed with value '" + newCustomerRole + "'");
 		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Customer roles", "1"), newCustomerRole);
 
-		log.info("Admin_07_Create_New_Customer - Step 35: Verify 'Company name' CustomerRole is displayed with value '" + newCusCompanyName + "'");
+		log.info("Admin_07_Create_New_Customer - Step 37: Verify 'Company name' CustomerRole is displayed with value '" + newCusCompanyName + "'");
 		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Company name", "1"), newCusCompanyName);
 
 	}

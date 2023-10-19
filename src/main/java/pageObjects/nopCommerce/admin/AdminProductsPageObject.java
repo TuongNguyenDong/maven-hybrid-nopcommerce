@@ -35,7 +35,7 @@ public class AdminProductsPageObject extends BasePage{
 		sleepInSecond(1);
 	}
 
-	public Boolean isDataTableEmpty() {
+	public Boolean isDataTableEmptyAtAdminProductPage() {
 		waitForElementVisible(driver, AdminProductsPageUI.DATATABLE_EMPTY_AT_ADMIN_PRODUCTS_PAGE);
 		return isELementDisplayed(driver, AdminProductsPageUI.DATATABLE_EMPTY_AT_ADMIN_PRODUCTS_PAGE);
 	}

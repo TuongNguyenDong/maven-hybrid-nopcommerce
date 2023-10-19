@@ -513,7 +513,7 @@ public class Admin2 extends BaseTest {
 		admincustomerPage.acceptAlert(driver);
 
 		log.info("Admin_15_Remove_Address_In_Customer_Details - Step 20: Verify 'DataTable' empty at Addresses card ");
-		Assert.assertTrue(admincustomerPage.isDataTableEmpty());
+		Assert.assertTrue(admincustomerPage.isDataTableEmptyAtAdminCustomerPage("Addresses"));
 
 	}
 	

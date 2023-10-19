@@ -54,8 +54,8 @@ public class AdminCustomersPageObject extends BasePage{
 	}
 
 	
-	public Boolean isDataTableEmpty() {
-		waitForElementVisible(driver, AdminCustomersPageUI.DATATABLE_EMPTY_AT_ADMIN_CUSTOMER_PAGE);
-		return isELementDisplayed(driver, AdminCustomersPageUI.DATATABLE_EMPTY_AT_ADMIN_CUSTOMER_PAGE);
+	public Boolean isDataTableEmptyAtAdminCustomerPage(String cartName) {
+		waitForElementVisible(driver, AdminCustomersPageUI.DATATABLE_EMPTY_AT_ADMIN_CUSTOMER_PAGE,  cartName);
+		return isELementDisplayed(driver, AdminCustomersPageUI.DATATABLE_EMPTY_AT_ADMIN_CUSTOMER_PAGE, cartName);
 	}
 }
