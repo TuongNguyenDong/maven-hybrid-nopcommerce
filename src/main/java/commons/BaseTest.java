@@ -1,8 +1,6 @@
 package commons;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -10,21 +8,12 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.joda.time.DateTime;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.opera.OperaDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-import factoryBrowser.BrowserList;
 import factoryEnvironment.EnvironmentList;
 import factoryEnvironment.GridFactory;
 import factoryEnvironment.LocalFactory;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 
@@ -35,182 +24,185 @@ public class BaseTest {
 		log = LogFactory.getLog(getClass());
 	}
 
-	private String projectPath = System.getProperty("user.dir");
+//	private String projectPath = System.getProperty("user.dir");
 
-	protected WebDriver getBrowserDriver(String browserName) {
+//	protected WebDriver getBrowserDriver(String browserName) {
+//
+//		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
+//
+//		if (browserList == BrowserList.FIREFOX) {
+//
+//			WebDriverManager.firefoxdriver().setup();
+//			driver = new FirefoxDriver();
+//
+//		} else if (browserList == BrowserList.H_FIREFOX) {
+//
+//			WebDriverManager.firefoxdriver().setup();
+//			FirefoxOptions options = new FirefoxOptions();
+//			options.addArguments("--headless");
+//			options.addArguments("window-size=1366x768");
+//			driver = new FirefoxDriver(options);
+//
+//		} else if (browserList == BrowserList.CHROME) {
+//
+//			WebDriverManager.chromedriver().setup();
+//			System.setProperty("webdriver.chrome.args", "--disable-logging");
+//			System.setProperty("webdriver.chrome.silentOutput", "True");
+//			ChromeOptions options = new ChromeOptions();
+//			Map<String, Object> prefs = new HashMap<String, Object>();
+//			prefs.put("credentials_enable_service", false);
+//			prefs.put("profile.password_manager_enabled", false);
+//			prefs.put("autofill.profile_enabled", false);
+//			prefs.put("autofill.credit_card_enabled", false);
+//			options.setExperimentalOption("prefs", prefs);
+//			options.setAcceptInsecureCerts(true);
+//			driver = new ChromeDriver(options);
+//		} else if (browserList == BrowserList.H_CHROME) {
+//
+//			WebDriverManager.chromedriver().setup();
+//			System.setProperty("webdriver.chrome.args", "--disable-logging");
+//			System.setProperty("webdriver.chrome.silentOutput", "True");
+//			ChromeOptions options = new ChromeOptions();
+//			options.addArguments("--headless");
+//			options.addArguments("window-size=1366x768");
+//			driver = new ChromeDriver(options);
+//
+//		} else if (browserList == BrowserList.EDGE) {
+//
+//			WebDriverManager.edgedriver().setup();
+//			driver = new EdgeDriver();
+//
+//		} else if (browserList == BrowserList.OPERA) {
+//
+//			WebDriverManager.operadriver().setup();
+//			driver = new OperaDriver();
+//
+//		} else if (browserList == BrowserList.IE) {
+//			WebDriverManager.iedriver().arch32().setup();
+//			driver = new InternetExplorerDriver();
+//
+//		} else if (browserList == BrowserList.COCCOC) {
+//
+//			WebDriverManager.chromedriver().driverVersion("").setup();
+//			ChromeOptions options = new ChromeOptions();
+//			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
+//				options.setBinary("C:\\Users\\nguyen\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
+//			} else {
+//				options.setBinary("");
+//			}
+//			driver = new ChromeDriver(options);
+//
+//		} else if (browserList == BrowserList.BRAVE) {
+//			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\operadriver.exe");
+//			ChromeOptions options = new ChromeOptions();
+//			options.setBinary("");
+//			driver = new ChromeDriver(options);
+//
+//		} else {
+//			throw new RuntimeException("Please input with correct browser name");
+//		}
+//		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+//		driver.manage().window().maximize();
+//		driver.get(GlobalConstants.ADMIN_PAGE_ULR);
+//
+//		return driver;
+//	}
 
-		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
+//	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
+//		if (browserName.equals("firefox")) {
+//
+//			WebDriverManager.firefoxdriver().setup();
+//			FirefoxOptions options = new FirefoxOptions();
+//			options.setAcceptInsecureCerts(true);
+//			driver = new FirefoxDriver(options);
+//
+//		} else if (browserName.equals("h-firefox")) {
+//
+//			WebDriverManager.firefoxdriver().setup();
+//			FirefoxOptions options = new FirefoxOptions();
+//			options.addArguments("--headless");
+//			options.addArguments("window-size=1366x768");
+//			driver = new FirefoxDriver(options);
+//
+//		} else if (browserName.equals("chrome")) {
+//
+//			WebDriverManager.chromedriver().setup();
+//			System.setProperty("webdriver.chrome.args", "--disable-logging");
+//			System.setProperty("webdriver.chrome.silentOutput", "True");
+//			ChromeOptions options = new ChromeOptions();
+//			Map<String, Object> prefs = new HashMap<String, Object>();
+//
+//			prefs.put("credentials_enable_service", false);
+//			prefs.put("profile.password_manager_enabled", false);
+//			prefs.put("autofill.profile_enabled", false);
+//			prefs.put("autofill.credit_card_enabled", false);
+//			options.setExperimentalOption("prefs", prefs);
+//			options.setAcceptInsecureCerts(true);
+//			driver = new ChromeDriver(options);
+//			
+//		} else if (browserName.equals("h-chrome")) {
+//
+//			WebDriverManager.chromedriver().setup();
+//			ChromeOptions options = new ChromeOptions();
+//			options.addArguments("--headless");
+//			options.addArguments("window-size=1366x768");
+//			driver = new ChromeDriver(options);
+//
+//		} else if (browserName.equals("edge")) {
+//
+//			WebDriverManager.edgedriver().setup();
+//			driver = new EdgeDriver();
+//
+//		} else if (browserName.equals("opera")) {
+//
+//			WebDriverManager.operadriver().setup();
+//			driver = new OperaDriver();
+//
+//		} else if (browserName.equals("ie")) {
+//			WebDriverManager.iedriver().arch32().setup();
+//			driver = new InternetExplorerDriver();
+//
+//		} else if (browserName.equals("coccoc")) {
+//
+//			WebDriverManager.chromedriver().driverVersion("").setup();
+//			ChromeOptions options = new ChromeOptions();
+//			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
+//				options.setBinary("C:\\Users\\nguyen\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
+//			} else {
+//				options.setBinary("");
+//			}
+//			driver = new ChromeDriver(options);
+//
+//		} else if (browserName.equals("brave")) {
+//			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\operadriver.exe");
+//			ChromeOptions options = new ChromeOptions();
+//			options.setBinary("");
+//			driver = new ChromeDriver(options);
+//
+//		} else {
+//			throw new RuntimeException("Please input with correct browser name");
+//		}
+//		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+//		driver.manage().window().maximize();
+//		driver.get(getEnvironmentUrl(appUrl));
+//		return driver;
+//
+//	}
 
-		if (browserList == BrowserList.FIREFOX) {
-
-			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
-
-		} else if (browserList == BrowserList.H_FIREFOX) {
-
-			WebDriverManager.firefoxdriver().setup();
-			FirefoxOptions options = new FirefoxOptions();
-			options.addArguments("--headless");
-			options.addArguments("window-size=1366x768");
-			driver = new FirefoxDriver(options);
-
-		} else if (browserList == BrowserList.CHROME) {
-
-			WebDriverManager.chromedriver().setup();
-			System.setProperty("webdriver.chrome.args", "--disable-logging");
-			System.setProperty("webdriver.chrome.silentOutput", "True");
-			ChromeOptions options = new ChromeOptions();
-			Map<String, Object> prefs = new HashMap<String, Object>();
-			prefs.put("credentials_enable_service", false);
-			prefs.put("profile.password_manager_enabled", false);
-			prefs.put("autofill.profile_enabled", false);
-			prefs.put("autofill.credit_card_enabled", false);
-			options.setExperimentalOption("prefs", prefs);
-			options.setAcceptInsecureCerts(true);
-			driver = new ChromeDriver(options);
-		} else if (browserList == BrowserList.H_CHROME) {
-
-			WebDriverManager.chromedriver().setup();
-			System.setProperty("webdriver.chrome.args", "--disable-logging");
-			System.setProperty("webdriver.chrome.silentOutput", "True");
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless");
-			options.addArguments("window-size=1366x768");
-			driver = new ChromeDriver(options);
-
-		} else if (browserList == BrowserList.EDGE) {
-
-			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
-
-		} else if (browserList == BrowserList.OPERA) {
-
-			WebDriverManager.operadriver().setup();
-			driver = new OperaDriver();
-
-		} else if (browserList == BrowserList.IE) {
-			WebDriverManager.iedriver().arch32().setup();
-			driver = new InternetExplorerDriver();
-
-		} else if (browserList == BrowserList.COCCOC) {
-
-			WebDriverManager.chromedriver().driverVersion("").setup();
-			ChromeOptions options = new ChromeOptions();
-			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
-				options.setBinary("C:\\Users\\nguyen\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
-			} else {
-				options.setBinary("");
-			}
-			driver = new ChromeDriver(options);
-
-		} else if (browserList == BrowserList.BRAVE) {
-			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\operadriver.exe");
-			ChromeOptions options = new ChromeOptions();
-			options.setBinary("");
-			driver = new ChromeDriver(options);
-
-		} else {
-			throw new RuntimeException("Please input with correct browser name");
-		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(GlobalConstants.ADMIN_PAGE_ULR);
-
-		return driver;
-	}
-
-	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
-		if (browserName.equals("firefox")) {
-
-			WebDriverManager.firefoxdriver().setup();
-			FirefoxOptions options = new FirefoxOptions();
-			options.setAcceptInsecureCerts(true);
-			driver = new FirefoxDriver(options);
-
-		} else if (browserName.equals("h-firefox")) {
-
-			WebDriverManager.firefoxdriver().setup();
-			FirefoxOptions options = new FirefoxOptions();
-			options.addArguments("--headless");
-			options.addArguments("window-size=1366x768");
-			driver = new FirefoxDriver(options);
-
-		} else if (browserName.equals("chrome")) {
-
-			WebDriverManager.chromedriver().setup();
-			System.setProperty("webdriver.chrome.args", "--disable-logging");
-			System.setProperty("webdriver.chrome.silentOutput", "True");
-			ChromeOptions options = new ChromeOptions();
-			Map<String, Object> prefs = new HashMap<String, Object>();
-
-			prefs.put("credentials_enable_service", false);
-			prefs.put("profile.password_manager_enabled", false);
-			prefs.put("autofill.profile_enabled", false);
-			prefs.put("autofill.credit_card_enabled", false);
-			options.setExperimentalOption("prefs", prefs);
-			options.setAcceptInsecureCerts(true);
-			driver = new ChromeDriver(options);
-			
-		} else if (browserName.equals("h-chrome")) {
-
-			WebDriverManager.chromedriver().setup();
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--headless");
-			options.addArguments("window-size=1366x768");
-			driver = new ChromeDriver(options);
-
-		} else if (browserName.equals("edge")) {
-
-			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
-
-		} else if (browserName.equals("opera")) {
-
-			WebDriverManager.operadriver().setup();
-			driver = new OperaDriver();
-
-		} else if (browserName.equals("ie")) {
-			WebDriverManager.iedriver().arch32().setup();
-			driver = new InternetExplorerDriver();
-
-		} else if (browserName.equals("coccoc")) {
-
-			WebDriverManager.chromedriver().driverVersion("").setup();
-			ChromeOptions options = new ChromeOptions();
-			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
-				options.setBinary("C:\\Users\\nguyen\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
-			} else {
-				options.setBinary("");
-			}
-			driver = new ChromeDriver(options);
-
-		} else if (browserName.equals("brave")) {
-			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\operadriver.exe");
-			ChromeOptions options = new ChromeOptions();
-			options.setBinary("");
-			driver = new ChromeDriver(options);
-
-		} else {
-			throw new RuntimeException("Please input with correct browser name");
-		}
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
-		driver.manage().window().maximize();
-		driver.get(getEnvironmentUrl(appUrl));
-		return driver;
-
-	}
-
-    protected WebDriver getBrowserDriver(String browserName, String appurl, String envName, String osName,String nodeName) {
+    protected WebDriver getBrowserDriver(String browserName,String appurl, String envName, String osName,String nodeName) {
 		
 		switch (envName) {
-		case "localGC":
-			driver = new LocalFactory(browserName).createDriverGC();
+		case "localAdmin":
+			driver = new LocalFactory(browserName).createDriverAdmin();
 			break;
-		case "localApp":
-			driver = new LocalFactory(browserName).createDriverApp();
+		case "localUser":
+			driver = new LocalFactory(browserName).createDriverUser();
 			break;
-		case "grid":
-			driver = new GridFactory(browserName, osName,nodeName).createDriver();
+		case "gridUser":
+			driver = new GridFactory(browserName, osName,nodeName).createDriverUser();
+			break;
+		case "gridAdmin":
+			driver = new GridFactory(browserName, osName,nodeName).createDriverAdmin();
 			break;
 
 		case "browserStack":
@@ -230,16 +222,16 @@ public class BaseTest {
 			break;
 			
 		default:
-			driver = new LocalFactory(browserName).createDriverApp();
+			driver = new LocalFactory(browserName).createDriverUser();
 			break;
 		}
 		
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		if (envName.equals("localGC")) {
+		if (envName.equals("localAdmin")|| envName.equals("gridAdmin")) {
 			driver.get(GlobalConstants.ADMIN_PAGE_ULR);
 		} else {
-			driver.get(appurl);
+			driver.get(getEnvironmentUrl(appurl));
 		}
 		return driver;
 	}

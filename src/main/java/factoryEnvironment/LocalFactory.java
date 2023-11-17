@@ -7,6 +7,8 @@ import factoryBrowser.BrowserNotSupportedException;
 import factoryBrowser.ChromeDriverManager;
 import factoryBrowser.EdgeDriverManager;
 import factoryBrowser.FirefoxDriverManager;
+import factoryBrowser.HeadlessChromeDriverManager;
+import factoryBrowser.HeadlessFirefoxDriverManager;
 import factoryBrowser.SafariDriverManager;
 
 
@@ -21,7 +23,7 @@ public class LocalFactory {
 	
 
 
-	public WebDriver createDriverApp() {
+	public WebDriver createDriverUser() {
 	
 	
 		switch (browserName) {
@@ -29,13 +31,13 @@ public class LocalFactory {
 			driver = new FirefoxDriverManager().getBrowserDriver();
 			break;
 		case "h-firefox":
-			driver = new FirefoxDriverManager().getBrowserDriver();
+			driver = new HeadlessFirefoxDriverManager().getBrowserDriver();
 			break;
 		case "chrome":
 			driver = new ChromeDriverManager().getBrowserDriver();
 			break;
 		case "h-chrome":
-			driver = new FirefoxDriverManager().getBrowserDriver();
+			driver = new HeadlessChromeDriverManager().getBrowserDriver();
 			break;
 		case "edge":
 			driver = new EdgeDriverManager().getBrowserDriver();
@@ -133,7 +135,7 @@ public class LocalFactory {
 		return driver;
 	}
 	
-	public WebDriver createDriverGC() {
+	public WebDriver createDriverAdmin() {
 
 		BrowserList browserList = BrowserList.valueOf(browserName.toUpperCase());
 		

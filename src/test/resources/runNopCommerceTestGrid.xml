@@ -24,14 +24,17 @@
 	</listeners>
 	<!-- global-->
 	<parameter name="environment" value="testing" />  
+	<parameter name="envName" value="gridUser" />
 	
 	<test name="RUN on Chrome">
-		<parameter name="browser" value="h-chrome" />	
+		<parameter name="browser" value="chrome" />	
+		<parameter name="osName" value="windows" />	
+		<parameter name="nodeName" value="NodeB" />	
 		<!-- specific: bad-->
 		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
 		<classes>
 		   <!--  <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
-			<class name="com.nopcommerce.user.Order_Checkout_Pay_By_Card" />
+			<class name="com.nopcommerce.user.Login" />
 			<!-- <class name="javaException.HandleException" />-->
 		</classes>
 	</test> <!-- Test -->

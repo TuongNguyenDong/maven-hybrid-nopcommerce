@@ -30,7 +30,7 @@ public class GridFactory {
 
 	}
 	
-	public WebDriver createDriver() {
+	public WebDriver createDriverUser() {
 		DesiredCapabilities capability = null;
 		Platform platform = null;
 
@@ -45,6 +45,7 @@ public class GridFactory {
 				capability = DesiredCapabilities.firefox();
 				capability.setBrowserName("firefox");
 				capability.setPlatform(platform);
+				capability.setCapability("applicationName",(String.format("%s", nodeName)));
 				
 				FirefoxOptions fOptions = new FirefoxOptions();
 				fOptions.merge(capability);
@@ -83,5 +84,61 @@ public class GridFactory {
 		
 	return  driver;	
 	}
+	
+	public WebDriver createDriverAdmin() {
+		DesiredCapabilities capability = null;
+		Platform platform = null;
+
+		if (osName.contains("windows")) {
+			platform = Platform.WINDOWS;
+		} else {
+			platform = Platform.MAC;
+		}
+
+		switch (browserName) {
+			case "firefox" :
+				capability = DesiredCapabilities.firefox();
+				capability.setBrowserName("firefox");
+				capability.setPlatform(platform);
+				capability.setCapability("applicationName",(String.format("%s", nodeName)));
+				
+				FirefoxOptions fOptions = new FirefoxOptions();
+				fOptions.merge(capability);
+				break;
+				
+			case "chrome" :
+				capability = DesiredCapabilities.chrome();
+				capability.setBrowserName("chrome");
+				capability.setPlatform(platform);
+				capability.setCapability("applicationName",(String.format("%s", nodeName)));
+				
+				ChromeOptions cOptions = new ChromeOptions();
+				cOptions.merge(capability);
+				break;
+				
+			case "edge" :
+				capability = DesiredCapabilities.edge();
+				capability.setBrowserName("edge");
+				capability.setPlatform(platform);
+
+				EdgeOptions eOptions = new EdgeOptions();
+				eOptions.merge(capability);
+				break;
+				
+			default :
+				throw new RuntimeException("Browser is not valid!");
+		}
+
+		try {
+//			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
+			driver = new RemoteWebDriver(new URL("http://192.168.1.4:4444/wd/hub"), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+
+		
+	return  driver;	
+	}
+
 
 }

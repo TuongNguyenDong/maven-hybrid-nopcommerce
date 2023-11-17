@@ -3,7 +3,9 @@ package com.nopcommerce.common;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import commons.BaseTest;
@@ -21,11 +23,12 @@ public class Common_01_Register_End_User extends BaseTest {
 
 
 
-	@Parameters("browser")
-	@BeforeTest (description = "Create new common User for all Classes Test")
-	public void Register(String browserName) {
+	@Parameters({"browser", "environment", "envName", "osName", "nodeName"})
+	@BeforeTest(description = "Create new common User for all Classes Test")
+	@BeforeClass
+	public void beforeClass(@Optional("chrome")String browerName,@Optional("testing") String environmentName,@Optional("localApp") String envName, @Optional("windows")String osName,@Optional("NodeB") String nodeName ) {
 		
-		driver = getBrowserDriver(browserName);
+		driver =  getBrowserDriver(browerName, environmentName, envName, osName, nodeName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		firstName = "Automation";

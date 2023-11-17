@@ -24,10 +24,12 @@
 	</listeners>
 	<!-- global-->
 	<!-- <parameter name="environment" value="testing" />  -->
-	<parameter name="envName" value="localAdmin" />
+		<parameter name="envName" value="gridAdmin" />
 	
 	<test name="RUN on Chrome">
 		<parameter name="browser" value="chrome" />	
+		<parameter name="osName" value="windows" />	
+		<parameter name="nodeName" value="NodeB" />	
 		<!-- specific: bad-->
 		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
 		<classes>

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -29,10 +30,11 @@ public class Admin2 extends BaseTest {
 	private AdminProductsPageObject adminProductPage;
 	private AdminCustomersPageObject admincustomerPage;
 
-	@Parameters("browser")
+	@Parameters({"browser", "environment", "envName", "osName", "nodeName"})
 	@BeforeClass
-	public void beforeClass(String browserName) {
-		driver = getBrowserDriver(browserName);
+	public void beforeClass(@Optional("chrome")String browerName,@Optional("testing") String environmentName,@Optional("localAdmin") String envName, @Optional("windows")String osName,@Optional("NodeB") String nodeName ) {
+		
+		driver =  getBrowserDriver(browerName, environmentName, envName, osName, nodeName);
 		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
 
 		adminEmailAddress = "admin@yourstore.com";

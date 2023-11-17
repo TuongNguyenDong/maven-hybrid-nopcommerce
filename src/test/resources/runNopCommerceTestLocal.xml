@@ -23,16 +23,17 @@
 
 	</listeners>
 	<!-- global-->
-	<!-- <parameter name="environment" value="testing" />  -->
-	<parameter name="envName" value="localAdmin" />
-	
+	<parameter name="environment" value="testing" />  
+	<parameter name="evnName" value="localUser" />
+
 	<test name="RUN on Chrome">
 		<parameter name="browser" value="chrome" />	
+
 		<!-- specific: bad-->
 		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
 		<classes>
 		   <!--  <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
-			<class name="com.nopcommerce.admin.Admin2" />
+			<class name="com.nopcommerce.user.Login" />
 			<!-- <class name="javaException.HandleException" />-->
 		</classes>
 	</test> <!-- Test -->

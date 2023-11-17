@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -25,10 +26,11 @@ public class Search extends BaseTest {
 	private UserLoginPageObject loginPage;
 	private UserSearchPageObject searchPage;
 
-	@Parameters({ "browser", "environment" })
+	@Parameters({"browser", "environment", "envName", "osName", "nodeName"})
 	@BeforeClass
-	public void beforeClass(String browerName, String environmentName) {
-		driver = getBrowserDriver(browerName, environmentName);
+	public void beforeClass(@Optional("chrome")String browerName,@Optional("testing") String environmentName,@Optional("localUser") String envName, @Optional("windows")String osName,@Optional("NodeB") String nodeName ) {
+		
+		driver =  getBrowserDriver(browerName, environmentName, envName, osName, nodeName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 
 		firstName = "Automation";
