@@ -20,6 +20,10 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import factoryBrowser.BrowserList;
+import factoryEnvironment.EnvironmentList;
+import factoryEnvironment.GridFactory;
+import factoryEnvironment.LocalFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
@@ -146,6 +150,7 @@ public class BaseTest {
 			options.setExperimentalOption("prefs", prefs);
 			options.setAcceptInsecureCerts(true);
 			driver = new ChromeDriver(options);
+			
 		} else if (browserName.equals("h-chrome")) {
 
 			WebDriverManager.chromedriver().setup();
@@ -189,11 +194,56 @@ public class BaseTest {
 			throw new RuntimeException("Please input with correct browser name");
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 		driver.get(getEnvironmentUrl(appUrl));
 		return driver;
 
 	}
 
+    protected WebDriver getBrowserDriver(String browserName, String appurl, String envName, String osName,String nodeName) {
+		
+		switch (envName) {
+		case "localGC":
+			driver = new LocalFactory(browserName).createDriverGC();
+			break;
+		case "localApp":
+			driver = new LocalFactory(browserName).createDriverApp();
+			break;
+		case "grid":
+			driver = new GridFactory(browserName, osName,nodeName).createDriver();
+			break;
+
+		case "browserStack":
+
+			break;
+
+		case "sauselab":
+
+			break;
+
+		case "crossbrowser":
+
+			break;
+			
+		case "lambda":
+
+			break;
+			
+		default:
+			driver = new LocalFactory(browserName).createDriverApp();
+			break;
+		}
+		
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		if (envName.equals("localGC")) {
+			driver.get(GlobalConstants.ADMIN_PAGE_ULR);
+		} else {
+			driver.get(appurl);
+		}
+		return driver;
+	}
+	
 	public WebDriver getDriverInstance() {
 		return this.driver;
 	}

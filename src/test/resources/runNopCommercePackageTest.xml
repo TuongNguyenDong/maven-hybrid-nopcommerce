@@ -18,6 +18,7 @@
 		<packages>
 
 			<package name="com.nopcommerce.user" />
+			<package name="com.nopcommerce.admin" />
 
 		</packages>
 	</test> <!-- Test -->
