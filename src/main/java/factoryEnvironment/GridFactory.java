@@ -2,6 +2,8 @@ package factoryEnvironment;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -58,6 +60,16 @@ public class GridFactory {
 				capability.setCapability("applicationName",(String.format("%s", nodeName)));
 				
 				ChromeOptions cOptions = new ChromeOptions();
+				Map<String, Object> prefs = new HashMap<String, Object>();
+				prefs.put("credentials_enable_service", false);
+				prefs.put("profile.password_manager_enabled", false);
+				prefs.put("autofill.profile_enabled", false);
+				prefs.put("autofill.credit_card_enabled", false);
+				
+				cOptions.setExperimentalOption("prefs", prefs);
+				
+
+				cOptions.setAcceptInsecureCerts(true);
 				cOptions.merge(capability);
 				break;
 				
@@ -103,6 +115,7 @@ public class GridFactory {
 				capability.setCapability("applicationName",(String.format("%s", nodeName)));
 				
 				FirefoxOptions fOptions = new FirefoxOptions();
+				fOptions.setAcceptInsecureCerts(true);
 				fOptions.merge(capability);
 				break;
 				
@@ -111,8 +124,20 @@ public class GridFactory {
 				capability.setBrowserName("chrome");
 				capability.setPlatform(platform);
 				capability.setCapability("applicationName",(String.format("%s", nodeName)));
-				
+	
 				ChromeOptions cOptions = new ChromeOptions();
+				Map<String, Object> prefs = new HashMap<String, Object>();
+				prefs.put("credentials_enable_service", false);
+				prefs.put("profile.password_manager_enabled", false);
+				prefs.put("autofill.profile_enabled", false);
+				prefs.put("autofill.credit_card_enabled", false);
+				cOptions.setExperimentalOption("prefs", prefs);
+//				cOptions.addArguments("--incognito");
+//				cOptions.addArguments("--disable-notifications");
+//				cOptions.addArguments("--disable-single-click-autofill"); 
+//				cOptions.addArguments("--disable-popup-blocking");
+				capability.setCapability(ChromeOptions.CAPABILITY, cOptions);
+				cOptions.setAcceptInsecureCerts(true);
 				cOptions.merge(capability);
 				break;
 				
