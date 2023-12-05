@@ -4,6 +4,7 @@ This hybrid framework for Web applications, specifically a Nop-Commerce web appl
 - Web Demo:
  - [Nopcommerce ](https://demo.nopcommerce.com/)
  - [Admin-NopCommerce](https://admin-demo.nopcommerce.com/)
+ 
 ## Languages and Frameworks
 This project uses the following languages and frameworks:
 
@@ -38,6 +39,7 @@ This project can be your initial test architecture for a faster start. You will 
 ### Execution types
 
 - `local-suite`
+
   #### local-suite
   - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
   
