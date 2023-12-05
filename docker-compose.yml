@@ -23,7 +23,6 @@ services:
       - SCREEN_WIDTH=5
       - SCREEN_HEIGHT=5
 
-
     firefox:
     image: selenium/node-firefox:3.141.59
     depends_on:
