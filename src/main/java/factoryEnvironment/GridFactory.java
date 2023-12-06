@@ -37,7 +37,8 @@ public class GridFactory {
 		Platform platform = null;
 
 		if (osName.contains("windows")) {
-			platform = Platform.WINDOWS;
+			platform = Platform.ANY;
+			
 		} else {
 			platform = Platform.MAC;
 		}
@@ -88,7 +89,7 @@ public class GridFactory {
 
 		try {
 //			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
-			driver = new RemoteWebDriver(new URL("http://192.168.1.4:4444/wd/hub"), capability);
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
@@ -156,7 +157,7 @@ public class GridFactory {
 
 		try {
 //			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
-			driver = new RemoteWebDriver(new URL("http://192.168.1.4:4444/wd/hub"), capability);
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}

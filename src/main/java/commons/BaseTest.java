@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import factoryEnvironment.DockerGridFactory;
 import factoryEnvironment.EnvironmentList;
 import factoryEnvironment.GridFactory;
 import factoryEnvironment.LocalFactory;
@@ -204,6 +205,14 @@ public class BaseTest {
 		case "gridAdmin":
 			driver = new GridFactory(browserName, osName,nodeName).createDriverAdmin();
 			break;
+			
+		case "dockerGridUser":
+			driver = new DockerGridFactory(browserName).createDriverUser();
+			break;
+			
+		case "dockerGridAdmin":
+			driver = new DockerGridFactory(browserName).createDriverAdmin();
+			break;
 
 		case "browserStack":
 
@@ -228,7 +237,7 @@ public class BaseTest {
 		
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		if (envName.equals("localAdmin")|| envName.equals("gridAdmin")) {
+		if (envName.equals("localAdmin")|| envName.equals("gridAdmin") || envName.equals("dockerGridAdmin")) {
 			driver.get(GlobalConstants.ADMIN_PAGE_ULR);
 		} else {
 			driver.get(getEnvironmentUrl(appurl));

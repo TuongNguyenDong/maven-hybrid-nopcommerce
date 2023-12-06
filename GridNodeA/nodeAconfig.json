@@ -35,7 +35,7 @@
   "port": 6554,
   "register": true,
   "registerCycle": 5000,
-  "hub": "http://192.168.1.4:4444",
+  "hub": "http://localhost:4444",
   "nodeStatusCheckTimeout": 5000,
   "nodePolling": 5000,
   "role": "node",
