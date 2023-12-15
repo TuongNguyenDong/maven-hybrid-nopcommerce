@@ -72,6 +72,8 @@ public class BasePage {
 	public void refreshCurrentPage(WebDriver driver) {
 
 		driver.navigate().refresh();
+		areJQueryAndJSLoadedSuccess(driver);
+		
 
 	}
 
@@ -1133,7 +1135,8 @@ public class BasePage {
 
 	public void clickToNavSideBarByName(WebDriver driver, String navBarName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
-		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
+		clickToElementByJS(driver, BasePageNopCommerceUI.DYNAMIC_NAV_SIDEBAR_BY_TEXT, navBarName);
+		
 
 	}
 
@@ -1163,7 +1166,7 @@ public class BasePage {
 
 	public void clickToLinkAtAdminPageByName(WebDriver driver, String LinkName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_LINK_AT_ADMIN_PAGE, LinkName);
-		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_LINK_AT_ADMIN_PAGE, LinkName);
+		clickToElementByJS(driver, BasePageNopCommerceUI.DYNAMIC_LINK_AT_ADMIN_PAGE, LinkName);
 
 	}
 
@@ -1183,6 +1186,7 @@ public class BasePage {
 	public void clickToButtonByNameAtAdminPage(WebDriver driver, String buttonName) {
 		waitForElementClickable(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_NAME_AT_ADMIN_PAGE, buttonName);
 		clickToELement(driver, BasePageNopCommerceUI.DYNAMIC_BUTTON_BY_NAME_AT_ADMIN_PAGE, buttonName);
+		areJQueryAndJSLoadedSuccess(driver);	
 
 	}
 
@@ -1250,4 +1254,5 @@ public class BasePage {
 
 	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
+	
 }

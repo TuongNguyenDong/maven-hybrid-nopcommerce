@@ -13,7 +13,6 @@ public class FirefoxDriverManager implements BrowserFactory {
 		WebDriverManager.firefoxdriver().setup();
 		FirefoxOptions options = new FirefoxOptions();
 		options.setAcceptInsecureCerts(true);
-		
 		return new FirefoxDriver(options);
 		
 	}
