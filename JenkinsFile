@@ -1,0 +1,25 @@
+node{
+   ansiColor('xterm') {
+    // some block
+   }
+   timestamps {
+    // some block
+   }
+   
+  stage ('1 - Get Code') {
+   git credentialsId: 'Tuong', url: 'https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce'
+  }
+  stage ('2 - Compiler') {
+  bat 'mvn clean'
+  }
+
+  stage ('3 - Run Test') {
+  bat 'mvn test'
+  }
+
+  stage ('4 - Public report') {
+  
+  testNG()
+  }
+
+}
