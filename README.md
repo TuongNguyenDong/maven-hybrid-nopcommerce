@@ -43,7 +43,7 @@ This project can be your initial test architecture for a faster start. You will 
 - `selenium-grid`
 - `docker`
   
-  ### local-suite
+  #### local-suite
   - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
   - When the `envName` is `localUser` or `localAdmin` the` getBrowserDriver` method is used from the `BaseTest` to return the `LocalFactory` class to the execution needs of the browser.
     
