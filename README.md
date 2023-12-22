@@ -38,35 +38,11 @@ This project can be your initial test architecture for a faster start. You will 
 - Using Dynamic to handle (Page/Action/Component)
 
 ### Execution types
-<<<<<<< HEAD
-
 - `local`
-=======
->>>>>>> branch 'master' of https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce
 - `local-suite`
 - `selenium-grid`
 - `docker`
-<<<<<<< HEAD
-
-
-  #### local
-  - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
- 
-=======
   
->>>>>>> branch 'master' of https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce
-  #### local-suite
-  - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
-<<<<<<< HEAD
-  
-  #### selenium grid
-  - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
-  
-  #### docker
-  - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
- 
-  
-=======
   #### selenium-grid
   - The Selenium Grid approach executes the tests in remote machines (local or remote/cloud grid). When the 'envName'is GridUser or GridAdmin the getBrowserDriver method is used from the BaseTest to return GridFactory class as the remote execution needs the browser capability.  
   - The GridFactory class has the internal method createDriverUser or (createDriverAdmin) to return a RemoteWebDriver based on the browser capability.
@@ -74,10 +50,9 @@ This project can be your initial test architecture for a faster start. You will 
   -     
   #### Docker
   - Ensure you have registered and integrated a Docker account with the Docker desktop. and also make sure that the version of selenium on the 'yml' file and source code are the same.
-    
->>>>>>> branch 'master' of https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce
-### BaseTest
 
+    
+### BaseTest
 This testing pattern was implemented on the BaseTest class to automatically run the pre (setup) and post (teardown) conditions.
 
 The pre-condition uses @BeforeClass from TestNG to create the browser instance based on the values passed either local or remote execution. The post-condition uses @AfterClass to close the browser instance. @AfterClass has the alwaysRun parameter as true to force the run on a pipeline.
@@ -87,7 +62,6 @@ It was designed to open a browser instance to each @Test in the test class.
 This class also has the TestListener annotation which is a custom TestNG listener, and will be described in the next section.
 
 ###  TestListener
-
 The TestListener is a class that implements ITestListener. The following method is used to help log errors and attach additional information to the test report:
 
 onTestFailure: log the exceptions and add a screenshot to the test report
