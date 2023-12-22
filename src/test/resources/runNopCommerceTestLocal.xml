@@ -26,8 +26,8 @@
 	<parameter name="environment" value="testing" />  
 	<parameter name="evnName" value="localUser" />
 
-	<test name="RUN on Chrome">
-		<parameter name="browser" value="chrome" />	
+	<test name="RUN on Firefox">
+		<parameter name="browser" value="firefox" />	
 
 		<!-- specific: bad-->
 		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
