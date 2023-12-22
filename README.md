@@ -39,10 +39,10 @@ This project can be your initial test architecture for a faster start. You will 
 - Using Dynamic to handle (Page/Action/Component)
 
 ### Execution types
-
 - `local-suite`
 - `selenium-grid`
 - `docker`
+  
   ### local-suite
   - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
   - When the `envName` is `localUser` or `localAdmin` the` getBrowserDriver` method is used from the `BaseTest` to return the `LocalFactory` class to the execution needs of the browser.
@@ -55,8 +55,7 @@ This project can be your initial test architecture for a faster start. You will 
   #### Docker
   - When the `envName` is `DockerGridUser` or `DockerGridAdmin` the getBrowserDriver method is used from the `BaseTest` to return `DockerGridFactory` class as the remote execution needs the browser capability.
   - Ensure you have registered and integrated a Docker account with the Docker desktop. and also make sure that the version of selenium on the `yml` file and source code are the same.
-
-    
+  
 ### BaseTest
 This testing pattern was implemented on the `BaseTest` class to automatically run the pre (setup) and post (teardown) conditions.
 
