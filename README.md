@@ -2,7 +2,7 @@
 Hybrid framework with TestNG + SeleniumWebDriver + Maven in Java
 This hybrid framework for Web applications, specifically a Nop-Commerce web application. They are currently used for UI Testing using the Maven project.
 - Web Demo:
- - [Nopcommerce ](https://demo.nopcommerce.com/)
+ - [Nopcommerce](https://demo.nopcommerce.com/)
  - [Admin-NopCommerce](https://admin-demo.nopcommerce.com/)
  
 ## Languages and Frameworks
@@ -15,6 +15,7 @@ This project uses the following languages and frameworks:
 - Log4J as the logging management strategy
 - WebDriverManager (version 5.4.1) as the Selenium binaries management
 - XPath, CSS helps identify elements from an XML document.
+- Intergate with Jenkins to build and run test cases
 
 ## Test architecture
 We know that any automation project starts with a good test architecture.
@@ -33,15 +34,29 @@ This project can be your initial test architecture for a faster start. You will 
 - PageObjects extends BasePage
 - PageGeneratorManager:
   - Initialize Page Objects.
-  - Hides the initialization at both the Testcases and PageObject layers.
+  - Hides the initialization at both the Test cases and PageObject layers.
 - Using Dynamic to handle (Page/Action/Component)
 
 ### Execution types
 
+- `local`
 - `local-suite`
+- `selenium-grid`
+- `docker`
 
+
+  #### local
+  - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
+ 
   #### local-suite
   - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
+  
+  #### selenium grid
+  - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
+  
+  #### docker
+  - This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
+ 
   
 ### BaseTest
 
