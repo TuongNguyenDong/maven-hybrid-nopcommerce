@@ -15,7 +15,7 @@ This project uses the following languages and frameworks:
 - Log4J as the logging management strategy
 - WebDriverManager (version 5.4.1) as the Selenium binaries management
 - XPath, CSS helps identify elements from an XML document.
-- Intergate with Jenkins to build and run test cases
+- Integrate with Jenkins to build and run test cases
 
 ## Test architecture
 We know that any automation project starts with a good test architecture.
@@ -28,6 +28,7 @@ This project can be your initial test architecture for a faster start. You will 
 - [TestListener](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#testlistener)
 - [Logging](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#logging)
 - [Parallel execution](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#parallel-execution)
+- [Jenkins Pipeline](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#jenkins-pipeline)
 
 ### Page Objects pattern
 - Test cases extend BaseTest
@@ -44,7 +45,7 @@ This project can be your initial test architecture for a faster start. You will 
 - `docker`
   
 #### local-suite
-- This execution type also uses the WebDriverManager to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
+- This execution type also uses the [WebDriverManager](https://github.com/bonigarcia/webdrivermanager) to instantiate the web browser. The browser is taken from the TestNG suite file enabling you to run a multi-browser test approach locally.
 - When the `envName` is `localUser` or `localAdmin` the` getBrowserDriver` method is used from the `BaseTest` to return the `LocalFactory` class to the execution needs of the browser.
     
 #### selenium-grid
@@ -86,3 +87,26 @@ The parallel test execution is based on the parallel tests feature on TestNG. Th
 <parameter name="browser" value="chrome"/>
 </suite>
 ```
+#### Execution with Docker Compose
+This project has the `docker-compose.yml` file to run the tests in a parallel way using Docker Selenium.
+To be able to run it in parallel the file has
+the [Dynamic Grid Implementation](https://github.com/SeleniumHQ/docker-selenium#dynamic-grid-) that will start the
+container on demand.
+
+This means that Docker Selenium will start a container test for a targeting browser.
+
+Please note that you need to do the following actions before running it in parallel:
+
+- Docker installed
+- Start the Grid by running the following command:
+    - `docker-compose up -d`
+    - Images are pulled if not available and initial test execution will be slow
+- Show the Grid by running the following command:
+    - `docker-compose ps`
+- Stop the Grid by running the following command:
+    - `docker-compose down`
+- Run the project using the following command
+- Open the [Selenium Grid] page to see the node status
+  
+### Jenkins Pipeline
+Jenkins: Jenkinsfile to be used on a Jenkins pipeline
