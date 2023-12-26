@@ -8,13 +8,13 @@ This hybrid framework for Web applications, specifically a Nop-Commerce web appl
 ## Languages and Frameworks
 This project uses the following languages and frameworks:
 
-- **`Java`** 11 as the programming language
+- **`Java 11`** as the programming language
 - **`TestNG`** to support the test creation
 - **`Selenium WebDriver`** `(version 3.141.59)` is a web browser automation framework using Java binding.
 - **`TestNG Report`** as the testing report strategy
 - **`Log4J`** as the logging management strategy
 - **`WebDriverManager`** `(version 5.4.1)` as the Selenium binaries management
-- **'XPath'**, **'CSS'** helps identify elements from an XML document.
+- **`XPath`**, **`CSS`** helps identify elements from an XML document.
 - Integrate with **`Jenkins`** to build and run test cases
 
 ## Test architecture
