@@ -1,5 +1,5 @@
 # maven-hybrid-nop-commerce
-Hybrid framework with TestNG + SeleniumWebDriver + Maven in Java
+Hybrid framework with **`TestNG`** + **`SeleniumWebDriver`** + **`Maven`** in Java
 This hybrid framework for Web applications, specifically a Nop-Commerce web application. They are currently used for UI Testing using the Maven project.
 - Web Demo:
  - [Nopcommerce](https://demo.nopcommerce.com/)
