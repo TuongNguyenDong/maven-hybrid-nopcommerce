@@ -138,7 +138,7 @@ To do this you need:
 - Use `-Dsuite=suite_name` to call the suite
 
 ````bash
-mvn test  -Denvironment=LocalAdmin
+mvn test -Denvironment=LocalAdmin
 ````
 - Executing the suite with default value set on POM is `LocalUser`
 
