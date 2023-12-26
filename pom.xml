@@ -28,6 +28,8 @@
         <faker.version>1.0.1</faker.version>
         <log4j.version>1.2.16</log4j.version>
         <reportng.version>1.1.4</reportng.version>
+        <environment>LocalUser</environment>
+        
     </properties>
   
   <!-- Quản lí thư viện -->
@@ -151,40 +153,38 @@
 </dependency>
     </dependencies>
 <!-- Compiler/ Run Test -->
-    <build>
-        <plugins>
-            <!-- Compiler -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.0</version>
-                <!-- Compiler code vs Java 11 -->
-                <configuration>
-                    <source>11</source>
-                    <target>11</target>
-                </configuration>
-            </plugin>
-
-            <!-- Run test -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
-                <configuration>
-                    <!-- Run TestNG xml file -->
-                    <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/runNopCommerceTestLocal.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-
-                    <!-- Argument -->
-                    <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
-                </configuration>
+	<build>
+		<plugins>
+			<!-- Compiler -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.10.0</version>
+				<!-- Compiler code vs Java 11 -->
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+				</configuration>
+			</plugin>
 
 
-            </plugin>
-        </plugins>
-    </build>
-  
+			<!-- Run test -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.2</version>
+				<configuration>
+					<!--					Run TestNG xml file -->
+					<suiteXmlFiles>
+						<suiteXmlFile>
+							src/test/resources/runNopCommerceTest${environment}.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<!--					Argument -->
+					<argLine>
+						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+					</argLine>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

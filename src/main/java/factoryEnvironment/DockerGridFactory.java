@@ -81,6 +81,7 @@ public class DockerGridFactory {
 				throw new RuntimeException("Browser is not valid!");
 		}
 
+		
 		try {
 //			driver = new RemoteWebDriver(new URL(String.format("http://%s:%s/wd/hub", ipAddress, portNumber)), capability);
 			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);

@@ -28,7 +28,6 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 	private String day, month, year;
 	private String wishlistUrl;
 
-	
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;

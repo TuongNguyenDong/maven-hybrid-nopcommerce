@@ -24,7 +24,6 @@ public class Admin2 extends BaseTest {
 	private String editAddEmailAddress, editAddFirstName, editAddLastName, editAddCompanyName, editAddCountry, editAddState, editAddCity, editAdd1, editAdd2, editAddZip, editAddPhoneNumber,editAddCounty, editAddFax;
 	private String searchCusMonthofBirth, searchCusDateofBirth;
 
-
 	private AdminLoginPageObject adminLoginPage;
 	private AdminDashboardPageObject adminDashboardPage;
 	private AdminProductsPageObject adminProductPage;

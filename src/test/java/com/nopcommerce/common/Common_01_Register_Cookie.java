@@ -28,7 +28,6 @@ public class Common_01_Register_Cookie extends BaseTest {
 	private UserLoginPageObject loginPage;
 
 
-
 	@Parameters({"browser", "environment", "envName", "osName", "nodeName"})
 	@BeforeTest(description = "Create new common User for all Classes Test")
 	@BeforeClass

@@ -22,7 +22,6 @@ public class Common_01_Register_End_User extends BaseTest {
 	private UserRegisterPageObject registerPage;
 
 
-
 	@Parameters({"browser", "environment", "envName", "osName", "nodeName"})
 	@BeforeTest(description = "Create new common User for all Classes Test")
 	@BeforeClass

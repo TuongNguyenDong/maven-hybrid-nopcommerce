@@ -45,7 +45,10 @@ public class Login  extends BaseTest {
 		
 		log.info("Precondition - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
-
+		
+//		System.out.println("Thread ID = " + Thread.currentThread().getId() + " with browser = " + browerName);
+		System.out.println("Thread ID = " + Thread.currentThread().getId() + " with driver = " + driver.toString());
+		
 		log.info("Precondition - Step 02: Click to Radio button 'Male' ");
 		registerPage.clicktoRadioButtonByLabel(driver, "Male");
 

@@ -21,11 +21,21 @@ public class LocalFactory {
 		this.browserName = browserName;
 	}
 	
-
-
 	public WebDriver createDriverUser() {
-	
-	
+		// run maven command line
+		 browserName = System.getProperty("browser");
+		if (driver == null) {
+
+			if (browserName == null) {
+
+				browserName = System.getenv("browser");
+				if (browserName == null) {
+
+					browserName = "edge";
+				}
+			}
+		}
+
 		switch (browserName) {
 		case "firefox":
 			driver = new FirefoxDriverManager().getBrowserDriver();
@@ -50,90 +60,10 @@ public class LocalFactory {
 			throw new BrowserNotSupportedException(browserName);
 
 		}
-		
 
-	
-
-//		if (browserName.equals("firefox")) {
-//
-//			// System.setProperty("webdriver.gecko.driver", projectPath +
-//			// "\\browserDrivers\\geckodriver.exe");
-//			WebDriverManager.firefoxdriver().setup();
-//			FirefoxOptions options = new FirefoxOptions();
-//			options.setAcceptInsecureCerts(true);
-//			driver = new FirefoxDriver(options);
-//
-//		} else if (browserName.equals("h-firefox")) {
-//
-//			// System.setProperty("webdriver.gecko.driver", projectPath +
-//			// "\\browserDrivers\\geckodriver.exe");
-//			WebDriverManager.firefoxdriver().setup();
-//			FirefoxOptions options = new FirefoxOptions();
-//			options.addArguments("--headless");
-//			options.addArguments("window-size=1366x768");
-//			driver = new FirefoxDriver(options);
-//
-//		} else if (browserName.equals("chrome")) {
-//
-//			// System.setProperty("webdriver.chrome.driver", projectPath +
-//			// "\\browserDrivers\\chromedriver.exe");
-//			WebDriverManager.chromedriver().setup();
-//			ChromeOptions options = new ChromeOptions();
-//			options.setAcceptInsecureCerts(true);
-//			driver = new ChromeDriver(options);
-//		} else if (browserName.equals("h-chrome")) {
-//
-//			// System.setProperty("webdriver.chrome.driver", projectPath +
-//			// "\\browserDrivers\\chromedriver.exe");
-//			WebDriverManager.chromedriver().setup();
-//			ChromeOptions options = new ChromeOptions();
-//			options.addArguments("--headless");
-//			options.addArguments("window-size=1366x768");
-//			driver = new ChromeDriver(options);
-//
-//		} else if (browserName.equals("edge")) {
-//
-//			// System.setProperty("webdriver.edge.driver", projectPath +
-//			// "\\browserDrivers\\msedgedriver.exe");
-//			WebDriverManager.edgedriver().setup();
-//			driver = new EdgeDriver();
-//
-//		} else if (browserName.equals("opera")) {
-//
-//			// System.setProperty("webdriver.opera.driver", projectPath +
-//			// "\\browserDrivers\\operadriver.exe");
-//			WebDriverManager.operadriver().setup();
-//			driver = new OperaDriver();
-//			// COCcoc driver giam di 6 version driver
-//
-//		} else if (browserName.equals("ie")) {
-//			WebDriverManager.iedriver().arch32().setup();
-//			driver = new InternetExplorerDriver();
-//
-//		} else if (browserName.equals("coccoc")) {
-//			// System.setProperty("webdriver.chrome.driver", projectPath +
-//			// "\\browserDrivers\\chromedriver_93.exe");
-//			WebDriverManager.chromedriver().driverVersion("").setup();
-//			ChromeOptions options = new ChromeOptions();
-//			if (GlobalConstants.OS_NAME.startsWith("Windows")) {
-//				options.setBinary("C:\\Users\\nguyen\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
-//			} else {
-//				options.setBinary("");
-//			}
-//			driver = new ChromeDriver(options);
-//			// brave version nao thi tai chromeDriver version do
-//
-//		} else if (browserName.equals("brave")) {
-//			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\operadriver.exe");
-//			ChromeOptions options = new ChromeOptions();
-//			options.setBinary("");
-//			driver = new ChromeDriver(options);
-//
-//		} else {
-//			throw new RuntimeException("Please input with correct browser name");
-//		}
 		return driver;
 	}
+	
 	
 	public WebDriver createDriverAdmin() {
 
@@ -163,6 +93,8 @@ public class LocalFactory {
 			throw new BrowserNotSupportedException(browserName);
 
 		}
+		
+		
 
 //		if (browserList == BrowserList.FIREFOX) {
 //

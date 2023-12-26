@@ -20,8 +20,7 @@ public class GridFactory {
 	private String nodeName;
 //	private String ipAddress;
 //	private String portNumber;
-
-
+	
 	public GridFactory(String browserName, String osName , String nodeName ) {
 		this.browserName = browserName;
 		this.osName = osName;

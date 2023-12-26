@@ -24,6 +24,7 @@ public class Admin1 extends BaseTest {
 	private String searchCusMonthofBirth, searchCusDateofBirth;
 	private String searchEditCusMonthofBirth, searchEditCusDateofBirth;
 
+	
 	private AdminLoginPageObject adminLoginPage;
 	private AdminDashboardPageObject adminDashboardPage;
 	private AdminProductsPageObject adminProductPage;
