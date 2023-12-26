@@ -155,7 +155,7 @@ mvn test -Denvironment=LocalAdmin -Dbrowser=edge
 ### Jenkins Pipeline
 Jenkins: Jenkinsfile to be used on a Jenkins pipeline
 
-## frameworks scalability 
+## Frameworks Scalability 
 - **`Owner`** to minimize the code to handle the properties file with big data.
 - **`Extent Report`** to help the report better.
 - **`Faker API`** to generate Data
