@@ -28,6 +28,7 @@ This project can be your initial test architecture for a faster start. You will 
 - [TestListener](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#testlistener)
 - [Logging](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#logging)
 - [Parallel execution](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#parallel-execution)
+- [Maven Surefire plugin on pom.xml](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#maven-surefire-plugin-on-pomxml)
 - [Jenkins Pipeline](https://github.com/TuongNguyenDong/maven-hybrid-nopcommerce/blob/master/README.md#jenkins-pipeline)
 
 ### Page Objects pattern
@@ -107,6 +108,49 @@ Please note that you need to do the following actions before running it in paral
     - `docker-compose down`
 - Run the project using the following command
 - Open the [Selenium Grid] page to see the node status
-  
+
+### Maven Surefire plugin on pom.xml
+
+Maven Surefire plugin used to execute the test suite `*.xml`
+inside `src/test/resources` folder.
+If you have more than one suite on _src/test/resources_ folder you can parameterize the xml file name.
+To do this you need:
+
+- Create a property on `pom.xml` called _suite_
+
+```xml
+
+<properties>
+    <environment>LocalUser</environment>
+</properties>
+```
+- Replace the xml file name to `${environment}` on the profile
+
+```xml
+
+<configuration>
+    <suiteXmlFiles>
+        <suiteXmlFile>src/test/resources/${environment}.xml</suiteXmlFile>
+    </suiteXmlFiles>
+</configuration>
+```
+
+- Use `-Dsuite=suite_name` to call the suite
+
+````bash
+mvn test  -Denvironment=LocalAdmin
+````
+- Executing the suite with default value set on POM is `LocalUser`
+
+``` bash
+mvn test  
+```
+- We can choose the browser for this testing with command:
+
+ ``` bash
+mvn test -Denvironment=LocalAdmin -Dbrowser=edge 
+```
+
+
 ### Jenkins Pipeline
 Jenkins: Jenkinsfile to be used on a Jenkins pipeline
