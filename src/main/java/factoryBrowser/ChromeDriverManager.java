@@ -13,7 +13,8 @@ public class ChromeDriverManager implements BrowserFactory {
 
 	@Override
 	public WebDriver getBrowserDriver() {
-
+		WebDriverManager.chromedriver().clearResolutionCache();
+		WebDriverManager.chromedriver().clearDriverCache();
 		WebDriverManager.chromedriver().setup();
 		System.setProperty("webdriver.chrome.args", "--disable-logging");
 		System.setProperty("webdriver.chrome.silentOutput", "True");

@@ -41,6 +41,7 @@ public class BasePage {
 	public void openPageUrl(WebDriver driver, String pageurl) {
 
 		driver.get(pageurl);
+		
 	}
 
 	public String getPageTitle(WebDriver driver) {

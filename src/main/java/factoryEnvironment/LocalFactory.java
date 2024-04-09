@@ -31,7 +31,8 @@ public class LocalFactory {
 				browserName = System.getenv("browser");
 				if (browserName == null) {
 
-					browserName = "edge";
+//					browserName = "edge";
+					browserName = "chrome";
 				}
 			}
 		}

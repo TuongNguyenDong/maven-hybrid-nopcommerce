@@ -33,7 +33,7 @@
 		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
 		<classes>
 		   <!--  <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
-			<class name="com.nopcommerce.user.My_Account" />
+				<class name="com.nopcommerce.user.Login" />
 			
 		</classes>
 	</test> <!-- Test -->
