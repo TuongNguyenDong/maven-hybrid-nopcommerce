@@ -25,7 +25,7 @@ public class Login  extends BaseTest {
 	
 	@Parameters({"browser", "environment", "envName", "osName", "nodeName"})
 	@BeforeClass
-	public void beforeClass(@Optional("chrome")String browerName,@Optional("testing") String environmentName,@Optional("localUser") String envName, @Optional("windows")String osName,@Optional("NodeB") String nodeName ) {
+	public void beforeClass(@Optional("edge")String browerName,@Optional("testing") String environmentName,@Optional("localUser") String envName, @Optional("windows")String osName,@Optional("NodeB") String nodeName ) {
 		
 		driver =  getBrowserDriver(browerName, environmentName, envName, osName, nodeName);
 		homePage = PageGeneratorManager.getUserHomePage(driver);
