@@ -9,6 +9,7 @@ import factoryBrowser.EdgeDriverManager;
 import factoryBrowser.FirefoxDriverManager;
 import factoryBrowser.HeadlessChromeDriverManager;
 import factoryBrowser.HeadlessFirefoxDriverManager;
+import factoryBrowser.OperaDriverManager;
 import factoryBrowser.SafariDriverManager;
 
 
@@ -31,8 +32,8 @@ public class LocalFactory {
 				browserName = System.getenv("browser");
 				if (browserName == null) {
 
-	//				browserName = "edge";
-					browserName = "chrome";
+					browserName = "edge";
+	//				browserName = "chrome";
 				}
 			}
 		}
@@ -55,6 +56,9 @@ public class LocalFactory {
 			break;
 		case "safari":
 			driver = new SafariDriverManager().getBrowserDriver();
+			break;
+		case "opera":
+			driver = new OperaDriverManager().getBrowserDriver();
 			break;
 
 		default:

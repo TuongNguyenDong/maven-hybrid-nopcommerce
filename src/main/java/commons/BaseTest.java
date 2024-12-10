@@ -1,8 +1,8 @@
 package commons;
 
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -235,7 +235,7 @@ public class BaseTest {
 			break;
 		}
 		
-		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
 		driver.manage().window().maximize();
 		if (envName.equals("localAdmin")|| envName.equals("gridAdmin") || envName.equals("dockerGridAdmin")) {
 			driver.get(GlobalConstants.ADMIN_PAGE_ULR);
