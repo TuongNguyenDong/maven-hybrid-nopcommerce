@@ -21,7 +21,7 @@
 <!--        <webdriver.version>3.141.59</webdriver.version>-->
         <webdriver.version>4.11.0</webdriver.version>
         <testng.version>7.8.0</testng.version>
-        <jackson.version>2.10.0</jackson.version>
+        <jackson.version>2.17.1</jackson.version>
         <webdrivermanager.version>5.8.0</webdrivermanager.version>
         <aspectj.version>1.9.8</aspectj.version>
         <allure.version>2.13.5</allure.version>
