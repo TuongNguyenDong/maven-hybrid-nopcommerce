@@ -10,10 +10,10 @@ This project uses the following languages and frameworks:
 
 - **`Java 11`** as the programming language
 - **`TestNG`** to support the test creation
-- **`Selenium WebDriver`** `(version 3.141.59)` is a web browser automation framework using Java binding.
+- **`Selenium WebDriver`** `(version 4.11.0)` is a web browser automation framework using Java binding.
 - **`TestNG Report`** as the testing report strategy
-- **`Log4J`** as the logging management strategy
-- **`WebDriverManager`** `(version 5.4.1)` as the Selenium binaries management
+- **`Log4J2`** as the logging management strategy
+- **`WebDriverManager`** `(version 5.8.0)` as the Selenium binaries management
 - **`XPath`**, **`CSS`** helps identify elements from an XML document.
 - Integrate with **`Jenkins`** to build and run test cases
 
@@ -73,7 +73,7 @@ The TestListener is a class that implements ITestListener. The following method 
 onTestFailure: log the exceptions and add a screenshot to the test report
 
 ###  Logging
-All the log is done by the Log4J using the @Log4j annotation.
+All the log is done by the Log4J2 using the @Log4j2 annotation.
 
 The log4j.properties has two strategies: console and file. A file with all the log information will be automatically created in the user folder with /scriptLogs/NopCommerce.log filename. If you want to change it, update the appender.file.fileName property value.
 
