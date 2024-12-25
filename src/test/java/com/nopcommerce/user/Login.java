@@ -44,6 +44,7 @@ public class Login  extends BaseTest {
 		year = "1998";
 		
 		log.info("Precondition - Step 01: Navigate to 'Register' page");
+		
 		registerPage = homePage.openRegisterPage();
 		
 //		System.out.println("Thread ID = " + Thread.currentThread().getId() + " with browser = " + browerName);

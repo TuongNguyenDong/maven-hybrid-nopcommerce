@@ -27,7 +27,8 @@
         <allure.version>2.13.5</allure.version>
         <extent.version>5.0.8</extent.version>
         <faker.version>1.0.1</faker.version>
-        <log4j.version>1.2.16</log4j.version>
+<!--        <log4j.version>1.2.16</log4j.version>-->
+        <log4j-core.version>2.23.1</log4j-core.version>
         <reportng.version>1.1.4</reportng.version>
         <environment>LocalUser</environment>
         
@@ -98,11 +99,18 @@
             <version>2.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
+<!--		<dependency>-->
+<!--			<groupId>log4j</groupId>-->
+<!--			<artifactId>log4j</artifactId>-->
+<!--			<version>${log4j.version}</version>-->
+<!--		</dependency>-->
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j-core.version}</version>
+		</dependency>
+
 
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -153,7 +161,7 @@
 			<version>1.0.12</version>
 </dependency>
     </dependencies>
-<!-- Compiler/ Run Test -->
+	<!-- Compiler/ Run Test -->
 	<build>
 		<plugins>
 			<!-- Compiler -->

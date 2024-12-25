@@ -4,8 +4,10 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Random;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+//import org.apache.commons.logging.Log;
+//import org.apache.commons.logging.LogFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.joda.time.DateTime;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -19,10 +21,12 @@ import factoryEnvironment.LocalFactory;
 public class BaseTest {
 
 	private WebDriver driver;
-	protected final Log log;
+//	protected final Log log;
+	protected final Logger log;
 
 	protected BaseTest() {
-		log = LogFactory.getLog(getClass());
+//		log = LogFactory.getLog(getClass());
+		log = LogManager.getLogger(getClass());
 	}
 
 //	private String projectPath = System.getProperty("user.dir");

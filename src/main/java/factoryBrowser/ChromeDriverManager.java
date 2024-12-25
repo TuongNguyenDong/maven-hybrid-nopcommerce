@@ -29,7 +29,7 @@ public class ChromeDriverManager implements BrowserFactory {
 		options.setAcceptInsecureCerts(true);
 		options.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 		options.addArguments("--user-data-dir=C:\\Users\\Admin\\AppData\\Local\\Google\\Chrome\\User Data");
-		options.addArguments("--profile-directory=Profile 2");
+		options.addArguments("--profile-directory=Profile 3");
 		
 		return new ChromeDriver(options);
 		

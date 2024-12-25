@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 
-//import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 import static org.apache.commons.lang3.SystemUtils.IS_OS_WINDOWS;
 
@@ -20,11 +20,12 @@ public class EdgeDriverManager implements BrowserFactory {
 //		if (!IS_OS_WINDOWS || !IS_OS_MAC) {
 //			throw new BrowserNotSupportedException("Edge  is not supported on " + System.getProperty("os.name"));
 //		}
-//		WebDriverManager.edgedriver().clearResolutionCache();
-//		WebDriverManager.edgedriver().clearDriverCache();
+		WebDriverManager.edgedriver().clearResolutionCache();
+		WebDriverManager.edgedriver().clearDriverCache();
 //		WebDriverManager.edgedriver().setup();
 		System.setProperty("webdriver.edge.args", "--disable-logging");
 		System.setProperty("webdriver.edge.silentOutput", "True");
+		System.setProperty("webdriver.edge.verboseLogging", "true");
 		EdgeOptions options = new EdgeOptions();
 		Map<String, Object> prefs = new HashMap<String, Object>();
 
@@ -38,6 +39,12 @@ public class EdgeDriverManager implements BrowserFactory {
 	            "credentials_enable_service", false,
 	            "profile.password_manager_enabled", false
 	        ));
+		options.addArguments("--disable-features=AutofillServerCommunication,Autofill"); 
+
+		options.addArguments("--disable-features=AutofillSaveCardBubble");
+		options.addArguments("--disable-features=SharedClipboardUI");
+		options.addArguments("--enable-logging", "--v=1");
+		options.addArguments("disable-features=PasswordManagerEnabled");
 		options.addArguments("--disable-restore-session-state"); // turn off Restore Pages
         options.addArguments("--disable-session-crashed-bubble");
         options.addArguments("--disable-save-password-bubble");
