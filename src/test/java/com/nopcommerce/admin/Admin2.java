@@ -78,7 +78,9 @@ public class Admin2 extends BaseTest {
 		editAddZip = "51000";
 		editAddPhoneNumber = "(281) 590-1419";
 		editAddFax = "+44(281) 590-1419";
-
+		log.info("Thread Name = " + Thread.currentThread().getName() + "Thread ID = " + Thread.currentThread().getId() + " with browser = " + browerName);
+		log.info("Thread Name = " + Thread.currentThread().getName() + "Thread ID = " + Thread.currentThread().getId() + " with driver = " + driver.toString());
+		
 
 		log.info("Precondition - Step 01: Enter to Email textbox with value is '" + adminEmailAddress + "'");
 		adminLoginPage.inputToTextboxByID(driver, "Email", adminEmailAddress);

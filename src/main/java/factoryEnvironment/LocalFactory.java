@@ -32,7 +32,7 @@ public class LocalFactory {
 //				browserName = System.getenv("browser");
 //				if (browserName == null) {
 //
-//					browserName = "chrome";
+//					browserName = "edge";
 //				}
 //			}
 //		}

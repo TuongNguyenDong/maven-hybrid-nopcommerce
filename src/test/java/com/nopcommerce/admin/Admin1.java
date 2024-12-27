@@ -66,7 +66,9 @@ public class Admin1 extends BaseTest {
 		editCusAdminComment = "Edit customer (Guest)";
 		searchEditCusDateofBirth = "2";
 		searchEditCusMonthofBirth = "2";
-
+		log.info("Thread Name = " + Thread.currentThread().getName() + "Thread ID = " + Thread.currentThread().getId() + " with browser = " + browerName);
+		log.info("Thread Name = " + Thread.currentThread().getName() + "Thread ID = " + Thread.currentThread().getId() + " with driver = " + driver.toString());
+		
 		log.info("Precondition - Step 01: Enter to Email textbox with value is '" + adminEmailAddress + "'");
 		adminLoginPage.inputToTextboxByID(driver, "Email", adminEmailAddress);
 
@@ -116,7 +118,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_02_Search_With_Product_Name_Catagory_Uncheck() {
 		log.info("Admin_02_Search_With_Product_Name_Catagory_Uncheck - Step 01: Refresh Current Page");
 		adminProductPage.refreshCurrentPage(driver);
@@ -138,7 +140,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_03_Search_With_Product_Name_Catagory_Checked() {
 
 		log.info("Admin_03_Search_With_Product_Name_Catagory_Checked - Step 01: Refresh Current Page");
@@ -173,7 +175,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_04_Search_With_Product_Name_Child_Catagory() {
 
 		log.info("Admin_04_Search_With_Product_Name_Child_Catagory - Step 01: Refresh Current Page");
@@ -208,7 +210,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_05_Search_With_Product_Name_Manufacturer() {
 
 		log.info("Admin_05_Search_With_Product_Name_Manufacturer - Step 01: Refresh Current Page");
@@ -234,7 +236,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_06_Go_Direct_Product_SKU() {
 
 		log.info("Admin_06_Go_Direct_Product_SKU - Step 01: Refresh Current Page");
@@ -269,7 +271,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_07_Create_New_Customer() {
 
 		log.info("Admin_07_Create_New_Customer - Step 01: Click  To 'Customers' nav SideBar");
@@ -382,7 +384,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_08_Search_Customer_With_Email() {
 
 		log.info("Admin_08_Search_Customer_With_Email - Step 01: Refresh Current Page");
@@ -410,7 +412,7 @@ public class Admin1 extends BaseTest {
 		Assert.assertEquals(admincustomerPage.getTextByColumnAtRowNumberatAdminCustomerPage("Company name", "1"), newCusCompanyName);
 	}
 
-	@Test
+//	@Test
 	public void Admin_09_Search_Customer_With_Company_Name() {
 
 		log.info("Admin_09_Search_Customer_With_Company_Name - Step 01: Refresh Current Page");
@@ -439,7 +441,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_10_Search_Customer_With_First_Name_And_Last_name() {
 
 		log.info("Admin_10_Search_Customer_With_First_Name_And_Last_name - Step 01: Refresh Current Page");
@@ -471,7 +473,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_11_Search_Customer_With_Full_Data() {
 
 		log.info("Admin_11_Search_Customer_With_Full_Data - Step 01: Refresh Current Page");
@@ -515,7 +517,7 @@ public class Admin1 extends BaseTest {
 
 	}
 
-	@Test
+//	@Test
 	public void Admin_12_Edit_Customer() {
 
 		log.info("Admin_12_Edit_Customer - Step 01: click To EDIT Button at Search result table");

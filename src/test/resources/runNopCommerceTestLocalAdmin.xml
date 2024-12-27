@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="NopCommerce"  parallel ="tests" thread-count = "2">
+<suite name="NopCommerceAdmin"  parallel ="classes" thread-count = "2">
 
 	<!--<groups> -->
 	<!--  <run> -->
@@ -26,13 +26,14 @@
 	<!-- <parameter name="environment" value="testing" />  -->
 	<parameter name="envName" value="localAdmin" />
 	
-	<test name="RUN on Edge">
-		<parameter name="browser" value="edge" />	
+	<test name="RUN on Chrome">
+<!--		<parameter name="browser" value="chrome" />	-->
 		<!-- specific: bad-->
 		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
 		<classes>
 		   <!--  <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
 			<class name="com.nopcommerce.admin.Admin1" />
+			<class name="com.nopcommerce.admin.Admin2" />
 			<!-- <class name="javaException.HandleException" />-->
 		</classes>
 	</test> <!-- Test -->

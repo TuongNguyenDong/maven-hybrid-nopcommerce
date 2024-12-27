@@ -74,13 +74,12 @@ public class My_Account extends BaseTest {
 		reviewText = "Build computer 01";
 		reviewTitle ="Good for me";
 
+		log.info("Thread Name = " + Thread.currentThread().getName() + "Thread ID = " + Thread.currentThread().getId() + " with browser = " + browerName);
+		log.info("Thread Name = " + Thread.currentThread().getName() + "Thread ID = " + Thread.currentThread().getId() + " with driver = " + driver.toString());
+		
 		log.info("Precondition - Step 01: Navigate to 'Register' page");
 		registerPage = homePage.openRegisterPage();
 		
-//		System.out.println("Thread ID = " + Thread.currentThread().getId() + " with browser = " + browerName);
-		System.out.println("Thread ID = " + Thread.currentThread().getId() + " with driver = " + driver.toString());
-		
-
 		log.info("Precondition - Step 02: Click to Radio button 'Male' ");
 		registerPage.clicktoRadioButtonByLabel(driver, "Male");
 
