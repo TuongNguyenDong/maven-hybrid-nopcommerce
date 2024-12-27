@@ -2,23 +2,37 @@ package commons;
 
 import java.io.File;
 
+import lombok.Getter;
+import lombok.Setter;
 
 
+@Getter
 public class GlobalConstants {
-	public static final String PORTAL_PAGE_ULR = "https://demo.nopcommerce.com/";
-	public static final String ADMIN_PAGE_ULR = "https://admin-demo.nopcommerce.com";
+	private static GlobalConstants globalInstance;
+	private GlobalConstants() {
+		
+	}
+	public static synchronized GlobalConstants getGlobalConstants() {
+		if (globalInstance == null) {
+			globalInstance  = new GlobalConstants();
+		}
+		return globalInstance;
+	}
+	
+	private final String portalPageUrl = "https://demo.nopcommerce.com/";
+	private final String adminPageUrl = "https://admin-demo.nopcommerce.com";
 	
 	// tro ve 1 thu muc mac dinh cua User
-	public static final String PROJECT_PATH = System.getProperty("user.dir");
-	public static final String OS_NAME = System.getProperty("os.name").toLowerCase();
-	public static final String JAVA_VERSION = System.getProperty("java.version");
-	public static final String UPLOAD_FILE = PROJECT_PATH + File.separator + "uploadFiles" + File.separator;
-	public static final String DOWNLOAD_FILE = PROJECT_PATH + File.separator + "downloadFiles";
-	public static final String BROWSER_LOG = PROJECT_PATH + File.separator + "browserLogs";
-	public static final String DRAP_DROP_HTML5 = PROJECT_PATH + File.separator + "drapDropHTML5";
-	public static final String AUTO_IT_SCRIPT = PROJECT_PATH + File.separator + "autoIT";
-	public static final String REPORTNG_SCREENSHOT = PROJECT_PATH + File.separator + "ReportNGImages" + File.separator;
-	public static final String EXTENT_PATH = PROJECT_PATH + File.separator + "ExtentV2" + File.separator;
+	private final String projectPath = System.getProperty("user.dir");
+	private final String osName = System.getProperty("os.name").toLowerCase();
+	private final String javaVersion = System.getProperty("java.version");
+	private final String uploadFile = projectPath + File.separator + "uploadFiles" + File.separator;
+	private final String downloadFile = projectPath + File.separator + "downloadFiles";
+	private final String browserLog = projectPath + File.separator + "browserLogs";
+	private final String drapDropHTML5 = projectPath + File.separator + "drapDropHTML5";
+	private final String autoItScript = projectPath + File.separator + "autoIT";
+	private final String reportingScreenshot = projectPath + File.separator + "ReportNGImages" + File.separator;
+	private final String extentPath = projectPath + File.separator + "ExtentV2" + File.separator;
 	
 	// xu ly authentication Alert or upload bang auto IT
 	//Popup len moi uploaf
@@ -26,19 +40,16 @@ public class GlobalConstants {
 	// Jenkins service ( File cai dat) -Headless
 	// Jenkins (.wars) Bat Browser
 	//Database coount/ User/ Pass/ Port	
-	public static final String DB_DEV_URL = "92.168.9.15:9850";
-	public static final String DB_DEV_USER = "automationfc";
-	public static final String DB_DEV_PASS = "12345678x@X";
-	public static final String DB_TEST_URL = "91.168.9.15:9850";
-	public static final String DB_TEST_USER = "automationfc";
-	public static final String DB_TEST_PASS = "12345678x@X";
+	private final String dbDevUrl = "92.168.9.15:9850";
+	private final String dbDevUser = "automationfc";
+	private final String DbDevPass = "12345678x@X";
+	private final String DbTestUrl = "91.168.9.15:9850";
+	private final String DbTestUser = "automationfc";
+	private final String DbTestPass = "12345678x@X";
 	
-	public static final long SHORT_TIMEOUT = 5;
-	public static final long LONG_TIMEOUT = 30;
-	public static final long RETRY_TEST_FAIL = 3;
-	
-	
-	
-	
+	private final long shortTimeout = 5;
+	private final long longTimeout = 30;
+	private final long retryTestFail = 3;
+
 
 }

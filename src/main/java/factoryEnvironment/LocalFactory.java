@@ -24,19 +24,18 @@ public class LocalFactory {
 	
 	public WebDriver createDriverUser() {
 		// run maven command line
-		 browserName = System.getProperty("browser");
-		if (driver == null) {
-
-			if (browserName == null) {
-
-				browserName = System.getenv("browser");
-				if (browserName == null) {
-
-					browserName = "edge";
-	//				browserName = "chrome";
-				}
-			}
-		}
+//		 browserName = System.getProperty("browser");
+//		if (driver == null) {
+//
+//			if (browserName == null) {
+//
+//				browserName = System.getenv("browser");
+//				if (browserName == null) {
+//
+//					browserName = "chrome";
+//				}
+//			}
+//		}
 
 		switch (browserName) {
 		case "firefox":

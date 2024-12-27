@@ -154,12 +154,19 @@
             <version>${aspectj.version}</version>
              <scope>runtime</scope>
         </dependency>
-	
-	    <dependency>
-	       <groupId>org.aeonbits.owner</groupId>
+
+		<dependency>
+			<groupId>org.aeonbits.owner</groupId>
 			<artifactId>owner</artifactId>
 			<version>1.0.12</version>
-</dependency>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version>
+			<scope>provided</scope>
+		</dependency>
     </dependencies>
 	<!-- Compiler/ Run Test -->
 	<build>

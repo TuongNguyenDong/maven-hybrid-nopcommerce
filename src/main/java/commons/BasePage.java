@@ -1253,7 +1253,7 @@ public class BasePage {
 		sleepInSecond(1);
 	}
 
-	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
-	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
+	private long shortTimeout = GlobalConstants.getGlobalConstants().getShortTimeout();
+	private long longTimeout = GlobalConstants.getGlobalConstants().getLongTimeout() ;
 	
 }

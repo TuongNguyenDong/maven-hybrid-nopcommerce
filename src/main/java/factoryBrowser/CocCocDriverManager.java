@@ -14,7 +14,7 @@ public class CocCocDriverManager implements BrowserFactory {
 
 		WebDriverManager.chromedriver().driverVersion("").setup();
 		ChromeOptions options = new ChromeOptions();
-		if (GlobalConstants.OS_NAME.startsWith("Windows")) {
+		if (((GlobalConstants) GlobalConstants.getGlobalConstants()).getOsName().startsWith("Windows")) {
 			options.setBinary("C:\\Users\\nguyen\\AppData\\Local\\CocCoc\\Browser\\Application\\browser.exe");
 		} else {
 			options.setBinary("");

@@ -19,8 +19,8 @@ import factoryEnvironment.GridFactory;
 import factoryEnvironment.LocalFactory;
 
 public class BaseTest {
-
-	private WebDriver driver;
+private static ThreadLocal<WebDriver> driver =  new  ThreadLocal<WebDriver>();
+//	private WebDriver driver;
 //	protected final Log log;
 	protected final Logger log;
 
@@ -198,24 +198,24 @@ public class BaseTest {
 		
 		switch (envName) {
 		case "localAdmin":
-			driver = new LocalFactory(browserName).createDriverAdmin();
+			driver.set(new  LocalFactory(browserName).createDriverAdmin());
 			break;
 		case "localUser":
-			driver = new LocalFactory(browserName).createDriverUser();
+			driver.set(new LocalFactory(browserName).createDriverUser());
 			break;
 		case "gridUser":
-			driver = new GridFactory(browserName, osName,nodeName).createDriverUser();
+			driver.set(new GridFactory(browserName, osName,nodeName).createDriverUser());
 			break;
 		case "gridAdmin":
-			driver = new GridFactory(browserName, osName,nodeName).createDriverAdmin();
+			driver.set(new GridFactory(browserName, osName,nodeName).createDriverAdmin());
 			break;
 			
 		case "dockerGridUser":
-			driver = new DockerGridFactory(browserName).createDriverUser();
+			driver.set(new DockerGridFactory(browserName).createDriverUser());
 			break;
 			
 		case "dockerGridAdmin":
-			driver = new DockerGridFactory(browserName).createDriverAdmin();
+			driver.set(new DockerGridFactory(browserName).createDriverAdmin());
 			break;
 
 		case "browserStack":
@@ -235,22 +235,22 @@ public class BaseTest {
 			break;
 			
 		default:
-			driver = new LocalFactory(browserName).createDriverUser();
+			driver.set(new LocalFactory(browserName).createDriverUser());
 			break;
 		}
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
-		driver.manage().window().maximize();
+		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.getGlobalConstants().getLongTimeout()));
+		driver.get().manage().window().maximize();
 		if (envName.equals("localAdmin")|| envName.equals("gridAdmin") || envName.equals("dockerGridAdmin")) {
-			driver.get(GlobalConstants.ADMIN_PAGE_ULR);
+			driver.get().get(GlobalConstants.getGlobalConstants().getAdminPageUrl());
 		} else {
-			driver.get(getEnvironmentUrl(appurl));
+			driver.get().get(getEnvironmentUrl(appurl));
 		}
-		return driver;
+		return driver.get();
 	}
 	
 	public WebDriver getDriverInstance() {
-		return this.driver;
+		return this.driver.get();
 	}
 
 	protected String getEnvironmentUrl(String serverName) {
@@ -317,10 +317,10 @@ public class BaseTest {
 	protected void closeBrowserDriver() {
 		String cmd = null;
 		try {
-			String osName = GlobalConstants.OS_NAME;
+			String osName = GlobalConstants.getGlobalConstants().getOsName();
 			log.info("OS name = " + osName);
 
-			String driverInstanceName = driver.toString().toLowerCase();
+			String driverInstanceName = driver.get().toString().toLowerCase();
 			log.info("Driver instance name = " + driverInstanceName);
 
 			String browserDriverName = null;
@@ -346,8 +346,9 @@ public class BaseTest {
 			}
 
 			if (driver != null) {
-				driver.manage().deleteAllCookies();
-				driver.quit();
+				driver.get().manage().deleteAllCookies();
+				driver.get().quit();
+				driver.remove();
 			}
 		} catch (Exception e) {
 			log.info(e.getMessage());

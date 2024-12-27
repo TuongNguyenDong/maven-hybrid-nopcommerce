@@ -27,20 +27,15 @@
 	<parameter name="evnName" value="localUser" />
 
 	<test name="RUN on Edge">
-		<parameter name="browser" value="edge" />	
+<!--		<parameter name="browser" value="edge" />	-->
 
-		<!-- specific: bad-->
-		<!-- <parameter name="firstname" value="Autoamtion" /> -->	
+<!--		 specific: bad-->
+<!--		 <parameter name="firstname" value="Autoamtion" /> 	-->
 		<classes>
-		   <!--  <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
+<!--		     <class name="com.nopcommerce.common.Common_01_Register_Cookie" /> -->
 				<class name="com.nopcommerce.user.Login" />
 			
 		</classes>
-	</test> <!-- Test -->
+	</test>  <!-- Test -->
 	
-
-	
-
-
-
 </suite> <!-- Suite -->
