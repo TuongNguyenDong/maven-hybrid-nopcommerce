@@ -138,7 +138,7 @@ To do this you need:
 - Use `-Dsuite=suite_name` to call the suite
 
 ````bash
-mvn test -Denvironment=LocalAdmin
+mvn test -DexecutionMode=LocalAdmin
 ````
 - Executing the suite with the default value set on POM is `LocalUser`
 
@@ -148,7 +148,7 @@ mvn test
 - We can choose the browser for this testing with the command:
 
  ``` bash
-mvn test -Denvironment=LocalAdmin -Dbrowser=edge 
+mvn test -DexecutionMode=LocalAdmin -Dbrowser=edge 
 ```
 
 

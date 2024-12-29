@@ -78,7 +78,7 @@ public class Whishlist_Compare_Recent_View extends BaseTest {
 		log.info("Precondition - Step 08: Select Dropdown DateOfBirthYear with value is '" + year + "'");
 		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
 
-		log.info("Precondition - Step 02: Click to Checkbox 'Newsletter' ");
+		log.info("Precondition - Step 09: Click to Checkbox 'Newsletter' ");
 		registerPage.clickToCheckboxByLabel(driver, "Newsletter");
 
 		log.info("Precondition - Step 10: Enter to Password textbox with value is '" + validPassword + "'");
